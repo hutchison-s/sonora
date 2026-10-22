@@ -30,6 +30,7 @@
           "id": "el-tren-de-las-seis-a1-1",
           "text": "llegó",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "arrived",
           "explanation": "The preterite llegó presents arriving as a completed event.",
           "grammar": {
@@ -129,7 +130,24 @@
       "id": "s2",
       "es": "Llevaba una maleta pequeña y un billete para visitar a su hermano en Valencia.",
       "en": "She was carrying a small suitcase and a ticket to visit her brother in Valencia.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a2-1",
+          "text": "una maleta pequeña",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "a small suitcase",
+          "explanation": "Maleta is a suitcase used for carrying clothes and other belongings while traveling."
+        },
+        {
+          "id": "el-tren-de-las-seis-a2-2",
+          "text": "un billete",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "a ticket",
+          "explanation": "In this travel context, billete means a train ticket."
+        }
+      ],
       "audio": {
         "start": 3.84,
         "end": 8.2,
@@ -239,7 +257,16 @@
       "id": "s3",
       "es": "Cuando vio el reloj, empezó a correr hacia el andén.",
       "en": "When she saw the clock, she started running toward the platform.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a3-1",
+          "text": "hacia el andén",
+          "type": "vocabulary",
+          "partOfSpeech": "preposition",
+          "meaning": "toward the platform",
+          "explanation": "Hacia expresses direction, and andén is the platform where passengers board a train."
+        }
+      ],
       "audio": {
         "start": 8.4,
         "end": 11.44,
@@ -326,6 +353,7 @@
           "id": "el-tren-de-las-seis-a4-1",
           "text": "salió",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "left / departed",
           "explanation": "Salió is the third-person singular preterite of salir and presents the departure as a completed event.",
           "grammar": {
@@ -514,7 +542,16 @@
       "id": "s6",
       "es": "«No pasa nada», dijo él. «Hay otro tren a las ocho».",
       "en": "“It’s all right,” he said. “There’s another train at eight.”",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a6-1",
+          "text": "No pasa nada",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "It’s all right / No problem",
+          "explanation": "A common reassuring expression used to say that a situation is not serious."
+        }
+      ],
       "audio": {
         "start": 18.23,
         "end": 21.6,
@@ -608,6 +645,7 @@
           "id": "el-tren-de-las-seis-a7-1",
           "text": "Mientras esperaba",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "While she was waiting",
           "explanation": "Mientras plus the imperfect sets the background for another past action.",
           "grammar": {
@@ -627,6 +665,14 @@
           },
           "start": 0,
           "end": 17
+        },
+        {
+          "id": "el-tren-de-las-seis-a7-2",
+          "text": "le ofreció",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "offered her",
+          "explanation": "Le means to her, while ofreció is the completed past form of ofrecer."
         }
       ],
       "audio": {
@@ -846,6 +892,7 @@
           "id": "el-tren-de-las-seis-a9-1",
           "text": "había vivido",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "had lived",
           "explanation": "The pluperfect puts one past situation before another past moment.",
           "grammar": {
@@ -864,6 +911,14 @@
           },
           "start": 10,
           "end": 22
+        },
+        {
+          "id": "el-tren-de-las-seis-a9-2",
+          "text": "todos sus rincones",
+          "type": "expression",
+          "partOfSpeech": "noun",
+          "meaning": "every corner of it",
+          "explanation": "Knowing todos sus rincones means knowing a place thoroughly, including its less obvious spots."
         }
       ],
       "audio": {
@@ -968,7 +1023,16 @@
       "id": "s10",
       "es": "Antes de despedirse, escribió una dirección en la parte de atrás del billete de Clara.",
       "en": "Before saying goodbye, she wrote an address on the back of Clara’s ticket.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a10-1",
+          "text": "Antes de despedirse",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "Before saying goodbye",
+          "explanation": "Despedirse is the reflexive verb used when people take leave of one another."
+        }
+      ],
       "audio": {
         "start": 37.76,
         "end": 42.72,
@@ -1181,7 +1245,16 @@
       "id": "s12",
       "es": "A las ocho, Clara subió al siguiente tren sin prisa.",
       "en": "At eight, Clara boarded the next train without rushing.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a12-1",
+          "text": "sin prisa",
+          "type": "expression",
+          "partOfSpeech": "adverb",
+          "meaning": "without rushing / unhurriedly",
+          "explanation": "Sin prisa describes doing something calmly, without feeling rushed."
+        }
+      ],
       "audio": {
         "start": 47.48,
         "end": 51.04,
@@ -1268,6 +1341,7 @@
           "id": "el-tren-de-las-seis-a13-1",
           "text": "ganó una historia",
           "type": "expression",
+          "partOfSpeech": "expression",
           "meaning": "gained a story",
           "explanation": "Ganar can mean earning or gaining something, not only winning a competition.",
           "start": 23,

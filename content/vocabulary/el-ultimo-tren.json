@@ -1,0 +1,266 @@
+{
+  "nouns": [
+    {
+      "es": "la estación",
+      "en": "station"
+    },
+    {
+      "es": "el tren",
+      "en": "train"
+    },
+    {
+      "es": "el minuto",
+      "en": "minute"
+    },
+    {
+      "es": "el boleto",
+      "en": "ticket"
+    },
+    {
+      "es": "la bolsa",
+      "en": "bag"
+    },
+    {
+      "es": "el hombre",
+      "en": "man"
+    },
+    {
+      "es": "el problema",
+      "en": "problem"
+    },
+    {
+      "es": "el reloj",
+      "en": "clock"
+    },
+    {
+      "es": "el cumpleaños",
+      "en": "birthday"
+    },
+    {
+      "es": "el café",
+      "en": "coffee"
+    }
+  ],
+  "verbs": [
+    {
+      "es": "llegar",
+      "en": "to arrive",
+      "present": [
+        "llego",
+        "llegas",
+        "llega",
+        "llegamos",
+        "llegan"
+      ]
+    },
+    {
+      "es": "salir",
+      "en": "to leave",
+      "present": [
+        "salgo",
+        "sales",
+        "sale",
+        "salimos",
+        "salen"
+      ]
+    },
+    {
+      "es": "buscar",
+      "en": "to look for",
+      "present": [
+        "busco",
+        "buscas",
+        "busca",
+        "buscamos",
+        "buscan"
+      ]
+    },
+    {
+      "es": "estar",
+      "en": "to be",
+      "present": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "están"
+      ]
+    },
+    {
+      "es": "ver",
+      "en": "to see",
+      "present": [
+        "veo",
+        "ves",
+        "ve",
+        "vemos",
+        "ven"
+      ]
+    },
+    {
+      "es": "tener",
+      "en": "to have",
+      "present": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tienen"
+      ]
+    },
+    {
+      "es": "decir",
+      "en": "to say",
+      "present": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "dicen"
+      ]
+    },
+    {
+      "es": "mirar",
+      "en": "to look at",
+      "present": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miran"
+      ]
+    },
+    {
+      "es": "ayudar",
+      "en": "to help",
+      "present": [
+        "ayudo",
+        "ayudas",
+        "ayuda",
+        "ayudamos",
+        "ayudan"
+      ]
+    },
+    {
+      "es": "preguntar",
+      "en": "to ask",
+      "present": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntan"
+      ]
+    },
+    {
+      "es": "ser",
+      "en": "to be",
+      "present": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "son"
+      ]
+    },
+    {
+      "es": "subir",
+      "en": "to get on / go up",
+      "present": [
+        "subo",
+        "subes",
+        "sube",
+        "subimos",
+        "suben"
+      ]
+    },
+    {
+      "es": "ir",
+      "en": "to go",
+      "present": [
+        "voy",
+        "vas",
+        "va",
+        "vamos",
+        "van"
+      ]
+    },
+    {
+      "es": "proponer",
+      "en": "to suggest",
+      "present": [
+        "propongo",
+        "propones",
+        "propone",
+        "proponemos",
+        "proponen"
+      ]
+    },
+    {
+      "es": "sonreír",
+      "en": "to smile",
+      "present": [
+        "sonrío",
+        "sonríes",
+        "sonríe",
+        "sonreímos",
+        "sonríen"
+      ]
+    },
+    {
+      "es": "guardar",
+      "en": "to put away",
+      "present": [
+        "guardo",
+        "guardas",
+        "guarda",
+        "guardamos",
+        "guardan"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "es": "a",
+      "en": "to / at"
+    },
+    {
+      "es": "en",
+      "en": "in / within"
+    },
+    {
+      "es": "por",
+      "en": "for / to get"
+    }
+  ],
+  "expressions": [
+    {
+      "es": "llegar tarde",
+      "en": "to arrive late"
+    },
+    {
+      "es": "el último tren",
+      "en": "the last train"
+    },
+    {
+      "es": "en cinco minutos",
+      "en": "in five minutes"
+    },
+    {
+      "es": "mirar el reloj",
+      "en": "to check the clock"
+    },
+    {
+      "es": "por qué",
+      "en": "why"
+    },
+    {
+      "es": "porque",
+      "en": "because"
+    },
+    {
+      "es": "vamos por un café",
+      "en": "let’s go get a coffee"
+    }
+  ]
+}

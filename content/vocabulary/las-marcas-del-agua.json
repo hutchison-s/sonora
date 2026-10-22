@@ -1,0 +1,2024 @@
+{
+  "nouns": [
+    {
+      "es": "el río",
+      "en": "river"
+    },
+    {
+      "es": "el mapa",
+      "en": "map"
+    },
+    {
+      "es": "el documento",
+      "en": "document"
+    },
+    {
+      "es": "el nombre",
+      "en": "name"
+    },
+    {
+      "es": "la ventana",
+      "en": "window"
+    },
+    {
+      "es": "el autobús",
+      "en": "bus"
+    },
+    {
+      "es": "el agua",
+      "en": "water"
+    },
+    {
+      "es": "la ciudad",
+      "en": "city"
+    },
+    {
+      "es": "el año",
+      "en": "year"
+    },
+    {
+      "es": "la vez",
+      "en": "time/occasion"
+    },
+    {
+      "es": "el puente",
+      "en": "bridge"
+    },
+    {
+      "es": "el ruido",
+      "en": "noise"
+    },
+    {
+      "es": "la corriente",
+      "en": "current"
+    },
+    {
+      "es": "el pie",
+      "en": "foot"
+    },
+    {
+      "es": "la madre",
+      "en": "mother"
+    },
+    {
+      "es": "la casa",
+      "en": "house"
+    },
+    {
+      "es": "la caja",
+      "en": "box"
+    },
+    {
+      "es": "la fotografía",
+      "en": "photograph"
+    },
+    {
+      "es": "la advertencia",
+      "en": "warning"
+    },
+    {
+      "es": "el reverso",
+      "en": "reverse side"
+    },
+    {
+      "es": "la factura",
+      "en": "invoice"
+    },
+    {
+      "es": "la pared",
+      "en": "wall"
+    },
+    {
+      "es": "la nota",
+      "en": "note"
+    },
+    {
+      "es": "la frase",
+      "en": "phrase"
+    },
+    {
+      "es": "el padre",
+      "en": "father"
+    },
+    {
+      "es": "la madera",
+      "en": "wood"
+    },
+    {
+      "es": "el mes",
+      "en": "month"
+    },
+    {
+      "es": "la calefacción",
+      "en": "heating"
+    },
+    {
+      "es": "el pasillo",
+      "en": "hallway"
+    },
+    {
+      "es": "la línea",
+      "en": "line"
+    },
+    {
+      "es": "la altura",
+      "en": "height"
+    },
+    {
+      "es": "la pintura",
+      "en": "paint"
+    },
+    {
+      "es": "la fecha",
+      "en": "date"
+    },
+    {
+      "es": "el caso",
+      "en": "case"
+    },
+    {
+      "es": "la inicial",
+      "en": "initial"
+    },
+    {
+      "es": "el techo",
+      "en": "ceiling"
+    },
+    {
+      "es": "la marca",
+      "en": "mark"
+    },
+    {
+      "es": "la puerta",
+      "en": "door"
+    },
+    {
+      "es": "el hombre",
+      "en": "man"
+    },
+    {
+      "es": "la bota",
+      "en": "boot"
+    },
+    {
+      "es": "el trabajo",
+      "en": "work"
+    },
+    {
+      "es": "la carpeta",
+      "en": "folder"
+    },
+    {
+      "es": "el plástico",
+      "en": "plastic"
+    },
+    {
+      "es": "el técnico",
+      "en": "technician"
+    },
+    {
+      "es": "el ayuntamiento",
+      "en": "city hall"
+    },
+    {
+      "es": "la propiedad",
+      "en": "property"
+    },
+    {
+      "es": "la venta",
+      "en": "sale"
+    },
+    {
+      "es": "el hombro",
+      "en": "shoulder"
+    },
+    {
+      "es": "la familiaridad",
+      "en": "familiarity"
+    },
+    {
+      "es": "el folleto",
+      "en": "brochure"
+    },
+    {
+      "es": "el paseo",
+      "en": "promenade"
+    },
+    {
+      "es": "el proyecto",
+      "en": "project"
+    },
+    {
+      "es": "el jardín",
+      "en": "garden"
+    },
+    {
+      "es": "el restaurante",
+      "en": "restaurant"
+    },
+    {
+      "es": "la vivienda",
+      "en": "home"
+    },
+    {
+      "es": "la inundación",
+      "en": "flood"
+    },
+    {
+      "es": "el barrio",
+      "en": "neighborhood"
+    },
+    {
+      "es": "la noche",
+      "en": "night"
+    },
+    {
+      "es": "la mesa",
+      "en": "table"
+    },
+    {
+      "es": "la cocina",
+      "en": "kitchen"
+    },
+    {
+      "es": "la calle",
+      "en": "street"
+    },
+    {
+      "es": "la infancia",
+      "en": "childhood"
+    },
+    {
+      "es": "la imagen",
+      "en": "image"
+    },
+    {
+      "es": "el barro",
+      "en": "mud"
+    },
+    {
+      "es": "el vecino",
+      "en": "neighbor"
+    },
+    {
+      "es": "la regla",
+      "en": "ruler"
+    },
+    {
+      "es": "la crecida",
+      "en": "flood surge"
+    },
+    {
+      "es": "el nivel",
+      "en": "level"
+    },
+    {
+      "es": "la construcción",
+      "en": "construction"
+    },
+    {
+      "es": "la presa",
+      "en": "dam"
+    },
+    {
+      "es": "el día",
+      "en": "day"
+    },
+    {
+      "es": "el archivo",
+      "en": "archive"
+    },
+    {
+      "es": "la empleada",
+      "en": "employee"
+    },
+    {
+      "es": "el informe",
+      "en": "report"
+    },
+    {
+      "es": "la cifra",
+      "en": "figure"
+    },
+    {
+      "es": "la lluvia",
+      "en": "rainfall"
+    },
+    {
+      "es": "el presupuesto",
+      "en": "budget"
+    },
+    {
+      "es": "la reparación",
+      "en": "repair"
+    },
+    {
+      "es": "el acta",
+      "en": "minutes of meeting"
+    },
+    {
+      "es": "la reunión",
+      "en": "meeting"
+    },
+    {
+      "es": "el registro",
+      "en": "record"
+    },
+    {
+      "es": "la apertura",
+      "en": "opening"
+    },
+    {
+      "es": "la compuerta",
+      "en": "floodgate"
+    },
+    {
+      "es": "la voz",
+      "en": "voice"
+    },
+    {
+      "es": "el fondo",
+      "en": "back/end"
+    },
+    {
+      "es": "el corredor",
+      "en": "corridor"
+    },
+    {
+      "es": "el depósito",
+      "en": "storage room"
+    },
+    {
+      "es": "la reforma",
+      "en": "renovation"
+    },
+    {
+      "es": "la llave",
+      "en": "key"
+    },
+    {
+      "es": "la sospecha",
+      "en": "suspicion"
+    },
+    {
+      "es": "el sistema",
+      "en": "system"
+    },
+    {
+      "es": "el silencio",
+      "en": "silence"
+    },
+    {
+      "es": "el segundo",
+      "en": "second"
+    },
+    {
+      "es": "la copia",
+      "en": "copy"
+    },
+    {
+      "es": "el centro",
+      "en": "downtown"
+    },
+    {
+      "es": "el lado",
+      "en": "side"
+    },
+    {
+      "es": "la decisión",
+      "en": "decision"
+    },
+    {
+      "es": "la tormenta",
+      "en": "storm"
+    },
+    {
+      "es": "la autoridad",
+      "en": "authority"
+    },
+    {
+      "es": "la zona",
+      "en": "area"
+    },
+    {
+      "es": "el fenómeno",
+      "en": "phenomenon"
+    },
+    {
+      "es": "la intervención",
+      "en": "intervention"
+    },
+    {
+      "es": "la reputación",
+      "en": "reputation"
+    },
+    {
+      "es": "la mañana",
+      "en": "morning"
+    },
+    {
+      "es": "la audiencia",
+      "en": "hearing"
+    },
+    {
+      "es": "la sala",
+      "en": "room"
+    },
+    {
+      "es": "el empleo",
+      "en": "job"
+    },
+    {
+      "es": "el turno",
+      "en": "turn"
+    },
+    {
+      "es": "la catástrofe",
+      "en": "catastrophe"
+    },
+    {
+      "es": "el futuro",
+      "en": "future"
+    },
+    {
+      "es": "el pasado",
+      "en": "past"
+    },
+    {
+      "es": "el destino",
+      "en": "fate"
+    },
+    {
+      "es": "el concejal",
+      "en": "council member"
+    },
+    {
+      "es": "la persona",
+      "en": "person"
+    },
+    {
+      "es": "la votación",
+      "en": "vote"
+    },
+    {
+      "es": "la demolición",
+      "en": "demolition"
+    },
+    {
+      "es": "la comisión",
+      "en": "commission"
+    },
+    {
+      "es": "el riesgo",
+      "en": "risk"
+    },
+    {
+      "es": "la victoria",
+      "en": "victory"
+    },
+    {
+      "es": "el derecho",
+      "en": "right"
+    },
+    {
+      "es": "la historia",
+      "en": "history"
+    },
+    {
+      "es": "la niña",
+      "en": "girl"
+    },
+    {
+      "es": "la facilidad",
+      "en": "ease"
+    }
+  ],
+  "verbs": [
+    {
+      "es": "regresar",
+      "en": "to return",
+      "present": [
+        "regreso",
+        "regresas",
+        "regresa",
+        "regresamos",
+        "regresan"
+      ]
+    },
+    {
+      "es": "descubrir",
+      "en": "to discover",
+      "present": [
+        "descubro",
+        "descubres",
+        "descubre",
+        "descubrimos",
+        "descubren"
+      ]
+    },
+    {
+      "es": "haber",
+      "en": "to have (auxiliary)",
+      "present": [
+        "he",
+        "has",
+        "ha",
+        "hemos",
+        "han"
+      ]
+    },
+    {
+      "es": "desaparecer",
+      "en": "to disappear",
+      "present": [
+        "desaparezco",
+        "desapareces",
+        "desaparece",
+        "desaparecemos",
+        "desaparecen"
+      ]
+    },
+    {
+      "es": "secarse",
+      "en": "to dry up",
+      "present": [
+        "me seco",
+        "te secas",
+        "se seca",
+        "nos secamos",
+        "se secan"
+      ]
+    },
+    {
+      "es": "cambiar",
+      "en": "to change",
+      "present": [
+        "cambio",
+        "cambias",
+        "cambia",
+        "cambiamos",
+        "cambian"
+      ]
+    },
+    {
+      "es": "borrar",
+      "en": "to erase",
+      "present": [
+        "borro",
+        "borras",
+        "borra",
+        "borramos",
+        "borran"
+      ]
+    },
+    {
+      "es": "seguir",
+      "en": "to continue",
+      "present": [
+        "sigo",
+        "sigues",
+        "sigue",
+        "seguimos",
+        "siguen"
+      ]
+    },
+    {
+      "es": "ver",
+      "en": "to see",
+      "present": [
+        "veo",
+        "ves",
+        "ve",
+        "vemos",
+        "ven"
+      ]
+    },
+    {
+      "es": "dividir",
+      "en": "to divide",
+      "present": [
+        "divido",
+        "divides",
+        "divide",
+        "dividimos",
+        "dividen"
+      ]
+    },
+    {
+      "es": "pasar",
+      "en": "to pass",
+      "present": [
+        "paso",
+        "pasas",
+        "pasa",
+        "pasamos",
+        "pasan"
+      ]
+    },
+    {
+      "es": "cruzar",
+      "en": "to cross",
+      "present": [
+        "cruzo",
+        "cruzas",
+        "cruza",
+        "cruzamos",
+        "cruzan"
+      ]
+    },
+    {
+      "es": "recordar",
+      "en": "to remember",
+      "present": [
+        "recuerdo",
+        "recuerdas",
+        "recuerda",
+        "recordamos",
+        "recuerdan"
+      ]
+    },
+    {
+      "es": "dejar",
+      "en": "to leave",
+      "present": [
+        "dejo",
+        "dejas",
+        "deja",
+        "dejamos",
+        "dejan"
+      ]
+    },
+    {
+      "es": "vender",
+      "en": "to sell",
+      "present": [
+        "vendo",
+        "vendes",
+        "vende",
+        "vendemos",
+        "venden"
+      ]
+    },
+    {
+      "es": "entender",
+      "en": "to understand",
+      "present": [
+        "entiendo",
+        "entiendes",
+        "entiende",
+        "entendemos",
+        "entienden"
+      ]
+    },
+    {
+      "es": "pintar",
+      "en": "to paint",
+      "present": [
+        "pinto",
+        "pintas",
+        "pinta",
+        "pintamos",
+        "pintan"
+      ]
+    },
+    {
+      "es": "decir",
+      "en": "to say",
+      "present": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "dicen"
+      ]
+    },
+    {
+      "es": "pensar",
+      "en": "to think",
+      "present": [
+        "pienso",
+        "piensas",
+        "piensa",
+        "pensamos",
+        "piensan"
+      ]
+    },
+    {
+      "es": "tratarse",
+      "en": "to be about",
+      "present": [
+        "me trato",
+        "te tratas",
+        "se trata",
+        "nos tratamos",
+        "se tratan"
+      ]
+    },
+    {
+      "es": "oler",
+      "en": "to smell",
+      "present": [
+        "huelo",
+        "hueles",
+        "huele",
+        "olemos",
+        "huelen"
+      ]
+    },
+    {
+      "es": "llevar",
+      "en": "to carry / have been",
+      "present": [
+        "llevo",
+        "llevas",
+        "lleva",
+        "llevamos",
+        "llevan"
+      ]
+    },
+    {
+      "es": "cerrar",
+      "en": "to close",
+      "present": [
+        "cierro",
+        "cierras",
+        "cierra",
+        "cerramos",
+        "cierran"
+      ]
+    },
+    {
+      "es": "encender",
+      "en": "to turn on",
+      "present": [
+        "enciendo",
+        "enciendes",
+        "enciende",
+        "encendemos",
+        "encienden"
+      ]
+    },
+    {
+      "es": "encontrar",
+      "en": "to find",
+      "present": [
+        "encuentro",
+        "encuentras",
+        "encuentra",
+        "encontramos",
+        "encuentran"
+      ]
+    },
+    {
+      "es": "trazar",
+      "en": "to draw / trace",
+      "present": [
+        "trazo",
+        "trazas",
+        "traza",
+        "trazamos",
+        "trazan"
+      ]
+    },
+    {
+      "es": "alcanzar",
+      "en": "to reach",
+      "present": [
+        "alcanzo",
+        "alcanzas",
+        "alcanza",
+        "alcanzamos",
+        "alcanzan"
+      ]
+    },
+    {
+      "es": "examinar",
+      "en": "to examine",
+      "present": [
+        "examino",
+        "examinas",
+        "examina",
+        "examinamos",
+        "examinan"
+      ]
+    },
+    {
+      "es": "llamar",
+      "en": "to call / knock",
+      "present": [
+        "llamo",
+        "llamas",
+        "llama",
+        "llamamos",
+        "llaman"
+      ]
+    },
+    {
+      "es": "presentarse",
+      "en": "to introduce oneself",
+      "present": [
+        "me presento",
+        "te presentas",
+        "se presenta",
+        "nos presentamos",
+        "se presentan"
+      ]
+    },
+    {
+      "es": "preguntar",
+      "en": "to ask",
+      "present": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntan"
+      ]
+    },
+    {
+      "es": "estar",
+      "en": "to be",
+      "present": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "están"
+      ]
+    },
+    {
+      "es": "responder",
+      "en": "to reply",
+      "present": [
+        "respondo",
+        "respondes",
+        "responde",
+        "respondemos",
+        "responden"
+      ]
+    },
+    {
+      "es": "acabar",
+      "en": "to have just",
+      "present": [
+        "acabo",
+        "acabas",
+        "acaba",
+        "acabamos",
+        "acaban"
+      ]
+    },
+    {
+      "es": "llegar",
+      "en": "to arrive",
+      "present": [
+        "llego",
+        "llegas",
+        "llega",
+        "llegamos",
+        "llegan"
+      ]
+    },
+    {
+      "es": "tomar",
+      "en": "to make / take",
+      "present": [
+        "tomo",
+        "tomas",
+        "toma",
+        "tomamos",
+        "toman"
+      ]
+    },
+    {
+      "es": "mirar",
+      "en": "to look",
+      "present": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miran"
+      ]
+    },
+    {
+      "es": "reconocer",
+      "en": "to recognize",
+      "present": [
+        "reconozco",
+        "reconoces",
+        "reconoce",
+        "reconocemos",
+        "reconocen"
+      ]
+    },
+    {
+      "es": "querer",
+      "en": "to want",
+      "present": [
+        "quiero",
+        "quieres",
+        "quiere",
+        "queremos",
+        "quieren"
+      ]
+    },
+    {
+      "es": "quitar",
+      "en": "to remove",
+      "present": [
+        "quito",
+        "quitas",
+        "quita",
+        "quitamos",
+        "quitan"
+      ]
+    },
+    {
+      "es": "comentar",
+      "en": "to remark",
+      "present": [
+        "comento",
+        "comentas",
+        "comenta",
+        "comentamos",
+        "comentan"
+      ]
+    },
+    {
+      "es": "resultar",
+      "en": "to turn out / feel",
+      "present": [
+        "resulto",
+        "resultas",
+        "resulta",
+        "resultamos",
+        "resultan"
+      ]
+    },
+    {
+      "es": "marcharse",
+      "en": "to leave",
+      "present": [
+        "me marcho",
+        "te marchas",
+        "se marcha",
+        "nos marchamos",
+        "se marchan"
+      ]
+    },
+    {
+      "es": "entregar",
+      "en": "to hand over",
+      "present": [
+        "entrego",
+        "entregas",
+        "entrega",
+        "entregamos",
+        "entregan"
+      ]
+    },
+    {
+      "es": "construir",
+      "en": "to build",
+      "present": [
+        "construyo",
+        "construyes",
+        "construye",
+        "construimos",
+        "construyen"
+      ]
+    },
+    {
+      "es": "prometer",
+      "en": "to promise",
+      "present": [
+        "prometo",
+        "prometes",
+        "promete",
+        "prometemos",
+        "prometen"
+      ]
+    },
+    {
+      "es": "explicar",
+      "en": "to explain",
+      "present": [
+        "explico",
+        "explicas",
+        "explica",
+        "explicamos",
+        "explican"
+      ]
+    },
+    {
+      "es": "necesitar",
+      "en": "to need",
+      "present": [
+        "necesito",
+        "necesitas",
+        "necesita",
+        "necesitamos",
+        "necesitan"
+      ]
+    },
+    {
+      "es": "demoler",
+      "en": "to demolish",
+      "present": [
+        "demuelo",
+        "demueles",
+        "demuele",
+        "demolemos",
+        "demuelen"
+      ]
+    },
+    {
+      "es": "ordenar",
+      "en": "to arrange",
+      "present": [
+        "ordeno",
+        "ordenas",
+        "ordena",
+        "ordenamos",
+        "ordenan"
+      ]
+    },
+    {
+      "es": "intentar",
+      "en": "to try",
+      "present": [
+        "intento",
+        "intentas",
+        "intenta",
+        "intentamos",
+        "intentan"
+      ]
+    },
+    {
+      "es": "aparecer",
+      "en": "to appear",
+      "present": [
+        "aparezco",
+        "apareces",
+        "aparece",
+        "aparecemos",
+        "aparecen"
+      ]
+    },
+    {
+      "es": "cubrir",
+      "en": "to cover",
+      "present": [
+        "cubro",
+        "cubres",
+        "cubre",
+        "cubrimos",
+        "cubren"
+      ]
+    },
+    {
+      "es": "sostener",
+      "en": "to hold",
+      "present": [
+        "sostengo",
+        "sostienes",
+        "sostiene",
+        "sostenemos",
+        "sostienen"
+      ]
+    },
+    {
+      "es": "medir",
+      "en": "to measure",
+      "present": [
+        "mido",
+        "mides",
+        "mide",
+        "medimos",
+        "miden"
+      ]
+    },
+    {
+      "es": "leer",
+      "en": "to read",
+      "present": [
+        "leo",
+        "lees",
+        "lee",
+        "leemos",
+        "leen"
+      ]
+    },
+    {
+      "es": "comparar",
+      "en": "to compare",
+      "present": [
+        "comparo",
+        "comparas",
+        "compara",
+        "comparamos",
+        "comparan"
+      ]
+    },
+    {
+      "es": "comprender",
+      "en": "to realize / understand",
+      "present": [
+        "comprendo",
+        "comprendes",
+        "comprende",
+        "comprendemos",
+        "comprenden"
+      ]
+    },
+    {
+      "es": "registrar",
+      "en": "to record",
+      "present": [
+        "registro",
+        "registras",
+        "registra",
+        "registramos",
+        "registran"
+      ]
+    },
+    {
+      "es": "ser",
+      "en": "to be",
+      "present": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "son"
+      ]
+    },
+    {
+      "es": "producirse",
+      "en": "to occur",
+      "present": [
+        "me produzco",
+        "te produces",
+        "se produce",
+        "nos producimos",
+        "se producen"
+      ]
+    },
+    {
+      "es": "visitar",
+      "en": "to visit",
+      "present": [
+        "visito",
+        "visitas",
+        "visita",
+        "visitamos",
+        "visitan"
+      ]
+    },
+    {
+      "es": "permitir",
+      "en": "to allow",
+      "present": [
+        "permito",
+        "permites",
+        "permite",
+        "permitimos",
+        "permiten"
+      ]
+    },
+    {
+      "es": "consultar",
+      "en": "to consult",
+      "present": [
+        "consulto",
+        "consultas",
+        "consulta",
+        "consultamos",
+        "consultan"
+      ]
+    },
+    {
+      "es": "contener",
+      "en": "to contain",
+      "present": [
+        "contengo",
+        "contienes",
+        "contiene",
+        "contenemos",
+        "contienen"
+      ]
+    },
+    {
+      "es": "parecer",
+      "en": "to seem",
+      "present": [
+        "parezco",
+        "pareces",
+        "parece",
+        "parecemos",
+        "parecen"
+      ]
+    },
+    {
+      "es": "faltar",
+      "en": "to be missing",
+      "present": [
+        "falto",
+        "faltas",
+        "falta",
+        "faltamos",
+        "faltan"
+      ]
+    },
+    {
+      "es": "abrir",
+      "en": "to open",
+      "present": [
+        "abro",
+        "abres",
+        "abre",
+        "abrimos",
+        "abren"
+      ]
+    },
+    {
+      "es": "bajar",
+      "en": "to lower",
+      "present": [
+        "bajo",
+        "bajas",
+        "baja",
+        "bajamos",
+        "bajan"
+      ]
+    },
+    {
+      "es": "señalar",
+      "en": "to point to",
+      "present": [
+        "señalo",
+        "señalas",
+        "señala",
+        "señalamos",
+        "señalan"
+      ]
+    },
+    {
+      "es": "tener",
+      "en": "to have",
+      "present": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tienen"
+      ]
+    },
+    {
+      "es": "susurrar",
+      "en": "to whisper",
+      "present": [
+        "susurro",
+        "susurras",
+        "susurra",
+        "susurramos",
+        "susurran"
+      ]
+    },
+    {
+      "es": "saber",
+      "en": "to know",
+      "present": [
+        "sé",
+        "sabes",
+        "sabe",
+        "sabemos",
+        "saben"
+      ]
+    },
+    {
+      "es": "poder",
+      "en": "to be able",
+      "present": [
+        "puedo",
+        "puedes",
+        "puede",
+        "podemos",
+        "pueden"
+      ]
+    },
+    {
+      "es": "demostrar",
+      "en": "to prove",
+      "present": [
+        "demuestro",
+        "demuestras",
+        "demuestra",
+        "demostramos",
+        "demuestran"
+      ]
+    },
+    {
+      "es": "pedir",
+      "en": "to ask for",
+      "present": [
+        "pido",
+        "pides",
+        "pide",
+        "pedimos",
+        "piden"
+      ]
+    },
+    {
+      "es": "funcionar",
+      "en": "to function",
+      "present": [
+        "funciono",
+        "funcionas",
+        "funciona",
+        "funcionamos",
+        "funcionan"
+      ]
+    },
+    {
+      "es": "guardar",
+      "en": "to remain / keep",
+      "present": [
+        "guardo",
+        "guardas",
+        "guarda",
+        "guardamos",
+        "guardan"
+      ]
+    },
+    {
+      "es": "evaluar",
+      "en": "to weigh / evaluate",
+      "present": [
+        "evalúo",
+        "evalúas",
+        "evalúa",
+        "evaluamos",
+        "evalúan"
+      ]
+    },
+    {
+      "es": "disponer",
+      "en": "to be willing / arrange",
+      "present": [
+        "dispongo",
+        "dispones",
+        "dispone",
+        "disponemos",
+        "disponen"
+      ]
+    },
+    {
+      "es": "contar",
+      "en": "to tell",
+      "present": [
+        "cuento",
+        "cuentas",
+        "cuenta",
+        "contamos",
+        "cuentan"
+      ]
+    },
+    {
+      "es": "confesar",
+      "en": "to confess",
+      "present": [
+        "confieso",
+        "confiesas",
+        "confiesa",
+        "confesamos",
+        "confiesan"
+      ]
+    },
+    {
+      "es": "trabajar",
+      "en": "to work",
+      "present": [
+        "trabajo",
+        "trabajas",
+        "trabaja",
+        "trabajamos",
+        "trabajan"
+      ]
+    },
+    {
+      "es": "conservar",
+      "en": "to keep / preserve",
+      "present": [
+        "conservo",
+        "conservas",
+        "conserva",
+        "conservamos",
+        "conservan"
+      ]
+    },
+    {
+      "es": "creer",
+      "en": "to believe",
+      "present": [
+        "creo",
+        "crees",
+        "cree",
+        "creemos",
+        "creen"
+      ]
+    },
+    {
+      "es": "proteger",
+      "en": "to protect",
+      "present": [
+        "protejo",
+        "proteges",
+        "protege",
+        "protegemos",
+        "protegen"
+      ]
+    },
+    {
+      "es": "significar",
+      "en": "to mean",
+      "present": [
+        "significo",
+        "significas",
+        "significa",
+        "significamos",
+        "significan"
+      ]
+    },
+    {
+      "es": "inundar",
+      "en": "to flood",
+      "present": [
+        "inundo",
+        "inundas",
+        "inunda",
+        "inundamos",
+        "inundan"
+      ]
+    },
+    {
+      "es": "elegir",
+      "en": "to choose",
+      "present": [
+        "elijo",
+        "eliges",
+        "elige",
+        "elegimos",
+        "eligen"
+      ]
+    },
+    {
+      "es": "sacrificar",
+      "en": "to sacrifice",
+      "present": [
+        "sacrifico",
+        "sacrificas",
+        "sacrifica",
+        "sacrificamos",
+        "sacrifican"
+      ]
+    },
+    {
+      "es": "presentar",
+      "en": "to portray",
+      "present": [
+        "presento",
+        "presentas",
+        "presenta",
+        "presentamos",
+        "presentan"
+      ]
+    },
+    {
+      "es": "mencionar",
+      "en": "to mention",
+      "present": [
+        "menciono",
+        "mencionas",
+        "menciona",
+        "mencionamos",
+        "mencionan"
+      ]
+    },
+    {
+      "es": "hablar",
+      "en": "to speak",
+      "present": [
+        "hablo",
+        "hablas",
+        "habla",
+        "hablamos",
+        "hablan"
+      ]
+    },
+    {
+      "es": "firmar",
+      "en": "to sign",
+      "present": [
+        "firmo",
+        "firmas",
+        "firma",
+        "firmamos",
+        "firman"
+      ]
+    },
+    {
+      "es": "destruir",
+      "en": "to destroy",
+      "present": [
+        "destruyo",
+        "destruyes",
+        "destruye",
+        "destruimos",
+        "destruyen"
+      ]
+    },
+    {
+      "es": "quedar",
+      "en": "to remain",
+      "present": [
+        "quedo",
+        "quedas",
+        "queda",
+        "quedamos",
+        "quedan"
+      ]
+    },
+    {
+      "es": "traer",
+      "en": "to bring",
+      "present": [
+        "traigo",
+        "traes",
+        "trae",
+        "traemos",
+        "traen"
+      ]
+    },
+    {
+      "es": "discutir",
+      "en": "to debate",
+      "present": [
+        "discuto",
+        "discutes",
+        "discute",
+        "discutimos",
+        "discuten"
+      ]
+    },
+    {
+      "es": "terminar",
+      "en": "to end up",
+      "present": [
+        "termino",
+        "terminas",
+        "termina",
+        "terminamos",
+        "terminan"
+      ]
+    },
+    {
+      "es": "expulsar",
+      "en": "to drive out",
+      "present": [
+        "expulso",
+        "expulsas",
+        "expulsa",
+        "expulsamos",
+        "expulsan"
+      ]
+    },
+    {
+      "es": "acusar",
+      "en": "to accuse",
+      "present": [
+        "acuso",
+        "acusas",
+        "acusa",
+        "acusamos",
+        "acusan"
+      ]
+    },
+    {
+      "es": "provocar",
+      "en": "to cause",
+      "present": [
+        "provoco",
+        "provocas",
+        "provoca",
+        "provocamos",
+        "provocan"
+      ]
+    },
+    {
+      "es": "prepararse",
+      "en": "to prepare oneself",
+      "present": [
+        "me preparo",
+        "te preparas",
+        "se prepara",
+        "nos preparamos",
+        "se preparan"
+      ]
+    },
+    {
+      "es": "ocultar",
+      "en": "to hide",
+      "present": [
+        "oculto",
+        "ocultas",
+        "oculta",
+        "ocultamos",
+        "ocultan"
+      ]
+    },
+    {
+      "es": "mostrar",
+      "en": "to show",
+      "present": [
+        "muestro",
+        "muestras",
+        "muestra",
+        "mostramos",
+        "muestran"
+      ]
+    },
+    {
+      "es": "garantizar",
+      "en": "to guarantee",
+      "present": [
+        "garantizo",
+        "garantizas",
+        "garantiza",
+        "garantizamos",
+        "garantizan"
+      ]
+    },
+    {
+      "es": "sufrir",
+      "en": "to suffer",
+      "present": [
+        "sufro",
+        "sufres",
+        "sufre",
+        "sufrimos",
+        "sufren"
+      ]
+    },
+    {
+      "es": "interrumpir",
+      "en": "to interrupt",
+      "present": [
+        "interrumpo",
+        "interrumpes",
+        "interrumpe",
+        "interrumpimos",
+        "interrumpen"
+      ]
+    },
+    {
+      "es": "comenzar",
+      "en": "to begin",
+      "present": [
+        "comienzo",
+        "comienzas",
+        "comienza",
+        "comenzamos",
+        "comienzan"
+      ]
+    },
+    {
+      "es": "publicar",
+      "en": "to publish",
+      "present": [
+        "publico",
+        "publicas",
+        "publica",
+        "publicamos",
+        "publican"
+      ]
+    },
+    {
+      "es": "sentar",
+      "en": "to seat",
+      "present": [
+        "siento",
+        "sientas",
+        "sienta",
+        "sentamos",
+        "sientan"
+      ]
+    },
+    {
+      "es": "levantarse",
+      "en": "to stand up",
+      "present": [
+        "me levanto",
+        "te levantas",
+        "se levanta",
+        "nos levantamos",
+        "se levantan"
+      ]
+    },
+    {
+      "es": "confirmar",
+      "en": "to confirm",
+      "present": [
+        "confirmo",
+        "confirmas",
+        "confirma",
+        "confirmamos",
+        "confirman"
+      ]
+    },
+    {
+      "es": "aplazar",
+      "en": "to postpone",
+      "present": [
+        "aplazo",
+        "aplazas",
+        "aplaza",
+        "aplazamos",
+        "aplazan"
+      ]
+    },
+    {
+      "es": "revisar",
+      "en": "to review",
+      "present": [
+        "reviso",
+        "revisas",
+        "revisa",
+        "revisamos",
+        "revisan"
+      ]
+    },
+    {
+      "es": "conocer",
+      "en": "to know / learn",
+      "present": [
+        "conozco",
+        "conoces",
+        "conoce",
+        "conocemos",
+        "conocen"
+      ]
+    },
+    {
+      "es": "salir",
+      "en": "to leave",
+      "present": [
+        "salgo",
+        "sales",
+        "sale",
+        "salimos",
+        "salen"
+      ]
+    },
+    {
+      "es": "volver",
+      "en": "to return",
+      "present": [
+        "vuelvo",
+        "vuelves",
+        "vuelve",
+        "volvemos",
+        "vuelven"
+      ]
+    },
+    {
+      "es": "caminar",
+      "en": "to walk",
+      "present": [
+        "camino",
+        "caminas",
+        "camina",
+        "caminamos",
+        "caminan"
+      ]
+    },
+    {
+      "es": "dar",
+      "en": "to give",
+      "present": [
+        "doy",
+        "das",
+        "da",
+        "damos",
+        "dan"
+      ]
+    },
+    {
+      "es": "impedir",
+      "en": "to prevent",
+      "present": [
+        "impido",
+        "impides",
+        "impide",
+        "impedimos",
+        "impiden"
+      ]
+    },
+    {
+      "es": "evitar",
+      "en": "to prevent",
+      "present": [
+        "evito",
+        "evitas",
+        "evita",
+        "evitamos",
+        "evitan"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "es": "a",
+      "en": "to / at"
+    },
+    {
+      "es": "de",
+      "en": "of / from"
+    },
+    {
+      "es": "desde",
+      "en": "since / from"
+    },
+    {
+      "es": "en",
+      "en": "in / on"
+    },
+    {
+      "es": "sin",
+      "en": "without"
+    },
+    {
+      "es": "con",
+      "en": "with"
+    },
+    {
+      "es": "por",
+      "en": "by / because of"
+    },
+    {
+      "es": "para",
+      "en": "for / in order to"
+    },
+    {
+      "es": "hasta",
+      "en": "until / up to"
+    },
+    {
+      "es": "bajo",
+      "en": "under"
+    },
+    {
+      "es": "sobre",
+      "en": "on / over"
+    },
+    {
+      "es": "durante",
+      "en": "during"
+    },
+    {
+      "es": "entre",
+      "en": "between"
+    },
+    {
+      "es": "tras",
+      "en": "after"
+    },
+    {
+      "es": "junto a",
+      "en": "next to"
+    },
+    {
+      "es": "por encima de",
+      "en": "over"
+    },
+    {
+      "es": "detrás de",
+      "en": "behind"
+    },
+    {
+      "es": "al fondo de",
+      "en": "at the end of"
+    },
+    {
+      "es": "frente a",
+      "en": "in front of"
+    },
+    {
+      "es": "antes de",
+      "en": "before"
+    },
+    {
+      "es": "después de",
+      "en": "after"
+    },
+    {
+      "es": "río arriba",
+      "en": "upstream"
+    }
+  ],
+  "expressions": [
+    {
+      "es": "sin embargo",
+      "en": "however"
+    },
+    {
+      "es": "desde la última vez",
+      "en": "since the last time"
+    },
+    {
+      "es": "sin querer",
+      "en": "unintentionally"
+    },
+    {
+      "es": "en algunos casos",
+      "en": "in some cases"
+    },
+    {
+      "es": "acabar de llegar",
+      "en": "to have just arrived"
+    },
+    {
+      "es": "seguir en venta",
+      "en": "to still be for sale"
+    },
+    {
+      "es": "por encima del hombro",
+      "en": "over one's shoulder"
+    },
+    {
+      "es": "antes de marcharse",
+      "en": "before leaving"
+    },
+    {
+      "es": "al día siguiente",
+      "en": "the following day"
+    },
+    {
+      "es": "como si",
+      "en": "as if"
+    },
+    {
+      "es": "por convincente que parezca",
+      "en": "however convincing it seems"
+    },
+    {
+      "es": "por eso",
+      "en": "therefore"
+    },
+    {
+      "es": "estar dispuesto a",
+      "en": "to be willing to"
+    },
+    {
+      "es": "tener que",
+      "en": "to have to"
+    },
+    {
+      "es": "en cambio",
+      "en": "instead"
+    },
+    {
+      "es": "por primera vez",
+      "en": "for the first time"
+    },
+    {
+      "es": "tener derecho a",
+      "en": "to have the right to"
+    },
+    {
+      "es": "tal vez",
+      "en": "perhaps"
+    },
+    {
+      "es": "ver venir",
+      "en": "to see coming"
+    },
+    {
+      "es": "lo poco que queda",
+      "en": "what little remains"
+    },
+    {
+      "es": "al salir",
+      "en": "on the way out"
+    },
+    {
+      "es": "hasta que",
+      "en": "until"
+    },
+    {
+      "es": "dar a conocer",
+      "en": "to make known"
+    }
+  ]
+}

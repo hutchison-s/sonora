@@ -30,6 +30,7 @@
           "id": "la-casa-de-las-cartas-a1-1",
           "text": "era niña",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "was a child",
           "explanation": "The imperfect describes a background state or ongoing period in the past.",
           "grammar": {
@@ -152,7 +153,10 @@
       "id": "s2",
       "es": "El local olía a papel viejo y siempre sonaba música suave.",
       "en": "The shop smelled of old paper, and soft music was always playing.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a2-1", "text": "olía a papel viejo", "type": "expression", "partOfSpeech": "expression",
+        "meaning": "smelled of old paper", "explanation": "Oler a names the scent something has; olía describes that scent in the past."
+      }],
       "audio": {
         "start": 4.56,
         "end": 9.6,
@@ -246,6 +250,7 @@
           "id": "la-casa-de-las-cartas-a3-1",
           "text": "le dejó",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "left her",
           "explanation": "Le is an indirect object pronoun: the bookstore was left to her.",
           "grammar": {
@@ -345,7 +350,10 @@
       "id": "s4",
       "es": "Inés volvió una tarde de otoño para limpiar y decidir qué hacer.",
       "en": "Inés returned one autumn afternoon to clean and decide what to do.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a4-1", "text": "una tarde de otoño", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "an autumn afternoon", "explanation": "Otoño is the season between summer and winter."
+      }],
       "audio": {
         "start": 14.16,
         "end": 18.52,
@@ -446,6 +454,7 @@
           "id": "la-casa-de-las-cartas-a5-1",
           "text": "encontró",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "found",
           "explanation": "The preterite marks the discovery as a specific completed action.",
           "grammar": {
@@ -455,6 +464,14 @@
           },
           "start": 25,
           "end": 33
+        },
+        {
+          "id": "la-casa-de-las-cartas-a5-2",
+          "text": "Detrás de una estantería",
+          "type": "vocabulary",
+          "partOfSpeech": "preposition",
+          "meaning": "Behind a bookshelf",
+          "explanation": "Detrás de expresses position behind something; estantería means shelving unit or bookshelf."
         }
       ],
       "audio": {
@@ -552,7 +569,10 @@
       "id": "s6",
       "es": "Cada carta tenía un nombre, una dirección y una pequeña historia.",
       "en": "Each letter had a name, an address, and a small story.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a6-1", "text": "una dirección", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "an address", "explanation": "Dirección can mean a postal address as well as direction; here it is where a letter should be delivered."
+      }],
       "audio": {
         "start": 23.72,
         "end": 28.64,
@@ -641,7 +661,10 @@
       "id": "s7",
       "es": "En una, su abuelo daba las gracias a un vecino que le prestó dinero cuando abrió la tienda.",
       "en": "In one, her grandfather thanked a neighbor who had lent him money when he opened the shop.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a7-1", "text": "daba las gracias", "type": "expression", "partOfSpeech": "expression",
+        "meaning": "was thanking / gave thanks", "explanation": "Dar las gracias is the standard expression for thanking someone."
+      }],
       "audio": {
         "start": 28.96,
         "end": 33.92,
@@ -784,6 +807,7 @@
           "id": "la-casa-de-las-cartas-a8-1",
           "text": "pedía perdón",
           "type": "expression",
+          "partOfSpeech": "expression",
           "meaning": "was asking for forgiveness",
           "explanation": "Pedir perdón is the natural Spanish expression for apologizing.",
           "grammar": {
@@ -985,7 +1009,10 @@
       "id": "s10",
       "es": "Para su abuelo, la librería no era solamente un negocio: era un lugar de encuentro.",
       "en": "For her grandfather, the bookstore was not just a business: it was a meeting place.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a10-1", "text": "un lugar de encuentro", "type": "expression", "partOfSpeech": "noun",
+        "meaning": "a meeting place", "explanation": "A lugar de encuentro is a place where people regularly meet or connect."
+      }],
       "audio": {
         "start": 44.8,
         "end": 50.8,
@@ -1102,7 +1129,10 @@
       "id": "s11",
       "es": "Al día siguiente, Inés buscó los nombres en una guía antigua y salió con los sobres.",
       "en": "The next day, Inés looked up the names in an old directory and went out with the envelopes.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a11-1", "text": "Al día siguiente", "type": "expression", "partOfSpeech": "adverb",
+        "meaning": "The next day", "explanation": "A useful time connector that moves a story forward to the following day."
+      }],
       "audio": {
         "start": 50.88,
         "end": 56.4,
@@ -1226,7 +1256,10 @@
       "id": "s12",
       "es": "Algunos vecinos ya no vivían allí, pero otros la recibieron con abrazos y recuerdos.",
       "en": "Some neighbors no longer lived there, but others welcomed her with hugs and memories.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-casa-de-las-cartas-a12-1", "text": "abrazos y recuerdos", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "hugs and memories", "explanation": "Abrazos are hugs, while recuerdos are memories of people, places, or past events."
+      }],
       "audio": {
         "start": 56.48,
         "end": 62.36,
@@ -1341,6 +1374,7 @@
           "id": "la-casa-de-las-cartas-a13-1",
           "text": "decidió abrir",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "decided to open",
           "explanation": "After decidir, use the infinitive to name the intended action.",
           "grammar": {

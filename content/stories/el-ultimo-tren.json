@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "id": "el-ultimo-tren",
+  "title": {
+    "es": "El último tren",
+    "en": "The Last Train"
+  },
+  "level": "A1",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Drama",
+  "synopsis": "A tired traveler discovers that a missed train can change an evening.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Present tense and time expressions",
+  "secondaryGrammar": [
+    "Irregular present-tense verbs",
+    "Negation"
+  ],
+  "estimatedDurationSeconds": 46,
+  "wordCount": 67,
+  "coverImagePrompt": "A nearly empty train platform at dusk, lone woman carrying a small leather bag, glowing station clock, soft amber light reflecting on wet pavement, cinematic premium editorial illustration, subdued midnight blue and ochre, no text, letters, captions, logos or watermarks",
+  "coverImage": "/images/el-ultimo-tren.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "Marta llega tarde a la estación.",
+      "en": "Marta arrives late at the station.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a1-1",
+          "text": "llega tarde",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "arrives late",
+          "explanation": "Llegar tarde means to arrive after the expected time.",
+          "start": 6,
+          "end": 17
+        },
+        {
+          "id": "el-ultimo-tren-a1-2",
+          "text": "a la estación",
+          "type": "grammar",
+          "partOfSpeech": "preposition",
+          "meaning": "at the station",
+          "explanation": "The preposition a marks the destination of her arrival.",
+          "start": 18,
+          "end": 31
+        }
+      ],
+      "audio": {
+        "start": 0,
+        "end": 2.08,
+        "words": [
+          {
+            "text": "Marta",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 0,
+            "end": 0.4
+          },
+          {
+            "text": "llega",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 0.48,
+            "end": 0.72
+          },
+          {
+            "text": "tarde",
+            "charStart": 12,
+            "charEnd": 17,
+            "start": 0.88,
+            "end": 1.2
+          },
+          {
+            "text": "a",
+            "charStart": 18,
+            "charEnd": 19,
+            "start": 1.227,
+            "end": 1.253
+          },
+          {
+            "text": "la",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 1.28,
+            "end": 1.32
+          },
+          {
+            "text": "estación.",
+            "charStart": 23,
+            "charEnd": 32,
+            "start": 1.36,
+            "end": 2.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "El último tren sale en cinco minutos.",
+      "en": "The last train leaves in five minutes.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a2-1",
+          "text": "último tren",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "last train",
+          "explanation": "Último identifies the final train of the day.",
+          "start": 3,
+          "end": 14
+        },
+        {
+          "id": "el-ultimo-tren-a2-2",
+          "text": "en cinco minutos",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "in five minutes",
+          "explanation": "En plus a duration tells how soon something will happen.",
+          "start": 20,
+          "end": 36
+        }
+      ],
+      "audio": {
+        "start": 2.24,
+        "end": 4.84,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 2.24,
+            "end": 2.4
+          },
+          {
+            "text": "último",
+            "charStart": 3,
+            "charEnd": 9,
+            "start": 2.44,
+            "end": 2.72
+          },
+          {
+            "text": "tren",
+            "charStart": 10,
+            "charEnd": 14,
+            "start": 2.8,
+            "end": 3.04
+          },
+          {
+            "text": "sale",
+            "charStart": 15,
+            "charEnd": 19,
+            "start": 3.12,
+            "end": 3.36
+          },
+          {
+            "text": "en",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 3.44,
+            "end": 3.68
+          },
+          {
+            "text": "cinco",
+            "charStart": 23,
+            "charEnd": 28,
+            "start": 3.76,
+            "end": 4
+          },
+          {
+            "text": "minutos.",
+            "charStart": 29,
+            "charEnd": 37,
+            "start": 4.08,
+            "end": 4.84
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Ella busca su boleto en la bolsa.",
+      "en": "She looks for her ticket in her bag.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a3-1",
+          "text": "busca",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "looks for",
+          "explanation": "Busca is the present form of buscar for ella.",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "id": "el-ultimo-tren-a3-2",
+          "text": "en la bolsa",
+          "type": "grammar",
+          "partOfSpeech": "preposition",
+          "meaning": "in the bag",
+          "explanation": "En places the ticket inside the bag.",
+          "start": 21,
+          "end": 32
+        }
+      ],
+      "audio": {
+        "start": 5.04,
+        "end": 6.88,
+        "words": [
+          {
+            "text": "Ella",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 5.04,
+            "end": 5.28
+          },
+          {
+            "text": "busca",
+            "charStart": 5,
+            "charEnd": 10,
+            "start": 5.36,
+            "end": 5.6
+          },
+          {
+            "text": "su",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 5.68,
+            "end": 5.76
+          },
+          {
+            "text": "boleto",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 5.92,
+            "end": 6.16
+          },
+          {
+            "text": "en",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 6.24,
+            "end": 6.32
+          },
+          {
+            "text": "la",
+            "charStart": 24,
+            "charEnd": 26,
+            "start": 6.36,
+            "end": 6.4
+          },
+          {
+            "text": "bolsa.",
+            "charStart": 27,
+            "charEnd": 33,
+            "start": 6.48,
+            "end": 6.88
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "No está allí.",
+      "en": "It is not there.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a4-1",
+          "text": "No está",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "is not",
+          "explanation": "No before está makes the statement negative.",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "id": "el-ultimo-tren-a4-2",
+          "text": "allí",
+          "type": "vocabulary",
+          "partOfSpeech": "adverb",
+          "meaning": "there",
+          "explanation": "Allí refers to a place away from the speaker.",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "audio": {
+        "start": 7.28,
+        "end": 8.4,
+        "words": [
+          {
+            "text": "No",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 7.28,
+            "end": 7.36
+          },
+          {
+            "text": "está",
+            "charStart": 3,
+            "charEnd": 7,
+            "start": 7.44,
+            "end": 7.68
+          },
+          {
+            "text": "allí.",
+            "charStart": 8,
+            "charEnd": 13,
+            "start": 7.76,
+            "end": 8.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Un hombre ve su problema.",
+      "en": "A man notices her problem.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a5-1",
+          "text": "ve",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "sees / notices",
+          "explanation": "Ve is the present form of the irregular verb ver.",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "id": "el-ultimo-tren-a5-2",
+          "text": "su problema",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "her problem",
+          "explanation": "Su refers to Marta in this situation.",
+          "start": 13,
+          "end": 24
+        }
+      ],
+      "audio": {
+        "start": 8.48,
+        "end": 9.92,
+        "words": [
+          {
+            "text": "Un",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 8.48,
+            "end": 8.56
+          },
+          {
+            "text": "hombre",
+            "charStart": 3,
+            "charEnd": 9,
+            "start": 8.6,
+            "end": 8.88
+          },
+          {
+            "text": "ve",
+            "charStart": 10,
+            "charEnd": 12,
+            "start": 9.04,
+            "end": 9.12
+          },
+          {
+            "text": "su",
+            "charStart": 13,
+            "charEnd": 15,
+            "start": 9.2,
+            "end": 9.36
+          },
+          {
+            "text": "problema.",
+            "charStart": 16,
+            "charEnd": 25,
+            "start": 9.44,
+            "end": 9.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "«Tengo otro boleto», dice él.",
+      "en": "“I have another ticket,” he says.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a6-1",
+          "text": "Tengo",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "I have",
+          "explanation": "Tengo is the irregular first-person present form of tener.",
+          "start": 1,
+          "end": 6
+        },
+        {
+          "id": "el-ultimo-tren-a6-2",
+          "text": "otro boleto",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "another ticket",
+          "explanation": "Otro goes directly before a masculine noun without un.",
+          "start": 7,
+          "end": 18
+        }
+      ],
+      "audio": {
+        "start": 10.217,
+        "end": 12.28,
+        "words": [
+          {
+            "text": "«Tengo",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 10.217,
+            "end": 10.48
+          },
+          {
+            "text": "otro",
+            "charStart": 7,
+            "charEnd": 11,
+            "start": 10.56,
+            "end": 10.72
+          },
+          {
+            "text": "boleto»,",
+            "charStart": 12,
+            "charEnd": 20,
+            "start": 10.8,
+            "end": 11.52
+          },
+          {
+            "text": "dice",
+            "charStart": 21,
+            "charEnd": 25,
+            "start": 11.6,
+            "end": 11.84
+          },
+          {
+            "text": "él.",
+            "charStart": 26,
+            "charEnd": 29,
+            "start": 11.92,
+            "end": 12.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "Marta mira el reloj.",
+      "en": "Marta looks at the clock.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a7-1",
+          "text": "mira el reloj",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "looks at the clock",
+          "explanation": "Mirar el reloj is a natural phrase for checking the time.",
+          "start": 6,
+          "end": 19
+        }
+      ],
+      "audio": {
+        "start": 12.48,
+        "end": 13.92,
+        "words": [
+          {
+            "text": "Marta",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 12.48,
+            "end": 12.88
+          },
+          {
+            "text": "mira",
+            "charStart": 6,
+            "charEnd": 10,
+            "start": 13.04,
+            "end": 13.2
+          },
+          {
+            "text": "el",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 13.28,
+            "end": 13.36
+          },
+          {
+            "text": "reloj.",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 13.44,
+            "end": 13.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "«¿Por qué me ayudas?», pregunta.",
+      "en": "“Why are you helping me?” she asks.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a8-1",
+          "text": "Por qué",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "why",
+          "explanation": "Por qué, written as two words with an accent, asks for a reason.",
+          "start": 2,
+          "end": 9
+        },
+        {
+          "id": "el-ultimo-tren-a8-2",
+          "text": "me ayudas",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "you help me",
+          "explanation": "Me marks the person receiving the help; ayudas is the tú form of ayudar.",
+          "start": 10,
+          "end": 19
+        }
+      ],
+      "audio": {
+        "start": 14.171,
+        "end": 15.92,
+        "words": [
+          {
+            "text": "«¿Por",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 14.171,
+            "end": 14.24
+          },
+          {
+            "text": "qué",
+            "charStart": 6,
+            "charEnd": 9,
+            "start": 14.28,
+            "end": 14.32
+          },
+          {
+            "text": "me",
+            "charStart": 10,
+            "charEnd": 12,
+            "start": 14.4,
+            "end": 14.48
+          },
+          {
+            "text": "ayudas?»,",
+            "charStart": 13,
+            "charEnd": 22,
+            "start": 14.56,
+            "end": 15.2
+          },
+          {
+            "text": "pregunta.",
+            "charStart": 23,
+            "charEnd": 32,
+            "start": 15.32,
+            "end": 15.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "«Porque hoy es mi cumpleaños».",
+      "en": "“Because today is my birthday.”",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a9-1",
+          "text": "Porque",
+          "type": "grammar",
+          "partOfSpeech": "expression",
+          "meaning": "because",
+          "explanation": "Porque, written as one word, introduces an explanation.",
+          "start": 1,
+          "end": 7
+        },
+        {
+          "id": "el-ultimo-tren-a9-2",
+          "text": "mi cumpleaños",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "my birthday",
+          "explanation": "Cumpleaños means birthday and stays the same in singular and plural.",
+          "start": 15,
+          "end": 28
+        }
+      ],
+      "audio": {
+        "start": 16.08,
+        "end": 18.32,
+        "words": [
+          {
+            "text": "«Porque",
+            "charStart": 0,
+            "charEnd": 7,
+            "start": 16.08,
+            "end": 16.48
+          },
+          {
+            "text": "hoy",
+            "charStart": 8,
+            "charEnd": 11,
+            "start": 16.56,
+            "end": 16.88
+          },
+          {
+            "text": "es",
+            "charStart": 12,
+            "charEnd": 14,
+            "start": 16.96,
+            "end": 17.04
+          },
+          {
+            "text": "mi",
+            "charStart": 15,
+            "charEnd": 17,
+            "start": 17.12,
+            "end": 17.2
+          },
+          {
+            "text": "cumpleaños».",
+            "charStart": 18,
+            "charEnd": 30,
+            "start": 17.28,
+            "end": 18.32
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "El tren llega, pero Marta no sube.",
+      "en": "The train arrives, but Marta does not get on.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a10-1",
+          "text": "no sube",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "does not get on",
+          "explanation": "No before sube makes the present-tense action negative.",
+          "start": 26,
+          "end": 33
+        },
+        {
+          "id": "el-ultimo-tren-a10-2",
+          "text": "pero",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "but",
+          "explanation": "Pero introduces a surprising contrast.",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "audio": {
+        "start": 18.36,
+        "end": 21.04,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 18.36,
+            "end": 18.4
+          },
+          {
+            "text": "tren",
+            "charStart": 3,
+            "charEnd": 7,
+            "start": 18.48,
+            "end": 18.72
+          },
+          {
+            "text": "llega,",
+            "charStart": 8,
+            "charEnd": 14,
+            "start": 18.8,
+            "end": 19.36
+          },
+          {
+            "text": "pero",
+            "charStart": 15,
+            "charEnd": 19,
+            "start": 19.44,
+            "end": 19.6
+          },
+          {
+            "text": "Marta",
+            "charStart": 20,
+            "charEnd": 25,
+            "start": 19.68,
+            "end": 20.16
+          },
+          {
+            "text": "no",
+            "charStart": 26,
+            "charEnd": 28,
+            "start": 20.24,
+            "end": 20.4
+          },
+          {
+            "text": "sube.",
+            "charStart": 29,
+            "charEnd": 34,
+            "start": 20.52,
+            "end": 21.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "«Primero, vamos por un café», propone.",
+      "en": "“First, let’s go get a coffee,” she suggests.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a11-1",
+          "text": "vamos por un café",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "let’s go get a coffee",
+          "explanation": "Vamos por is a natural invitation to go obtain something.",
+          "start": 10,
+          "end": 27
+        },
+        {
+          "id": "el-ultimo-tren-a11-2",
+          "text": "propone",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "suggests",
+          "explanation": "Propone is the present form of proponer for ella.",
+          "start": 30,
+          "end": 37
+        }
+      ],
+      "audio": {
+        "start": 21.111,
+        "end": 23.84,
+        "words": [
+          {
+            "text": "«Primero,",
+            "charStart": 0,
+            "charEnd": 9,
+            "start": 21.111,
+            "end": 21.84
+          },
+          {
+            "text": "vamos",
+            "charStart": 10,
+            "charEnd": 15,
+            "start": 21.88,
+            "end": 22.16
+          },
+          {
+            "text": "por",
+            "charStart": 16,
+            "charEnd": 19,
+            "start": 22.24,
+            "end": 22.32
+          },
+          {
+            "text": "un",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 22.36,
+            "end": 22.4
+          },
+          {
+            "text": "café»,",
+            "charStart": 23,
+            "charEnd": 29,
+            "start": 22.48,
+            "end": 23.04
+          },
+          {
+            "text": "propone.",
+            "charStart": 30,
+            "charEnd": 38,
+            "start": 23.16,
+            "end": 23.84
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "El hombre sonríe y guarda el boleto.",
+      "en": "The man smiles and puts away the ticket.",
+      "annotations": [
+        {
+          "id": "el-ultimo-tren-a12-1",
+          "text": "sonríe",
+          "type": "vocabulary",
+          "partOfSpeech": "verb",
+          "meaning": "smiles",
+          "explanation": "Sonríe is the present form of sonreír.",
+          "start": 10,
+          "end": 16
+        },
+        {
+          "id": "el-ultimo-tren-a12-2",
+          "text": "guarda el boleto",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "puts away the ticket",
+          "explanation": "Guardar means to put something somewhere safe.",
+          "start": 19,
+          "end": 35
+        }
+      ],
+      "audio": {
+        "start": 23.92,
+        "end": 26.4,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 23.92,
+            "end": 24
+          },
+          {
+            "text": "hombre",
+            "charStart": 3,
+            "charEnd": 9,
+            "start": 24.04,
+            "end": 24.24
+          },
+          {
+            "text": "sonríe",
+            "charStart": 10,
+            "charEnd": 16,
+            "start": 24.32,
+            "end": 25.04
+          },
+          {
+            "text": "y",
+            "charStart": 17,
+            "charEnd": 18,
+            "start": 25.08,
+            "end": 25.12
+          },
+          {
+            "text": "guarda",
+            "charStart": 19,
+            "charEnd": 25,
+            "start": 25.28,
+            "end": 25.6
+          },
+          {
+            "text": "el",
+            "charStart": 26,
+            "charEnd": 28,
+            "start": 25.64,
+            "end": 25.68
+          },
+          {
+            "text": "boleto.",
+            "charStart": 29,
+            "charEnd": 36,
+            "start": 25.76,
+            "end": 26.4
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "What does Marta lose track of?",
+      "options": [
+        "Her passport",
+        "Her ticket",
+        "Her phone"
+      ],
+      "correctIndex": 1,
+      "explanation": "She searches for her boleto, or ticket, in her bag."
+    },
+    {
+      "question": "Why does Marta decide not to board the train?",
+      "options": [
+        "She accepts a chance to celebrate with the man",
+        "The train is canceled",
+        "She dislikes trains"
+      ],
+      "correctIndex": 0,
+      "explanation": "Her invitation to get coffee follows his explanation that it is his birthday."
+    },
+    {
+      "question": "What does “en cinco minutos” mean?",
+      "options": [
+        "For five minutes",
+        "Five minutes ago",
+        "In five minutes"
+      ],
+      "correctIndex": 2,
+      "explanation": "En followed by a duration can indicate how soon something will happen."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/el-ultimo-tren.mp3",
+    "durationSeconds": 26.4,
+    "alignment": "words"
+  }
+}

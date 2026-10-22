@@ -1,0 +1,998 @@
+{
+  "schemaVersion": 1,
+  "id": "la-mesa-para-dos",
+  "title": {
+    "es": "La mesa para dos",
+    "en": "A Table for Two"
+  },
+  "level": "A1",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Slice of Life",
+  "synopsis": "A restaurant worker notices a small ritual that turns out to have a touching purpose.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Present tense and indirect objects",
+  "secondaryGrammar": [
+    "Expressions of frequency",
+    "Location prepositions"
+  ],
+  "estimatedDurationSeconds": 53,
+  "wordCount": 77,
+  "coverImagePrompt": "Quiet neighborhood restaurant in a Latin American city at blue hour, intimate table by a window with two ceramic cups and a small vase, soft candlelight, cinematic editorial painting, elegant subtle melancholy, no text, letters, captions, logos or watermarks",
+  "coverImage": "/images/la-mesa-para-dos.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "Cada jueves, Rosa prepara una mesa para dos.",
+      "en": "Every Thursday, Rosa sets a table for two.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a1-1",
+          "text": "Cada jueves",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "every Thursday",
+          "explanation": "Cada plus a singular day marks a repeated routine.",
+          "start": 0,
+          "end": 11
+        },
+        {
+          "id": "la-mesa-para-dos-a1-2",
+          "text": "para dos",
+          "type": "grammar",
+          "partOfSpeech": "preposition",
+          "meaning": "for two",
+          "explanation": "Para indicates who or how many people the table is intended for.",
+          "start": 35,
+          "end": 43
+        }
+      ],
+      "audio": {
+        "start": 0,
+        "end": 3.36,
+        "words": [
+          {
+            "text": "Cada",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 0,
+            "end": 0.24
+          },
+          {
+            "text": "jueves,",
+            "charStart": 5,
+            "charEnd": 12,
+            "start": 0.32,
+            "end": 1.04
+          },
+          {
+            "text": "Rosa",
+            "charStart": 13,
+            "charEnd": 17,
+            "start": 1.2,
+            "end": 1.44
+          },
+          {
+            "text": "prepara",
+            "charStart": 18,
+            "charEnd": 25,
+            "start": 1.52,
+            "end": 1.92
+          },
+          {
+            "text": "una",
+            "charStart": 26,
+            "charEnd": 29,
+            "start": 2,
+            "end": 2.08
+          },
+          {
+            "text": "mesa",
+            "charStart": 30,
+            "charEnd": 34,
+            "start": 2.24,
+            "end": 2.48
+          },
+          {
+            "text": "para",
+            "charStart": 35,
+            "charEnd": 39,
+            "start": 2.56,
+            "end": 2.72
+          },
+          {
+            "text": "dos.",
+            "charStart": 40,
+            "charEnd": 44,
+            "start": 2.8,
+            "end": 3.36
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "El restaurante está casi vacío.",
+      "en": "The restaurant is almost empty.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a2-1",
+          "text": "está casi vacío",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "is almost empty",
+          "explanation": "Estar describes the restaurant’s current condition.",
+          "start": 15,
+          "end": 30
+        },
+        {
+          "id": "la-mesa-para-dos-a2-2",
+          "text": "restaurante",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "restaurant",
+          "explanation": "The restaurant is the setting of the scene.",
+          "start": 3,
+          "end": 14
+        }
+      ],
+      "audio": {
+        "start": 3.6,
+        "end": 6.32,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 3.6,
+            "end": 3.76
+          },
+          {
+            "text": "restaurante",
+            "charStart": 3,
+            "charEnd": 14,
+            "start": 3.88,
+            "end": 4.4
+          },
+          {
+            "text": "está",
+            "charStart": 15,
+            "charEnd": 19,
+            "start": 4.52,
+            "end": 4.72
+          },
+          {
+            "text": "casi",
+            "charStart": 20,
+            "charEnd": 24,
+            "start": 4.96,
+            "end": 5.28
+          },
+          {
+            "text": "vacío.",
+            "charStart": 25,
+            "charEnd": 31,
+            "start": 5.4,
+            "end": 6.32
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "A las ocho, entra un señor con flores.",
+      "en": "At eight, a gentleman comes in with flowers.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a3-1",
+          "text": "A las ocho",
+          "type": "grammar",
+          "partOfSpeech": "expression",
+          "meaning": "at eight o’clock",
+          "explanation": "A las introduces a clock time, except with una.",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "id": "la-mesa-para-dos-a3-2",
+          "text": "con flores",
+          "type": "grammar",
+          "partOfSpeech": "preposition",
+          "meaning": "with flowers",
+          "explanation": "Con tells what the man brings.",
+          "start": 27,
+          "end": 37
+        }
+      ],
+      "audio": {
+        "start": 6.36,
+        "end": 9.04,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 6.36,
+            "end": 6.4
+          },
+          {
+            "text": "las",
+            "charStart": 2,
+            "charEnd": 5,
+            "start": 6.48,
+            "end": 6.64
+          },
+          {
+            "text": "ocho,",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 6.72,
+            "end": 7.28
+          },
+          {
+            "text": "entra",
+            "charStart": 12,
+            "charEnd": 17,
+            "start": 7.4,
+            "end": 7.6
+          },
+          {
+            "text": "un",
+            "charStart": 18,
+            "charEnd": 20,
+            "start": 7.68,
+            "end": 7.76
+          },
+          {
+            "text": "señor",
+            "charStart": 21,
+            "charEnd": 26,
+            "start": 7.84,
+            "end": 8.08
+          },
+          {
+            "text": "con",
+            "charStart": 27,
+            "charEnd": 30,
+            "start": 8.16,
+            "end": 8.24
+          },
+          {
+            "text": "flores.",
+            "charStart": 31,
+            "charEnd": 38,
+            "start": 8.32,
+            "end": 9.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "Rosa le ofrece agua.",
+      "en": "Rosa offers him water.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a4-1",
+          "text": "le ofrece",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "offers him",
+          "explanation": "Le identifies the person receiving the offer; ofrece is the él/ella present form of ofrecer.",
+          "start": 5,
+          "end": 14
+        },
+        {
+          "id": "la-mesa-para-dos-a4-2",
+          "text": "agua",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "water",
+          "explanation": "Agua is feminine, despite using el in singular forms like el agua.",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "audio": {
+        "start": 9.28,
+        "end": 11.04,
+        "words": [
+          {
+            "text": "Rosa",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 9.28,
+            "end": 9.6
+          },
+          {
+            "text": "le",
+            "charStart": 5,
+            "charEnd": 7,
+            "start": 9.68,
+            "end": 9.76
+          },
+          {
+            "text": "ofrece",
+            "charStart": 8,
+            "charEnd": 14,
+            "start": 9.84,
+            "end": 10.16
+          },
+          {
+            "text": "agua.",
+            "charStart": 15,
+            "charEnd": 20,
+            "start": 10.24,
+            "end": 11.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Él dice que espera a alguien.",
+      "en": "He says he is waiting for someone.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a5-1",
+          "text": "espera a alguien",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "is waiting for someone",
+          "explanation": "Esperar can mean to wait for, without an extra preposition; personal a introduces the person.",
+          "start": 12,
+          "end": 28
+        },
+        {
+          "id": "la-mesa-para-dos-a5-2",
+          "text": "dice que",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "says that",
+          "explanation": "Dice que introduces the content of what someone says.",
+          "start": 3,
+          "end": 11
+        }
+      ],
+      "audio": {
+        "start": 11.12,
+        "end": 13.12,
+        "words": [
+          {
+            "text": "Él",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 11.12,
+            "end": 11.28
+          },
+          {
+            "text": "dice",
+            "charStart": 3,
+            "charEnd": 7,
+            "start": 11.44,
+            "end": 11.6
+          },
+          {
+            "text": "que",
+            "charStart": 8,
+            "charEnd": 11,
+            "start": 11.68,
+            "end": 11.76
+          },
+          {
+            "text": "espera",
+            "charStart": 12,
+            "charEnd": 18,
+            "start": 11.92,
+            "end": 12.24
+          },
+          {
+            "text": "a",
+            "charStart": 19,
+            "charEnd": 20,
+            "start": 12.28,
+            "end": 12.32
+          },
+          {
+            "text": "alguien.",
+            "charStart": 21,
+            "charEnd": 29,
+            "start": 12.4,
+            "end": 13.12
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "La otra silla sigue vacía.",
+      "en": "The other chair remains empty.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a6-1",
+          "text": "sigue vacía",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "remains empty",
+          "explanation": "Seguir plus an adjective means continuing in the same condition.",
+          "start": 14,
+          "end": 25
+        },
+        {
+          "id": "la-mesa-para-dos-a6-2",
+          "text": "otra silla",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "other chair",
+          "explanation": "Otra agrees with the feminine noun silla.",
+          "start": 3,
+          "end": 13
+        }
+      ],
+      "audio": {
+        "start": 13.36,
+        "end": 15.48,
+        "words": [
+          {
+            "text": "La",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 13.36,
+            "end": 13.44
+          },
+          {
+            "text": "otra",
+            "charStart": 3,
+            "charEnd": 7,
+            "start": 13.52,
+            "end": 13.76
+          },
+          {
+            "text": "silla",
+            "charStart": 8,
+            "charEnd": 13,
+            "start": 13.84,
+            "end": 14.24
+          },
+          {
+            "text": "sigue",
+            "charStart": 14,
+            "charEnd": 19,
+            "start": 14.4,
+            "end": 14.64
+          },
+          {
+            "text": "vacía.",
+            "charStart": 20,
+            "charEnd": 26,
+            "start": 14.72,
+            "end": 15.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "Rosa le trae una sopa caliente.",
+      "en": "Rosa brings him hot soup.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a7-1",
+          "text": "le trae",
+          "type": "grammar",
+          "partOfSpeech": "grammar",
+          "meaning": "brings him",
+          "explanation": "Le marks the recipient of the soup; trae comes from traer.",
+          "start": 5,
+          "end": 12
+        },
+        {
+          "id": "la-mesa-para-dos-a7-2",
+          "text": "sopa caliente",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "hot soup",
+          "explanation": "Caliente describes the temperature of the soup.",
+          "start": 17,
+          "end": 30
+        }
+      ],
+      "audio": {
+        "start": 15.76,
+        "end": 18,
+        "words": [
+          {
+            "text": "Rosa",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 15.76,
+            "end": 16.08
+          },
+          {
+            "text": "le",
+            "charStart": 5,
+            "charEnd": 7,
+            "start": 16.16,
+            "end": 16.24
+          },
+          {
+            "text": "trae",
+            "charStart": 8,
+            "charEnd": 12,
+            "start": 16.32,
+            "end": 16.56
+          },
+          {
+            "text": "una",
+            "charStart": 13,
+            "charEnd": 16,
+            "start": 16.64,
+            "end": 16.8
+          },
+          {
+            "text": "sopa",
+            "charStart": 17,
+            "charEnd": 21,
+            "start": 16.88,
+            "end": 17.12
+          },
+          {
+            "text": "caliente.",
+            "charStart": 22,
+            "charEnd": 31,
+            "start": 17.2,
+            "end": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "«¿Su invitada viene pronto?», pregunta Rosa.",
+      "en": "“Is your guest coming soon?” Rosa asks.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a8-1",
+          "text": "Su invitada",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "your guest",
+          "explanation": "Su can express formal your; invitada is feminine.",
+          "start": 2,
+          "end": 13
+        },
+        {
+          "id": "la-mesa-para-dos-a8-2",
+          "text": "viene pronto",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "is coming soon",
+          "explanation": "Spanish present tense can describe an expected near-future action.",
+          "start": 14,
+          "end": 26
+        }
+      ],
+      "audio": {
+        "start": 18.293,
+        "end": 21.12,
+        "words": [
+          {
+            "text": "«¿Su",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 18.293,
+            "end": 18.4
+          },
+          {
+            "text": "invitada",
+            "charStart": 5,
+            "charEnd": 13,
+            "start": 18.48,
+            "end": 18.88
+          },
+          {
+            "text": "viene",
+            "charStart": 14,
+            "charEnd": 19,
+            "start": 18.96,
+            "end": 19.12
+          },
+          {
+            "text": "pronto?»,",
+            "charStart": 20,
+            "charEnd": 29,
+            "start": 19.2,
+            "end": 20
+          },
+          {
+            "text": "pregunta",
+            "charStart": 30,
+            "charEnd": 38,
+            "start": 20.12,
+            "end": 20.48
+          },
+          {
+            "text": "Rosa.",
+            "charStart": 39,
+            "charEnd": 44,
+            "start": 20.56,
+            "end": 21.12
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "El señor mira las flores y sonríe.",
+      "en": "The gentleman looks at the flowers and smiles.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a9-1",
+          "text": "mira las flores",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "looks at the flowers",
+          "explanation": "Mirar takes a direct object without a preposition here.",
+          "start": 9,
+          "end": 24
+        },
+        {
+          "id": "la-mesa-para-dos-a9-2",
+          "text": "sonríe",
+          "type": "vocabulary",
+          "partOfSpeech": "verb",
+          "meaning": "smiles",
+          "explanation": "Sonríe is a present form of sonreír.",
+          "start": 27,
+          "end": 33
+        }
+      ],
+      "audio": {
+        "start": 21.36,
+        "end": 23.76,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 21.36,
+            "end": 21.52
+          },
+          {
+            "text": "señor",
+            "charStart": 3,
+            "charEnd": 8,
+            "start": 21.6,
+            "end": 21.92
+          },
+          {
+            "text": "mira",
+            "charStart": 9,
+            "charEnd": 13,
+            "start": 22.08,
+            "end": 22.24
+          },
+          {
+            "text": "las",
+            "charStart": 14,
+            "charEnd": 17,
+            "start": 22.32,
+            "end": 22.48
+          },
+          {
+            "text": "flores",
+            "charStart": 18,
+            "charEnd": 24,
+            "start": 22.56,
+            "end": 23.04
+          },
+          {
+            "text": "y",
+            "charStart": 25,
+            "charEnd": 26,
+            "start": 23.12,
+            "end": 23.16
+          },
+          {
+            "text": "sonríe.",
+            "charStart": 27,
+            "charEnd": 34,
+            "start": 23.2,
+            "end": 23.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "«No, pero hoy es nuestro aniversario».",
+      "en": "“No, but today is our anniversary.”",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a10-1",
+          "text": "nuestro aniversario",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "our anniversary",
+          "explanation": "Nuestro agrees with the masculine noun aniversario.",
+          "start": 17,
+          "end": 36
+        },
+        {
+          "id": "la-mesa-para-dos-a10-2",
+          "text": "pero",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "but",
+          "explanation": "Pero introduces a contrast with the answer no.",
+          "start": 5,
+          "end": 9
+        }
+      ],
+      "audio": {
+        "start": 24.227,
+        "end": 27.28,
+        "words": [
+          {
+            "text": "«No,",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 24.227,
+            "end": 24.88
+          },
+          {
+            "text": "pero",
+            "charStart": 5,
+            "charEnd": 9,
+            "start": 24.96,
+            "end": 25.2
+          },
+          {
+            "text": "hoy",
+            "charStart": 10,
+            "charEnd": 13,
+            "start": 25.52,
+            "end": 25.68
+          },
+          {
+            "text": "es",
+            "charStart": 14,
+            "charEnd": 16,
+            "start": 25.76,
+            "end": 25.84
+          },
+          {
+            "text": "nuestro",
+            "charStart": 17,
+            "charEnd": 24,
+            "start": 25.88,
+            "end": 26.08
+          },
+          {
+            "text": "aniversario».",
+            "charStart": 25,
+            "charEnd": 38,
+            "start": 26.16,
+            "end": 27.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "Rosa pone una vela frente a la silla.",
+      "en": "Rosa places a candle in front of the chair.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a11-1",
+          "text": "pone una vela",
+          "type": "grammar",
+          "partOfSpeech": "verb",
+          "meaning": "places a candle",
+          "explanation": "Pone is the present form of poner for ella.",
+          "start": 5,
+          "end": 18
+        },
+        {
+          "id": "la-mesa-para-dos-a11-2",
+          "text": "frente a la silla",
+          "type": "grammar",
+          "partOfSpeech": "preposition",
+          "meaning": "in front of the chair",
+          "explanation": "Frente a specifies a position facing another object.",
+          "start": 19,
+          "end": 36
+        }
+      ],
+      "audio": {
+        "start": 27.36,
+        "end": 29.68,
+        "words": [
+          {
+            "text": "Rosa",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 27.36,
+            "end": 27.68
+          },
+          {
+            "text": "pone",
+            "charStart": 5,
+            "charEnd": 9,
+            "start": 27.76,
+            "end": 28
+          },
+          {
+            "text": "una",
+            "charStart": 10,
+            "charEnd": 13,
+            "start": 28.12,
+            "end": 28.24
+          },
+          {
+            "text": "vela",
+            "charStart": 14,
+            "charEnd": 18,
+            "start": 28.32,
+            "end": 28.56
+          },
+          {
+            "text": "frente",
+            "charStart": 19,
+            "charEnd": 25,
+            "start": 28.64,
+            "end": 28.88
+          },
+          {
+            "text": "a",
+            "charStart": 26,
+            "charEnd": 27,
+            "start": 28.92,
+            "end": 28.96
+          },
+          {
+            "text": "la",
+            "charStart": 28,
+            "charEnd": 30,
+            "start": 29,
+            "end": 29.04
+          },
+          {
+            "text": "silla.",
+            "charStart": 31,
+            "charEnd": 37,
+            "start": 29.12,
+            "end": 29.68
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "Esta vez, el señor le da las gracias.",
+      "en": "This time, the gentleman thanks her.",
+      "annotations": [
+        {
+          "id": "la-mesa-para-dos-a12-1",
+          "text": "Esta vez",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "this time",
+          "explanation": "Esta vez distinguishes the current occasion from previous ones.",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "id": "la-mesa-para-dos-a12-2",
+          "text": "le da las gracias",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "thanks her",
+          "explanation": "Dar las gracias is a fixed phrase for thanking someone; le identifies the recipient.",
+          "start": 19,
+          "end": 36
+        }
+      ],
+      "audio": {
+        "start": 30.187,
+        "end": 32.8,
+        "words": [
+          {
+            "text": "Esta",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 30.187,
+            "end": 30.24
+          },
+          {
+            "text": "vez,",
+            "charStart": 5,
+            "charEnd": 9,
+            "start": 30.4,
+            "end": 30.8
+          },
+          {
+            "text": "el",
+            "charStart": 10,
+            "charEnd": 12,
+            "start": 30.88,
+            "end": 30.96
+          },
+          {
+            "text": "señor",
+            "charStart": 13,
+            "charEnd": 18,
+            "start": 31.04,
+            "end": 31.36
+          },
+          {
+            "text": "le",
+            "charStart": 19,
+            "charEnd": 21,
+            "start": 31.44,
+            "end": 31.6
+          },
+          {
+            "text": "da",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 31.68,
+            "end": 31.76
+          },
+          {
+            "text": "las",
+            "charStart": 25,
+            "charEnd": 28,
+            "start": 31.84,
+            "end": 31.92
+          },
+          {
+            "text": "gracias.",
+            "charStart": 29,
+            "charEnd": 37,
+            "start": 32,
+            "end": 32.8
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "What does the gentleman bring to the restaurant?",
+      "options": [
+        "A letter",
+        "A book",
+        "Flowers"
+      ],
+      "correctIndex": 2,
+      "explanation": "He enters the restaurant with flowers."
+    },
+    {
+      "question": "Why is the empty chair important?",
+      "options": [
+        "He is honoring someone who is absent",
+        "He is saving it for Rosa",
+        "He is expecting a delivery"
+      ],
+      "correctIndex": 0,
+      "explanation": "His comment about their anniversary suggests the second place commemorates someone who is absent."
+    },
+    {
+      "question": "Who receives the soup in “Rosa le trae una sopa”?",
+      "options": [
+        "Rosa",
+        "The gentleman",
+        "The guest who arrives"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le refers to the gentleman receiving the soup."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/la-mesa-para-dos.mp3",
+    "durationSeconds": 32.8,
+    "alignment": "words"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "nouns": [
+    {
+      "es": "el mensaje",
+      "en": "message"
+    },
+    {
+      "es": "el desayuno",
+      "en": "breakfast"
+    },
+    {
+      "es": "el café",
+      "en": "coffee / café"
+    },
+    {
+      "es": "el número",
+      "en": "number"
+    },
+    {
+      "es": "la sorpresa",
+      "en": "surprise"
+    },
+    {
+      "es": "la mujer",
+      "en": "woman"
+    },
+    {
+      "es": "la mano",
+      "en": "hand"
+    },
+    {
+      "es": "la ventana",
+      "en": "window"
+    },
+    {
+      "es": "el teléfono",
+      "en": "phone"
+    },
+    {
+      "es": "el error",
+      "en": "mistake"
+    }
+  ],
+  "verbs": [
+    {
+      "es": "recibir",
+      "en": "to receive",
+      "present": [
+        "recibo",
+        "recibes",
+        "recibe",
+        "recibimos",
+        "reciben"
+      ]
+    },
+    {
+      "es": "esperar",
+      "en": "to wait for",
+      "present": [
+        "espero",
+        "esperas",
+        "espera",
+        "esperamos",
+        "esperan"
+      ]
+    },
+    {
+      "es": "conocer",
+      "en": "to know / recognize",
+      "present": [
+        "conozco",
+        "conoces",
+        "conoce",
+        "conocemos",
+        "conocen"
+      ]
+    },
+    {
+      "es": "ser",
+      "en": "to be",
+      "present": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "son"
+      ]
+    },
+    {
+      "es": "preguntar",
+      "en": "to ask",
+      "present": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntan"
+      ]
+    },
+    {
+      "es": "responder",
+      "en": "to reply",
+      "present": [
+        "respondo",
+        "respondes",
+        "responde",
+        "respondemos",
+        "responden"
+      ]
+    },
+    {
+      "es": "entrar",
+      "en": "to enter",
+      "present": [
+        "entro",
+        "entras",
+        "entra",
+        "entramos",
+        "entran"
+      ]
+    },
+    {
+      "es": "levantar",
+      "en": "to raise",
+      "present": [
+        "levanto",
+        "levantas",
+        "levanta",
+        "levantamos",
+        "levantan"
+      ]
+    },
+    {
+      "es": "mirar",
+      "en": "to look at",
+      "present": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miran"
+      ]
+    },
+    {
+      "es": "reírse",
+      "en": "to laugh",
+      "present": [
+        "me río",
+        "te ríes",
+        "se ríe",
+        "nos reímos",
+        "se ríen"
+      ]
+    },
+    {
+      "es": "tener",
+      "en": "to have",
+      "present": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tienen"
+      ]
+    },
+    {
+      "es": "sonreír",
+      "en": "to smile",
+      "present": [
+        "sonrío",
+        "sonríes",
+        "sonríe",
+        "sonreímos",
+        "sonríen"
+      ]
+    },
+    {
+      "es": "pedir",
+      "en": "to order",
+      "present": [
+        "pido",
+        "pides",
+        "pide",
+        "pedimos",
+        "piden"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "es": "durante",
+      "en": "during"
+    },
+    {
+      "es": "en",
+      "en": "at / in"
+    },
+    {
+      "es": "a",
+      "en": "at / to"
+    },
+    {
+      "es": "cerca de",
+      "en": "near"
+    }
+  ],
+  "expressions": [
+    {
+      "es": "te espero",
+      "en": "I’m waiting for you"
+    },
+    {
+      "es": "a las doce",
+      "en": "at twelve"
+    },
+    {
+      "es": "levantar la mano",
+      "en": "to raise a hand"
+    },
+    {
+      "es": "número equivocado",
+      "en": "wrong number"
+    },
+    {
+      "es": "¿quién eres?",
+      "en": "who are you?"
+    }
+  ]
+}

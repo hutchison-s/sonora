@@ -36,7 +36,7 @@ img {object-fit:cover}
 .library-heading {display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:21px}
 .library-heading h2 {font-size:clamp(35px,5vw,47px);font-weight:500;line-height:1;margin:7px 0 0;letter-spacing:-.02em}
 .story-count {color:var(--muted);font-size:12px;padding-bottom:4px}
-.filter-row {display:flex;gap:9px;margin:0 0 22px;overflow-x:auto;scrollbar-width:none;padding:3px 1px 7px}
+.filter-row {position:relative;z-index:2;display:flex;gap:9px;margin:0 0 22px;overflow-x:auto;scrollbar-width:none;padding:3px 1px 7px}
 .filter-row::-webkit-scrollbar,.tool-scroll::-webkit-scrollbar {display:none}
 .filter-chip {flex:none;min-height:38px;padding:0 20px;color:var(--cream);background:var(--surface);border:1px solid transparent;border-radius:100px;font-size:12px;transition:background .18s,color .18s}
 .filter-chip:hover:not(.selected) {background:#374044}
@@ -111,7 +111,12 @@ img {object-fit:cover}
 .reader-menu-button:hover {background:var(--surface)}
 .reader-popup {position:absolute;z-index:15;right:0;top:48px;min-width:225px;max-width:260px;background:#293135;border:1px solid var(--hairline);padding:19px;border-radius:14px;box-shadow:0 20px 45px rgba(0,0,0,.3)}
 .reader-popup p {font-size:12px;color:var(--muted);line-height:1.6}
-.reader-popup button {font-size:12px;background:rgba(217,155,115,.12);border:1px solid rgba(217,155,115,.25);color:var(--cream);padding:12px;margin-top:5px;border-radius:9px;width:100%}
+.reader-popup>button {font-size:12px;background:rgba(217,155,115,.12);border:1px solid rgba(217,155,115,.25);color:var(--cream);padding:12px;margin-top:5px;border-radius:9px;width:100%}
+.reader-setting {display:flex;align-items:center;justify-content:space-between;gap:18px;margin:16px 0 11px;padding:14px 0;border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline)}
+.reader-setting>div {display:flex;flex-direction:column;gap:3px}
+.reader-setting strong {font-size:12px;font-weight:600}
+.reader-setting small {font-size:9px;color:var(--muted);line-height:1.4}
+.reader-setting .switch-track {flex:none}
 .reader-intro {position:relative;isolation:isolate}
 .reader-art {position:relative;width:100%;height:clamp(210px,48vw,360px);border-radius:17px;overflow:hidden;background:var(--surface)}
 .reader-art img {object-position:center 41%}
@@ -160,6 +165,13 @@ img {object-fit:cover}
 .sentence-replay {align-self:start;opacity:.55;flex:none;width:31px;height:31px;border-radius:50%;border:1px solid var(--hairline);background:var(--surface);color:var(--cream);margin-top:6px}
 .sentence-replay:hover {opacity:1}
 .story-end-mark {text-align:center;color:var(--amber);font-size:22px;padding:12px 0 33px}
+.vocabulary-link {display:flex;align-items:center;gap:14px;margin:0 0 48px;padding:18px 20px;background:linear-gradient(145deg,rgba(42,50,52,.92),rgba(29,37,40,.92));border:1px solid var(--hairline);border-radius:14px;color:var(--cream);transition:border-color .2s,background .2s}
+.vocabulary-link:hover {border-color:rgba(217,155,115,.42);background:#2b3437}
+.vocabulary-link>svg:first-child {color:var(--teal);flex:none}
+.vocabulary-link>svg:last-child {color:var(--amber);margin-left:auto;flex:none}
+.vocabulary-link>span {display:flex;flex-direction:column;gap:4px;min-width:0}
+.vocabulary-link strong {font-size:14px;font-weight:600}
+.vocabulary-link small {font-size:10px;line-height:1.45;color:var(--muted)}
 .reader-end {display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--hairline);margin-top:48px;padding-top:22px;color:var(--muted);font-size:12px}
 .reader-end span {font-family:var(--serif);font-size:27px;color:var(--cream)}
 /* Comprehension */
@@ -361,6 +373,76 @@ img {object-fit:cover}
 .centered-message h1 {font-size:clamp(35px,7vw,56px);font-weight:500;margin:0}
 .centered-message a:not(.outline-cta) {color:var(--muted);font-size:13px}
 .outline-cta {padding:13px 20px;min-height:43px;border:1px solid rgba(217,155,115,.4);background:rgba(217,155,115,.1);color:var(--amber-light);border-radius:9px;font-size:13px}
+.vocab-page {width:min(900px,calc(100% - 44px));margin:0 auto;padding:0 0 70px}
+.vocab-page-header {height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--hairline)}
+.vocab-page-header>a {display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}
+.vocab-page-header .wordmark {font-size:30px}
+.vocab-page-intro {padding:54px 0 45px;max-width:650px}
+.vocab-page-intro .overline {color:var(--amber)}
+.vocab-page-intro h1 {font-size:clamp(52px,9vw,82px);font-weight:500;line-height:.95;margin:15px 0 14px}
+.vocab-page-intro p {color:var(--muted);font-size:14px;line-height:1.7;max-width:540px}
+.vocab-audio-guide {display:flex;align-items:center;gap:10px;margin:0 0 14px;padding:0 4px;color:var(--muted);font-size:11px;line-height:1.5}
+.vocab-audio-guide>svg {flex:none;color:var(--teal)}
+.vocab-search {position:sticky;z-index:12;top:12px;display:flex;align-items:center;gap:10px;min-height:57px;margin:0 0 28px;padding:8px 12px 8px 16px;background:rgba(36,45,48,.96);border:1px solid var(--hairline);border-radius:14px;box-shadow:0 12px 34px rgba(10,14,15,.3);backdrop-filter:blur(14px);transition:border-color .2s}
+.vocab-search:focus-within {border-color:rgba(217,155,115,.55)}
+.vocab-search>svg {flex:none;color:var(--teal)}
+.vocab-search input {min-width:0;flex:1;border:0;outline:0;background:transparent;color:var(--cream);font-size:13px;padding:9px 0}
+.vocab-search input::placeholder {color:#82908c}
+.vocab-search input::-webkit-search-cancel-button {display:none}
+.vocab-search button {display:grid;place-items:center;flex:none;width:34px;height:34px;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.05);color:var(--muted)}
+.vocab-search button:hover {color:var(--cream);background:rgba(255,255,255,.1)}
+.vocab-result-count {flex:none;padding-left:12px;border-left:1px solid var(--hairline);color:var(--muted);font-size:10px;white-space:nowrap}
+.vocab-reference-section {padding:34px 0 42px;border-top:1px solid var(--hairline)}
+.vocab-reference-section>h2 {display:flex;align-items:center;gap:10px;font-size:39px;font-weight:500;margin:0 0 20px}
+.vocab-reference-section>h2 span {display:inline-grid;place-items:center;min-width:25px;height:25px;padding:0 8px;border-radius:20px;background:rgba(217,155,115,.1);color:var(--amber);font-family:var(--sans);font-size:9px;font-weight:700}
+.vocab-reference-list {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--hairline);border:1px solid var(--hairline);border-radius:13px;overflow:hidden}
+.vocab-reference-list>* {display:flex;align-items:center;gap:10px;background:#252e31;padding:15px 17px;min-height:73px;border:0;color:inherit;text-align:left}
+.vocab-reference-list>button {width:100%;transition:background .16s}
+.vocab-reference-list>button:hover,.vocab-reference-list>button.playing {background:#303a3d}
+.vocab-term-copy {display:flex;flex:1;flex-direction:column;gap:5px;min-width:0}
+.vocab-reference-list strong {font-family:var(--serif);font-size:21px;font-weight:500;color:#f2e8dc}
+.vocab-reference-list span {font-size:11px;color:var(--muted);line-height:1.4}
+.vocab-audio-glyph {display:grid!important;place-items:center;flex:none;width:27px;height:27px;border-radius:50%;background:rgba(125,173,169,.1);color:var(--teal)!important}
+.vocab-audio-glyph.playing {background:rgba(217,155,115,.14);color:var(--amber-light)!important}
+.verb-reference-list {display:grid;gap:12px}
+.verb-reference-list article {background:#252e31;border:1px solid var(--hairline);border-radius:13px;padding:20px}
+.verb-reference-title {display:flex;align-items:center;gap:11px;width:100%;padding:0 2px 16px;margin-bottom:4px;border:0;border-bottom:1px solid var(--hairline);background:transparent;color:inherit;text-align:left}
+.verb-reference-title.vocab-audio-entry {border-radius:8px;transition:background .16s}
+.verb-reference-title.vocab-audio-entry:hover,.verb-reference-title.vocab-audio-entry.playing {background:rgba(255,255,255,.035)}
+.verb-reference-copy {display:flex;align-items:baseline;flex:1;gap:11px;min-width:0}
+.verb-reference-title strong {font-family:var(--serif);font-size:26px;font-weight:500;color:var(--amber-light)}
+.verb-reference-title .verb-reference-copy>span {font-size:11px;color:var(--muted)}
+.conjugation-table {width:100%;border-collapse:collapse;table-layout:fixed}
+.conjugation-table th,.conjugation-table td {border-bottom:1px solid var(--hairline);padding:11px 13px;text-align:left}
+.conjugation-table tr:last-child th,.conjugation-table tr:last-child td {border-bottom:0}
+.conjugation-table thead th {color:var(--amber);font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.conjugation-table thead th:first-child,.conjugation-table tbody th {width:24%}
+.conjugation-table tbody th {color:var(--muted);font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.conjugation-table td {border-left:1px solid var(--hairline)}
+.conjugation-table td small,.conjugation-table td b {display:block}
+.conjugation-table td small {font-size:9px;color:var(--muted);margin-bottom:3px}
+.conjugation-table td b {font-size:13px;font-weight:600;overflow-wrap:anywhere}
+.conjugation-audio {display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:3px 5px 3px 0;border:0;border-radius:7px;background:transparent;color:var(--cream);text-align:left}
+.conjugation-audio:hover,.conjugation-audio.playing {background:rgba(255,255,255,.045)}
+.conjugation-audio .vocab-audio-glyph {width:22px;height:22px}
+.vocab-page-footer {border-top:1px solid var(--hairline);padding-top:25px}
+.vocab-page-footer a {font-size:12px;color:var(--muted)}
+.vocab-empty {display:flex;min-height:310px;align-items:center;justify-content:center;flex-direction:column;text-align:center;border-top:1px solid var(--hairline);color:var(--muted)}
+.vocab-empty>svg {color:var(--teal)}
+.vocab-empty h2 {font-size:38px;font-weight:500;color:var(--cream);margin:14px 0 5px}
+.vocab-empty p {font-size:12px;margin:0 0 19px}
+.vocab-empty button {border:1px solid rgba(217,155,115,.3);border-radius:30px;background:rgba(217,155,115,.1);color:var(--amber-light);padding:10px 16px;font-size:11px}
+@media(max-width:700px){
+  .vocab-page {width:calc(100% - 32px);padding-bottom:45px}
+  .vocab-page-header {height:69px}
+  .vocab-page-intro {padding:38px 0 32px}
+  .vocab-search {top:8px;margin-bottom:20px;padding-left:13px}
+  .vocab-reference-list {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .verb-reference-list article {padding:15px 12px}
+  .conjugation-table th,.conjugation-table td {padding:10px 8px}
+  .conjugation-table thead th:first-child,.conjugation-table tbody th {width:27%}
+}
+@media(max-width:420px){.vocab-result-count {display:none}}
 .loading-ring {height:34px;width:34px;border-radius:50%;border:2px solid var(--hairline);border-top-color:var(--amber);animation:loading-spin .7s linear infinite}
 @keyframes loading-spin{to{transform:rotate(360deg)}}
 /* Progress overview takes its cue from Sonora's understated circular progress motif. */

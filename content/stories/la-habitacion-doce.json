@@ -26,7 +26,10 @@
       "id": "s1",
       "es": "El hotel Miramar estaba casi vacío cuando Daniel llegó al pueblo una noche de noviembre.",
       "en": "The Miramar Hotel was nearly empty when Daniel arrived in town one November night.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a1-1", "text": "casi vacío", "type": "vocabulary", "partOfSpeech": "adjective",
+        "meaning": "nearly empty", "explanation": "Casi means almost or nearly, and vacío describes a place with few or no people in it."
+      }],
       "audio": {
         "start": 0,
         "end": 5.68,
@@ -148,6 +151,7 @@
           "id": "la-habitacion-doce-a2-1",
           "text": "Había viajado",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "had traveled",
           "explanation": "The pluperfect describes travel completed before the story’s main past timeline.",
           "grammar": {
@@ -418,7 +422,10 @@
       "id": "s4",
       "es": "La recepcionista, una mujer llamada Rosa, le entregó la llave de la habitación once y le deseó buenas noches.",
       "en": "The receptionist, a woman named Rosa, handed him the key to room eleven and wished him good night.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a4-1", "text": "le entregó la llave", "type": "expression", "partOfSpeech": "verb",
+        "meaning": "handed him the key", "explanation": "Entregar means to hand over or deliver something; le refers to Daniel."
+      }],
       "audio": {
         "start": 17.52,
         "end": 24.52,
@@ -568,6 +575,7 @@
           "id": "la-habitacion-doce-a5-1",
           "text": "Mientras subía",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "While he was going up",
           "explanation": "The imperfect subía sets an ongoing scene; observó is the interruption.",
           "grammar": {
@@ -702,7 +710,10 @@
       "id": "s6",
       "es": "En su lugar había una marca rectangular, más clara que el resto de la madera.",
       "en": "In its place was a rectangular mark, lighter than the rest of the wood.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a6-1", "text": "En su lugar", "type": "expression", "partOfSpeech": "adverb",
+        "meaning": "In its place / Instead", "explanation": "En su lugar points to what appears where something else should have been."
+      }],
       "audio": {
         "start": 30.72,
         "end": 35.72,
@@ -819,7 +830,16 @@
       "id": "s7",
       "es": "Esa madrugada, un sonido lo despertó: alguien arrastraba una silla al otro lado de la pared.",
       "en": "In the early hours of the morning, a sound woke him: someone was dragging a chair on the other side of the wall.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a7-1", "text": "Esa madrugada", "type": "vocabulary", "partOfSpeech": "adverb",
+          "meaning": "In the early hours of that morning", "explanation": "Madrugada is the period after midnight and before sunrise."
+        },
+        {
+          "id": "la-habitacion-doce-a7-2", "text": "al otro lado de la pared", "type": "expression", "partOfSpeech": "preposition",
+          "meaning": "on the other side of the wall", "explanation": "Al otro lado de locates something beyond a boundary or object."
+        }
+      ],
       "audio": {
         "start": 36.08,
         "end": 42.28,
@@ -1053,7 +1073,10 @@
       "id": "s9",
       "es": "A la mañana siguiente le preguntó a Rosa si alguien dormía en la habitación contigua.",
       "en": "The next morning he asked Rosa whether someone was sleeping in the adjoining room.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a9-1", "text": "contigua", "type": "vocabulary", "partOfSpeech": "adjective",
+        "meaning": "adjoining / next door", "explanation": "Contigua describes a room or place directly beside another one."
+      }],
       "audio": {
         "start": 48.24,
         "end": 52.92,
@@ -1175,6 +1198,7 @@
           "id": "la-habitacion-doce-a10-1",
           "text": "sin levantar la vista",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "without looking up",
           "explanation": "Sin followed by an infinitive describes how an action happens.",
           "grammar": {
@@ -1305,6 +1329,7 @@
           "id": "la-habitacion-doce-a11-1",
           "text": "si creerle",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "whether to believe her",
           "explanation": "Si introduces an indirect yes/no question. Le refers to Rosa.",
           "grammar": {
@@ -1410,7 +1435,10 @@
       "id": "s12",
       "es": "Más tarde encontró una fotografía de su padre: mostraba el hotel, el mar y una joven junto a la ventana del segundo piso.",
       "en": "Later he found one of his father’s photographs: it showed the hotel, the sea, and a young woman beside a second-floor window.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a12-1", "text": "junto a la ventana", "type": "expression", "partOfSpeech": "preposition",
+        "meaning": "beside the window", "explanation": "Junto a means beside or next to."
+      }],
       "audio": {
         "start": 64.16,
         "end": 72.12,
@@ -1583,7 +1611,10 @@
       "id": "s13",
       "es": "En el reverso alguien había escrito: «Clara, habitación doce, febrero de 1987».",
       "en": "On the back someone had written: “Clara, room twelve, February 1987.”",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a13-1", "text": "En el reverso", "type": "vocabulary", "partOfSpeech": "preposition",
+        "meaning": "On the back", "explanation": "Reverso is the back side of a photograph, card, or sheet of paper."
+      }],
       "audio": {
         "start": 72.32,
         "end": 79.92,
@@ -1789,7 +1820,10 @@
       "id": "s15",
       "es": "Al verla, la mujer se quedó inmóvil y después se sentó frente a él.",
       "en": "When she saw it, the woman froze and then sat down across from him.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a15-1", "text": "se quedó inmóvil", "type": "expression", "partOfSpeech": "expression",
+        "meaning": "froze / remained motionless", "explanation": "Quedarse inmóvil describes suddenly becoming or remaining completely still."
+      }],
       "audio": {
         "start": 85.36,
         "end": 89.76,
@@ -1904,6 +1938,7 @@
           "id": "la-habitacion-doce-a16-1",
           "text": "había desaparecido",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "had disappeared",
           "explanation": "This event occurred before Rosa told Daniel the story.",
           "grammar": {
@@ -2056,6 +2091,7 @@
           "id": "la-habitacion-doce-a17-1",
           "text": "temía olvidar",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "was afraid of forgetting",
           "explanation": "Temer plus infinitive expresses fear of an action.",
           "grammar": {
@@ -2200,6 +2236,7 @@
           "id": "la-habitacion-doce-a18-1",
           "text": "antes no había visto",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "had not seen before",
           "explanation": "The pluperfect connects an earlier lack of noticing with a later discovery.",
           "grammar": {
@@ -2326,7 +2363,10 @@
       "id": "s19",
       "es": "Sobre la mesa, detrás de Clara, había una pequeña grabadora con una cinta puesta.",
       "en": "On the table, behind Clara, there was a small tape recorder with a cassette inside.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a19-1", "text": "una pequeña grabadora", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "a small tape recorder", "explanation": "Grabadora is a device used to record and play sound."
+      }],
       "audio": {
         "start": 109.2,
         "end": 114.16,
@@ -2436,7 +2476,10 @@
       "id": "s20",
       "es": "Rosa abrió un cajón, sacó una caja y encontró una cinta con la misma fecha.",
       "en": "Rosa opened a drawer, took out a box, and found a cassette with the same date.",
-      "annotations": [],
+      "annotations": [{
+        "id": "la-habitacion-doce-a20-1", "text": "un cajón", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "a drawer", "explanation": "Cajón is a sliding storage compartment in a desk, cabinet, or other piece of furniture."
+      }],
       "audio": {
         "start": 114.56,
         "end": 119.92,
@@ -2558,6 +2601,7 @@
           "id": "la-habitacion-doce-a21-1",
           "text": "seguía allí",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "was still there",
           "explanation": "Seguir expresses continuation; here the voice continues to exist in the recording.",
           "grammar": {
@@ -2713,7 +2757,16 @@
       "id": "s22",
       "es": "Cuando Daniel regresó a su cuarto, la puerta doce tenía de nuevo su número de latón.",
       "en": "When Daniel returned to his room, door twelve once again bore its brass number.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a22-1", "text": "de nuevo", "type": "expression", "partOfSpeech": "adverb",
+          "meaning": "again / once again", "explanation": "De nuevo indicates that something has returned or happened another time."
+        },
+        {
+          "id": "la-habitacion-doce-a22-2", "text": "de latón", "type": "vocabulary", "partOfSpeech": "adjective",
+          "meaning": "made of brass", "explanation": "Latón is brass, a yellow-colored metal alloy."
+        }
+      ],
       "audio": {
         "start": 128.16,
         "end": 133.28,

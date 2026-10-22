@@ -19,18 +19,20 @@ npm run build
 npm start
 ```
 
-Deploy to **Vercel** by importing the repository and using default Next.js build settings. No database, login, API keys, or service configuration is necessary. Images are local SVG art; all six stories are self-contained JSON files.
+Deploy to **Vercel** by importing the repository and using default Next.js build settings. No database, login, API keys, or service configuration is necessary. Images and published audio are served as local static assets.
 
 ## What works
 
-- Browse six original short stories (two each at A1, A2, B1) and filter by CEFR level.
+- Browse eleven original short stories across A1–B2 and filter by CEFR level.
 - Read Spanish sentences; reveal or hide full-sentence natural English translations.
 - Tap annotated words or phrases to open an accessible bottom sheet (mobile) or dialog (desktop) with meaning, grammar, examples (when authored), and a save action.
 - Review saved phrases, resume the most recently opened story, and see completion and listening progress in the learner profile.
 - Answer three optional comprehension questions per story; skipping is allowed and completion persists locally.
 - Play **real prerecorded narration** with HTMLAudioElement, seek, choose speed, replay a sentence, and highlight words based on validated timestamp alignment **when a story has published narration**.
+- Open a full vocabulary reference for every story, organized into nouns, verbs, prepositions, and expressions with present-tense verb tables.
+- Hear speaker-marked vocabulary entries and conjugations by reusing exact timestamp ranges from the original story recording; taps never call a speech API.
 
-**Audio availability:** The six seed stories deliberately ship in **text-only mode**. This is not a simulated voice demo. Their JSON `narration.status` is `unavailable`, they contain no timestamps, and the Listen action is visibly disabled. Use the optional publisher below to produce and enable narration with actual word timestamps.
+**Audio availability:** Six stories currently include published narration. Five newer stories remain in text-only mode, with the Listen action disabled until the optional publisher produces validated audio and timestamps.
 
 ## Optional ElevenLabs publishing
 
@@ -47,9 +49,22 @@ The script validates the source story, joins its Spanish sentences into an exact
 
 Published files are static. Sonora makes **no** browser-side ElevenLabs requests.
 
+## Vocabulary audio reuse
+
+Vocabulary pages reuse exact spans from the published story MP3 and its verified word timestamps. The browser seeks within the original static recording and stops at the vocabulary boundary, so this adds no ElevenLabs usage and creates no duplicate audio files. Only entries marked with a speaker icon are playable; Sonora does not substitute a different conjugation or approximate phrase.
+
+Audit exact-match coverage without making API calls or spending credits:
+
+```bash
+npm run publish:vocabulary
+npm run publish:vocabulary -- --verbose
+```
+
+The verbose report is the queue for a future standalone batch-generation pass. Those missing entries should be reviewed before paid generation because many are dictionary forms or article variants rather than defects in the narration.
+
 ## Content editing
 
-Each `content/stories/*.json` story follows `lib/content/schema.ts`, including title, CEFR level, sentence-aligned English translations, annotations, comprehension questions, and narration metadata. `lib/content/stories.ts` imports and validates all JSON at module initialization. `npm run validate:stories` validates every story and referenced media asset before production builds.
+Each `content/stories/*.json` story follows `lib/content/schema.ts`, including title, CEFR level, sentence-aligned English translations, annotations, comprehension questions, and narration metadata. Full vocabulary data for generated additions lives in matching `content/vocabulary/*.json` files. `lib/content/stories.ts` imports and validates all stories at module initialization. `npm run validate:stories` validates every story and referenced media asset before production builds.
 
 Annotations are never located by a guessed substring at render time. A unique phrase is resolved to a deterministic UTF-16 character offset; repeated phrases must supply an `occurrence` or explicit `start`/`end` offsets. Overlapping annotation hit targets are rejected. Audio word offsets are also validated against the exact Spanish sentence.
 
@@ -68,13 +83,15 @@ npx playwright install chromium   # first time only
 npx playwright test
 ```
 
-Unit tests cover editorial validation, audio timing, storage, scoring, and speed controls. The Playwright suite exercises reading and persistence on an iPhone-sized viewport. Tests involving actual narration should use a real published audio asset; none is bundled with this seed content.
+Unit tests cover editorial validation, audio timing, storage, scoring, and speed controls. The Playwright suite exercises reading and persistence on an iPhone-sized viewport. Six published narration assets are bundled locally.
 
 ## Layout
 
 - `app/`: home, reader route, profile, saved phrases
 - `components/`: library, story, phrase-insights, audio, navigation
 - `content/stories/`: versioned JSON narratives
+- `content/vocabulary/`: full vocabulary references for generated stories
+- `content/narration/`: optional editorial delivery cues for audio publishing
 - `lib/content/`: Zod validation, annotation resolution, loaders
 - `lib/audio/`: timestamp lookup and seeking functions
 - `lib/progress/`: validated localStorage persistence

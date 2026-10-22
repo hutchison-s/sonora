@@ -1,0 +1,271 @@
+{
+  "nouns": [
+    {
+      "es": "el jueves",
+      "en": "Thursday"
+    },
+    {
+      "es": "la mesa",
+      "en": "table"
+    },
+    {
+      "es": "el restaurante",
+      "en": "restaurant"
+    },
+    {
+      "es": "el señor",
+      "en": "gentleman"
+    },
+    {
+      "es": "la flor",
+      "en": "flower"
+    },
+    {
+      "es": "el agua",
+      "en": "water"
+    },
+    {
+      "es": "la silla",
+      "en": "chair"
+    },
+    {
+      "es": "la sopa",
+      "en": "soup"
+    },
+    {
+      "es": "la invitada",
+      "en": "female guest"
+    },
+    {
+      "es": "el aniversario",
+      "en": "anniversary"
+    },
+    {
+      "es": "la vela",
+      "en": "candle"
+    },
+    {
+      "es": "la vez",
+      "en": "time / occasion"
+    },
+    {
+      "es": "las gracias",
+      "en": "thanks"
+    }
+  ],
+  "verbs": [
+    {
+      "es": "preparar",
+      "en": "to prepare",
+      "present": [
+        "preparo",
+        "preparas",
+        "prepara",
+        "preparamos",
+        "preparan"
+      ]
+    },
+    {
+      "es": "estar",
+      "en": "to be",
+      "present": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "están"
+      ]
+    },
+    {
+      "es": "entrar",
+      "en": "to enter",
+      "present": [
+        "entro",
+        "entras",
+        "entra",
+        "entramos",
+        "entran"
+      ]
+    },
+    {
+      "es": "ofrecer",
+      "en": "to offer",
+      "present": [
+        "ofrezco",
+        "ofreces",
+        "ofrece",
+        "ofrecemos",
+        "ofrecen"
+      ]
+    },
+    {
+      "es": "decir",
+      "en": "to say",
+      "present": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "dicen"
+      ]
+    },
+    {
+      "es": "esperar",
+      "en": "to wait for",
+      "present": [
+        "espero",
+        "esperas",
+        "espera",
+        "esperamos",
+        "esperan"
+      ]
+    },
+    {
+      "es": "seguir",
+      "en": "to remain / continue",
+      "present": [
+        "sigo",
+        "sigues",
+        "sigue",
+        "seguimos",
+        "siguen"
+      ]
+    },
+    {
+      "es": "traer",
+      "en": "to bring",
+      "present": [
+        "traigo",
+        "traes",
+        "trae",
+        "traemos",
+        "traen"
+      ]
+    },
+    {
+      "es": "venir",
+      "en": "to come",
+      "present": [
+        "vengo",
+        "vienes",
+        "viene",
+        "venimos",
+        "vienen"
+      ]
+    },
+    {
+      "es": "preguntar",
+      "en": "to ask",
+      "present": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntan"
+      ]
+    },
+    {
+      "es": "mirar",
+      "en": "to look at",
+      "present": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miran"
+      ]
+    },
+    {
+      "es": "sonreír",
+      "en": "to smile",
+      "present": [
+        "sonrío",
+        "sonríes",
+        "sonríe",
+        "sonreímos",
+        "sonríen"
+      ]
+    },
+    {
+      "es": "ser",
+      "en": "to be",
+      "present": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "son"
+      ]
+    },
+    {
+      "es": "poner",
+      "en": "to put",
+      "present": [
+        "pongo",
+        "pones",
+        "pone",
+        "ponemos",
+        "ponen"
+      ]
+    },
+    {
+      "es": "dar",
+      "en": "to give",
+      "present": [
+        "doy",
+        "das",
+        "da",
+        "damos",
+        "dan"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "es": "para",
+      "en": "for"
+    },
+    {
+      "es": "a",
+      "en": "at / to"
+    },
+    {
+      "es": "con",
+      "en": "with"
+    },
+    {
+      "es": "frente a",
+      "en": "in front of"
+    }
+  ],
+  "expressions": [
+    {
+      "es": "cada jueves",
+      "en": "every Thursday"
+    },
+    {
+      "es": "a las ocho",
+      "en": "at eight"
+    },
+    {
+      "es": "esperar a alguien",
+      "en": "to wait for someone"
+    },
+    {
+      "es": "seguir vacía",
+      "en": "to remain empty"
+    },
+    {
+      "es": "nuestro aniversario",
+      "en": "our anniversary"
+    },
+    {
+      "es": "esta vez",
+      "en": "this time"
+    },
+    {
+      "es": "dar las gracias",
+      "en": "to say thank you"
+    }
+  ]
+}

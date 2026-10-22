@@ -26,7 +26,10 @@
       "id": "s1",
       "es": "A las nueve y cuarto, todas las luces del edificio se apagaron al mismo tiempo.",
       "en": "At nine fifteen, every light in the building went out at once.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a1-1", "text": "se apagaron", "type": "vocabulary", "partOfSpeech": "verb",
+        "meaning": "went out / switched off", "explanation": "Apagarse describes lights or devices turning off; se apagaron refers to all the lights."
+      }],
       "audio": {
         "start": 0.08,
         "end": 5.48,
@@ -148,6 +151,7 @@
           "id": "cuando-volvio-la-luz-a2-1",
           "text": "estaba preparando",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "was preparing",
           "explanation": "Estar in the imperfect with a gerund presents an action in progress when another event interrupted.",
           "grammar": {
@@ -283,6 +287,7 @@
           "id": "cuando-volvio-la-luz-a3-1",
           "text": "a que regresara",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "for it to return",
           "explanation": "Esperar a que often takes the subjunctive when the awaited event is uncertain.",
           "grammar": {
@@ -403,7 +408,10 @@
       "id": "s4",
       "es": "Desde la calle llegaban bocinas, voces y el ruido de un autobús que no podía avanzar.",
       "en": "From the street came car horns, voices, and the noise of a bus that could not move forward.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a4-1", "text": "no podía avanzar", "type": "expression", "partOfSpeech": "verb",
+        "meaning": "could not move forward", "explanation": "Poder plus an infinitive expresses ability; avanzar means to move or make progress."
+      }],
       "audio": {
         "start": 18.12,
         "end": 24,
@@ -527,7 +535,10 @@
       "id": "s5",
       "es": "Sofía salió al pasillo con la linterna del teléfono y encontró a su vecino del tercero sentado en las escaleras.",
       "en": "Sofía went into the hallway with her phone flashlight and found her third-floor neighbor sitting on the stairs.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a5-1", "text": "la linterna del teléfono", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "the phone flashlight", "explanation": "Linterna means flashlight; here it refers to the light built into a phone."
+      }],
       "audio": {
         "start": 24.08,
         "end": 30.32,
@@ -684,6 +695,7 @@
           "id": "cuando-volvio-la-luz-a6-1",
           "text": "desde hacía ocho años",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "for eight years",
           "explanation": "Desde hacía describes how long something had already been true at a point in the past.",
           "grammar": {
@@ -691,6 +703,14 @@
           },
           "start": 31,
           "end": 52
+        },
+        {
+          "id": "cuando-volvio-la-luz-a6-2",
+          "text": "apenas se habían saludado",
+          "type": "expression",
+          "partOfSpeech": "adverb",
+          "meaning": "had barely greeted one another",
+          "explanation": "Apenas means barely or hardly; the phrase emphasizes how little contact they had had."
         }
       ],
       "audio": {
@@ -924,6 +944,7 @@
           "id": "cuando-volvio-la-luz-a8-1",
           "text": "para no tropezar",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "so as not to trip",
           "explanation": "Para + infinitive expresses purpose; the no comes before the infinitive.",
           "grammar": {
@@ -1173,7 +1194,10 @@
       "id": "s10",
       "es": "Los tres escucharon un maullido detrás de una puerta y descubrieron al animal escondido entre unas cajas.",
       "en": "The three of them heard a meow behind a door and discovered the animal hiding among some boxes.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a10-1", "text": "un maullido", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "a meow", "explanation": "Maullido is the sound made by a cat."
+      }],
       "audio": {
         "start": 53.92,
         "end": 60.64,
@@ -1309,6 +1333,7 @@
           "id": "cuando-volvio-la-luz-a11-1",
           "text": "ya había preparado",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "had already made",
           "explanation": "The pluperfect tells us the tea was prepared before they arrived.",
           "grammar": {
@@ -1601,7 +1626,10 @@
       "id": "s13",
       "es": "Una arquitecta contó que el apagón afectaba a varias calles; un estudiante ofreció compartir su radio de pilas.",
       "en": "An architect said the blackout was affecting several streets; a student offered to share his battery-powered radio.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a13-1", "text": "el apagón", "type": "vocabulary", "partOfSpeech": "noun",
+        "meaning": "the blackout", "explanation": "Apagón is a temporary loss of electrical power across an area."
+      }],
       "audio": {
         "start": 74,
         "end": 81.08,
@@ -2020,6 +2048,7 @@
           "id": "cuando-volvio-la-luz-a16-1",
           "text": "sin embargo",
           "type": "expression",
+          "partOfSpeech": "adverb",
           "meaning": "however / nevertheless",
           "explanation": "A connector that introduces a contrast between what came before and what follows.",
           "start": 29,
@@ -2266,7 +2295,10 @@
       "id": "s18",
       "es": "Los vecinos guardaron sus cosas y se despidieron, pero nadie se apresuró a cerrar la puerta.",
       "en": "The neighbors put away their things and said goodbye, but nobody hurried to close the door.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a18-1", "text": "se despidieron", "type": "vocabulary", "partOfSpeech": "verb",
+        "meaning": "said goodbye to one another", "explanation": "Despedirse is a reflexive verb used when people say goodbye or take leave."
+      }],
       "audio": {
         "start": 108.08,
         "end": 113.76,
@@ -2395,6 +2427,7 @@
           "id": "cuando-volvio-la-luz-a19-1",
           "text": "en lugar de",
           "type": "grammar",
+          "partOfSpeech": "preposition",
           "meaning": "instead of",
           "explanation": "En lugar de followed by an infinitive introduces an alternative action.",
           "grammar": {
@@ -2520,7 +2553,10 @@
       "id": "s20",
       "es": "En el segundo piso se cruzó con Julián, que llevaba un pequeño cartel escrito a mano.",
       "en": "On the second floor she ran into Julián, who was carrying a small handwritten sign.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a20-1", "text": "se cruzó con", "type": "expression", "partOfSpeech": "expression",
+        "meaning": "ran into / crossed paths with", "explanation": "Cruzarse con alguien means to encounter someone, often unexpectedly."
+      }],
       "audio": {
         "start": 118.907,
         "end": 124.16,
@@ -2649,6 +2685,7 @@
           "id": "cuando-volvio-la-luz-a21-1",
           "text": "No hace falta que",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "There is no need for",
           "explanation": "With a new subject, hacer falta que leads to a subjunctive verb.",
           "grammar": {
@@ -2795,7 +2832,10 @@
       "id": "s22",
       "es": "Sofía sonrió, cambió el rumbo y fue a comprar galletas para el viernes.",
       "en": "Sofía smiled, changed direction, and went to buy cookies for Friday.",
-      "annotations": [],
+      "annotations": [{
+        "id": "cuando-volvio-la-luz-a22-1", "text": "cambió el rumbo", "type": "expression", "partOfSpeech": "expression",
+        "meaning": "changed direction", "explanation": "Rumbo is a direction or course; cambiar el rumbo can be literal or figurative."
+      }],
       "audio": {
         "start": 130.52,
         "end": 135.2,

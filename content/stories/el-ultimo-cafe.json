@@ -24,7 +24,16 @@
       "id": "s1",
       "es": "Son las siete de la tarde y llueve en la ciudad.",
       "en": "It is seven in the evening, and it is raining in the city.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a1-1",
+          "text": "llueve",
+          "type": "vocabulary",
+          "partOfSpeech": "verb",
+          "meaning": "it is raining",
+          "explanation": "Llueve is the third-person singular present form of llover, used to talk about rain."
+        }
+      ],
       "audio": {
         "start": 0,
         "end": 3.16,
@@ -118,6 +127,7 @@
           "id": "el-ultimo-cafe-a2-1",
           "text": "está en",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "is in",
           "explanation": "Estar locates people and things. Use está, not es, to say where Lucía is.",
           "grammar": {
@@ -147,6 +157,14 @@
           },
           "start": 6,
           "end": 13
+        },
+        {
+          "id": "el-ultimo-cafe-a2-2",
+          "text": "cerca de",
+          "type": "expression",
+          "partOfSpeech": "preposition",
+          "meaning": "near / close to",
+          "explanation": "Cerca de describes something located a short distance from another place."
         }
       ],
       "audio": {
@@ -235,6 +253,7 @@
           "id": "el-ultimo-cafe-a3-1",
           "text": "Tiene",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "She has",
           "explanation": "Tiene is the present-tense third-person singular of tener.",
           "grammar": {
@@ -306,7 +325,16 @@
       "id": "s4",
       "es": "El camarero dice: «Hoy cerramos temprano».",
       "en": "The waiter says, “We’re closing early today.”",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a4-1",
+          "text": "cerramos temprano",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "we are closing early",
+          "explanation": "Cerrar temprano means to close earlier than the usual time."
+        }
+      ],
       "audio": {
         "start": 9.6,
         "end": 12.56,
@@ -360,7 +388,16 @@
       "id": "s5",
       "es": "Lucía mira la mesa y ve un cuaderno rojo.",
       "en": "Lucía looks at the table and sees a red notebook.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a5-1",
+          "text": "un cuaderno rojo",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "a red notebook",
+          "explanation": "Cuaderno means notebook; rojo describes its color and agrees with the masculine noun."
+        }
+      ],
       "audio": {
         "start": 12.64,
         "end": 15.76,
@@ -440,6 +477,7 @@
           "id": "el-ultimo-cafe-a6-1",
           "text": "hay",
           "type": "grammar",
+          "partOfSpeech": "verb",
           "meaning": "there is",
           "explanation": "Hay expresses existence without naming a specific subject.",
           "grammar": {
@@ -530,7 +568,16 @@
       "id": "s7",
       "es": "Lucía sonríe y deja su número en otra página.",
       "en": "Lucía smiles and leaves her number on another page.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a7-1",
+          "text": "deja su número",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "leaves her number",
+          "explanation": "Here dejar means to write or place something somewhere for another person to find."
+        }
+      ],
       "audio": {
         "start": 20.32,
         "end": 23.48,
@@ -610,6 +657,7 @@
           "id": "el-ultimo-cafe-a8-1",
           "text": "quiere volver",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "wants to return",
           "explanation": "After querer, the second verb stays in its infinitive form.",
           "grammar": {

@@ -29,6 +29,7 @@
           "id": "la-llave-azul-a1-1",
           "text": "vive en",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "lives in",
           "explanation": "Vivir en tells you where somebody lives.",
           "grammar": {
@@ -58,6 +59,14 @@
           },
           "start": 6,
           "end": 13
+        },
+        {
+          "id": "la-llave-azul-a1-2",
+          "text": "un edificio antiguo",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "an old building",
+          "explanation": "Edificio means building, and antiguo describes something old or historic."
         }
       ],
       "audio": {
@@ -134,7 +143,16 @@
       "id": "s2",
       "es": "Esta mañana encuentra una llave azul en el suelo.",
       "en": "This morning he finds a blue key on the floor.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-llave-azul-a2-1",
+          "text": "en el suelo",
+          "type": "expression",
+          "partOfSpeech": "preposition",
+          "meaning": "on the floor / ground",
+          "explanation": "En el suelo locates something on the surface people walk on."
+        }
+      ],
       "audio": {
         "start": 4.192,
         "end": 7.2,
@@ -214,6 +232,7 @@
           "id": "la-llave-azul-a3-1",
           "text": "no abre",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "does not open",
           "explanation": "No comes before the verb to make the sentence negative.",
           "grammar": {
@@ -297,7 +316,24 @@
       "id": "s4",
       "es": "Mateo sube las escaleras y llama a una puerta verde.",
       "en": "Mateo goes up the stairs and knocks on a green door.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-llave-azul-a4-1",
+          "text": "sube las escaleras",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "goes up the stairs",
+          "explanation": "Subir las escaleras is the usual expression for going upstairs on foot."
+        },
+        {
+          "id": "la-llave-azul-a4-2",
+          "text": "llama a una puerta",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "knocks on a door",
+          "explanation": "Llamar a la puerta means to knock on a door to get someone’s attention."
+        }
+      ],
       "audio": {
         "start": 10.24,
         "end": 14.08,
@@ -384,6 +420,7 @@
           "id": "la-llave-azul-a5-1",
           "text": "Una mujer mayor",
           "type": "vocabulary",
+          "partOfSpeech": "noun",
           "meaning": "An older woman",
           "explanation": "Mayor often means older, not necessarily physically larger.",
           "start": 0,
@@ -471,7 +508,16 @@
       "id": "s6",
       "es": "«¡Es mía!», dice con una sonrisa.",
       "en": "“It’s mine!” she says with a smile.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-llave-azul-a6-1",
+          "text": "con una sonrisa",
+          "type": "expression",
+          "partOfSpeech": "expression",
+          "meaning": "with a smile",
+          "explanation": "This phrase describes a friendly way of speaking or reacting."
+        }
+      ],
       "audio": {
         "start": 17.26,
         "end": 19.76,
@@ -525,7 +571,16 @@
       "id": "s7",
       "es": "La mujer se llama Elena y tiene un jardín en la azotea.",
       "en": "The woman’s name is Elena, and she has a rooftop garden.",
-      "annotations": [],
+      "annotations": [
+        {
+          "id": "la-llave-azul-a7-1",
+          "text": "la azotea",
+          "type": "vocabulary",
+          "partOfSpeech": "noun",
+          "meaning": "the rooftop",
+          "explanation": "Azotea is a flat roof or rooftop area that people can use."
+        }
+      ],
       "audio": {
         "start": 19.8,
         "end": 23.36,
@@ -626,6 +681,7 @@
           "id": "la-llave-azul-a8-1",
           "text": "para leer",
           "type": "grammar",
+          "partOfSpeech": "grammar",
           "meaning": "to read",
           "explanation": "Para followed by an infinitive expresses purpose.",
           "grammar": {

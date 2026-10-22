@@ -7,15 +7,22 @@ describe('versioned learner progress', () => {
     let stored = '';
     const state = structuredClone(DEFAULT_PROGRESS);
     state.settings.translation = true;
+    state.settings.autoScroll = false;
     state.settings.speed = 1.25;
     state.lastStory = 'la-llave-azul';
     state.reading['la-llave-azul'] = { sentenceIndex:3,audioSeconds:18.25,completed:false,lastRead:'2026-10-19T10:00:00.000Z',completedQuestions:[] };
     writeProgress(state, {setItem(k,v){expect(k).toBe(KEY);stored=v;}});
     const restored=readProgress({getItem(){return stored;}});
     expect(restored.settings.translation).toBe(true);
+    expect(restored.settings.autoScroll).toBe(false);
     expect(restored.settings.speed).toBe(1.25);
     expect(restored.reading['la-llave-azul'].sentenceIndex).toBe(3);
     expect(restored.reading['la-llave-azul'].audioSeconds).toBe(18.25);
+  });
+  it('enables auto-scroll when migrating existing settings without the preference', () => {
+    const oldState = structuredClone(DEFAULT_PROGRESS) as unknown as { settings: Record<string, unknown> };
+    delete oldState.settings.autoScroll;
+    expect(migrateProgress(oldState).settings.autoScroll).toBe(true);
   });
   it('rejects corrupt or future schema versions safely', () => {
     expect(migrateProgress({version:99})).toEqual(DEFAULT_PROGRESS);

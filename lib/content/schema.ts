@@ -10,6 +10,7 @@ const grammarSchema = z.object({
 }).strict();
 const annotationSchema = z.object({
   id: z.string().min(1), text: z.string().min(1), type: z.enum(['grammar', 'vocabulary', 'expression', 'culture']),
+  partOfSpeech: z.enum(['noun', 'verb', 'adjective', 'adverb', 'preposition', 'expression', 'grammar']),
   meaning: z.string().min(1), explanation: z.string().min(1), grammar: grammarSchema.optional(),
   tip: z.string().optional(), occurrence: z.number().int().nonnegative().optional(),
   start: z.number().int().nonnegative().optional(), end: z.number().int().positive().optional(),

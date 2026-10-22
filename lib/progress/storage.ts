@@ -11,6 +11,7 @@ const progressSchema = z.object({
 const settingsSchema = z.object({
   level: z.enum(['All', 'A1', 'A2', 'B1', 'B2']).default('All'),
   translation: z.boolean().default(false), mode: z.enum(['read', 'listen']).default('read'),
+  autoScroll: z.boolean().default(true),
   speed: z.union([z.literal(0.75), z.literal(1), z.literal(1.25)]).default(1),
 }).strict();
 const stateSchema = z.object({
@@ -26,7 +27,7 @@ export type Settings = z.infer<typeof settingsSchema>;
 export const KEY = 'sonora:progress';
 let volatileFallback: ProgressState | null = null;
 export const DEFAULT_PROGRESS: ProgressState = {
-  version: 1, settings: { level: 'All', translation: false, mode: 'read', speed: 1 },
+  version: 1, settings: { level: 'All', translation: false, mode: 'read', autoScroll: true, speed: 1 },
   reading: {}, savedPhrases: [], lastStory: null, listeningSeconds: 0,
 };
 

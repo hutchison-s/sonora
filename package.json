@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:stories": "tsx scripts/validate-stories.ts",
-    "narrate": "tsx scripts/publish-audio.ts"
+    "narrate": "tsx scripts/publish-audio.ts",
+    "publish:vocabulary": "tsx scripts/publish-vocabulary.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

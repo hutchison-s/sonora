@@ -1,0 +1,273 @@
+{
+  "nouns": [
+    {
+      "es": "el hotel",
+      "en": "hotel"
+    },
+    {
+      "es": "el mapa",
+      "en": "map"
+    },
+    {
+      "es": "el círculo",
+      "en": "circle"
+    },
+    {
+      "es": "el río",
+      "en": "river"
+    },
+    {
+      "es": "la amiga",
+      "en": "female friend"
+    },
+    {
+      "es": "la nota",
+      "en": "note"
+    },
+    {
+      "es": "el agua",
+      "en": "water"
+    },
+    {
+      "es": "el puente",
+      "en": "bridge"
+    },
+    {
+      "es": "la piedra",
+      "en": "stone"
+    },
+    {
+      "es": "la roca",
+      "en": "rock"
+    },
+    {
+      "es": "la caja",
+      "en": "box"
+    },
+    {
+      "es": "el cuidado",
+      "en": "care"
+    },
+    {
+      "es": "la semilla",
+      "en": "seed"
+    },
+    {
+      "es": "el oro",
+      "en": "gold"
+    },
+    {
+      "es": "el árbol",
+      "en": "tree"
+    },
+    {
+      "es": "el jardín",
+      "en": "garden"
+    }
+  ],
+  "verbs": [
+    {
+      "es": "encontrar",
+      "en": "to find",
+      "present": [
+        "encuentro",
+        "encuentras",
+        "encuentra",
+        "encontramos",
+        "encuentran"
+      ]
+    },
+    {
+      "es": "tener",
+      "en": "to have",
+      "present": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tienen"
+      ]
+    },
+    {
+      "es": "leer",
+      "en": "to read",
+      "present": [
+        "leo",
+        "lees",
+        "lee",
+        "leemos",
+        "leen"
+      ]
+    },
+    {
+      "es": "buscar",
+      "en": "to look for",
+      "present": [
+        "busco",
+        "buscas",
+        "busca",
+        "buscamos",
+        "buscan"
+      ]
+    },
+    {
+      "es": "cantar",
+      "en": "to sing",
+      "present": [
+        "canto",
+        "cantas",
+        "canta",
+        "cantamos",
+        "cantan"
+      ]
+    },
+    {
+      "es": "decir",
+      "en": "to say",
+      "present": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "dicen"
+      ]
+    },
+    {
+      "es": "caminar",
+      "en": "to walk",
+      "present": [
+        "camino",
+        "caminas",
+        "camina",
+        "caminamos",
+        "caminan"
+      ]
+    },
+    {
+      "es": "pasar",
+      "en": "to pass / flow",
+      "present": [
+        "paso",
+        "pasas",
+        "pasa",
+        "pasamos",
+        "pasan"
+      ]
+    },
+    {
+      "es": "haber",
+      "en": "there is / there are",
+      "present": [
+        "he",
+        "has",
+        "ha",
+        "hemos",
+        "han"
+      ]
+    },
+    {
+      "es": "abrir",
+      "en": "to open",
+      "present": [
+        "abro",
+        "abres",
+        "abre",
+        "abrimos",
+        "abren"
+      ]
+    },
+    {
+      "es": "plantar",
+      "en": "to plant",
+      "present": [
+        "planto",
+        "plantas",
+        "planta",
+        "plantamos",
+        "plantan"
+      ]
+    },
+    {
+      "es": "reír",
+      "en": "to laugh",
+      "present": [
+        "río",
+        "ríes",
+        "ríe",
+        "reímos",
+        "ríen"
+      ]
+    },
+    {
+      "es": "guardar",
+      "en": "to keep",
+      "present": [
+        "guardo",
+        "guardas",
+        "guarda",
+        "guardamos",
+        "guardan"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "es": "en",
+      "en": "in"
+    },
+    {
+      "es": "a",
+      "en": "to"
+    },
+    {
+      "es": "junto a",
+      "en": "next to"
+    },
+    {
+      "es": "debajo de",
+      "en": "under"
+    },
+    {
+      "es": "hasta",
+      "en": "as far as"
+    },
+    {
+      "es": "de",
+      "en": "of / made of"
+    },
+    {
+      "es": "entre",
+      "en": "between"
+    },
+    {
+      "es": "sobre",
+      "en": "on"
+    },
+    {
+      "es": "con",
+      "en": "with"
+    },
+    {
+      "es": "para",
+      "en": "for"
+    }
+  ],
+  "expressions": [
+    {
+      "es": "donde el agua canta",
+      "en": "where the water sings"
+    },
+    {
+      "es": "con cuidado",
+      "en": "carefully"
+    },
+    {
+      "es": "no busques oro",
+      "en": "do not look for gold"
+    },
+    {
+      "es": "plantar un árbol",
+      "en": "to plant a tree"
+    }
+  ]
+}
