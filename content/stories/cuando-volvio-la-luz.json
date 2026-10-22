@@ -1,0 +1,2936 @@
+{
+  "schemaVersion": 1,
+  "id": "cuando-volvio-la-luz",
+  "title": {
+    "es": "Cuando volvió la luz",
+    "en": "When the Power Came Back On"
+  },
+  "level": "B1",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Human relationships · Light suspense",
+  "synopsis": "A neighborhood blackout reveals the lives behind the doors of one apartment building.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Past contrasts · imperfect, preterite and reported speech",
+  "secondaryGrammar": [
+    "Por vs para",
+    "Conditional",
+    "Relative clauses"
+  ],
+  "estimatedDurationSeconds": 262,
+  "wordCount": 356,
+  "coverImagePrompt": "Old Buenos Aires apartment courtyard during night power outage, candlelight glowing balconies neighbors talking",
+  "coverImage": "/images/cuando-volvio-la-luz.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "A las nueve y cuarto, todas las luces del edificio se apagaron al mismo tiempo.",
+      "en": "At nine fifteen, every light in the building went out at once.",
+      "annotations": [],
+      "audio": {
+        "start": 0.08,
+        "end": 5.48,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 0.08,
+            "end": 0.16
+          },
+          {
+            "text": "las",
+            "charStart": 2,
+            "charEnd": 5,
+            "start": 0.24,
+            "end": 0.4
+          },
+          {
+            "text": "nueve",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 0.48,
+            "end": 0.64
+          },
+          {
+            "text": "y",
+            "charStart": 12,
+            "charEnd": 13,
+            "start": 0.72,
+            "end": 0.88
+          },
+          {
+            "text": "cuarto,",
+            "charStart": 14,
+            "charEnd": 21,
+            "start": 0.92,
+            "end": 1.76
+          },
+          {
+            "text": "todas",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 1.88,
+            "end": 2.16
+          },
+          {
+            "text": "las",
+            "charStart": 28,
+            "charEnd": 31,
+            "start": 2.24,
+            "end": 2.32
+          },
+          {
+            "text": "luces",
+            "charStart": 32,
+            "charEnd": 37,
+            "start": 2.4,
+            "end": 2.64
+          },
+          {
+            "text": "del",
+            "charStart": 38,
+            "charEnd": 41,
+            "start": 2.72,
+            "end": 2.8
+          },
+          {
+            "text": "edificio",
+            "charStart": 42,
+            "charEnd": 50,
+            "start": 2.84,
+            "end": 3.36
+          },
+          {
+            "text": "se",
+            "charStart": 51,
+            "charEnd": 53,
+            "start": 3.4,
+            "end": 3.44
+          },
+          {
+            "text": "apagaron",
+            "charStart": 54,
+            "charEnd": 62,
+            "start": 3.52,
+            "end": 3.92
+          },
+          {
+            "text": "al",
+            "charStart": 63,
+            "charEnd": 65,
+            "start": 4.04,
+            "end": 4.16
+          },
+          {
+            "text": "mismo",
+            "charStart": 66,
+            "charEnd": 71,
+            "start": 4.267,
+            "end": 4.48
+          },
+          {
+            "text": "tiempo.",
+            "charStart": 72,
+            "charEnd": 79,
+            "start": 4.56,
+            "end": 5.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "Sofía estaba preparando una presentación para el trabajo cuando su computadora dejó de funcionar.",
+      "en": "Sofía was preparing a presentation for work when her computer stopped working.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a2-1",
+          "text": "estaba preparando",
+          "type": "grammar",
+          "meaning": "was preparing",
+          "explanation": "Estar in the imperfect with a gerund presents an action in progress when another event interrupted.",
+          "grammar": {
+            "infinitive": "preparar",
+            "tense": "imperfect progressive",
+            "structure": "estar (imperfect) + gerund",
+            "examples": [
+              {
+                "es": "Estaba preparando la cena cuando llamaste.",
+                "en": "I was making dinner when you called."
+              },
+              {
+                "es": "Ellos estaban trabajando cuando empezó a llover.",
+                "en": "They were working when it started to rain."
+              }
+            ]
+          },
+          "start": 6,
+          "end": 23
+        }
+      ],
+      "audio": {
+        "start": 5.92,
+        "end": 11.76,
+        "words": [
+          {
+            "text": "Sofía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 5.92,
+            "end": 6.32
+          },
+          {
+            "text": "estaba",
+            "charStart": 6,
+            "charEnd": 12,
+            "start": 6.4,
+            "end": 6.72
+          },
+          {
+            "text": "preparando",
+            "charStart": 13,
+            "charEnd": 23,
+            "start": 6.8,
+            "end": 7.2
+          },
+          {
+            "text": "una",
+            "charStart": 24,
+            "charEnd": 27,
+            "start": 7.32,
+            "end": 7.44
+          },
+          {
+            "text": "presentación",
+            "charStart": 28,
+            "charEnd": 40,
+            "start": 7.64,
+            "end": 8.16
+          },
+          {
+            "text": "para",
+            "charStart": 41,
+            "charEnd": 45,
+            "start": 8.24,
+            "end": 8.32
+          },
+          {
+            "text": "el",
+            "charStart": 46,
+            "charEnd": 48,
+            "start": 8.36,
+            "end": 8.4
+          },
+          {
+            "text": "trabajo",
+            "charStart": 49,
+            "charEnd": 56,
+            "start": 8.48,
+            "end": 8.96
+          },
+          {
+            "text": "cuando",
+            "charStart": 57,
+            "charEnd": 63,
+            "start": 9.04,
+            "end": 9.28
+          },
+          {
+            "text": "su",
+            "charStart": 64,
+            "charEnd": 66,
+            "start": 9.36,
+            "end": 9.44
+          },
+          {
+            "text": "computadora",
+            "charStart": 67,
+            "charEnd": 78,
+            "start": 9.6,
+            "end": 10.08
+          },
+          {
+            "text": "dejó",
+            "charStart": 79,
+            "charEnd": 83,
+            "start": 10.2,
+            "end": 10.48
+          },
+          {
+            "text": "de",
+            "charStart": 84,
+            "charEnd": 86,
+            "start": 10.52,
+            "end": 10.56
+          },
+          {
+            "text": "funcionar.",
+            "charStart": 87,
+            "charEnd": 97,
+            "start": 10.64,
+            "end": 11.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Durante unos segundos esperó a que regresara la electricidad, pero la pantalla permaneció oscura.",
+      "en": "For a few seconds she waited for the power to come back, but the screen stayed dark.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a3-1",
+          "text": "a que regresara",
+          "type": "grammar",
+          "meaning": "for it to return",
+          "explanation": "Esperar a que often takes the subjunctive when the awaited event is uncertain.",
+          "grammar": {
+            "infinitive": "regresar",
+            "mood": "imperfect subjunctive",
+            "structure": "esperar a que + subjunctive"
+          },
+          "start": 29,
+          "end": 44
+        }
+      ],
+      "audio": {
+        "start": 11.84,
+        "end": 18,
+        "words": [
+          {
+            "text": "Durante",
+            "charStart": 0,
+            "charEnd": 7,
+            "start": 11.84,
+            "end": 12.16
+          },
+          {
+            "text": "unos",
+            "charStart": 8,
+            "charEnd": 12,
+            "start": 12.28,
+            "end": 12.4
+          },
+          {
+            "text": "segundos",
+            "charStart": 13,
+            "charEnd": 21,
+            "start": 12.52,
+            "end": 12.96
+          },
+          {
+            "text": "esperó",
+            "charStart": 22,
+            "charEnd": 28,
+            "start": 13.04,
+            "end": 13.4
+          },
+          {
+            "text": "a",
+            "charStart": 29,
+            "charEnd": 30,
+            "start": 13.44,
+            "end": 13.48
+          },
+          {
+            "text": "que",
+            "charStart": 31,
+            "charEnd": 34,
+            "start": 13.52,
+            "end": 13.6
+          },
+          {
+            "text": "regresara",
+            "charStart": 35,
+            "charEnd": 44,
+            "start": 13.68,
+            "end": 14.16
+          },
+          {
+            "text": "la",
+            "charStart": 45,
+            "charEnd": 47,
+            "start": 14.24,
+            "end": 14.28
+          },
+          {
+            "text": "electricidad,",
+            "charStart": 48,
+            "charEnd": 61,
+            "start": 14.32,
+            "end": 15.44
+          },
+          {
+            "text": "pero",
+            "charStart": 62,
+            "charEnd": 66,
+            "start": 15.48,
+            "end": 15.6
+          },
+          {
+            "text": "la",
+            "charStart": 67,
+            "charEnd": 69,
+            "start": 15.68,
+            "end": 15.76
+          },
+          {
+            "text": "pantalla",
+            "charStart": 70,
+            "charEnd": 78,
+            "start": 15.84,
+            "end": 16.32
+          },
+          {
+            "text": "permaneció",
+            "charStart": 79,
+            "charEnd": 89,
+            "start": 16.4,
+            "end": 16.88
+          },
+          {
+            "text": "oscura.",
+            "charStart": 90,
+            "charEnd": 97,
+            "start": 16.96,
+            "end": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "Desde la calle llegaban bocinas, voces y el ruido de un autobús que no podía avanzar.",
+      "en": "From the street came car horns, voices, and the noise of a bus that could not move forward.",
+      "annotations": [],
+      "audio": {
+        "start": 18.12,
+        "end": 24,
+        "words": [
+          {
+            "text": "Desde",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 18.12,
+            "end": 18.24
+          },
+          {
+            "text": "la",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 18.32,
+            "end": 18.4
+          },
+          {
+            "text": "calle",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 18.48,
+            "end": 18.72
+          },
+          {
+            "text": "llegaban",
+            "charStart": 15,
+            "charEnd": 23,
+            "start": 18.8,
+            "end": 19.2
+          },
+          {
+            "text": "bocinas,",
+            "charStart": 24,
+            "charEnd": 32,
+            "start": 19.28,
+            "end": 20.08
+          },
+          {
+            "text": "voces",
+            "charStart": 33,
+            "charEnd": 38,
+            "start": 20.12,
+            "end": 20.64
+          },
+          {
+            "text": "y",
+            "charStart": 39,
+            "charEnd": 40,
+            "start": 20.8,
+            "end": 20.88
+          },
+          {
+            "text": "el",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 20.96,
+            "end": 21.04
+          },
+          {
+            "text": "ruido",
+            "charStart": 44,
+            "charEnd": 49,
+            "start": 21.08,
+            "end": 21.36
+          },
+          {
+            "text": "de",
+            "charStart": 50,
+            "charEnd": 52,
+            "start": 21.4,
+            "end": 21.44
+          },
+          {
+            "text": "un",
+            "charStart": 53,
+            "charEnd": 55,
+            "start": 21.52,
+            "end": 21.6
+          },
+          {
+            "text": "autobús",
+            "charStart": 56,
+            "charEnd": 63,
+            "start": 21.72,
+            "end": 22.16
+          },
+          {
+            "text": "que",
+            "charStart": 64,
+            "charEnd": 67,
+            "start": 22.24,
+            "end": 22.32
+          },
+          {
+            "text": "no",
+            "charStart": 68,
+            "charEnd": 70,
+            "start": 22.4,
+            "end": 22.56
+          },
+          {
+            "text": "podía",
+            "charStart": 71,
+            "charEnd": 76,
+            "start": 22.68,
+            "end": 22.96
+          },
+          {
+            "text": "avanzar.",
+            "charStart": 77,
+            "charEnd": 85,
+            "start": 23.04,
+            "end": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Sofía salió al pasillo con la linterna del teléfono y encontró a su vecino del tercero sentado en las escaleras.",
+      "en": "Sofía went into the hallway with her phone flashlight and found her third-floor neighbor sitting on the stairs.",
+      "annotations": [],
+      "audio": {
+        "start": 24.08,
+        "end": 30.32,
+        "words": [
+          {
+            "text": "Sofía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 24.08,
+            "end": 24.48
+          },
+          {
+            "text": "salió",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 24.56,
+            "end": 24.8
+          },
+          {
+            "text": "al",
+            "charStart": 12,
+            "charEnd": 14,
+            "start": 24.88,
+            "end": 24.96
+          },
+          {
+            "text": "pasillo",
+            "charStart": 15,
+            "charEnd": 22,
+            "start": 25.04,
+            "end": 25.36
+          },
+          {
+            "text": "con",
+            "charStart": 23,
+            "charEnd": 26,
+            "start": 25.44,
+            "end": 25.52
+          },
+          {
+            "text": "la",
+            "charStart": 27,
+            "charEnd": 29,
+            "start": 25.56,
+            "end": 25.6
+          },
+          {
+            "text": "linterna",
+            "charStart": 30,
+            "charEnd": 38,
+            "start": 25.72,
+            "end": 26.08
+          },
+          {
+            "text": "del",
+            "charStart": 39,
+            "charEnd": 42,
+            "start": 26.16,
+            "end": 26.24
+          },
+          {
+            "text": "teléfono",
+            "charStart": 43,
+            "charEnd": 51,
+            "start": 26.32,
+            "end": 26.8
+          },
+          {
+            "text": "y",
+            "charStart": 52,
+            "charEnd": 53,
+            "start": 26.96,
+            "end": 27.04
+          },
+          {
+            "text": "encontró",
+            "charStart": 54,
+            "charEnd": 62,
+            "start": 27.12,
+            "end": 27.48
+          },
+          {
+            "text": "a",
+            "charStart": 63,
+            "charEnd": 64,
+            "start": 27.52,
+            "end": 27.56
+          },
+          {
+            "text": "su",
+            "charStart": 65,
+            "charEnd": 67,
+            "start": 27.6,
+            "end": 27.68
+          },
+          {
+            "text": "vecino",
+            "charStart": 68,
+            "charEnd": 74,
+            "start": 27.8,
+            "end": 28.08
+          },
+          {
+            "text": "del",
+            "charStart": 75,
+            "charEnd": 78,
+            "start": 28.16,
+            "end": 28.24
+          },
+          {
+            "text": "tercero",
+            "charStart": 79,
+            "charEnd": 86,
+            "start": 28.32,
+            "end": 28.8
+          },
+          {
+            "text": "sentado",
+            "charStart": 87,
+            "charEnd": 94,
+            "start": 28.88,
+            "end": 29.36
+          },
+          {
+            "text": "en",
+            "charStart": 95,
+            "charEnd": 97,
+            "start": 29.4,
+            "end": 29.44
+          },
+          {
+            "text": "las",
+            "charStart": 98,
+            "charEnd": 101,
+            "start": 29.52,
+            "end": 29.6
+          },
+          {
+            "text": "escaleras.",
+            "charStart": 102,
+            "charEnd": 112,
+            "start": 29.76,
+            "end": 30.32
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "Se llamaba Julián y vivía allí desde hacía ocho años, aunque apenas se habían saludado.",
+      "en": "His name was Julián, and he had lived there for eight years, although they had barely greeted one another.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a6-1",
+          "text": "desde hacía ocho años",
+          "type": "grammar",
+          "meaning": "for eight years",
+          "explanation": "Desde hacía describes how long something had already been true at a point in the past.",
+          "grammar": {
+            "structure": "desde hacía + duration"
+          },
+          "start": 31,
+          "end": 52
+        }
+      ],
+      "audio": {
+        "start": 30.72,
+        "end": 36.4,
+        "words": [
+          {
+            "text": "Se",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 30.72,
+            "end": 30.8
+          },
+          {
+            "text": "llamaba",
+            "charStart": 3,
+            "charEnd": 10,
+            "start": 30.88,
+            "end": 31.2
+          },
+          {
+            "text": "Julián",
+            "charStart": 11,
+            "charEnd": 17,
+            "start": 31.28,
+            "end": 31.68
+          },
+          {
+            "text": "y",
+            "charStart": 18,
+            "charEnd": 19,
+            "start": 31.92,
+            "end": 32
+          },
+          {
+            "text": "vivía",
+            "charStart": 20,
+            "charEnd": 25,
+            "start": 32.04,
+            "end": 32.4
+          },
+          {
+            "text": "allí",
+            "charStart": 26,
+            "charEnd": 30,
+            "start": 32.52,
+            "end": 32.72
+          },
+          {
+            "text": "desde",
+            "charStart": 31,
+            "charEnd": 36,
+            "start": 32.84,
+            "end": 33
+          },
+          {
+            "text": "hacía",
+            "charStart": 37,
+            "charEnd": 42,
+            "start": 33.04,
+            "end": 33.44
+          },
+          {
+            "text": "ocho",
+            "charStart": 43,
+            "charEnd": 47,
+            "start": 33.52,
+            "end": 33.84
+          },
+          {
+            "text": "años,",
+            "charStart": 48,
+            "charEnd": 53,
+            "start": 33.92,
+            "end": 34.56
+          },
+          {
+            "text": "aunque",
+            "charStart": 54,
+            "charEnd": 60,
+            "start": 34.6,
+            "end": 34.88
+          },
+          {
+            "text": "apenas",
+            "charStart": 61,
+            "charEnd": 67,
+            "start": 35,
+            "end": 35.36
+          },
+          {
+            "text": "se",
+            "charStart": 68,
+            "charEnd": 70,
+            "start": 35.4,
+            "end": 35.44
+          },
+          {
+            "text": "habían",
+            "charStart": 71,
+            "charEnd": 77,
+            "start": 35.52,
+            "end": 35.76
+          },
+          {
+            "text": "saludado.",
+            "charStart": 78,
+            "charEnd": 87,
+            "start": 35.84,
+            "end": 36.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "«El ascensor no funciona y mi madre está arriba», explicó, señalando el quinto piso.",
+      "en": "“The elevator isn’t working, and my mother is upstairs,” he explained, pointing to the fifth floor.",
+      "annotations": [],
+      "audio": {
+        "start": 36.92,
+        "end": 42.48,
+        "words": [
+          {
+            "text": "«El",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 36.92,
+            "end": 36.96
+          },
+          {
+            "text": "ascensor",
+            "charStart": 4,
+            "charEnd": 12,
+            "start": 37.04,
+            "end": 37.44
+          },
+          {
+            "text": "no",
+            "charStart": 13,
+            "charEnd": 15,
+            "start": 37.52,
+            "end": 37.6
+          },
+          {
+            "text": "funciona",
+            "charStart": 16,
+            "charEnd": 24,
+            "start": 37.76,
+            "end": 38.24
+          },
+          {
+            "text": "y",
+            "charStart": 25,
+            "charEnd": 26,
+            "start": 38.48,
+            "end": 38.52
+          },
+          {
+            "text": "mi",
+            "charStart": 27,
+            "charEnd": 29,
+            "start": 38.56,
+            "end": 38.72
+          },
+          {
+            "text": "madre",
+            "charStart": 30,
+            "charEnd": 35,
+            "start": 38.8,
+            "end": 38.96
+          },
+          {
+            "text": "está",
+            "charStart": 36,
+            "charEnd": 40,
+            "start": 39.04,
+            "end": 39.24
+          },
+          {
+            "text": "arriba»,",
+            "charStart": 41,
+            "charEnd": 49,
+            "start": 39.28,
+            "end": 40.08
+          },
+          {
+            "text": "explicó,",
+            "charStart": 50,
+            "charEnd": 58,
+            "start": 40.16,
+            "end": 40.96
+          },
+          {
+            "text": "señalando",
+            "charStart": 59,
+            "charEnd": 68,
+            "start": 41.04,
+            "end": 41.52
+          },
+          {
+            "text": "el",
+            "charStart": 69,
+            "charEnd": 71,
+            "start": 41.6,
+            "end": 41.68
+          },
+          {
+            "text": "quinto",
+            "charStart": 72,
+            "charEnd": 78,
+            "start": 41.76,
+            "end": 42
+          },
+          {
+            "text": "piso.",
+            "charStart": 79,
+            "charEnd": 84,
+            "start": 42.16,
+            "end": 42.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "Sofía se ofreció a acompañarlo, y subieron despacio para no tropezar con los escalones.",
+      "en": "Sofía offered to go with him, and they climbed slowly so they would not trip on the steps.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a8-1",
+          "text": "para no tropezar",
+          "type": "grammar",
+          "meaning": "so as not to trip",
+          "explanation": "Para + infinitive expresses purpose; the no comes before the infinitive.",
+          "grammar": {
+            "structure": "para + no + infinitive"
+          },
+          "start": 52,
+          "end": 68
+        }
+      ],
+      "audio": {
+        "start": 43.12,
+        "end": 48.56,
+        "words": [
+          {
+            "text": "Sofía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 43.12,
+            "end": 43.52
+          },
+          {
+            "text": "se",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 43.56,
+            "end": 43.6
+          },
+          {
+            "text": "ofreció",
+            "charStart": 9,
+            "charEnd": 16,
+            "start": 43.68,
+            "end": 44
+          },
+          {
+            "text": "a",
+            "charStart": 17,
+            "charEnd": 18,
+            "start": 44.04,
+            "end": 44.08
+          },
+          {
+            "text": "acompañarlo,",
+            "charStart": 19,
+            "charEnd": 31,
+            "start": 44.2,
+            "end": 44.96
+          },
+          {
+            "text": "y",
+            "charStart": 32,
+            "charEnd": 33,
+            "start": 45,
+            "end": 45.04
+          },
+          {
+            "text": "subieron",
+            "charStart": 34,
+            "charEnd": 42,
+            "start": 45.12,
+            "end": 45.52
+          },
+          {
+            "text": "despacio",
+            "charStart": 43,
+            "charEnd": 51,
+            "start": 45.68,
+            "end": 46.24
+          },
+          {
+            "text": "para",
+            "charStart": 52,
+            "charEnd": 56,
+            "start": 46.36,
+            "end": 46.48
+          },
+          {
+            "text": "no",
+            "charStart": 57,
+            "charEnd": 59,
+            "start": 46.56,
+            "end": 46.64
+          },
+          {
+            "text": "tropezar",
+            "charStart": 60,
+            "charEnd": 68,
+            "start": 46.72,
+            "end": 47.12
+          },
+          {
+            "text": "con",
+            "charStart": 69,
+            "charEnd": 72,
+            "start": 47.2,
+            "end": 47.28
+          },
+          {
+            "text": "los",
+            "charStart": 73,
+            "charEnd": 76,
+            "start": 47.36,
+            "end": 47.44
+          },
+          {
+            "text": "escalones.",
+            "charStart": 77,
+            "charEnd": 87,
+            "start": 47.6,
+            "end": 48.56
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "En el cuarto piso encontraron a una niña que sostenía una vela y buscaba a su gato.",
+      "en": "On the fourth floor they found a girl holding a candle and looking for her cat.",
+      "annotations": [],
+      "audio": {
+        "start": 48.6,
+        "end": 53.84,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 48.6,
+            "end": 48.64
+          },
+          {
+            "text": "el",
+            "charStart": 3,
+            "charEnd": 5,
+            "start": 48.72,
+            "end": 48.8
+          },
+          {
+            "text": "cuarto",
+            "charStart": 6,
+            "charEnd": 12,
+            "start": 48.88,
+            "end": 49.12
+          },
+          {
+            "text": "piso",
+            "charStart": 13,
+            "charEnd": 17,
+            "start": 49.2,
+            "end": 49.6
+          },
+          {
+            "text": "encontraron",
+            "charStart": 18,
+            "charEnd": 29,
+            "start": 49.68,
+            "end": 50.24
+          },
+          {
+            "text": "a",
+            "charStart": 30,
+            "charEnd": 31,
+            "start": 50.28,
+            "end": 50.32
+          },
+          {
+            "text": "una",
+            "charStart": 32,
+            "charEnd": 35,
+            "start": 50.4,
+            "end": 50.56
+          },
+          {
+            "text": "niña",
+            "charStart": 36,
+            "charEnd": 40,
+            "start": 50.64,
+            "end": 50.96
+          },
+          {
+            "text": "que",
+            "charStart": 41,
+            "charEnd": 44,
+            "start": 51,
+            "end": 51.04
+          },
+          {
+            "text": "sostenía",
+            "charStart": 45,
+            "charEnd": 53,
+            "start": 51.12,
+            "end": 51.6
+          },
+          {
+            "text": "una",
+            "charStart": 54,
+            "charEnd": 57,
+            "start": 51.72,
+            "end": 51.84
+          },
+          {
+            "text": "vela",
+            "charStart": 58,
+            "charEnd": 62,
+            "start": 51.96,
+            "end": 52.24
+          },
+          {
+            "text": "y",
+            "charStart": 63,
+            "charEnd": 64,
+            "start": 52.32,
+            "end": 52.36
+          },
+          {
+            "text": "buscaba",
+            "charStart": 65,
+            "charEnd": 72,
+            "start": 52.4,
+            "end": 52.8
+          },
+          {
+            "text": "a",
+            "charStart": 73,
+            "charEnd": 74,
+            "start": 52.88,
+            "end": 52.96
+          },
+          {
+            "text": "su",
+            "charStart": 75,
+            "charEnd": 77,
+            "start": 53,
+            "end": 53.04
+          },
+          {
+            "text": "gato.",
+            "charStart": 78,
+            "charEnd": 83,
+            "start": 53.12,
+            "end": 53.84
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "Los tres escucharon un maullido detrás de una puerta y descubrieron al animal escondido entre unas cajas.",
+      "en": "The three of them heard a meow behind a door and discovered the animal hiding among some boxes.",
+      "annotations": [],
+      "audio": {
+        "start": 53.92,
+        "end": 60.64,
+        "words": [
+          {
+            "text": "Los",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 53.92,
+            "end": 54.08
+          },
+          {
+            "text": "tres",
+            "charStart": 4,
+            "charEnd": 8,
+            "start": 54.16,
+            "end": 54.48
+          },
+          {
+            "text": "escucharon",
+            "charStart": 9,
+            "charEnd": 19,
+            "start": 54.56,
+            "end": 55.04
+          },
+          {
+            "text": "un",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 55.12,
+            "end": 55.2
+          },
+          {
+            "text": "maullido",
+            "charStart": 23,
+            "charEnd": 31,
+            "start": 55.28,
+            "end": 55.76
+          },
+          {
+            "text": "detrás",
+            "charStart": 32,
+            "charEnd": 38,
+            "start": 55.8,
+            "end": 56.16
+          },
+          {
+            "text": "de",
+            "charStart": 39,
+            "charEnd": 41,
+            "start": 56.2,
+            "end": 56.24
+          },
+          {
+            "text": "una",
+            "charStart": 42,
+            "charEnd": 45,
+            "start": 56.32,
+            "end": 56.48
+          },
+          {
+            "text": "puerta",
+            "charStart": 46,
+            "charEnd": 52,
+            "start": 56.56,
+            "end": 57.12
+          },
+          {
+            "text": "y",
+            "charStart": 53,
+            "charEnd": 54,
+            "start": 57.16,
+            "end": 57.2
+          },
+          {
+            "text": "descubrieron",
+            "charStart": 55,
+            "charEnd": 67,
+            "start": 57.32,
+            "end": 57.84
+          },
+          {
+            "text": "al",
+            "charStart": 68,
+            "charEnd": 70,
+            "start": 57.92,
+            "end": 58
+          },
+          {
+            "text": "animal",
+            "charStart": 71,
+            "charEnd": 77,
+            "start": 58.24,
+            "end": 58.48
+          },
+          {
+            "text": "escondido",
+            "charStart": 78,
+            "charEnd": 87,
+            "start": 58.56,
+            "end": 59.12
+          },
+          {
+            "text": "entre",
+            "charStart": 88,
+            "charEnd": 93,
+            "start": 59.2,
+            "end": 59.36
+          },
+          {
+            "text": "unas",
+            "charStart": 94,
+            "charEnd": 98,
+            "start": 59.44,
+            "end": 59.68
+          },
+          {
+            "text": "cajas.",
+            "charStart": 99,
+            "charEnd": 105,
+            "start": 59.76,
+            "end": 60.64
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "Cuando llegaron al quinto, la madre de Julián ya había preparado té con el agua caliente que quedaba en una tetera.",
+      "en": "When they reached the fifth floor, Julián’s mother had already made tea with the hot water left in a kettle.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a11-1",
+          "text": "ya había preparado",
+          "type": "grammar",
+          "meaning": "had already made",
+          "explanation": "The pluperfect tells us the tea was prepared before they arrived.",
+          "grammar": {
+            "infinitive": "preparar",
+            "tense": "pluperfect"
+          },
+          "start": 46,
+          "end": 64
+        }
+      ],
+      "audio": {
+        "start": 60.68,
+        "end": 67.36,
+        "words": [
+          {
+            "text": "Cuando",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 60.68,
+            "end": 60.88
+          },
+          {
+            "text": "llegaron",
+            "charStart": 7,
+            "charEnd": 15,
+            "start": 60.92,
+            "end": 61.28
+          },
+          {
+            "text": "al",
+            "charStart": 16,
+            "charEnd": 18,
+            "start": 61.36,
+            "end": 61.44
+          },
+          {
+            "text": "quinto,",
+            "charStart": 19,
+            "charEnd": 26,
+            "start": 61.52,
+            "end": 62.08
+          },
+          {
+            "text": "la",
+            "charStart": 27,
+            "charEnd": 29,
+            "start": 62.16,
+            "end": 62.24
+          },
+          {
+            "text": "madre",
+            "charStart": 30,
+            "charEnd": 35,
+            "start": 62.32,
+            "end": 62.56
+          },
+          {
+            "text": "de",
+            "charStart": 36,
+            "charEnd": 38,
+            "start": 62.6,
+            "end": 62.64
+          },
+          {
+            "text": "Julián",
+            "charStart": 39,
+            "charEnd": 45,
+            "start": 62.72,
+            "end": 63.2
+          },
+          {
+            "text": "ya",
+            "charStart": 46,
+            "charEnd": 48,
+            "start": 63.28,
+            "end": 63.36
+          },
+          {
+            "text": "había",
+            "charStart": 49,
+            "charEnd": 54,
+            "start": 63.44,
+            "end": 63.76
+          },
+          {
+            "text": "preparado",
+            "charStart": 55,
+            "charEnd": 64,
+            "start": 63.84,
+            "end": 64.32
+          },
+          {
+            "text": "té",
+            "charStart": 65,
+            "charEnd": 67,
+            "start": 64.44,
+            "end": 64.56
+          },
+          {
+            "text": "con",
+            "charStart": 68,
+            "charEnd": 71,
+            "start": 64.64,
+            "end": 64.72
+          },
+          {
+            "text": "el",
+            "charStart": 72,
+            "charEnd": 74,
+            "start": 64.8,
+            "end": 64.88
+          },
+          {
+            "text": "agua",
+            "charStart": 75,
+            "charEnd": 79,
+            "start": 65,
+            "end": 65.12
+          },
+          {
+            "text": "caliente",
+            "charStart": 80,
+            "charEnd": 88,
+            "start": 65.2,
+            "end": 65.6
+          },
+          {
+            "text": "que",
+            "charStart": 89,
+            "charEnd": 92,
+            "start": 65.68,
+            "end": 65.76
+          },
+          {
+            "text": "quedaba",
+            "charStart": 93,
+            "charEnd": 100,
+            "start": 65.84,
+            "end": 66.16
+          },
+          {
+            "text": "en",
+            "charStart": 101,
+            "charEnd": 103,
+            "start": 66.2,
+            "end": 66.24
+          },
+          {
+            "text": "una",
+            "charStart": 104,
+            "charEnd": 107,
+            "start": 66.32,
+            "end": 66.4
+          },
+          {
+            "text": "tetera.",
+            "charStart": 108,
+            "charEnd": 115,
+            "start": 66.48,
+            "end": 67.36
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "Los invitó a entrar, y pronto aparecieron otros vecinos con galletas, velas y noticias del barrio.",
+      "en": "She invited them in, and soon other neighbors appeared with cookies, candles, and neighborhood news.",
+      "annotations": [],
+      "audio": {
+        "start": 67.44,
+        "end": 73.92,
+        "words": [
+          {
+            "text": "Los",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 67.44,
+            "end": 67.52
+          },
+          {
+            "text": "invitó",
+            "charStart": 4,
+            "charEnd": 10,
+            "start": 67.6,
+            "end": 67.867
+          },
+          {
+            "text": "a",
+            "charStart": 11,
+            "charEnd": 12,
+            "start": 67.893,
+            "end": 67.92
+          },
+          {
+            "text": "entrar,",
+            "charStart": 13,
+            "charEnd": 20,
+            "start": 68.04,
+            "end": 68.56
+          },
+          {
+            "text": "y",
+            "charStart": 21,
+            "charEnd": 22,
+            "start": 68.68,
+            "end": 68.8
+          },
+          {
+            "text": "pronto",
+            "charStart": 23,
+            "charEnd": 29,
+            "start": 68.88,
+            "end": 69.12
+          },
+          {
+            "text": "aparecieron",
+            "charStart": 30,
+            "charEnd": 41,
+            "start": 69.2,
+            "end": 69.84
+          },
+          {
+            "text": "otros",
+            "charStart": 42,
+            "charEnd": 47,
+            "start": 70,
+            "end": 70.16
+          },
+          {
+            "text": "vecinos",
+            "charStart": 48,
+            "charEnd": 55,
+            "start": 70.24,
+            "end": 70.64
+          },
+          {
+            "text": "con",
+            "charStart": 56,
+            "charEnd": 59,
+            "start": 70.72,
+            "end": 70.8
+          },
+          {
+            "text": "galletas,",
+            "charStart": 60,
+            "charEnd": 69,
+            "start": 70.88,
+            "end": 71.76
+          },
+          {
+            "text": "velas",
+            "charStart": 70,
+            "charEnd": 75,
+            "start": 71.88,
+            "end": 72.24
+          },
+          {
+            "text": "y",
+            "charStart": 76,
+            "charEnd": 77,
+            "start": 72.32,
+            "end": 72.36
+          },
+          {
+            "text": "noticias",
+            "charStart": 78,
+            "charEnd": 86,
+            "start": 72.4,
+            "end": 72.96
+          },
+          {
+            "text": "del",
+            "charStart": 87,
+            "charEnd": 90,
+            "start": 73.04,
+            "end": 73.12
+          },
+          {
+            "text": "barrio.",
+            "charStart": 91,
+            "charEnd": 98,
+            "start": 73.2,
+            "end": 73.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "es": "Una arquitecta contó que el apagón afectaba a varias calles; un estudiante ofreció compartir su radio de pilas.",
+      "en": "An architect said the blackout was affecting several streets; a student offered to share his battery-powered radio.",
+      "annotations": [],
+      "audio": {
+        "start": 74,
+        "end": 81.08,
+        "words": [
+          {
+            "text": "Una",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 74,
+            "end": 74.08
+          },
+          {
+            "text": "arquitecta",
+            "charStart": 4,
+            "charEnd": 14,
+            "start": 74.16,
+            "end": 74.72
+          },
+          {
+            "text": "contó",
+            "charStart": 15,
+            "charEnd": 20,
+            "start": 74.88,
+            "end": 75.08
+          },
+          {
+            "text": "que",
+            "charStart": 21,
+            "charEnd": 24,
+            "start": 75.12,
+            "end": 75.2
+          },
+          {
+            "text": "el",
+            "charStart": 25,
+            "charEnd": 27,
+            "start": 75.28,
+            "end": 75.36
+          },
+          {
+            "text": "apagón",
+            "charStart": 28,
+            "charEnd": 34,
+            "start": 75.44,
+            "end": 75.84
+          },
+          {
+            "text": "afectaba",
+            "charStart": 35,
+            "charEnd": 43,
+            "start": 75.92,
+            "end": 76.48
+          },
+          {
+            "text": "a",
+            "charStart": 44,
+            "charEnd": 45,
+            "start": 76.56,
+            "end": 76.64
+          },
+          {
+            "text": "varias",
+            "charStart": 46,
+            "charEnd": 52,
+            "start": 76.76,
+            "end": 77.12
+          },
+          {
+            "text": "calles;",
+            "charStart": 53,
+            "charEnd": 60,
+            "start": 77.24,
+            "end": 77.92
+          },
+          {
+            "text": "un",
+            "charStart": 61,
+            "charEnd": 63,
+            "start": 77.96,
+            "end": 78
+          },
+          {
+            "text": "estudiante",
+            "charStart": 64,
+            "charEnd": 74,
+            "start": 78.08,
+            "end": 78.72
+          },
+          {
+            "text": "ofreció",
+            "charStart": 75,
+            "charEnd": 82,
+            "start": 78.8,
+            "end": 79.2
+          },
+          {
+            "text": "compartir",
+            "charStart": 83,
+            "charEnd": 92,
+            "start": 79.32,
+            "end": 79.76
+          },
+          {
+            "text": "su",
+            "charStart": 93,
+            "charEnd": 95,
+            "start": 79.84,
+            "end": 79.92
+          },
+          {
+            "text": "radio",
+            "charStart": 96,
+            "charEnd": 101,
+            "start": 80,
+            "end": 80.24
+          },
+          {
+            "text": "de",
+            "charStart": 102,
+            "charEnd": 104,
+            "start": 80.32,
+            "end": 80.4
+          },
+          {
+            "text": "pilas.",
+            "charStart": 105,
+            "charEnd": 111,
+            "start": 80.48,
+            "end": 81.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "es": "Al principio todos hablaban del problema, pero después empezaron a hablar de ellos mismos.",
+      "en": "At first everyone talked about the problem, but later they began talking about themselves.",
+      "annotations": [],
+      "audio": {
+        "start": 81.413,
+        "end": 86.72,
+        "words": [
+          {
+            "text": "Al",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 81.413,
+            "end": 81.44
+          },
+          {
+            "text": "principio",
+            "charStart": 3,
+            "charEnd": 12,
+            "start": 81.48,
+            "end": 81.92
+          },
+          {
+            "text": "todos",
+            "charStart": 13,
+            "charEnd": 18,
+            "start": 82.08,
+            "end": 82.4
+          },
+          {
+            "text": "hablaban",
+            "charStart": 19,
+            "charEnd": 27,
+            "start": 82.48,
+            "end": 82.8
+          },
+          {
+            "text": "del",
+            "charStart": 28,
+            "charEnd": 31,
+            "start": 82.88,
+            "end": 82.96
+          },
+          {
+            "text": "problema,",
+            "charStart": 32,
+            "charEnd": 41,
+            "start": 83.04,
+            "end": 83.84
+          },
+          {
+            "text": "pero",
+            "charStart": 42,
+            "charEnd": 46,
+            "start": 83.88,
+            "end": 84
+          },
+          {
+            "text": "después",
+            "charStart": 47,
+            "charEnd": 54,
+            "start": 84.08,
+            "end": 84.56
+          },
+          {
+            "text": "empezaron",
+            "charStart": 55,
+            "charEnd": 64,
+            "start": 84.64,
+            "end": 85.2
+          },
+          {
+            "text": "a",
+            "charStart": 65,
+            "charEnd": 66,
+            "start": 85.24,
+            "end": 85.28
+          },
+          {
+            "text": "hablar",
+            "charStart": 67,
+            "charEnd": 73,
+            "start": 85.32,
+            "end": 85.6
+          },
+          {
+            "text": "de",
+            "charStart": 74,
+            "charEnd": 76,
+            "start": 85.68,
+            "end": 85.76
+          },
+          {
+            "text": "ellos",
+            "charStart": 77,
+            "charEnd": 82,
+            "start": 85.84,
+            "end": 86.08
+          },
+          {
+            "text": "mismos.",
+            "charStart": 83,
+            "charEnd": 90,
+            "start": 86.16,
+            "end": 86.72
+          }
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "es": "Sofía descubrió que Julián tocaba el violín, que la arquitecta había vivido en Lima y que la niña escribía historias de detectives.",
+      "en": "Sofía discovered that Julián played the violin, the architect had lived in Lima, and the girl wrote detective stories.",
+      "annotations": [],
+      "audio": {
+        "start": 87.2,
+        "end": 95.08,
+        "words": [
+          {
+            "text": "Sofía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 87.2,
+            "end": 87.6
+          },
+          {
+            "text": "descubrió",
+            "charStart": 6,
+            "charEnd": 15,
+            "start": 87.72,
+            "end": 88.08
+          },
+          {
+            "text": "que",
+            "charStart": 16,
+            "charEnd": 19,
+            "start": 88.16,
+            "end": 88.24
+          },
+          {
+            "text": "Julián",
+            "charStart": 20,
+            "charEnd": 26,
+            "start": 88.32,
+            "end": 88.72
+          },
+          {
+            "text": "tocaba",
+            "charStart": 27,
+            "charEnd": 33,
+            "start": 88.84,
+            "end": 89.12
+          },
+          {
+            "text": "el",
+            "charStart": 34,
+            "charEnd": 36,
+            "start": 89.16,
+            "end": 89.2
+          },
+          {
+            "text": "violín,",
+            "charStart": 37,
+            "charEnd": 44,
+            "start": 89.32,
+            "end": 89.92
+          },
+          {
+            "text": "que",
+            "charStart": 45,
+            "charEnd": 48,
+            "start": 89.96,
+            "end": 90
+          },
+          {
+            "text": "la",
+            "charStart": 49,
+            "charEnd": 51,
+            "start": 90.08,
+            "end": 90.12
+          },
+          {
+            "text": "arquitecta",
+            "charStart": 52,
+            "charEnd": 62,
+            "start": 90.16,
+            "end": 90.72
+          },
+          {
+            "text": "había",
+            "charStart": 63,
+            "charEnd": 68,
+            "start": 90.8,
+            "end": 91.04
+          },
+          {
+            "text": "vivido",
+            "charStart": 69,
+            "charEnd": 75,
+            "start": 91.12,
+            "end": 91.36
+          },
+          {
+            "text": "en",
+            "charStart": 76,
+            "charEnd": 78,
+            "start": 91.44,
+            "end": 91.52
+          },
+          {
+            "text": "Lima",
+            "charStart": 79,
+            "charEnd": 83,
+            "start": 91.6,
+            "end": 91.84
+          },
+          {
+            "text": "y",
+            "charStart": 84,
+            "charEnd": 85,
+            "start": 92.16,
+            "end": 92.2
+          },
+          {
+            "text": "que",
+            "charStart": 86,
+            "charEnd": 89,
+            "start": 92.24,
+            "end": 92.32
+          },
+          {
+            "text": "la",
+            "charStart": 90,
+            "charEnd": 92,
+            "start": 92.4,
+            "end": 92.48
+          },
+          {
+            "text": "niña",
+            "charStart": 93,
+            "charEnd": 97,
+            "start": 92.56,
+            "end": 92.8
+          },
+          {
+            "text": "escribía",
+            "charStart": 98,
+            "charEnd": 106,
+            "start": 92.88,
+            "end": 93.36
+          },
+          {
+            "text": "historias",
+            "charStart": 107,
+            "charEnd": 116,
+            "start": 93.56,
+            "end": 93.92
+          },
+          {
+            "text": "de",
+            "charStart": 117,
+            "charEnd": 119,
+            "start": 94,
+            "end": 94.04
+          },
+          {
+            "text": "detectives.",
+            "charStart": 120,
+            "charEnd": 131,
+            "start": 94.08,
+            "end": 95.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "es": "Nadie miraba una pantalla y, sin embargo, la conversación parecía avanzar más rápido que cualquier mensaje.",
+      "en": "Nobody was looking at a screen, and yet the conversation seemed to move faster than any message.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a16-1",
+          "text": "sin embargo",
+          "type": "expression",
+          "meaning": "however / nevertheless",
+          "explanation": "A connector that introduces a contrast between what came before and what follows.",
+          "start": 29,
+          "end": 40
+        }
+      ],
+      "audio": {
+        "start": 95.36,
+        "end": 102.56,
+        "words": [
+          {
+            "text": "Nadie",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 95.36,
+            "end": 95.76
+          },
+          {
+            "text": "miraba",
+            "charStart": 6,
+            "charEnd": 12,
+            "start": 95.84,
+            "end": 96.08
+          },
+          {
+            "text": "una",
+            "charStart": 13,
+            "charEnd": 16,
+            "start": 96.16,
+            "end": 96.32
+          },
+          {
+            "text": "pantalla",
+            "charStart": 17,
+            "charEnd": 25,
+            "start": 96.36,
+            "end": 96.88
+          },
+          {
+            "text": "y,",
+            "charStart": 26,
+            "charEnd": 28,
+            "start": 97.12,
+            "end": 97.2
+          },
+          {
+            "text": "sin",
+            "charStart": 29,
+            "charEnd": 32,
+            "start": 97.28,
+            "end": 97.36
+          },
+          {
+            "text": "embargo,",
+            "charStart": 33,
+            "charEnd": 41,
+            "start": 97.44,
+            "end": 98.08
+          },
+          {
+            "text": "la",
+            "charStart": 42,
+            "charEnd": 44,
+            "start": 98.16,
+            "end": 98.24
+          },
+          {
+            "text": "conversación",
+            "charStart": 45,
+            "charEnd": 57,
+            "start": 98.32,
+            "end": 98.88
+          },
+          {
+            "text": "parecía",
+            "charStart": 58,
+            "charEnd": 65,
+            "start": 99,
+            "end": 99.36
+          },
+          {
+            "text": "avanzar",
+            "charStart": 66,
+            "charEnd": 73,
+            "start": 99.4,
+            "end": 99.84
+          },
+          {
+            "text": "más",
+            "charStart": 74,
+            "charEnd": 77,
+            "start": 100,
+            "end": 100.24
+          },
+          {
+            "text": "rápido",
+            "charStart": 78,
+            "charEnd": 84,
+            "start": 100.32,
+            "end": 100.72
+          },
+          {
+            "text": "que",
+            "charStart": 85,
+            "charEnd": 88,
+            "start": 100.8,
+            "end": 100.88
+          },
+          {
+            "text": "cualquier",
+            "charStart": 89,
+            "charEnd": 98,
+            "start": 100.96,
+            "end": 101.36
+          },
+          {
+            "text": "mensaje.",
+            "charStart": 99,
+            "charEnd": 107,
+            "start": 101.44,
+            "end": 102.56
+          }
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "es": "A las once volvió la electricidad y las lámparas se encendieron, una detrás de otra.",
+      "en": "At eleven the electricity returned, and the lamps came on, one after another.",
+      "annotations": [],
+      "audio": {
+        "start": 102.6,
+        "end": 108,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 102.6,
+            "end": 102.64
+          },
+          {
+            "text": "las",
+            "charStart": 2,
+            "charEnd": 5,
+            "start": 102.72,
+            "end": 102.88
+          },
+          {
+            "text": "once",
+            "charStart": 6,
+            "charEnd": 10,
+            "start": 102.96,
+            "end": 103.2
+          },
+          {
+            "text": "volvió",
+            "charStart": 11,
+            "charEnd": 17,
+            "start": 103.28,
+            "end": 103.6
+          },
+          {
+            "text": "la",
+            "charStart": 18,
+            "charEnd": 20,
+            "start": 103.68,
+            "end": 103.72
+          },
+          {
+            "text": "electricidad",
+            "charStart": 21,
+            "charEnd": 33,
+            "start": 103.76,
+            "end": 104.56
+          },
+          {
+            "text": "y",
+            "charStart": 34,
+            "charEnd": 35,
+            "start": 104.6,
+            "end": 104.64
+          },
+          {
+            "text": "las",
+            "charStart": 36,
+            "charEnd": 39,
+            "start": 104.72,
+            "end": 104.88
+          },
+          {
+            "text": "lámparas",
+            "charStart": 40,
+            "charEnd": 48,
+            "start": 104.96,
+            "end": 105.36
+          },
+          {
+            "text": "se",
+            "charStart": 49,
+            "charEnd": 51,
+            "start": 105.4,
+            "end": 105.44
+          },
+          {
+            "text": "encendieron,",
+            "charStart": 52,
+            "charEnd": 64,
+            "start": 105.52,
+            "end": 106.4
+          },
+          {
+            "text": "una",
+            "charStart": 65,
+            "charEnd": 68,
+            "start": 106.56,
+            "end": 106.72
+          },
+          {
+            "text": "detrás",
+            "charStart": 69,
+            "charEnd": 75,
+            "start": 106.827,
+            "end": 107.12
+          },
+          {
+            "text": "de",
+            "charStart": 76,
+            "charEnd": 78,
+            "start": 107.2,
+            "end": 107.28
+          },
+          {
+            "text": "otra.",
+            "charStart": 79,
+            "charEnd": 84,
+            "start": 107.36,
+            "end": 108
+          }
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "es": "Los vecinos guardaron sus cosas y se despidieron, pero nadie se apresuró a cerrar la puerta.",
+      "en": "The neighbors put away their things and said goodbye, but nobody hurried to close the door.",
+      "annotations": [],
+      "audio": {
+        "start": 108.08,
+        "end": 113.76,
+        "words": [
+          {
+            "text": "Los",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 108.08,
+            "end": 108.16
+          },
+          {
+            "text": "vecinos",
+            "charStart": 4,
+            "charEnd": 11,
+            "start": 108.24,
+            "end": 108.64
+          },
+          {
+            "text": "guardaron",
+            "charStart": 12,
+            "charEnd": 21,
+            "start": 108.72,
+            "end": 109.12
+          },
+          {
+            "text": "sus",
+            "charStart": 22,
+            "charEnd": 25,
+            "start": 109.24,
+            "end": 109.36
+          },
+          {
+            "text": "cosas",
+            "charStart": 26,
+            "charEnd": 31,
+            "start": 109.48,
+            "end": 109.76
+          },
+          {
+            "text": "y",
+            "charStart": 32,
+            "charEnd": 33,
+            "start": 109.84,
+            "end": 109.88
+          },
+          {
+            "text": "se",
+            "charStart": 34,
+            "charEnd": 36,
+            "start": 109.92,
+            "end": 110
+          },
+          {
+            "text": "despidieron,",
+            "charStart": 37,
+            "charEnd": 49,
+            "start": 110.08,
+            "end": 110.96
+          },
+          {
+            "text": "pero",
+            "charStart": 50,
+            "charEnd": 54,
+            "start": 111.04,
+            "end": 111.28
+          },
+          {
+            "text": "nadie",
+            "charStart": 55,
+            "charEnd": 60,
+            "start": 111.4,
+            "end": 111.68
+          },
+          {
+            "text": "se",
+            "charStart": 61,
+            "charEnd": 63,
+            "start": 111.72,
+            "end": 111.76
+          },
+          {
+            "text": "apresuró",
+            "charStart": 64,
+            "charEnd": 72,
+            "start": 111.84,
+            "end": 112.24
+          },
+          {
+            "text": "a",
+            "charStart": 73,
+            "charEnd": 74,
+            "start": 112.32,
+            "end": 112.4
+          },
+          {
+            "text": "cerrar",
+            "charStart": 75,
+            "charEnd": 81,
+            "start": 112.48,
+            "end": 112.72
+          },
+          {
+            "text": "la",
+            "charStart": 82,
+            "charEnd": 84,
+            "start": 112.8,
+            "end": 112.88
+          },
+          {
+            "text": "puerta.",
+            "charStart": 85,
+            "charEnd": 92,
+            "start": 112.92,
+            "end": 113.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "es": "A la mañana siguiente, Sofía bajó por las escaleras en lugar de tomar el ascensor.",
+      "en": "The following morning, Sofía went down the stairs instead of taking the elevator.",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a19-1",
+          "text": "en lugar de",
+          "type": "grammar",
+          "meaning": "instead of",
+          "explanation": "En lugar de followed by an infinitive introduces an alternative action.",
+          "grammar": {
+            "structure": "en lugar de + infinitive"
+          },
+          "start": 52,
+          "end": 63
+        }
+      ],
+      "audio": {
+        "start": 113.8,
+        "end": 118.853,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 113.8,
+            "end": 113.84
+          },
+          {
+            "text": "la",
+            "charStart": 2,
+            "charEnd": 4,
+            "start": 113.92,
+            "end": 114
+          },
+          {
+            "text": "mañana",
+            "charStart": 5,
+            "charEnd": 11,
+            "start": 114.08,
+            "end": 114.32
+          },
+          {
+            "text": "siguiente,",
+            "charStart": 12,
+            "charEnd": 22,
+            "start": 114.4,
+            "end": 115.12
+          },
+          {
+            "text": "Sofía",
+            "charStart": 23,
+            "charEnd": 28,
+            "start": 115.2,
+            "end": 115.52
+          },
+          {
+            "text": "bajó",
+            "charStart": 29,
+            "charEnd": 33,
+            "start": 115.6,
+            "end": 115.92
+          },
+          {
+            "text": "por",
+            "charStart": 34,
+            "charEnd": 37,
+            "start": 116,
+            "end": 116.08
+          },
+          {
+            "text": "las",
+            "charStart": 38,
+            "charEnd": 41,
+            "start": 116.16,
+            "end": 116.24
+          },
+          {
+            "text": "escaleras",
+            "charStart": 42,
+            "charEnd": 51,
+            "start": 116.44,
+            "end": 116.88
+          },
+          {
+            "text": "en",
+            "charStart": 52,
+            "charEnd": 54,
+            "start": 116.96,
+            "end": 117.04
+          },
+          {
+            "text": "lugar",
+            "charStart": 55,
+            "charEnd": 60,
+            "start": 117.08,
+            "end": 117.36
+          },
+          {
+            "text": "de",
+            "charStart": 61,
+            "charEnd": 63,
+            "start": 117.4,
+            "end": 117.44
+          },
+          {
+            "text": "tomar",
+            "charStart": 64,
+            "charEnd": 69,
+            "start": 117.52,
+            "end": 117.76
+          },
+          {
+            "text": "el",
+            "charStart": 70,
+            "charEnd": 72,
+            "start": 117.8,
+            "end": 117.84
+          },
+          {
+            "text": "ascensor.",
+            "charStart": 73,
+            "charEnd": 82,
+            "start": 117.92,
+            "end": 118.853
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "es": "En el segundo piso se cruzó con Julián, que llevaba un pequeño cartel escrito a mano.",
+      "en": "On the second floor she ran into Julián, who was carrying a small handwritten sign.",
+      "annotations": [],
+      "audio": {
+        "start": 118.907,
+        "end": 124.16,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 118.907,
+            "end": 118.96
+          },
+          {
+            "text": "el",
+            "charStart": 3,
+            "charEnd": 5,
+            "start": 119,
+            "end": 119.04
+          },
+          {
+            "text": "segundo",
+            "charStart": 6,
+            "charEnd": 13,
+            "start": 119.12,
+            "end": 119.44
+          },
+          {
+            "text": "piso",
+            "charStart": 14,
+            "charEnd": 18,
+            "start": 119.6,
+            "end": 119.84
+          },
+          {
+            "text": "se",
+            "charStart": 19,
+            "charEnd": 21,
+            "start": 119.92,
+            "end": 120.08
+          },
+          {
+            "text": "cruzó",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 120.16,
+            "end": 120.4
+          },
+          {
+            "text": "con",
+            "charStart": 28,
+            "charEnd": 31,
+            "start": 120.48,
+            "end": 120.56
+          },
+          {
+            "text": "Julián,",
+            "charStart": 32,
+            "charEnd": 39,
+            "start": 120.6,
+            "end": 121.227
+          },
+          {
+            "text": "que",
+            "charStart": 40,
+            "charEnd": 43,
+            "start": 121.253,
+            "end": 121.28
+          },
+          {
+            "text": "llevaba",
+            "charStart": 44,
+            "charEnd": 51,
+            "start": 121.36,
+            "end": 121.76
+          },
+          {
+            "text": "un",
+            "charStart": 52,
+            "charEnd": 54,
+            "start": 121.84,
+            "end": 121.92
+          },
+          {
+            "text": "pequeño",
+            "charStart": 55,
+            "charEnd": 62,
+            "start": 122,
+            "end": 122.4
+          },
+          {
+            "text": "cartel",
+            "charStart": 63,
+            "charEnd": 69,
+            "start": 122.56,
+            "end": 122.88
+          },
+          {
+            "text": "escrito",
+            "charStart": 70,
+            "charEnd": 77,
+            "start": 123,
+            "end": 123.36
+          },
+          {
+            "text": "a",
+            "charStart": 78,
+            "charEnd": 79,
+            "start": 123.4,
+            "end": 123.44
+          },
+          {
+            "text": "mano.",
+            "charStart": 80,
+            "charEnd": 85,
+            "start": 123.56,
+            "end": 124.16
+          }
+        ]
+      }
+    },
+    {
+      "id": "s21",
+      "es": "Decía: «Viernes, ocho de la noche: té en la azotea. No hace falta que se vaya la luz».",
+      "en": "It said: “Friday, eight in the evening: tea on the rooftop. The power doesn’t have to go out.”",
+      "annotations": [
+        {
+          "id": "cuando-volvio-la-luz-a21-1",
+          "text": "No hace falta que",
+          "type": "grammar",
+          "meaning": "There is no need for",
+          "explanation": "With a new subject, hacer falta que leads to a subjunctive verb.",
+          "grammar": {
+            "structure": "hacer falta que + subjunctive"
+          },
+          "start": 52,
+          "end": 69
+        }
+      ],
+      "audio": {
+        "start": 124.24,
+        "end": 130.48,
+        "words": [
+          {
+            "text": "Decía:",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 124.24,
+            "end": 125.12
+          },
+          {
+            "text": "«Viernes,",
+            "charStart": 7,
+            "charEnd": 16,
+            "start": 125.173,
+            "end": 125.84
+          },
+          {
+            "text": "ocho",
+            "charStart": 17,
+            "charEnd": 21,
+            "start": 125.92,
+            "end": 126.08
+          },
+          {
+            "text": "de",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 126.16,
+            "end": 126.24
+          },
+          {
+            "text": "la",
+            "charStart": 25,
+            "charEnd": 27,
+            "start": 126.28,
+            "end": 126.32
+          },
+          {
+            "text": "noche:",
+            "charStart": 28,
+            "charEnd": 34,
+            "start": 126.4,
+            "end": 127.04
+          },
+          {
+            "text": "té",
+            "charStart": 35,
+            "charEnd": 37,
+            "start": 127.16,
+            "end": 127.28
+          },
+          {
+            "text": "en",
+            "charStart": 38,
+            "charEnd": 40,
+            "start": 127.32,
+            "end": 127.36
+          },
+          {
+            "text": "la",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 127.44,
+            "end": 127.48
+          },
+          {
+            "text": "azotea.",
+            "charStart": 44,
+            "charEnd": 51,
+            "start": 127.52,
+            "end": 128.32
+          },
+          {
+            "text": "No",
+            "charStart": 52,
+            "charEnd": 54,
+            "start": 128.4,
+            "end": 128.48
+          },
+          {
+            "text": "hace",
+            "charStart": 55,
+            "charEnd": 59,
+            "start": 128.56,
+            "end": 128.72
+          },
+          {
+            "text": "falta",
+            "charStart": 60,
+            "charEnd": 65,
+            "start": 128.76,
+            "end": 128.96
+          },
+          {
+            "text": "que",
+            "charStart": 66,
+            "charEnd": 69,
+            "start": 129.04,
+            "end": 129.12
+          },
+          {
+            "text": "se",
+            "charStart": 70,
+            "charEnd": 72,
+            "start": 129.2,
+            "end": 129.28
+          },
+          {
+            "text": "vaya",
+            "charStart": 73,
+            "charEnd": 77,
+            "start": 129.32,
+            "end": 129.52
+          },
+          {
+            "text": "la",
+            "charStart": 78,
+            "charEnd": 80,
+            "start": 129.56,
+            "end": 129.6
+          },
+          {
+            "text": "luz».",
+            "charStart": 81,
+            "charEnd": 86,
+            "start": 129.68,
+            "end": 130.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "es": "Sofía sonrió, cambió el rumbo y fue a comprar galletas para el viernes.",
+      "en": "Sofía smiled, changed direction, and went to buy cookies for Friday.",
+      "annotations": [],
+      "audio": {
+        "start": 130.52,
+        "end": 135.2,
+        "words": [
+          {
+            "text": "Sofía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 130.52,
+            "end": 130.96
+          },
+          {
+            "text": "sonrió,",
+            "charStart": 6,
+            "charEnd": 13,
+            "start": 131.04,
+            "end": 131.76
+          },
+          {
+            "text": "cambió",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 131.8,
+            "end": 132.08
+          },
+          {
+            "text": "el",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 132.16,
+            "end": 132.24
+          },
+          {
+            "text": "rumbo",
+            "charStart": 24,
+            "charEnd": 29,
+            "start": 132.36,
+            "end": 132.8
+          },
+          {
+            "text": "y",
+            "charStart": 30,
+            "charEnd": 31,
+            "start": 132.88,
+            "end": 132.96
+          },
+          {
+            "text": "fue",
+            "charStart": 32,
+            "charEnd": 35,
+            "start": 132.987,
+            "end": 133.04
+          },
+          {
+            "text": "a",
+            "charStart": 36,
+            "charEnd": 37,
+            "start": 133.12,
+            "end": 133.2
+          },
+          {
+            "text": "comprar",
+            "charStart": 38,
+            "charEnd": 45,
+            "start": 133.28,
+            "end": 133.52
+          },
+          {
+            "text": "galletas",
+            "charStart": 46,
+            "charEnd": 54,
+            "start": 133.6,
+            "end": 134.16
+          },
+          {
+            "text": "para",
+            "charStart": 55,
+            "charEnd": 59,
+            "start": 134.24,
+            "end": 134.32
+          },
+          {
+            "text": "el",
+            "charStart": 60,
+            "charEnd": 62,
+            "start": 134.36,
+            "end": 134.4
+          },
+          {
+            "text": "viernes.",
+            "charStart": 63,
+            "charEnd": 71,
+            "start": 134.44,
+            "end": 135.2
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "Why do Sofía and Julián go upstairs?",
+      "options": [
+        "To find a lost phone",
+        "To check on Julián’s mother",
+        "To restart the electricity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Julián’s mother is on the fifth floor, and the elevator is not working."
+    },
+    {
+      "question": "What happens when the neighbors gather?",
+      "options": [
+        "They begin to get to know one another",
+        "They argue about the electricity",
+        "They leave the building"
+      ],
+      "correctIndex": 0,
+      "explanation": "Their conversation shifts from the blackout to their lives."
+    },
+    {
+      "question": "What does Julián’s sign announce?",
+      "options": [
+        "A building meeting",
+        "A rooftop tea gathering",
+        "A violin concert"
+      ],
+      "correctIndex": 1,
+      "explanation": "It invites neighbors to tea on Friday, even without a blackout."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/cuando-volvio-la-luz.mp3",
+    "durationSeconds": 135.2,
+    "alignment": "words"
+  }
+}

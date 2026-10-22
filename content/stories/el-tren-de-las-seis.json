@@ -1,0 +1,1386 @@
+{
+  "schemaVersion": 1,
+  "id": "el-tren-de-las-seis",
+  "title": {
+    "es": "El tren de las seis",
+    "en": "The Six O’Clock Train"
+  },
+  "level": "A2",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Travel",
+  "synopsis": "A missed train turns a hurried journey into an unexpected encounter.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Preterite · completed past actions",
+  "secondaryGrammar": [
+    "Irregular past forms",
+    "Temporal connectors"
+  ],
+  "estimatedDurationSeconds": 101,
+  "wordCount": 154,
+  "coverImagePrompt": "Cinematic Spanish coastal train platform at sunset with old clock and lone suitcase, golden atmosphere",
+  "coverImage": "/images/el-tren-de-las-seis.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "Clara llegó a la estación diez minutos antes de las seis.",
+      "en": "Clara arrived at the station ten minutes before six.",
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a1-1",
+          "text": "llegó",
+          "type": "grammar",
+          "meaning": "arrived",
+          "explanation": "The preterite llegó presents arriving as a completed event.",
+          "grammar": {
+            "infinitive": "llegar",
+            "tense": "preterite",
+            "person": "third-person singular"
+          },
+          "start": 6,
+          "end": 11
+        }
+      ],
+      "audio": {
+        "start": 0,
+        "end": 3.64,
+        "words": [
+          {
+            "text": "Clara",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 0,
+            "end": 0.32
+          },
+          {
+            "text": "llegó",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 0.36,
+            "end": 0.64
+          },
+          {
+            "text": "a",
+            "charStart": 12,
+            "charEnd": 13,
+            "start": 0.667,
+            "end": 0.693
+          },
+          {
+            "text": "la",
+            "charStart": 14,
+            "charEnd": 16,
+            "start": 0.72,
+            "end": 0.8
+          },
+          {
+            "text": "estación",
+            "charStart": 17,
+            "charEnd": 25,
+            "start": 0.88,
+            "end": 1.36
+          },
+          {
+            "text": "diez",
+            "charStart": 26,
+            "charEnd": 30,
+            "start": 1.52,
+            "end": 1.76
+          },
+          {
+            "text": "minutos",
+            "charStart": 31,
+            "charEnd": 38,
+            "start": 1.84,
+            "end": 2.24
+          },
+          {
+            "text": "antes",
+            "charStart": 39,
+            "charEnd": 44,
+            "start": 2.4,
+            "end": 2.72
+          },
+          {
+            "text": "de",
+            "charStart": 45,
+            "charEnd": 47,
+            "start": 2.8,
+            "end": 2.84
+          },
+          {
+            "text": "las",
+            "charStart": 48,
+            "charEnd": 51,
+            "start": 2.88,
+            "end": 2.96
+          },
+          {
+            "text": "seis.",
+            "charStart": 52,
+            "charEnd": 57,
+            "start": 3.04,
+            "end": 3.64
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "Llevaba una maleta pequeña y un billete para visitar a su hermano en Valencia.",
+      "en": "She was carrying a small suitcase and a ticket to visit her brother in Valencia.",
+      "annotations": [],
+      "audio": {
+        "start": 3.84,
+        "end": 8.2,
+        "words": [
+          {
+            "text": "Llevaba",
+            "charStart": 0,
+            "charEnd": 7,
+            "start": 3.84,
+            "end": 4.24
+          },
+          {
+            "text": "una",
+            "charStart": 8,
+            "charEnd": 11,
+            "start": 4.32,
+            "end": 4.4
+          },
+          {
+            "text": "maleta",
+            "charStart": 12,
+            "charEnd": 18,
+            "start": 4.44,
+            "end": 4.72
+          },
+          {
+            "text": "pequeña",
+            "charStart": 19,
+            "charEnd": 26,
+            "start": 4.8,
+            "end": 5.36
+          },
+          {
+            "text": "y",
+            "charStart": 27,
+            "charEnd": 28,
+            "start": 5.52,
+            "end": 5.6
+          },
+          {
+            "text": "un",
+            "charStart": 29,
+            "charEnd": 31,
+            "start": 5.64,
+            "end": 5.68
+          },
+          {
+            "text": "billete",
+            "charStart": 32,
+            "charEnd": 39,
+            "start": 5.76,
+            "end": 6.16
+          },
+          {
+            "text": "para",
+            "charStart": 40,
+            "charEnd": 44,
+            "start": 6.24,
+            "end": 6.32
+          },
+          {
+            "text": "visitar",
+            "charStart": 45,
+            "charEnd": 52,
+            "start": 6.4,
+            "end": 6.8
+          },
+          {
+            "text": "a",
+            "charStart": 53,
+            "charEnd": 54,
+            "start": 6.827,
+            "end": 6.853
+          },
+          {
+            "text": "su",
+            "charStart": 55,
+            "charEnd": 57,
+            "start": 6.88,
+            "end": 6.96
+          },
+          {
+            "text": "hermano",
+            "charStart": 58,
+            "charEnd": 65,
+            "start": 7.04,
+            "end": 7.32
+          },
+          {
+            "text": "en",
+            "charStart": 66,
+            "charEnd": 68,
+            "start": 7.36,
+            "end": 7.44
+          },
+          {
+            "text": "Valencia.",
+            "charStart": 69,
+            "charEnd": 78,
+            "start": 7.52,
+            "end": 8.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Cuando vio el reloj, empezó a correr hacia el andén.",
+      "en": "When she saw the clock, she started running toward the platform.",
+      "annotations": [],
+      "audio": {
+        "start": 8.4,
+        "end": 11.44,
+        "words": [
+          {
+            "text": "Cuando",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 8.4,
+            "end": 8.64
+          },
+          {
+            "text": "vio",
+            "charStart": 7,
+            "charEnd": 10,
+            "start": 8.72,
+            "end": 8.88
+          },
+          {
+            "text": "el",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 8.92,
+            "end": 8.96
+          },
+          {
+            "text": "reloj,",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 9.04,
+            "end": 9.6
+          },
+          {
+            "text": "empezó",
+            "charStart": 21,
+            "charEnd": 27,
+            "start": 9.72,
+            "end": 10.12
+          },
+          {
+            "text": "a",
+            "charStart": 28,
+            "charEnd": 29,
+            "start": 10.16,
+            "end": 10.24
+          },
+          {
+            "text": "correr",
+            "charStart": 30,
+            "charEnd": 36,
+            "start": 10.36,
+            "end": 10.64
+          },
+          {
+            "text": "hacia",
+            "charStart": 37,
+            "charEnd": 42,
+            "start": 10.72,
+            "end": 10.88
+          },
+          {
+            "text": "el",
+            "charStart": 43,
+            "charEnd": 45,
+            "start": 10.92,
+            "end": 10.96
+          },
+          {
+            "text": "andén.",
+            "charStart": 46,
+            "charEnd": 52,
+            "start": 11.08,
+            "end": 11.44
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "Pero el tren salió justo cuando ella llegó a la puerta.",
+      "en": "But the train departed just as she reached the door.",
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a4-1",
+          "text": "salió",
+          "type": "grammar",
+          "meaning": "left / departed",
+          "explanation": "Salió is the third-person singular preterite of salir and presents the departure as a completed event.",
+          "grammar": {
+            "infinitive": "salir",
+            "tense": "preterite",
+            "person": "third-person singular"
+          },
+          "start": 13,
+          "end": 18
+        }
+      ],
+      "audio": {
+        "start": 11.68,
+        "end": 14.8,
+        "words": [
+          {
+            "text": "Pero",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 11.68,
+            "end": 11.84
+          },
+          {
+            "text": "el",
+            "charStart": 5,
+            "charEnd": 7,
+            "start": 11.88,
+            "end": 11.92
+          },
+          {
+            "text": "tren",
+            "charStart": 8,
+            "charEnd": 12,
+            "start": 12,
+            "end": 12.24
+          },
+          {
+            "text": "salió",
+            "charStart": 13,
+            "charEnd": 18,
+            "start": 12.28,
+            "end": 12.72
+          },
+          {
+            "text": "justo",
+            "charStart": 19,
+            "charEnd": 24,
+            "start": 12.92,
+            "end": 13.2
+          },
+          {
+            "text": "cuando",
+            "charStart": 25,
+            "charEnd": 31,
+            "start": 13.28,
+            "end": 13.52
+          },
+          {
+            "text": "ella",
+            "charStart": 32,
+            "charEnd": 36,
+            "start": 13.6,
+            "end": 13.76
+          },
+          {
+            "text": "llegó",
+            "charStart": 37,
+            "charEnd": 42,
+            "start": 13.84,
+            "end": 14.08
+          },
+          {
+            "text": "a",
+            "charStart": 43,
+            "charEnd": 44,
+            "start": 14.107,
+            "end": 14.133
+          },
+          {
+            "text": "la",
+            "charStart": 45,
+            "charEnd": 47,
+            "start": 14.16,
+            "end": 14.24
+          },
+          {
+            "text": "puerta.",
+            "charStart": 48,
+            "charEnd": 55,
+            "start": 14.32,
+            "end": 14.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Clara se sentó en un banco y llamó a su hermano.",
+      "en": "Clara sat on a bench and called her brother.",
+      "annotations": [],
+      "audio": {
+        "start": 15.2,
+        "end": 18,
+        "words": [
+          {
+            "text": "Clara",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 15.2,
+            "end": 15.44
+          },
+          {
+            "text": "se",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 15.52,
+            "end": 15.6
+          },
+          {
+            "text": "sentó",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 15.68,
+            "end": 15.973
+          },
+          {
+            "text": "en",
+            "charStart": 15,
+            "charEnd": 17,
+            "start": 16.027,
+            "end": 16.08
+          },
+          {
+            "text": "un",
+            "charStart": 18,
+            "charEnd": 20,
+            "start": 16.12,
+            "end": 16.16
+          },
+          {
+            "text": "banco",
+            "charStart": 21,
+            "charEnd": 26,
+            "start": 16.24,
+            "end": 16.64
+          },
+          {
+            "text": "y",
+            "charStart": 27,
+            "charEnd": 28,
+            "start": 16.8,
+            "end": 16.88
+          },
+          {
+            "text": "llamó",
+            "charStart": 29,
+            "charEnd": 34,
+            "start": 16.92,
+            "end": 17.2
+          },
+          {
+            "text": "a",
+            "charStart": 35,
+            "charEnd": 36,
+            "start": 17.24,
+            "end": 17.28
+          },
+          {
+            "text": "su",
+            "charStart": 37,
+            "charEnd": 39,
+            "start": 17.32,
+            "end": 17.36
+          },
+          {
+            "text": "hermano.",
+            "charStart": 40,
+            "charEnd": 48,
+            "start": 17.44,
+            "end": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "«No pasa nada», dijo él. «Hay otro tren a las ocho».",
+      "en": "“It’s all right,” he said. “There’s another train at eight.”",
+      "annotations": [],
+      "audio": {
+        "start": 18.23,
+        "end": 21.6,
+        "words": [
+          {
+            "text": "«No",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 18.23,
+            "end": 18.32
+          },
+          {
+            "text": "pasa",
+            "charStart": 4,
+            "charEnd": 8,
+            "start": 18.4,
+            "end": 18.64
+          },
+          {
+            "text": "nada»,",
+            "charStart": 9,
+            "charEnd": 15,
+            "start": 18.72,
+            "end": 19.36
+          },
+          {
+            "text": "dijo",
+            "charStart": 16,
+            "charEnd": 20,
+            "start": 19.44,
+            "end": 19.68
+          },
+          {
+            "text": "él.",
+            "charStart": 21,
+            "charEnd": 24,
+            "start": 19.76,
+            "end": 20.08
+          },
+          {
+            "text": "«Hay",
+            "charStart": 25,
+            "charEnd": 29,
+            "start": 20.24,
+            "end": 20.4
+          },
+          {
+            "text": "otro",
+            "charStart": 30,
+            "charEnd": 34,
+            "start": 20.48,
+            "end": 20.64
+          },
+          {
+            "text": "tren",
+            "charStart": 35,
+            "charEnd": 39,
+            "start": 20.72,
+            "end": 20.88
+          },
+          {
+            "text": "a",
+            "charStart": 40,
+            "charEnd": 41,
+            "start": 20.96,
+            "end": 21
+          },
+          {
+            "text": "las",
+            "charStart": 42,
+            "charEnd": 45,
+            "start": 21.04,
+            "end": 21.2
+          },
+          {
+            "text": "ocho».",
+            "charStart": 46,
+            "charEnd": 52,
+            "start": 21.28,
+            "end": 21.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "Mientras esperaba, una señora le ofreció una naranja y le preguntó por su viaje.",
+      "en": "While she waited, a woman offered her an orange and asked about her trip.",
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a7-1",
+          "text": "Mientras esperaba",
+          "type": "grammar",
+          "meaning": "While she was waiting",
+          "explanation": "Mientras plus the imperfect sets the background for another past action.",
+          "grammar": {
+            "infinitive": "esperar",
+            "tense": "imperfect",
+            "structure": "mientras + imperfect",
+            "examples": [
+              {
+                "es": "Mientras esperaba el autobús, leí un libro.",
+                "en": "While I was waiting for the bus, I read a book."
+              },
+              {
+                "es": "Mientras cocinábamos, escuchamos música.",
+                "en": "While we were cooking, we listened to music."
+              }
+            ]
+          },
+          "start": 0,
+          "end": 17
+        }
+      ],
+      "audio": {
+        "start": 22.08,
+        "end": 26.88,
+        "words": [
+          {
+            "text": "Mientras",
+            "charStart": 0,
+            "charEnd": 8,
+            "start": 22.08,
+            "end": 22.4
+          },
+          {
+            "text": "esperaba,",
+            "charStart": 9,
+            "charEnd": 18,
+            "start": 22.48,
+            "end": 23.28
+          },
+          {
+            "text": "una",
+            "charStart": 19,
+            "charEnd": 22,
+            "start": 23.36,
+            "end": 23.44
+          },
+          {
+            "text": "señora",
+            "charStart": 23,
+            "charEnd": 29,
+            "start": 23.52,
+            "end": 23.92
+          },
+          {
+            "text": "le",
+            "charStart": 30,
+            "charEnd": 32,
+            "start": 23.96,
+            "end": 24
+          },
+          {
+            "text": "ofreció",
+            "charStart": 33,
+            "charEnd": 40,
+            "start": 24.08,
+            "end": 24.48
+          },
+          {
+            "text": "una",
+            "charStart": 41,
+            "charEnd": 44,
+            "start": 24.56,
+            "end": 24.72
+          },
+          {
+            "text": "naranja",
+            "charStart": 45,
+            "charEnd": 52,
+            "start": 24.76,
+            "end": 25.36
+          },
+          {
+            "text": "y",
+            "charStart": 53,
+            "charEnd": 54,
+            "start": 25.44,
+            "end": 25.52
+          },
+          {
+            "text": "le",
+            "charStart": 55,
+            "charEnd": 57,
+            "start": 25.6,
+            "end": 25.68
+          },
+          {
+            "text": "preguntó",
+            "charStart": 58,
+            "charEnd": 66,
+            "start": 25.76,
+            "end": 26.08
+          },
+          {
+            "text": "por",
+            "charStart": 67,
+            "charEnd": 70,
+            "start": 26.16,
+            "end": 26.24
+          },
+          {
+            "text": "su",
+            "charStart": 71,
+            "charEnd": 73,
+            "start": 26.32,
+            "end": 26.4
+          },
+          {
+            "text": "viaje.",
+            "charStart": 74,
+            "charEnd": 80,
+            "start": 26.48,
+            "end": 26.88
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "Hablaron de ciudades, de comida y de los lugares que todavía querían conocer.",
+      "en": "They talked about cities, food, and places they still wanted to visit.",
+      "annotations": [],
+      "audio": {
+        "start": 27.2,
+        "end": 32.36,
+        "words": [
+          {
+            "text": "Hablaron",
+            "charStart": 0,
+            "charEnd": 8,
+            "start": 27.2,
+            "end": 27.6
+          },
+          {
+            "text": "de",
+            "charStart": 9,
+            "charEnd": 11,
+            "start": 27.64,
+            "end": 27.68
+          },
+          {
+            "text": "ciudades,",
+            "charStart": 12,
+            "charEnd": 21,
+            "start": 27.76,
+            "end": 28.64
+          },
+          {
+            "text": "de",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 28.68,
+            "end": 28.72
+          },
+          {
+            "text": "comida",
+            "charStart": 25,
+            "charEnd": 31,
+            "start": 28.8,
+            "end": 29.36
+          },
+          {
+            "text": "y",
+            "charStart": 32,
+            "charEnd": 33,
+            "start": 29.6,
+            "end": 29.64
+          },
+          {
+            "text": "de",
+            "charStart": 34,
+            "charEnd": 36,
+            "start": 29.68,
+            "end": 29.76
+          },
+          {
+            "text": "los",
+            "charStart": 37,
+            "charEnd": 40,
+            "start": 29.84,
+            "end": 29.92
+          },
+          {
+            "text": "lugares",
+            "charStart": 41,
+            "charEnd": 48,
+            "start": 30,
+            "end": 30.32
+          },
+          {
+            "text": "que",
+            "charStart": 49,
+            "charEnd": 52,
+            "start": 30.4,
+            "end": 30.48
+          },
+          {
+            "text": "todavía",
+            "charStart": 53,
+            "charEnd": 60,
+            "start": 30.64,
+            "end": 31.2
+          },
+          {
+            "text": "querían",
+            "charStart": 61,
+            "charEnd": 68,
+            "start": 31.28,
+            "end": 31.68
+          },
+          {
+            "text": "conocer.",
+            "charStart": 69,
+            "charEnd": 77,
+            "start": 31.76,
+            "end": 32.36
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "La señora había vivido treinta años en Valencia y conocía todos sus rincones.",
+      "en": "The woman had lived in Valencia for thirty years and knew all its hidden corners.",
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a9-1",
+          "text": "había vivido",
+          "type": "grammar",
+          "meaning": "had lived",
+          "explanation": "The pluperfect puts one past situation before another past moment.",
+          "grammar": {
+            "infinitive": "vivir",
+            "tense": "pluperfect",
+            "breakdown": [
+              {
+                "part": "había",
+                "explanation": "imperfect of haber"
+              },
+              {
+                "part": "vivido",
+                "explanation": "past participle of vivir"
+              }
+            ]
+          },
+          "start": 10,
+          "end": 22
+        }
+      ],
+      "audio": {
+        "start": 32.56,
+        "end": 37.56,
+        "words": [
+          {
+            "text": "La",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 32.56,
+            "end": 32.64
+          },
+          {
+            "text": "señora",
+            "charStart": 3,
+            "charEnd": 9,
+            "start": 32.72,
+            "end": 32.96
+          },
+          {
+            "text": "había",
+            "charStart": 10,
+            "charEnd": 15,
+            "start": 33.04,
+            "end": 33.28
+          },
+          {
+            "text": "vivido",
+            "charStart": 16,
+            "charEnd": 22,
+            "start": 33.32,
+            "end": 33.76
+          },
+          {
+            "text": "treinta",
+            "charStart": 23,
+            "charEnd": 30,
+            "start": 33.84,
+            "end": 34.24
+          },
+          {
+            "text": "años",
+            "charStart": 31,
+            "charEnd": 35,
+            "start": 34.32,
+            "end": 34.56
+          },
+          {
+            "text": "en",
+            "charStart": 36,
+            "charEnd": 38,
+            "start": 34.64,
+            "end": 34.72
+          },
+          {
+            "text": "Valencia",
+            "charStart": 39,
+            "charEnd": 47,
+            "start": 34.8,
+            "end": 35.28
+          },
+          {
+            "text": "y",
+            "charStart": 48,
+            "charEnd": 49,
+            "start": 35.44,
+            "end": 35.52
+          },
+          {
+            "text": "conocía",
+            "charStart": 50,
+            "charEnd": 57,
+            "start": 35.6,
+            "end": 36
+          },
+          {
+            "text": "todos",
+            "charStart": 58,
+            "charEnd": 63,
+            "start": 36.24,
+            "end": 36.56
+          },
+          {
+            "text": "sus",
+            "charStart": 64,
+            "charEnd": 67,
+            "start": 36.64,
+            "end": 36.72
+          },
+          {
+            "text": "rincones.",
+            "charStart": 68,
+            "charEnd": 77,
+            "start": 36.84,
+            "end": 37.56
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "Antes de despedirse, escribió una dirección en la parte de atrás del billete de Clara.",
+      "en": "Before saying goodbye, she wrote an address on the back of Clara’s ticket.",
+      "annotations": [],
+      "audio": {
+        "start": 37.76,
+        "end": 42.72,
+        "words": [
+          {
+            "text": "Antes",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 37.76,
+            "end": 38
+          },
+          {
+            "text": "de",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 38.08,
+            "end": 38.16
+          },
+          {
+            "text": "despedirse,",
+            "charStart": 9,
+            "charEnd": 20,
+            "start": 38.24,
+            "end": 39.04
+          },
+          {
+            "text": "escribió",
+            "charStart": 21,
+            "charEnd": 29,
+            "start": 39.12,
+            "end": 39.52
+          },
+          {
+            "text": "una",
+            "charStart": 30,
+            "charEnd": 33,
+            "start": 39.6,
+            "end": 39.68
+          },
+          {
+            "text": "dirección",
+            "charStart": 34,
+            "charEnd": 43,
+            "start": 39.76,
+            "end": 40.24
+          },
+          {
+            "text": "en",
+            "charStart": 44,
+            "charEnd": 46,
+            "start": 40.28,
+            "end": 40.32
+          },
+          {
+            "text": "la",
+            "charStart": 47,
+            "charEnd": 49,
+            "start": 40.4,
+            "end": 40.48
+          },
+          {
+            "text": "parte",
+            "charStart": 50,
+            "charEnd": 55,
+            "start": 40.56,
+            "end": 40.8
+          },
+          {
+            "text": "de",
+            "charStart": 56,
+            "charEnd": 58,
+            "start": 40.84,
+            "end": 40.88
+          },
+          {
+            "text": "atrás",
+            "charStart": 59,
+            "charEnd": 64,
+            "start": 40.96,
+            "end": 41.28
+          },
+          {
+            "text": "del",
+            "charStart": 65,
+            "charEnd": 68,
+            "start": 41.36,
+            "end": 41.44
+          },
+          {
+            "text": "billete",
+            "charStart": 69,
+            "charEnd": 76,
+            "start": 41.52,
+            "end": 41.84
+          },
+          {
+            "text": "de",
+            "charStart": 77,
+            "charEnd": 79,
+            "start": 41.92,
+            "end": 41.96
+          },
+          {
+            "text": "Clara.",
+            "charStart": 80,
+            "charEnd": 86,
+            "start": 42,
+            "end": 42.72
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "«Aquí hacen la mejor paella», le dijo, y las dos se rieron.",
+      "en": "“They make the best paella here,” she said, and both women laughed.",
+      "annotations": [],
+      "audio": {
+        "start": 42.827,
+        "end": 47.44,
+        "words": [
+          {
+            "text": "«Aquí",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 42.827,
+            "end": 43.12
+          },
+          {
+            "text": "hacen",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 43.16,
+            "end": 43.44
+          },
+          {
+            "text": "la",
+            "charStart": 12,
+            "charEnd": 14,
+            "start": 43.52,
+            "end": 43.68
+          },
+          {
+            "text": "mejor",
+            "charStart": 15,
+            "charEnd": 20,
+            "start": 43.76,
+            "end": 44.24
+          },
+          {
+            "text": "paella»,",
+            "charStart": 21,
+            "charEnd": 29,
+            "start": 44.32,
+            "end": 45.04
+          },
+          {
+            "text": "le",
+            "charStart": 30,
+            "charEnd": 32,
+            "start": 45.12,
+            "end": 45.2
+          },
+          {
+            "text": "dijo,",
+            "charStart": 33,
+            "charEnd": 38,
+            "start": 45.28,
+            "end": 45.76
+          },
+          {
+            "text": "y",
+            "charStart": 39,
+            "charEnd": 40,
+            "start": 45.84,
+            "end": 45.92
+          },
+          {
+            "text": "las",
+            "charStart": 41,
+            "charEnd": 44,
+            "start": 46,
+            "end": 46.16
+          },
+          {
+            "text": "dos",
+            "charStart": 45,
+            "charEnd": 48,
+            "start": 46.24,
+            "end": 46.4
+          },
+          {
+            "text": "se",
+            "charStart": 49,
+            "charEnd": 51,
+            "start": 46.48,
+            "end": 46.56
+          },
+          {
+            "text": "rieron.",
+            "charStart": 52,
+            "charEnd": 59,
+            "start": 46.64,
+            "end": 47.44
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "A las ocho, Clara subió al siguiente tren sin prisa.",
+      "en": "At eight, Clara boarded the next train without rushing.",
+      "annotations": [],
+      "audio": {
+        "start": 47.48,
+        "end": 51.04,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 47.48,
+            "end": 47.52
+          },
+          {
+            "text": "las",
+            "charStart": 2,
+            "charEnd": 5,
+            "start": 47.6,
+            "end": 47.76
+          },
+          {
+            "text": "ocho,",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 47.84,
+            "end": 48.32
+          },
+          {
+            "text": "Clara",
+            "charStart": 12,
+            "charEnd": 17,
+            "start": 48.4,
+            "end": 48.64
+          },
+          {
+            "text": "subió",
+            "charStart": 18,
+            "charEnd": 23,
+            "start": 48.72,
+            "end": 48.96
+          },
+          {
+            "text": "al",
+            "charStart": 24,
+            "charEnd": 26,
+            "start": 49.04,
+            "end": 49.12
+          },
+          {
+            "text": "siguiente",
+            "charStart": 27,
+            "charEnd": 36,
+            "start": 49.2,
+            "end": 49.6
+          },
+          {
+            "text": "tren",
+            "charStart": 37,
+            "charEnd": 41,
+            "start": 49.68,
+            "end": 49.92
+          },
+          {
+            "text": "sin",
+            "charStart": 42,
+            "charEnd": 45,
+            "start": 50.08,
+            "end": 50.32
+          },
+          {
+            "text": "prisa.",
+            "charStart": 46,
+            "charEnd": 52,
+            "start": 50.36,
+            "end": 51.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "es": "Perdió dos horas, pero ganó una historia que contar.",
+      "en": "She lost two hours, but gained a story to tell.",
+      "annotations": [
+        {
+          "id": "el-tren-de-las-seis-a13-1",
+          "text": "ganó una historia",
+          "type": "expression",
+          "meaning": "gained a story",
+          "explanation": "Ganar can mean earning or gaining something, not only winning a competition.",
+          "start": 23,
+          "end": 40
+        }
+      ],
+      "audio": {
+        "start": 51.177,
+        "end": 54.88,
+        "words": [
+          {
+            "text": "Perdió",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 51.177,
+            "end": 51.52
+          },
+          {
+            "text": "dos",
+            "charStart": 7,
+            "charEnd": 10,
+            "start": 51.6,
+            "end": 51.76
+          },
+          {
+            "text": "horas,",
+            "charStart": 11,
+            "charEnd": 17,
+            "start": 51.84,
+            "end": 52.48
+          },
+          {
+            "text": "pero",
+            "charStart": 18,
+            "charEnd": 22,
+            "start": 52.56,
+            "end": 52.72
+          },
+          {
+            "text": "ganó",
+            "charStart": 23,
+            "charEnd": 27,
+            "start": 52.84,
+            "end": 53.2
+          },
+          {
+            "text": "una",
+            "charStart": 28,
+            "charEnd": 31,
+            "start": 53.32,
+            "end": 53.44
+          },
+          {
+            "text": "historia",
+            "charStart": 32,
+            "charEnd": 40,
+            "start": 53.68,
+            "end": 54
+          },
+          {
+            "text": "que",
+            "charStart": 41,
+            "charEnd": 44,
+            "start": 54.08,
+            "end": 54.16
+          },
+          {
+            "text": "contar.",
+            "charStart": 45,
+            "charEnd": 52,
+            "start": 54.24,
+            "end": 54.88
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "Why does Clara have to wait at the station?",
+      "options": [
+        "Her suitcase is lost",
+        "She missed her train",
+        "Her brother calls her"
+      ],
+      "correctIndex": 1,
+      "explanation": "The train left just as she reached the door."
+    },
+    {
+      "question": "What does the woman give Clara?",
+      "options": [
+        "A hotel key",
+        "A map",
+        "An orange and an address"
+      ],
+      "correctIndex": 2,
+      "explanation": "She offers an orange and writes an address on Clara’s ticket."
+    },
+    {
+      "question": "How does Clara feel when she boards at eight?",
+      "options": [
+        "In no hurry",
+        "Angry",
+        "Afraid"
+      ],
+      "correctIndex": 0,
+      "explanation": "She boards without rushing, having enjoyed an unexpected conversation."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/el-tren-de-las-seis.mp3",
+    "durationSeconds": 54.88,
+    "alignment": "words"
+  }
+}

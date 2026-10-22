@@ -1,0 +1,2875 @@
+{
+  "schemaVersion": 1,
+  "id": "la-habitacion-doce",
+  "title": {
+    "es": "La habitación doce",
+    "en": "Room Twelve"
+  },
+  "level": "B1",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Mystery",
+  "synopsis": "At a quiet seaside hotel, a guest discovers that one locked room has a story nobody agrees on.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Past narration · imperfect, preterite and pluperfect",
+  "secondaryGrammar": [
+    "Reported speech",
+    "Conditional",
+    "Subjunctive after doubt"
+  ],
+  "estimatedDurationSeconds": 255,
+  "wordCount": 345,
+  "coverImagePrompt": "Moody seaside boutique hotel at night in Galicia with dark corridors brass room number twelve and ocean mist",
+  "coverImage": "/images/la-habitacion-doce.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "El hotel Miramar estaba casi vacío cuando Daniel llegó al pueblo una noche de noviembre.",
+      "en": "The Miramar Hotel was nearly empty when Daniel arrived in town one November night.",
+      "annotations": [],
+      "audio": {
+        "start": 0,
+        "end": 5.68,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 0,
+            "end": 0.16
+          },
+          {
+            "text": "hotel",
+            "charStart": 3,
+            "charEnd": 8,
+            "start": 0.28,
+            "end": 0.4
+          },
+          {
+            "text": "Miramar",
+            "charStart": 9,
+            "charEnd": 16,
+            "start": 0.48,
+            "end": 0.96
+          },
+          {
+            "text": "estaba",
+            "charStart": 17,
+            "charEnd": 23,
+            "start": 1.04,
+            "end": 1.52
+          },
+          {
+            "text": "casi",
+            "charStart": 24,
+            "charEnd": 28,
+            "start": 1.56,
+            "end": 1.84
+          },
+          {
+            "text": "vacío",
+            "charStart": 29,
+            "charEnd": 34,
+            "start": 1.92,
+            "end": 2.4
+          },
+          {
+            "text": "cuando",
+            "charStart": 35,
+            "charEnd": 41,
+            "start": 2.56,
+            "end": 2.8
+          },
+          {
+            "text": "Daniel",
+            "charStart": 42,
+            "charEnd": 48,
+            "start": 2.88,
+            "end": 3.2
+          },
+          {
+            "text": "llegó",
+            "charStart": 49,
+            "charEnd": 54,
+            "start": 3.24,
+            "end": 3.48
+          },
+          {
+            "text": "al",
+            "charStart": 55,
+            "charEnd": 57,
+            "start": 3.52,
+            "end": 3.68
+          },
+          {
+            "text": "pueblo",
+            "charStart": 58,
+            "charEnd": 64,
+            "start": 3.813,
+            "end": 4.08
+          },
+          {
+            "text": "una",
+            "charStart": 65,
+            "charEnd": 68,
+            "start": 4.2,
+            "end": 4.32
+          },
+          {
+            "text": "noche",
+            "charStart": 69,
+            "charEnd": 74,
+            "start": 4.4,
+            "end": 4.64
+          },
+          {
+            "text": "de",
+            "charStart": 75,
+            "charEnd": 77,
+            "start": 4.72,
+            "end": 4.8
+          },
+          {
+            "text": "noviembre.",
+            "charStart": 78,
+            "charEnd": 88,
+            "start": 4.88,
+            "end": 5.68
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "Había viajado hasta la costa para ordenar las fotografías que su padre le dejó después de morir.",
+      "en": "He had traveled to the coast to sort through the photographs his father left him after his death.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a2-1",
+          "text": "Había viajado",
+          "type": "grammar",
+          "meaning": "had traveled",
+          "explanation": "The pluperfect describes travel completed before the story’s main past timeline.",
+          "grammar": {
+            "infinitive": "viajar",
+            "tense": "pluperfect",
+            "breakdown": [
+              {
+                "part": "Había",
+                "explanation": "imperfect of haber"
+              },
+              {
+                "part": "viajado",
+                "explanation": "past participle of viajar"
+              }
+            ],
+            "examples": [
+              {
+                "es": "Ella había viajado antes de cumplir veinte años.",
+                "en": "She had traveled before turning twenty."
+              },
+              {
+                "es": "Ya habíamos salido cuando llegó.",
+                "en": "We had already left when he arrived."
+              }
+            ]
+          },
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "audio": {
+        "start": 5.72,
+        "end": 11.44,
+        "words": [
+          {
+            "text": "Había",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 5.72,
+            "end": 5.92
+          },
+          {
+            "text": "viajado",
+            "charStart": 6,
+            "charEnd": 13,
+            "start": 6,
+            "end": 6.48
+          },
+          {
+            "text": "hasta",
+            "charStart": 14,
+            "charEnd": 19,
+            "start": 6.52,
+            "end": 6.72
+          },
+          {
+            "text": "la",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 6.76,
+            "end": 6.8
+          },
+          {
+            "text": "costa",
+            "charStart": 23,
+            "charEnd": 28,
+            "start": 6.88,
+            "end": 7.28
+          },
+          {
+            "text": "para",
+            "charStart": 29,
+            "charEnd": 33,
+            "start": 7.44,
+            "end": 7.6
+          },
+          {
+            "text": "ordenar",
+            "charStart": 34,
+            "charEnd": 41,
+            "start": 7.76,
+            "end": 8.08
+          },
+          {
+            "text": "las",
+            "charStart": 42,
+            "charEnd": 45,
+            "start": 8.16,
+            "end": 8.24
+          },
+          {
+            "text": "fotografías",
+            "charStart": 46,
+            "charEnd": 57,
+            "start": 8.28,
+            "end": 9.04
+          },
+          {
+            "text": "que",
+            "charStart": 58,
+            "charEnd": 61,
+            "start": 9.08,
+            "end": 9.12
+          },
+          {
+            "text": "su",
+            "charStart": 62,
+            "charEnd": 64,
+            "start": 9.2,
+            "end": 9.36
+          },
+          {
+            "text": "padre",
+            "charStart": 65,
+            "charEnd": 70,
+            "start": 9.48,
+            "end": 9.68
+          },
+          {
+            "text": "le",
+            "charStart": 71,
+            "charEnd": 73,
+            "start": 9.76,
+            "end": 9.84
+          },
+          {
+            "text": "dejó",
+            "charStart": 74,
+            "charEnd": 78,
+            "start": 9.92,
+            "end": 10.24
+          },
+          {
+            "text": "después",
+            "charStart": 79,
+            "charEnd": 86,
+            "start": 10.36,
+            "end": 10.64
+          },
+          {
+            "text": "de",
+            "charStart": 87,
+            "charEnd": 89,
+            "start": 10.68,
+            "end": 10.72
+          },
+          {
+            "text": "morir.",
+            "charStart": 90,
+            "charEnd": 96,
+            "start": 10.8,
+            "end": 11.44
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Su padre había sido fotógrafo y, durante años, había visitado aquel hotel en invierno.",
+      "en": "His father had been a photographer and had visited that hotel in winter for years.",
+      "annotations": [],
+      "audio": {
+        "start": 11.52,
+        "end": 17.28,
+        "words": [
+          {
+            "text": "Su",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 11.52,
+            "end": 11.6
+          },
+          {
+            "text": "padre",
+            "charStart": 3,
+            "charEnd": 8,
+            "start": 11.68,
+            "end": 12.08
+          },
+          {
+            "text": "había",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 12.16,
+            "end": 12.4
+          },
+          {
+            "text": "sido",
+            "charStart": 15,
+            "charEnd": 19,
+            "start": 12.44,
+            "end": 12.64
+          },
+          {
+            "text": "fotógrafo",
+            "charStart": 20,
+            "charEnd": 29,
+            "start": 12.72,
+            "end": 13.36
+          },
+          {
+            "text": "y,",
+            "charStart": 30,
+            "charEnd": 32,
+            "start": 13.6,
+            "end": 13.92
+          },
+          {
+            "text": "durante",
+            "charStart": 33,
+            "charEnd": 40,
+            "start": 14,
+            "end": 14.32
+          },
+          {
+            "text": "años,",
+            "charStart": 41,
+            "charEnd": 46,
+            "start": 14.4,
+            "end": 14.88
+          },
+          {
+            "text": "había",
+            "charStart": 47,
+            "charEnd": 52,
+            "start": 14.96,
+            "end": 15.2
+          },
+          {
+            "text": "visitado",
+            "charStart": 53,
+            "charEnd": 61,
+            "start": 15.36,
+            "end": 15.76
+          },
+          {
+            "text": "aquel",
+            "charStart": 62,
+            "charEnd": 67,
+            "start": 15.84,
+            "end": 16.08
+          },
+          {
+            "text": "hotel",
+            "charStart": 68,
+            "charEnd": 73,
+            "start": 16.24,
+            "end": 16.4
+          },
+          {
+            "text": "en",
+            "charStart": 74,
+            "charEnd": 76,
+            "start": 16.44,
+            "end": 16.48
+          },
+          {
+            "text": "invierno.",
+            "charStart": 77,
+            "charEnd": 86,
+            "start": 16.56,
+            "end": 17.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "La recepcionista, una mujer llamada Rosa, le entregó la llave de la habitación once y le deseó buenas noches.",
+      "en": "The receptionist, a woman named Rosa, handed him the key to room eleven and wished him good night.",
+      "annotations": [],
+      "audio": {
+        "start": 17.52,
+        "end": 24.52,
+        "words": [
+          {
+            "text": "La",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 17.52,
+            "end": 17.6
+          },
+          {
+            "text": "recepcionista,",
+            "charStart": 3,
+            "charEnd": 17,
+            "start": 17.72,
+            "end": 18.64
+          },
+          {
+            "text": "una",
+            "charStart": 18,
+            "charEnd": 21,
+            "start": 18.72,
+            "end": 18.8
+          },
+          {
+            "text": "mujer",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 18.88,
+            "end": 19.2
+          },
+          {
+            "text": "llamada",
+            "charStart": 28,
+            "charEnd": 35,
+            "start": 19.24,
+            "end": 19.6
+          },
+          {
+            "text": "Rosa,",
+            "charStart": 36,
+            "charEnd": 41,
+            "start": 19.84,
+            "end": 20.4
+          },
+          {
+            "text": "le",
+            "charStart": 42,
+            "charEnd": 44,
+            "start": 20.44,
+            "end": 20.48
+          },
+          {
+            "text": "entregó",
+            "charStart": 45,
+            "charEnd": 52,
+            "start": 20.56,
+            "end": 20.88
+          },
+          {
+            "text": "la",
+            "charStart": 53,
+            "charEnd": 55,
+            "start": 20.92,
+            "end": 20.96
+          },
+          {
+            "text": "llave",
+            "charStart": 56,
+            "charEnd": 61,
+            "start": 21.04,
+            "end": 21.28
+          },
+          {
+            "text": "de",
+            "charStart": 62,
+            "charEnd": 64,
+            "start": 21.36,
+            "end": 21.44
+          },
+          {
+            "text": "la",
+            "charStart": 65,
+            "charEnd": 67,
+            "start": 21.48,
+            "end": 21.52
+          },
+          {
+            "text": "habitación",
+            "charStart": 68,
+            "charEnd": 78,
+            "start": 21.64,
+            "end": 22.16
+          },
+          {
+            "text": "once",
+            "charStart": 79,
+            "charEnd": 83,
+            "start": 22.24,
+            "end": 22.64
+          },
+          {
+            "text": "y",
+            "charStart": 84,
+            "charEnd": 85,
+            "start": 22.8,
+            "end": 22.88
+          },
+          {
+            "text": "le",
+            "charStart": 86,
+            "charEnd": 88,
+            "start": 22.96,
+            "end": 23.04
+          },
+          {
+            "text": "deseó",
+            "charStart": 89,
+            "charEnd": 94,
+            "start": 23.147,
+            "end": 23.44
+          },
+          {
+            "text": "buenas",
+            "charStart": 95,
+            "charEnd": 101,
+            "start": 23.52,
+            "end": 23.84
+          },
+          {
+            "text": "noches.",
+            "charStart": 102,
+            "charEnd": 109,
+            "start": 23.92,
+            "end": 24.52
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Mientras subía las escaleras, Daniel observó que la puerta de la habitación doce no tenía número.",
+      "en": "As he climbed the stairs, Daniel noticed that the door to room twelve had no number.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a5-1",
+          "text": "Mientras subía",
+          "type": "grammar",
+          "meaning": "While he was going up",
+          "explanation": "The imperfect subía sets an ongoing scene; observó is the interruption.",
+          "grammar": {
+            "infinitive": "subir",
+            "tense": "imperfect",
+            "structure": "mientras + imperfect, preterite"
+          },
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "audio": {
+        "start": 24.72,
+        "end": 30.56,
+        "words": [
+          {
+            "text": "Mientras",
+            "charStart": 0,
+            "charEnd": 8,
+            "start": 24.72,
+            "end": 25.04
+          },
+          {
+            "text": "subía",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 25.12,
+            "end": 25.36
+          },
+          {
+            "text": "las",
+            "charStart": 15,
+            "charEnd": 18,
+            "start": 25.44,
+            "end": 25.52
+          },
+          {
+            "text": "escaleras,",
+            "charStart": 19,
+            "charEnd": 29,
+            "start": 25.6,
+            "end": 26.4
+          },
+          {
+            "text": "Daniel",
+            "charStart": 30,
+            "charEnd": 36,
+            "start": 26.48,
+            "end": 26.8
+          },
+          {
+            "text": "observó",
+            "charStart": 37,
+            "charEnd": 44,
+            "start": 26.96,
+            "end": 27.2
+          },
+          {
+            "text": "que",
+            "charStart": 45,
+            "charEnd": 48,
+            "start": 27.28,
+            "end": 27.36
+          },
+          {
+            "text": "la",
+            "charStart": 49,
+            "charEnd": 51,
+            "start": 27.44,
+            "end": 27.52
+          },
+          {
+            "text": "puerta",
+            "charStart": 52,
+            "charEnd": 58,
+            "start": 27.6,
+            "end": 27.92
+          },
+          {
+            "text": "de",
+            "charStart": 59,
+            "charEnd": 61,
+            "start": 28,
+            "end": 28.08
+          },
+          {
+            "text": "la",
+            "charStart": 62,
+            "charEnd": 64,
+            "start": 28.12,
+            "end": 28.16
+          },
+          {
+            "text": "habitación",
+            "charStart": 65,
+            "charEnd": 75,
+            "start": 28.28,
+            "end": 28.72
+          },
+          {
+            "text": "doce",
+            "charStart": 76,
+            "charEnd": 80,
+            "start": 28.88,
+            "end": 29.2
+          },
+          {
+            "text": "no",
+            "charStart": 81,
+            "charEnd": 83,
+            "start": 29.52,
+            "end": 29.6
+          },
+          {
+            "text": "tenía",
+            "charStart": 84,
+            "charEnd": 89,
+            "start": 29.68,
+            "end": 30
+          },
+          {
+            "text": "número.",
+            "charStart": 90,
+            "charEnd": 97,
+            "start": 30.04,
+            "end": 30.56
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "En su lugar había una marca rectangular, más clara que el resto de la madera.",
+      "en": "In its place was a rectangular mark, lighter than the rest of the wood.",
+      "annotations": [],
+      "audio": {
+        "start": 30.72,
+        "end": 35.72,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 30.72,
+            "end": 30.88
+          },
+          {
+            "text": "su",
+            "charStart": 3,
+            "charEnd": 5,
+            "start": 30.92,
+            "end": 30.96
+          },
+          {
+            "text": "lugar",
+            "charStart": 6,
+            "charEnd": 11,
+            "start": 31.04,
+            "end": 31.44
+          },
+          {
+            "text": "había",
+            "charStart": 12,
+            "charEnd": 17,
+            "start": 31.52,
+            "end": 31.84
+          },
+          {
+            "text": "una",
+            "charStart": 18,
+            "charEnd": 21,
+            "start": 31.92,
+            "end": 32
+          },
+          {
+            "text": "marca",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 32.08,
+            "end": 32.4
+          },
+          {
+            "text": "rectangular,",
+            "charStart": 28,
+            "charEnd": 40,
+            "start": 32.52,
+            "end": 33.44
+          },
+          {
+            "text": "más",
+            "charStart": 41,
+            "charEnd": 44,
+            "start": 33.52,
+            "end": 33.76
+          },
+          {
+            "text": "clara",
+            "charStart": 45,
+            "charEnd": 50,
+            "start": 33.84,
+            "end": 34.08
+          },
+          {
+            "text": "que",
+            "charStart": 51,
+            "charEnd": 54,
+            "start": 34.16,
+            "end": 34.24
+          },
+          {
+            "text": "el",
+            "charStart": 55,
+            "charEnd": 57,
+            "start": 34.32,
+            "end": 34.4
+          },
+          {
+            "text": "resto",
+            "charStart": 58,
+            "charEnd": 63,
+            "start": 34.48,
+            "end": 34.8
+          },
+          {
+            "text": "de",
+            "charStart": 64,
+            "charEnd": 66,
+            "start": 34.84,
+            "end": 34.88
+          },
+          {
+            "text": "la",
+            "charStart": 67,
+            "charEnd": 69,
+            "start": 34.96,
+            "end": 35
+          },
+          {
+            "text": "madera.",
+            "charStart": 70,
+            "charEnd": 77,
+            "start": 35.04,
+            "end": 35.72
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "Esa madrugada, un sonido lo despertó: alguien arrastraba una silla al otro lado de la pared.",
+      "en": "In the early hours of the morning, a sound woke him: someone was dragging a chair on the other side of the wall.",
+      "annotations": [],
+      "audio": {
+        "start": 36.08,
+        "end": 42.28,
+        "words": [
+          {
+            "text": "Esa",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 36.08,
+            "end": 36.24
+          },
+          {
+            "text": "madrugada,",
+            "charStart": 4,
+            "charEnd": 14,
+            "start": 36.32,
+            "end": 37.28
+          },
+          {
+            "text": "un",
+            "charStart": 15,
+            "charEnd": 17,
+            "start": 37.36,
+            "end": 37.44
+          },
+          {
+            "text": "sonido",
+            "charStart": 18,
+            "charEnd": 24,
+            "start": 37.52,
+            "end": 38
+          },
+          {
+            "text": "lo",
+            "charStart": 25,
+            "charEnd": 27,
+            "start": 38.04,
+            "end": 38.08
+          },
+          {
+            "text": "despertó:",
+            "charStart": 28,
+            "charEnd": 37,
+            "start": 38.16,
+            "end": 39.04
+          },
+          {
+            "text": "alguien",
+            "charStart": 38,
+            "charEnd": 45,
+            "start": 39.12,
+            "end": 39.52
+          },
+          {
+            "text": "arrastraba",
+            "charStart": 46,
+            "charEnd": 56,
+            "start": 39.6,
+            "end": 40.08
+          },
+          {
+            "text": "una",
+            "charStart": 57,
+            "charEnd": 60,
+            "start": 40.2,
+            "end": 40.32
+          },
+          {
+            "text": "silla",
+            "charStart": 61,
+            "charEnd": 66,
+            "start": 40.4,
+            "end": 40.72
+          },
+          {
+            "text": "al",
+            "charStart": 67,
+            "charEnd": 69,
+            "start": 40.8,
+            "end": 40.88
+          },
+          {
+            "text": "otro",
+            "charStart": 70,
+            "charEnd": 74,
+            "start": 40.96,
+            "end": 41.12
+          },
+          {
+            "text": "lado",
+            "charStart": 75,
+            "charEnd": 79,
+            "start": 41.2,
+            "end": 41.44
+          },
+          {
+            "text": "de",
+            "charStart": 80,
+            "charEnd": 82,
+            "start": 41.48,
+            "end": 41.52
+          },
+          {
+            "text": "la",
+            "charStart": 83,
+            "charEnd": 85,
+            "start": 41.6,
+            "end": 41.68
+          },
+          {
+            "text": "pared.",
+            "charStart": 86,
+            "charEnd": 92,
+            "start": 41.76,
+            "end": 42.28
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "Daniel esperó unos minutos y salió al pasillo, pero todas las luces estaban apagadas.",
+      "en": "Daniel waited a few minutes and stepped into the hallway, but all the lights were off.",
+      "annotations": [],
+      "audio": {
+        "start": 42.48,
+        "end": 47.76,
+        "words": [
+          {
+            "text": "Daniel",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 42.48,
+            "end": 42.8
+          },
+          {
+            "text": "esperó",
+            "charStart": 7,
+            "charEnd": 13,
+            "start": 42.96,
+            "end": 43.16
+          },
+          {
+            "text": "unos",
+            "charStart": 14,
+            "charEnd": 18,
+            "start": 43.2,
+            "end": 43.36
+          },
+          {
+            "text": "minutos",
+            "charStart": 19,
+            "charEnd": 26,
+            "start": 43.44,
+            "end": 43.92
+          },
+          {
+            "text": "y",
+            "charStart": 27,
+            "charEnd": 28,
+            "start": 44.08,
+            "end": 44.16
+          },
+          {
+            "text": "salió",
+            "charStart": 29,
+            "charEnd": 34,
+            "start": 44.2,
+            "end": 44.44
+          },
+          {
+            "text": "al",
+            "charStart": 35,
+            "charEnd": 37,
+            "start": 44.48,
+            "end": 44.56
+          },
+          {
+            "text": "pasillo,",
+            "charStart": 38,
+            "charEnd": 46,
+            "start": 44.68,
+            "end": 45.28
+          },
+          {
+            "text": "pero",
+            "charStart": 47,
+            "charEnd": 51,
+            "start": 45.36,
+            "end": 45.52
+          },
+          {
+            "text": "todas",
+            "charStart": 52,
+            "charEnd": 57,
+            "start": 45.68,
+            "end": 46.08
+          },
+          {
+            "text": "las",
+            "charStart": 58,
+            "charEnd": 61,
+            "start": 46.16,
+            "end": 46.24
+          },
+          {
+            "text": "luces",
+            "charStart": 62,
+            "charEnd": 67,
+            "start": 46.32,
+            "end": 46.64
+          },
+          {
+            "text": "estaban",
+            "charStart": 68,
+            "charEnd": 75,
+            "start": 46.72,
+            "end": 47.04
+          },
+          {
+            "text": "apagadas.",
+            "charStart": 76,
+            "charEnd": 85,
+            "start": 47.12,
+            "end": 47.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "A la mañana siguiente le preguntó a Rosa si alguien dormía en la habitación contigua.",
+      "en": "The next morning he asked Rosa whether someone was sleeping in the adjoining room.",
+      "annotations": [],
+      "audio": {
+        "start": 48.24,
+        "end": 52.92,
+        "words": [
+          {
+            "text": "A",
+            "charStart": 0,
+            "charEnd": 1,
+            "start": 48.24,
+            "end": 48.28
+          },
+          {
+            "text": "la",
+            "charStart": 2,
+            "charEnd": 4,
+            "start": 48.32,
+            "end": 48.4
+          },
+          {
+            "text": "mañana",
+            "charStart": 5,
+            "charEnd": 11,
+            "start": 48.44,
+            "end": 48.72
+          },
+          {
+            "text": "siguiente",
+            "charStart": 12,
+            "charEnd": 21,
+            "start": 48.8,
+            "end": 49.28
+          },
+          {
+            "text": "le",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 49.36,
+            "end": 49.44
+          },
+          {
+            "text": "preguntó",
+            "charStart": 25,
+            "charEnd": 33,
+            "start": 49.52,
+            "end": 49.84
+          },
+          {
+            "text": "a",
+            "charStart": 34,
+            "charEnd": 35,
+            "start": 49.88,
+            "end": 49.92
+          },
+          {
+            "text": "Rosa",
+            "charStart": 36,
+            "charEnd": 40,
+            "start": 50,
+            "end": 50.4
+          },
+          {
+            "text": "si",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 50.48,
+            "end": 50.64
+          },
+          {
+            "text": "alguien",
+            "charStart": 44,
+            "charEnd": 51,
+            "start": 50.72,
+            "end": 50.96
+          },
+          {
+            "text": "dormía",
+            "charStart": 52,
+            "charEnd": 58,
+            "start": 51.04,
+            "end": 51.44
+          },
+          {
+            "text": "en",
+            "charStart": 59,
+            "charEnd": 61,
+            "start": 51.48,
+            "end": 51.52
+          },
+          {
+            "text": "la",
+            "charStart": 62,
+            "charEnd": 64,
+            "start": 51.6,
+            "end": 51.64
+          },
+          {
+            "text": "habitación",
+            "charStart": 65,
+            "charEnd": 75,
+            "start": 51.68,
+            "end": 52.16
+          },
+          {
+            "text": "contigua.",
+            "charStart": 76,
+            "charEnd": 85,
+            "start": 52.28,
+            "end": 52.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "«Allí no se hospeda nadie desde hace muchos años», respondió ella sin levantar la vista.",
+      "en": "“No one has stayed there for many years,” she replied without looking up.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a10-1",
+          "text": "sin levantar la vista",
+          "type": "grammar",
+          "meaning": "without looking up",
+          "explanation": "Sin followed by an infinitive describes how an action happens.",
+          "grammar": {
+            "structure": "sin + infinitive"
+          },
+          "start": 66,
+          "end": 87
+        }
+      ],
+      "audio": {
+        "start": 53.307,
+        "end": 58.4,
+        "words": [
+          {
+            "text": "«Allí",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 53.307,
+            "end": 53.44
+          },
+          {
+            "text": "no",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 53.48,
+            "end": 53.52
+          },
+          {
+            "text": "se",
+            "charStart": 9,
+            "charEnd": 11,
+            "start": 53.6,
+            "end": 53.68
+          },
+          {
+            "text": "hospeda",
+            "charStart": 12,
+            "charEnd": 19,
+            "start": 53.733,
+            "end": 54.08
+          },
+          {
+            "text": "nadie",
+            "charStart": 20,
+            "charEnd": 25,
+            "start": 54.16,
+            "end": 54.48
+          },
+          {
+            "text": "desde",
+            "charStart": 26,
+            "charEnd": 31,
+            "start": 54.56,
+            "end": 54.8
+          },
+          {
+            "text": "hace",
+            "charStart": 32,
+            "charEnd": 36,
+            "start": 54.84,
+            "end": 55.04
+          },
+          {
+            "text": "muchos",
+            "charStart": 37,
+            "charEnd": 43,
+            "start": 55.2,
+            "end": 55.6
+          },
+          {
+            "text": "años»,",
+            "charStart": 44,
+            "charEnd": 50,
+            "start": 55.68,
+            "end": 56.32
+          },
+          {
+            "text": "respondió",
+            "charStart": 51,
+            "charEnd": 60,
+            "start": 56.4,
+            "end": 56.88
+          },
+          {
+            "text": "ella",
+            "charStart": 61,
+            "charEnd": 65,
+            "start": 56.96,
+            "end": 57.2
+          },
+          {
+            "text": "sin",
+            "charStart": 66,
+            "charEnd": 69,
+            "start": 57.28,
+            "end": 57.44
+          },
+          {
+            "text": "levantar",
+            "charStart": 70,
+            "charEnd": 78,
+            "start": 57.6,
+            "end": 57.84
+          },
+          {
+            "text": "la",
+            "charStart": 79,
+            "charEnd": 81,
+            "start": 57.92,
+            "end": 58
+          },
+          {
+            "text": "vista.",
+            "charStart": 82,
+            "charEnd": 88,
+            "start": 58.04,
+            "end": 58.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "Daniel no sabía si creerle, aunque tampoco quería parecer un huésped difícil.",
+      "en": "Daniel did not know whether to believe her, although he did not want to seem like a difficult guest.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a11-1",
+          "text": "si creerle",
+          "type": "grammar",
+          "meaning": "whether to believe her",
+          "explanation": "Si introduces an indirect yes/no question. Le refers to Rosa.",
+          "grammar": {
+            "structure": "si + infinitive",
+            "pronouns": "le = her"
+          },
+          "start": 16,
+          "end": 26
+        }
+      ],
+      "audio": {
+        "start": 58.88,
+        "end": 63.88,
+        "words": [
+          {
+            "text": "Daniel",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 58.88,
+            "end": 59.28
+          },
+          {
+            "text": "no",
+            "charStart": 7,
+            "charEnd": 9,
+            "start": 59.36,
+            "end": 59.44
+          },
+          {
+            "text": "sabía",
+            "charStart": 10,
+            "charEnd": 15,
+            "start": 59.52,
+            "end": 59.84
+          },
+          {
+            "text": "si",
+            "charStart": 16,
+            "charEnd": 18,
+            "start": 59.92,
+            "end": 60
+          },
+          {
+            "text": "creerle,",
+            "charStart": 19,
+            "charEnd": 27,
+            "start": 60.08,
+            "end": 60.8
+          },
+          {
+            "text": "aunque",
+            "charStart": 28,
+            "charEnd": 34,
+            "start": 60.88,
+            "end": 61.2
+          },
+          {
+            "text": "tampoco",
+            "charStart": 35,
+            "charEnd": 42,
+            "start": 61.36,
+            "end": 61.76
+          },
+          {
+            "text": "quería",
+            "charStart": 43,
+            "charEnd": 49,
+            "start": 61.84,
+            "end": 62.16
+          },
+          {
+            "text": "parecer",
+            "charStart": 50,
+            "charEnd": 57,
+            "start": 62.28,
+            "end": 62.56
+          },
+          {
+            "text": "un",
+            "charStart": 58,
+            "charEnd": 60,
+            "start": 62.6,
+            "end": 62.64
+          },
+          {
+            "text": "huésped",
+            "charStart": 61,
+            "charEnd": 68,
+            "start": 62.72,
+            "end": 63.04
+          },
+          {
+            "text": "difícil.",
+            "charStart": 69,
+            "charEnd": 77,
+            "start": 63.12,
+            "end": 63.88
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "Más tarde encontró una fotografía de su padre: mostraba el hotel, el mar y una joven junto a la ventana del segundo piso.",
+      "en": "Later he found one of his father’s photographs: it showed the hotel, the sea, and a young woman beside a second-floor window.",
+      "annotations": [],
+      "audio": {
+        "start": 64.16,
+        "end": 72.12,
+        "words": [
+          {
+            "text": "Más",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 64.16,
+            "end": 64.32
+          },
+          {
+            "text": "tarde",
+            "charStart": 4,
+            "charEnd": 9,
+            "start": 64.4,
+            "end": 64.88
+          },
+          {
+            "text": "encontró",
+            "charStart": 10,
+            "charEnd": 18,
+            "start": 64.96,
+            "end": 65.36
+          },
+          {
+            "text": "una",
+            "charStart": 19,
+            "charEnd": 22,
+            "start": 65.44,
+            "end": 65.52
+          },
+          {
+            "text": "fotografía",
+            "charStart": 23,
+            "charEnd": 33,
+            "start": 65.6,
+            "end": 66.24
+          },
+          {
+            "text": "de",
+            "charStart": 34,
+            "charEnd": 36,
+            "start": 66.28,
+            "end": 66.32
+          },
+          {
+            "text": "su",
+            "charStart": 37,
+            "charEnd": 39,
+            "start": 66.4,
+            "end": 66.48
+          },
+          {
+            "text": "padre:",
+            "charStart": 40,
+            "charEnd": 46,
+            "start": 66.56,
+            "end": 67.2
+          },
+          {
+            "text": "mostraba",
+            "charStart": 47,
+            "charEnd": 55,
+            "start": 67.24,
+            "end": 67.6
+          },
+          {
+            "text": "el",
+            "charStart": 56,
+            "charEnd": 58,
+            "start": 67.68,
+            "end": 67.76
+          },
+          {
+            "text": "hotel,",
+            "charStart": 59,
+            "charEnd": 65,
+            "start": 68,
+            "end": 68.48
+          },
+          {
+            "text": "el",
+            "charStart": 66,
+            "charEnd": 68,
+            "start": 68.56,
+            "end": 68.64
+          },
+          {
+            "text": "mar",
+            "charStart": 69,
+            "charEnd": 72,
+            "start": 68.8,
+            "end": 69.04
+          },
+          {
+            "text": "y",
+            "charStart": 73,
+            "charEnd": 74,
+            "start": 69.28,
+            "end": 69.36
+          },
+          {
+            "text": "una",
+            "charStart": 75,
+            "charEnd": 78,
+            "start": 69.44,
+            "end": 69.52
+          },
+          {
+            "text": "joven",
+            "charStart": 79,
+            "charEnd": 84,
+            "start": 69.68,
+            "end": 70
+          },
+          {
+            "text": "junto",
+            "charStart": 85,
+            "charEnd": 90,
+            "start": 70.08,
+            "end": 70.32
+          },
+          {
+            "text": "a",
+            "charStart": 91,
+            "charEnd": 92,
+            "start": 70.36,
+            "end": 70.4
+          },
+          {
+            "text": "la",
+            "charStart": 93,
+            "charEnd": 95,
+            "start": 70.44,
+            "end": 70.48
+          },
+          {
+            "text": "ventana",
+            "charStart": 96,
+            "charEnd": 103,
+            "start": 70.6,
+            "end": 70.96
+          },
+          {
+            "text": "del",
+            "charStart": 104,
+            "charEnd": 107,
+            "start": 71.04,
+            "end": 71.12
+          },
+          {
+            "text": "segundo",
+            "charStart": 108,
+            "charEnd": 115,
+            "start": 71.2,
+            "end": 71.52
+          },
+          {
+            "text": "piso.",
+            "charStart": 116,
+            "charEnd": 121,
+            "start": 71.6,
+            "end": 72.12
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "es": "En el reverso alguien había escrito: «Clara, habitación doce, febrero de 1987».",
+      "en": "On the back someone had written: “Clara, room twelve, February 1987.”",
+      "annotations": [],
+      "audio": {
+        "start": 72.32,
+        "end": 79.92,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 72.32,
+            "end": 72.4
+          },
+          {
+            "text": "el",
+            "charStart": 3,
+            "charEnd": 5,
+            "start": 72.48,
+            "end": 72.56
+          },
+          {
+            "text": "reverso",
+            "charStart": 6,
+            "charEnd": 13,
+            "start": 72.64,
+            "end": 73.12
+          },
+          {
+            "text": "alguien",
+            "charStart": 14,
+            "charEnd": 21,
+            "start": 73.28,
+            "end": 73.6
+          },
+          {
+            "text": "había",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 73.68,
+            "end": 73.84
+          },
+          {
+            "text": "escrito:",
+            "charStart": 28,
+            "charEnd": 36,
+            "start": 73.92,
+            "end": 74.48
+          },
+          {
+            "text": "«Clara,",
+            "charStart": 37,
+            "charEnd": 44,
+            "start": 74.8,
+            "end": 75.52
+          },
+          {
+            "text": "habitación",
+            "charStart": 45,
+            "charEnd": 55,
+            "start": 75.68,
+            "end": 76.16
+          },
+          {
+            "text": "doce,",
+            "charStart": 56,
+            "charEnd": 61,
+            "start": 76.24,
+            "end": 76.88
+          },
+          {
+            "text": "febrero",
+            "charStart": 62,
+            "charEnd": 69,
+            "start": 76.96,
+            "end": 77.44
+          },
+          {
+            "text": "de",
+            "charStart": 70,
+            "charEnd": 72,
+            "start": 77.52,
+            "end": 77.6
+          },
+          {
+            "text": "1987».",
+            "charStart": 73,
+            "charEnd": 79,
+            "start": 77.76,
+            "end": 79.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "es": "Daniel llevó la fotografía al comedor, donde Rosa estaba colocando flores en una mesa.",
+      "en": "Daniel took the photograph to the dining room, where Rosa was arranging flowers on a table.",
+      "annotations": [],
+      "audio": {
+        "start": 80.12,
+        "end": 85.04,
+        "words": [
+          {
+            "text": "Daniel",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 80.12,
+            "end": 80.32
+          },
+          {
+            "text": "llevó",
+            "charStart": 7,
+            "charEnd": 12,
+            "start": 80.36,
+            "end": 80.56
+          },
+          {
+            "text": "la",
+            "charStart": 13,
+            "charEnd": 15,
+            "start": 80.6,
+            "end": 80.64
+          },
+          {
+            "text": "fotografía",
+            "charStart": 16,
+            "charEnd": 26,
+            "start": 80.72,
+            "end": 81.28
+          },
+          {
+            "text": "al",
+            "charStart": 27,
+            "charEnd": 29,
+            "start": 81.36,
+            "end": 81.44
+          },
+          {
+            "text": "comedor,",
+            "charStart": 30,
+            "charEnd": 38,
+            "start": 81.52,
+            "end": 82.16
+          },
+          {
+            "text": "donde",
+            "charStart": 39,
+            "charEnd": 44,
+            "start": 82.24,
+            "end": 82.4
+          },
+          {
+            "text": "Rosa",
+            "charStart": 45,
+            "charEnd": 49,
+            "start": 82.48,
+            "end": 82.8
+          },
+          {
+            "text": "estaba",
+            "charStart": 50,
+            "charEnd": 56,
+            "start": 82.88,
+            "end": 83.2
+          },
+          {
+            "text": "colocando",
+            "charStart": 57,
+            "charEnd": 66,
+            "start": 83.28,
+            "end": 83.68
+          },
+          {
+            "text": "flores",
+            "charStart": 67,
+            "charEnd": 73,
+            "start": 83.84,
+            "end": 84.16
+          },
+          {
+            "text": "en",
+            "charStart": 74,
+            "charEnd": 76,
+            "start": 84.24,
+            "end": 84.32
+          },
+          {
+            "text": "una",
+            "charStart": 77,
+            "charEnd": 80,
+            "start": 84.4,
+            "end": 84.48
+          },
+          {
+            "text": "mesa.",
+            "charStart": 81,
+            "charEnd": 86,
+            "start": 84.56,
+            "end": 85.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "es": "Al verla, la mujer se quedó inmóvil y después se sentó frente a él.",
+      "en": "When she saw it, the woman froze and then sat down across from him.",
+      "annotations": [],
+      "audio": {
+        "start": 85.36,
+        "end": 89.76,
+        "words": [
+          {
+            "text": "Al",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 85.36,
+            "end": 85.44
+          },
+          {
+            "text": "verla,",
+            "charStart": 3,
+            "charEnd": 9,
+            "start": 85.52,
+            "end": 86.16
+          },
+          {
+            "text": "la",
+            "charStart": 10,
+            "charEnd": 12,
+            "start": 86.24,
+            "end": 86.32
+          },
+          {
+            "text": "mujer",
+            "charStart": 13,
+            "charEnd": 18,
+            "start": 86.36,
+            "end": 86.64
+          },
+          {
+            "text": "se",
+            "charStart": 19,
+            "charEnd": 21,
+            "start": 86.72,
+            "end": 86.8
+          },
+          {
+            "text": "quedó",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 86.853,
+            "end": 87.04
+          },
+          {
+            "text": "inmóvil",
+            "charStart": 28,
+            "charEnd": 35,
+            "start": 87.16,
+            "end": 87.6
+          },
+          {
+            "text": "y",
+            "charStart": 36,
+            "charEnd": 37,
+            "start": 87.84,
+            "end": 87.92
+          },
+          {
+            "text": "después",
+            "charStart": 38,
+            "charEnd": 45,
+            "start": 88.04,
+            "end": 88.4
+          },
+          {
+            "text": "se",
+            "charStart": 46,
+            "charEnd": 48,
+            "start": 88.56,
+            "end": 88.72
+          },
+          {
+            "text": "sentó",
+            "charStart": 49,
+            "charEnd": 54,
+            "start": 88.88,
+            "end": 89.12
+          },
+          {
+            "text": "frente",
+            "charStart": 55,
+            "charEnd": 61,
+            "start": 89.16,
+            "end": 89.44
+          },
+          {
+            "text": "a",
+            "charStart": 62,
+            "charEnd": 63,
+            "start": 89.48,
+            "end": 89.52
+          },
+          {
+            "text": "él.",
+            "charStart": 64,
+            "charEnd": 67,
+            "start": 89.6,
+            "end": 89.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "es": "Le explicó que Clara era su hermana y que había desaparecido durante una tormenta, sin dejar ninguna nota.",
+      "en": "She explained that Clara was her sister and had disappeared during a storm, leaving no note.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a16-1",
+          "text": "había desaparecido",
+          "type": "grammar",
+          "meaning": "had disappeared",
+          "explanation": "This event occurred before Rosa told Daniel the story.",
+          "grammar": {
+            "infinitive": "desaparecer",
+            "tense": "pluperfect"
+          },
+          "start": 42,
+          "end": 60
+        }
+      ],
+      "audio": {
+        "start": 90.16,
+        "end": 96.84,
+        "words": [
+          {
+            "text": "Le",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 90.16,
+            "end": 90.24
+          },
+          {
+            "text": "explicó",
+            "charStart": 3,
+            "charEnd": 10,
+            "start": 90.32,
+            "end": 90.72
+          },
+          {
+            "text": "que",
+            "charStart": 11,
+            "charEnd": 14,
+            "start": 90.8,
+            "end": 90.88
+          },
+          {
+            "text": "Clara",
+            "charStart": 15,
+            "charEnd": 20,
+            "start": 90.96,
+            "end": 91.36
+          },
+          {
+            "text": "era",
+            "charStart": 21,
+            "charEnd": 24,
+            "start": 91.44,
+            "end": 91.6
+          },
+          {
+            "text": "su",
+            "charStart": 25,
+            "charEnd": 27,
+            "start": 91.68,
+            "end": 91.76
+          },
+          {
+            "text": "hermana",
+            "charStart": 28,
+            "charEnd": 35,
+            "start": 91.84,
+            "end": 92.24
+          },
+          {
+            "text": "y",
+            "charStart": 36,
+            "charEnd": 37,
+            "start": 92.4,
+            "end": 92.48
+          },
+          {
+            "text": "que",
+            "charStart": 38,
+            "charEnd": 41,
+            "start": 92.56,
+            "end": 92.6
+          },
+          {
+            "text": "había",
+            "charStart": 42,
+            "charEnd": 47,
+            "start": 92.64,
+            "end": 92.88
+          },
+          {
+            "text": "desaparecido",
+            "charStart": 48,
+            "charEnd": 60,
+            "start": 92.96,
+            "end": 93.68
+          },
+          {
+            "text": "durante",
+            "charStart": 61,
+            "charEnd": 68,
+            "start": 93.76,
+            "end": 94.08
+          },
+          {
+            "text": "una",
+            "charStart": 69,
+            "charEnd": 72,
+            "start": 94.16,
+            "end": 94.24
+          },
+          {
+            "text": "tormenta,",
+            "charStart": 73,
+            "charEnd": 82,
+            "start": 94.32,
+            "end": 95.12
+          },
+          {
+            "text": "sin",
+            "charStart": 83,
+            "charEnd": 86,
+            "start": 95.2,
+            "end": 95.28
+          },
+          {
+            "text": "dejar",
+            "charStart": 87,
+            "charEnd": 92,
+            "start": 95.36,
+            "end": 95.68
+          },
+          {
+            "text": "ninguna",
+            "charStart": 93,
+            "charEnd": 100,
+            "start": 95.76,
+            "end": 96.24
+          },
+          {
+            "text": "nota.",
+            "charStart": 101,
+            "charEnd": 106,
+            "start": 96.32,
+            "end": 96.84
+          }
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "es": "Durante décadas, Rosa había mantenido cerrada la antigua habitación de su hermana porque temía olvidar su voz.",
+      "en": "For decades, Rosa had kept her sister’s former room closed because she feared forgetting her voice.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a17-1",
+          "text": "temía olvidar",
+          "type": "grammar",
+          "meaning": "was afraid of forgetting",
+          "explanation": "Temer plus infinitive expresses fear of an action.",
+          "grammar": {
+            "structure": "temer + infinitive"
+          },
+          "start": 89,
+          "end": 102
+        }
+      ],
+      "audio": {
+        "start": 97.04,
+        "end": 103.96,
+        "words": [
+          {
+            "text": "Durante",
+            "charStart": 0,
+            "charEnd": 7,
+            "start": 97.04,
+            "end": 97.44
+          },
+          {
+            "text": "décadas,",
+            "charStart": 8,
+            "charEnd": 16,
+            "start": 97.52,
+            "end": 98.16
+          },
+          {
+            "text": "Rosa",
+            "charStart": 17,
+            "charEnd": 21,
+            "start": 98.24,
+            "end": 98.56
+          },
+          {
+            "text": "había",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 98.64,
+            "end": 98.8
+          },
+          {
+            "text": "mantenido",
+            "charStart": 28,
+            "charEnd": 37,
+            "start": 98.88,
+            "end": 99.36
+          },
+          {
+            "text": "cerrada",
+            "charStart": 38,
+            "charEnd": 45,
+            "start": 99.44,
+            "end": 99.92
+          },
+          {
+            "text": "la",
+            "charStart": 46,
+            "charEnd": 48,
+            "start": 99.96,
+            "end": 100
+          },
+          {
+            "text": "antigua",
+            "charStart": 49,
+            "charEnd": 56,
+            "start": 100.08,
+            "end": 100.48
+          },
+          {
+            "text": "habitación",
+            "charStart": 57,
+            "charEnd": 67,
+            "start": 100.56,
+            "end": 101.04
+          },
+          {
+            "text": "de",
+            "charStart": 68,
+            "charEnd": 70,
+            "start": 101.12,
+            "end": 101.16
+          },
+          {
+            "text": "su",
+            "charStart": 71,
+            "charEnd": 73,
+            "start": 101.2,
+            "end": 101.28
+          },
+          {
+            "text": "hermana",
+            "charStart": 74,
+            "charEnd": 81,
+            "start": 101.36,
+            "end": 101.68
+          },
+          {
+            "text": "porque",
+            "charStart": 82,
+            "charEnd": 88,
+            "start": 101.84,
+            "end": 102.16
+          },
+          {
+            "text": "temía",
+            "charStart": 89,
+            "charEnd": 94,
+            "start": 102.28,
+            "end": 102.64
+          },
+          {
+            "text": "olvidar",
+            "charStart": 95,
+            "charEnd": 102,
+            "start": 102.72,
+            "end": 103.12
+          },
+          {
+            "text": "su",
+            "charStart": 103,
+            "charEnd": 105,
+            "start": 103.2,
+            "end": 103.28
+          },
+          {
+            "text": "voz.",
+            "charStart": 106,
+            "charEnd": 110,
+            "start": 103.36,
+            "end": 103.96
+          }
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "es": "Daniel miró otra vez la foto y descubrió un detalle que antes no había visto.",
+      "en": "Daniel looked at the photograph again and discovered a detail he had not noticed before.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a18-1",
+          "text": "antes no había visto",
+          "type": "grammar",
+          "meaning": "had not seen before",
+          "explanation": "The pluperfect connects an earlier lack of noticing with a later discovery.",
+          "grammar": {
+            "infinitive": "ver",
+            "tense": "pluperfect"
+          },
+          "start": 56,
+          "end": 76
+        }
+      ],
+      "audio": {
+        "start": 104.24,
+        "end": 109.12,
+        "words": [
+          {
+            "text": "Daniel",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 104.24,
+            "end": 104.56
+          },
+          {
+            "text": "miró",
+            "charStart": 7,
+            "charEnd": 11,
+            "start": 104.64,
+            "end": 104.88
+          },
+          {
+            "text": "otra",
+            "charStart": 12,
+            "charEnd": 16,
+            "start": 104.96,
+            "end": 105.12
+          },
+          {
+            "text": "vez",
+            "charStart": 17,
+            "charEnd": 20,
+            "start": 105.2,
+            "end": 105.28
+          },
+          {
+            "text": "la",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 105.36,
+            "end": 105.44
+          },
+          {
+            "text": "foto",
+            "charStart": 24,
+            "charEnd": 28,
+            "start": 105.52,
+            "end": 105.84
+          },
+          {
+            "text": "y",
+            "charStart": 29,
+            "charEnd": 30,
+            "start": 106,
+            "end": 106.08
+          },
+          {
+            "text": "descubrió",
+            "charStart": 31,
+            "charEnd": 40,
+            "start": 106.2,
+            "end": 106.64
+          },
+          {
+            "text": "un",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 106.68,
+            "end": 106.72
+          },
+          {
+            "text": "detalle",
+            "charStart": 44,
+            "charEnd": 51,
+            "start": 106.96,
+            "end": 107.2
+          },
+          {
+            "text": "que",
+            "charStart": 52,
+            "charEnd": 55,
+            "start": 107.28,
+            "end": 107.44
+          },
+          {
+            "text": "antes",
+            "charStart": 56,
+            "charEnd": 61,
+            "start": 107.64,
+            "end": 107.84
+          },
+          {
+            "text": "no",
+            "charStart": 62,
+            "charEnd": 64,
+            "start": 107.92,
+            "end": 108.08
+          },
+          {
+            "text": "había",
+            "charStart": 65,
+            "charEnd": 70,
+            "start": 108.16,
+            "end": 108.4
+          },
+          {
+            "text": "visto.",
+            "charStart": 71,
+            "charEnd": 77,
+            "start": 108.44,
+            "end": 109.12
+          }
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "es": "Sobre la mesa, detrás de Clara, había una pequeña grabadora con una cinta puesta.",
+      "en": "On the table, behind Clara, there was a small tape recorder with a cassette inside.",
+      "annotations": [],
+      "audio": {
+        "start": 109.2,
+        "end": 114.16,
+        "words": [
+          {
+            "text": "Sobre",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 109.2,
+            "end": 109.44
+          },
+          {
+            "text": "la",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 109.48,
+            "end": 109.52
+          },
+          {
+            "text": "mesa,",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 109.6,
+            "end": 110.16
+          },
+          {
+            "text": "detrás",
+            "charStart": 15,
+            "charEnd": 21,
+            "start": 110.2,
+            "end": 110.56
+          },
+          {
+            "text": "de",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 110.6,
+            "end": 110.64
+          },
+          {
+            "text": "Clara,",
+            "charStart": 25,
+            "charEnd": 31,
+            "start": 110.72,
+            "end": 111.2
+          },
+          {
+            "text": "había",
+            "charStart": 32,
+            "charEnd": 37,
+            "start": 111.28,
+            "end": 111.52
+          },
+          {
+            "text": "una",
+            "charStart": 38,
+            "charEnd": 41,
+            "start": 111.6,
+            "end": 111.68
+          },
+          {
+            "text": "pequeña",
+            "charStart": 42,
+            "charEnd": 49,
+            "start": 111.76,
+            "end": 112.24
+          },
+          {
+            "text": "grabadora",
+            "charStart": 50,
+            "charEnd": 59,
+            "start": 112.32,
+            "end": 112.88
+          },
+          {
+            "text": "con",
+            "charStart": 60,
+            "charEnd": 63,
+            "start": 112.96,
+            "end": 113.04
+          },
+          {
+            "text": "una",
+            "charStart": 64,
+            "charEnd": 67,
+            "start": 113.12,
+            "end": 113.28
+          },
+          {
+            "text": "cinta",
+            "charStart": 68,
+            "charEnd": 73,
+            "start": 113.36,
+            "end": 113.68
+          },
+          {
+            "text": "puesta.",
+            "charStart": 74,
+            "charEnd": 81,
+            "start": 113.76,
+            "end": 114.16
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "es": "Rosa abrió un cajón, sacó una caja y encontró una cinta con la misma fecha.",
+      "en": "Rosa opened a drawer, took out a box, and found a cassette with the same date.",
+      "annotations": [],
+      "audio": {
+        "start": 114.56,
+        "end": 119.92,
+        "words": [
+          {
+            "text": "Rosa",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 114.56,
+            "end": 114.96
+          },
+          {
+            "text": "abrió",
+            "charStart": 5,
+            "charEnd": 10,
+            "start": 115.04,
+            "end": 115.28
+          },
+          {
+            "text": "un",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 115.36,
+            "end": 115.44
+          },
+          {
+            "text": "cajón,",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 115.52,
+            "end": 116.16
+          },
+          {
+            "text": "sacó",
+            "charStart": 21,
+            "charEnd": 25,
+            "start": 116.2,
+            "end": 116.48
+          },
+          {
+            "text": "una",
+            "charStart": 26,
+            "charEnd": 29,
+            "start": 116.56,
+            "end": 116.64
+          },
+          {
+            "text": "caja",
+            "charStart": 30,
+            "charEnd": 34,
+            "start": 116.72,
+            "end": 117.04
+          },
+          {
+            "text": "y",
+            "charStart": 35,
+            "charEnd": 36,
+            "start": 117.28,
+            "end": 117.32
+          },
+          {
+            "text": "encontró",
+            "charStart": 37,
+            "charEnd": 45,
+            "start": 117.36,
+            "end": 117.84
+          },
+          {
+            "text": "una",
+            "charStart": 46,
+            "charEnd": 49,
+            "start": 117.92,
+            "end": 118
+          },
+          {
+            "text": "cinta",
+            "charStart": 50,
+            "charEnd": 55,
+            "start": 118.16,
+            "end": 118.48
+          },
+          {
+            "text": "con",
+            "charStart": 56,
+            "charEnd": 59,
+            "start": 118.56,
+            "end": 118.72
+          },
+          {
+            "text": "la",
+            "charStart": 60,
+            "charEnd": 62,
+            "start": 118.8,
+            "end": 118.88
+          },
+          {
+            "text": "misma",
+            "charStart": 63,
+            "charEnd": 68,
+            "start": 118.96,
+            "end": 119.2
+          },
+          {
+            "text": "fecha.",
+            "charStart": 69,
+            "charEnd": 75,
+            "start": 119.36,
+            "end": 119.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s21",
+      "es": "No lo explicaba todo, pero por primera vez tenían algo que podían escuchar juntos: una voz que seguía allí.",
+      "en": "It did not explain everything, but for the first time they had something they could listen to together: a voice that was still there.",
+      "annotations": [
+        {
+          "id": "la-habitacion-doce-a21-1",
+          "text": "seguía allí",
+          "type": "grammar",
+          "meaning": "was still there",
+          "explanation": "Seguir expresses continuation; here the voice continues to exist in the recording.",
+          "grammar": {
+            "infinitive": "seguir",
+            "tense": "imperfect"
+          },
+          "tip": "Seguir + gerund means “to keep doing something.” Here seguir stands alone.",
+          "start": 95,
+          "end": 106
+        }
+      ],
+      "audio": {
+        "start": 120.24,
+        "end": 127.88,
+        "words": [
+          {
+            "text": "No",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 120.24,
+            "end": 120.32
+          },
+          {
+            "text": "lo",
+            "charStart": 3,
+            "charEnd": 5,
+            "start": 120.36,
+            "end": 120.4
+          },
+          {
+            "text": "explicaba",
+            "charStart": 6,
+            "charEnd": 15,
+            "start": 120.48,
+            "end": 120.96
+          },
+          {
+            "text": "todo,",
+            "charStart": 16,
+            "charEnd": 21,
+            "start": 121.04,
+            "end": 121.68
+          },
+          {
+            "text": "pero",
+            "charStart": 22,
+            "charEnd": 26,
+            "start": 121.76,
+            "end": 121.92
+          },
+          {
+            "text": "por",
+            "charStart": 27,
+            "charEnd": 30,
+            "start": 122.16,
+            "end": 122.32
+          },
+          {
+            "text": "primera",
+            "charStart": 31,
+            "charEnd": 38,
+            "start": 122.4,
+            "end": 122.72
+          },
+          {
+            "text": "vez",
+            "charStart": 39,
+            "charEnd": 42,
+            "start": 122.8,
+            "end": 123.12
+          },
+          {
+            "text": "tenían",
+            "charStart": 43,
+            "charEnd": 49,
+            "start": 123.28,
+            "end": 123.68
+          },
+          {
+            "text": "algo",
+            "charStart": 50,
+            "charEnd": 54,
+            "start": 123.8,
+            "end": 123.92
+          },
+          {
+            "text": "que",
+            "charStart": 55,
+            "charEnd": 58,
+            "start": 124,
+            "end": 124.08
+          },
+          {
+            "text": "podían",
+            "charStart": 59,
+            "charEnd": 65,
+            "start": 124.16,
+            "end": 124.56
+          },
+          {
+            "text": "escuchar",
+            "charStart": 66,
+            "charEnd": 74,
+            "start": 124.64,
+            "end": 124.96
+          },
+          {
+            "text": "juntos:",
+            "charStart": 75,
+            "charEnd": 82,
+            "start": 125.04,
+            "end": 125.92
+          },
+          {
+            "text": "una",
+            "charStart": 83,
+            "charEnd": 86,
+            "start": 126,
+            "end": 126.16
+          },
+          {
+            "text": "voz",
+            "charStart": 87,
+            "charEnd": 90,
+            "start": 126.24,
+            "end": 126.56
+          },
+          {
+            "text": "que",
+            "charStart": 91,
+            "charEnd": 94,
+            "start": 126.72,
+            "end": 126.8
+          },
+          {
+            "text": "seguía",
+            "charStart": 95,
+            "charEnd": 101,
+            "start": 126.88,
+            "end": 127.28
+          },
+          {
+            "text": "allí.",
+            "charStart": 102,
+            "charEnd": 107,
+            "start": 127.4,
+            "end": 127.88
+          }
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "es": "Cuando Daniel regresó a su cuarto, la puerta doce tenía de nuevo su número de latón.",
+      "en": "When Daniel returned to his room, door twelve once again bore its brass number.",
+      "annotations": [],
+      "audio": {
+        "start": 128.16,
+        "end": 133.28,
+        "words": [
+          {
+            "text": "Cuando",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 128.16,
+            "end": 128.4
+          },
+          {
+            "text": "Daniel",
+            "charStart": 7,
+            "charEnd": 13,
+            "start": 128.6,
+            "end": 128.8
+          },
+          {
+            "text": "regresó",
+            "charStart": 14,
+            "charEnd": 21,
+            "start": 128.88,
+            "end": 129.2
+          },
+          {
+            "text": "a",
+            "charStart": 22,
+            "charEnd": 23,
+            "start": 129.24,
+            "end": 129.28
+          },
+          {
+            "text": "su",
+            "charStart": 24,
+            "charEnd": 26,
+            "start": 129.36,
+            "end": 129.44
+          },
+          {
+            "text": "cuarto,",
+            "charStart": 27,
+            "charEnd": 34,
+            "start": 129.48,
+            "end": 130.08
+          },
+          {
+            "text": "la",
+            "charStart": 35,
+            "charEnd": 37,
+            "start": 130.12,
+            "end": 130.16
+          },
+          {
+            "text": "puerta",
+            "charStart": 38,
+            "charEnd": 44,
+            "start": 130.24,
+            "end": 130.56
+          },
+          {
+            "text": "doce",
+            "charStart": 45,
+            "charEnd": 49,
+            "start": 130.64,
+            "end": 130.96
+          },
+          {
+            "text": "tenía",
+            "charStart": 50,
+            "charEnd": 55,
+            "start": 131.04,
+            "end": 131.36
+          },
+          {
+            "text": "de",
+            "charStart": 56,
+            "charEnd": 58,
+            "start": 131.44,
+            "end": 131.52
+          },
+          {
+            "text": "nuevo",
+            "charStart": 59,
+            "charEnd": 64,
+            "start": 131.6,
+            "end": 131.92
+          },
+          {
+            "text": "su",
+            "charStart": 65,
+            "charEnd": 67,
+            "start": 132,
+            "end": 132.16
+          },
+          {
+            "text": "número",
+            "charStart": 68,
+            "charEnd": 74,
+            "start": 132.267,
+            "end": 132.48
+          },
+          {
+            "text": "de",
+            "charStart": 75,
+            "charEnd": 77,
+            "start": 132.52,
+            "end": 132.56
+          },
+          {
+            "text": "latón.",
+            "charStart": 78,
+            "charEnd": 84,
+            "start": 132.64,
+            "end": 133.28
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "Why does Daniel come to the coast?",
+      "options": [
+        "To take a job",
+        "To organize his father’s photographs",
+        "To buy the hotel"
+      ],
+      "correctIndex": 1,
+      "explanation": "He comes to sort through the photographs his late father left behind."
+    },
+    {
+      "question": "Who is Clara?",
+      "options": [
+        "Rosa’s sister",
+        "The receptionist’s daughter",
+        "Daniel’s mother"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rosa explains that Clara was her sister."
+    },
+    {
+      "question": "What new clue appears in the photograph?",
+      "options": [
+        "A handwritten map",
+        "A cassette recorder",
+        "A second hotel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daniel notices a tape recorder behind Clara in the old photograph."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/la-habitacion-doce.mp3",
+    "durationSeconds": 133.28,
+    "alignment": "words"
+  }
+}

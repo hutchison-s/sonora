@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "id": "el-ultimo-cafe",
+  "title": {
+    "es": "El último café",
+    "en": "The Last Coffee"
+  },
+  "level": "A1",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Slice of life",
+  "synopsis": "A quiet café, a forgotten notebook, and one small reason to return.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Present tense · ser, estar and tener",
+  "secondaryGrammar": [
+    "Hay / location"
+  ],
+  "estimatedDurationSeconds": 52,
+  "wordCount": 70,
+  "coverImagePrompt": "Rainy Madrid neighborhood café at dusk, steaming espresso, amber window light, empty chair",
+  "coverImage": "/images/el-ultimo-cafe.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "Son las siete de la tarde y llueve en la ciudad.",
+      "en": "It is seven in the evening, and it is raining in the city.",
+      "annotations": [],
+      "audio": {
+        "start": 0,
+        "end": 3.16,
+        "words": [
+          {
+            "text": "Son",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 0,
+            "end": 0.24
+          },
+          {
+            "text": "las",
+            "charStart": 4,
+            "charEnd": 7,
+            "start": 0.36,
+            "end": 0.48
+          },
+          {
+            "text": "siete",
+            "charStart": 8,
+            "charEnd": 13,
+            "start": 0.52,
+            "end": 0.72
+          },
+          {
+            "text": "de",
+            "charStart": 14,
+            "charEnd": 16,
+            "start": 0.8,
+            "end": 0.96
+          },
+          {
+            "text": "la",
+            "charStart": 17,
+            "charEnd": 19,
+            "start": 1.04,
+            "end": 1.12
+          },
+          {
+            "text": "tarde",
+            "charStart": 20,
+            "charEnd": 25,
+            "start": 1.2,
+            "end": 1.52
+          },
+          {
+            "text": "y",
+            "charStart": 26,
+            "charEnd": 27,
+            "start": 1.68,
+            "end": 1.76
+          },
+          {
+            "text": "llueve",
+            "charStart": 28,
+            "charEnd": 34,
+            "start": 1.84,
+            "end": 2.16
+          },
+          {
+            "text": "en",
+            "charStart": 35,
+            "charEnd": 37,
+            "start": 2.2,
+            "end": 2.24
+          },
+          {
+            "text": "la",
+            "charStart": 38,
+            "charEnd": 40,
+            "start": 2.32,
+            "end": 2.4
+          },
+          {
+            "text": "ciudad.",
+            "charStart": 41,
+            "charEnd": 48,
+            "start": 2.48,
+            "end": 3.16
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "Lucía está en un café pequeño cerca de su casa.",
+      "en": "Lucía is in a small café near her home.",
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a2-1",
+          "text": "está en",
+          "type": "grammar",
+          "meaning": "is in",
+          "explanation": "Estar locates people and things. Use está, not es, to say where Lucía is.",
+          "grammar": {
+            "infinitive": "estar",
+            "tense": "present",
+            "person": "third-person singular",
+            "breakdown": [
+              {
+                "part": "está",
+                "explanation": "is — third-person singular of estar"
+              },
+              {
+                "part": "en",
+                "explanation": "in / at — locates a person or thing"
+              }
+            ],
+            "examples": [
+              {
+                "es": "El libro está en la mesa.",
+                "en": "The book is on the table."
+              },
+              {
+                "es": "Estamos en el centro de la ciudad.",
+                "en": "We are downtown."
+              }
+            ]
+          },
+          "start": 6,
+          "end": 13
+        }
+      ],
+      "audio": {
+        "start": 3.44,
+        "end": 6.6,
+        "words": [
+          {
+            "text": "Lucía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 3.44,
+            "end": 3.84
+          },
+          {
+            "text": "está",
+            "charStart": 6,
+            "charEnd": 10,
+            "start": 3.96,
+            "end": 4.12
+          },
+          {
+            "text": "en",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 4.16,
+            "end": 4.24
+          },
+          {
+            "text": "un",
+            "charStart": 14,
+            "charEnd": 16,
+            "start": 4.28,
+            "end": 4.32
+          },
+          {
+            "text": "café",
+            "charStart": 17,
+            "charEnd": 21,
+            "start": 4.4,
+            "end": 4.64
+          },
+          {
+            "text": "pequeño",
+            "charStart": 22,
+            "charEnd": 29,
+            "start": 4.72,
+            "end": 5.2
+          },
+          {
+            "text": "cerca",
+            "charStart": 30,
+            "charEnd": 35,
+            "start": 5.36,
+            "end": 5.68
+          },
+          {
+            "text": "de",
+            "charStart": 36,
+            "charEnd": 38,
+            "start": 5.72,
+            "end": 5.76
+          },
+          {
+            "text": "su",
+            "charStart": 39,
+            "charEnd": 41,
+            "start": 5.84,
+            "end": 5.92
+          },
+          {
+            "text": "casa.",
+            "charStart": 42,
+            "charEnd": 47,
+            "start": 6,
+            "end": 6.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Tiene un libro, pero no tiene café.",
+      "en": "She has a book, but she has no coffee.",
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a3-1",
+          "text": "Tiene",
+          "type": "grammar",
+          "meaning": "She has",
+          "explanation": "Tiene is the present-tense third-person singular of tener.",
+          "grammar": {
+            "infinitive": "tener",
+            "tense": "present",
+            "person": "third-person singular"
+          },
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "audio": {
+        "start": 6.88,
+        "end": 9.32,
+        "words": [
+          {
+            "text": "Tiene",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 6.88,
+            "end": 7.12
+          },
+          {
+            "text": "un",
+            "charStart": 6,
+            "charEnd": 8,
+            "start": 7.16,
+            "end": 7.2
+          },
+          {
+            "text": "libro,",
+            "charStart": 9,
+            "charEnd": 15,
+            "start": 7.28,
+            "end": 7.92
+          },
+          {
+            "text": "pero",
+            "charStart": 16,
+            "charEnd": 20,
+            "start": 8,
+            "end": 8.16
+          },
+          {
+            "text": "no",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 8.32,
+            "end": 8.4
+          },
+          {
+            "text": "tiene",
+            "charStart": 24,
+            "charEnd": 29,
+            "start": 8.48,
+            "end": 8.72
+          },
+          {
+            "text": "café.",
+            "charStart": 30,
+            "charEnd": 35,
+            "start": 8.84,
+            "end": 9.32
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "El camarero dice: «Hoy cerramos temprano».",
+      "en": "The waiter says, “We’re closing early today.”",
+      "annotations": [],
+      "audio": {
+        "start": 9.6,
+        "end": 12.56,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 9.6,
+            "end": 9.68
+          },
+          {
+            "text": "camarero",
+            "charStart": 3,
+            "charEnd": 11,
+            "start": 9.76,
+            "end": 10.16
+          },
+          {
+            "text": "dice:",
+            "charStart": 12,
+            "charEnd": 17,
+            "start": 10.24,
+            "end": 10.64
+          },
+          {
+            "text": "«Hoy",
+            "charStart": 18,
+            "charEnd": 22,
+            "start": 10.96,
+            "end": 11.12
+          },
+          {
+            "text": "cerramos",
+            "charStart": 23,
+            "charEnd": 31,
+            "start": 11.2,
+            "end": 11.6
+          },
+          {
+            "text": "temprano».",
+            "charStart": 32,
+            "charEnd": 42,
+            "start": 11.72,
+            "end": 12.56
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Lucía mira la mesa y ve un cuaderno rojo.",
+      "en": "Lucía looks at the table and sees a red notebook.",
+      "annotations": [],
+      "audio": {
+        "start": 12.64,
+        "end": 15.76,
+        "words": [
+          {
+            "text": "Lucía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 12.64,
+            "end": 13.04
+          },
+          {
+            "text": "mira",
+            "charStart": 6,
+            "charEnd": 10,
+            "start": 13.12,
+            "end": 13.28
+          },
+          {
+            "text": "la",
+            "charStart": 11,
+            "charEnd": 13,
+            "start": 13.36,
+            "end": 13.44
+          },
+          {
+            "text": "mesa",
+            "charStart": 14,
+            "charEnd": 18,
+            "start": 13.52,
+            "end": 13.84
+          },
+          {
+            "text": "y",
+            "charStart": 19,
+            "charEnd": 20,
+            "start": 14,
+            "end": 14.08
+          },
+          {
+            "text": "ve",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 14.16,
+            "end": 14.24
+          },
+          {
+            "text": "un",
+            "charStart": 24,
+            "charEnd": 26,
+            "start": 14.32,
+            "end": 14.4
+          },
+          {
+            "text": "cuaderno",
+            "charStart": 27,
+            "charEnd": 35,
+            "start": 14.44,
+            "end": 14.88
+          },
+          {
+            "text": "rojo.",
+            "charStart": 36,
+            "charEnd": 41,
+            "start": 14.96,
+            "end": 15.76
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "Dentro hay una nota: «Este lugar es especial para mí».",
+      "en": "Inside it, there is a note: “This place is special to me.”",
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a6-1",
+          "text": "hay",
+          "type": "grammar",
+          "meaning": "there is",
+          "explanation": "Hay expresses existence without naming a specific subject.",
+          "grammar": {
+            "structure": "hay + noun"
+          },
+          "start": 7,
+          "end": 10
+        }
+      ],
+      "audio": {
+        "start": 15.84,
+        "end": 20.24,
+        "words": [
+          {
+            "text": "Dentro",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 15.84,
+            "end": 16.4
+          },
+          {
+            "text": "hay",
+            "charStart": 7,
+            "charEnd": 10,
+            "start": 16.48,
+            "end": 16.56
+          },
+          {
+            "text": "una",
+            "charStart": 11,
+            "charEnd": 14,
+            "start": 16.64,
+            "end": 16.72
+          },
+          {
+            "text": "nota:",
+            "charStart": 15,
+            "charEnd": 20,
+            "start": 16.8,
+            "end": 17.6
+          },
+          {
+            "text": "«Este",
+            "charStart": 21,
+            "charEnd": 26,
+            "start": 17.64,
+            "end": 17.92
+          },
+          {
+            "text": "lugar",
+            "charStart": 27,
+            "charEnd": 32,
+            "start": 17.96,
+            "end": 18.4
+          },
+          {
+            "text": "es",
+            "charStart": 33,
+            "charEnd": 35,
+            "start": 18.48,
+            "end": 18.56
+          },
+          {
+            "text": "especial",
+            "charStart": 36,
+            "charEnd": 44,
+            "start": 18.64,
+            "end": 19.28
+          },
+          {
+            "text": "para",
+            "charStart": 45,
+            "charEnd": 49,
+            "start": 19.36,
+            "end": 19.52
+          },
+          {
+            "text": "mí».",
+            "charStart": 50,
+            "charEnd": 54,
+            "start": 19.68,
+            "end": 20.24
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "Lucía sonríe y deja su número en otra página.",
+      "en": "Lucía smiles and leaves her number on another page.",
+      "annotations": [],
+      "audio": {
+        "start": 20.32,
+        "end": 23.48,
+        "words": [
+          {
+            "text": "Lucía",
+            "charStart": 0,
+            "charEnd": 5,
+            "start": 20.32,
+            "end": 20.72
+          },
+          {
+            "text": "sonríe",
+            "charStart": 6,
+            "charEnd": 12,
+            "start": 20.88,
+            "end": 21.44
+          },
+          {
+            "text": "y",
+            "charStart": 13,
+            "charEnd": 14,
+            "start": 21.52,
+            "end": 21.6
+          },
+          {
+            "text": "deja",
+            "charStart": 15,
+            "charEnd": 19,
+            "start": 21.68,
+            "end": 21.84
+          },
+          {
+            "text": "su",
+            "charStart": 20,
+            "charEnd": 22,
+            "start": 21.92,
+            "end": 22
+          },
+          {
+            "text": "número",
+            "charStart": 23,
+            "charEnd": 29,
+            "start": 22.08,
+            "end": 22.4
+          },
+          {
+            "text": "en",
+            "charStart": 30,
+            "charEnd": 32,
+            "start": 22.48,
+            "end": 22.56
+          },
+          {
+            "text": "otra",
+            "charStart": 33,
+            "charEnd": 37,
+            "start": 22.64,
+            "end": 22.88
+          },
+          {
+            "text": "página.",
+            "charStart": 38,
+            "charEnd": 45,
+            "start": 23.013,
+            "end": 23.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "Mañana quiere volver, con café o sin café.",
+      "en": "Tomorrow she wants to come back, with or without coffee.",
+      "annotations": [
+        {
+          "id": "el-ultimo-cafe-a8-1",
+          "text": "quiere volver",
+          "type": "grammar",
+          "meaning": "wants to return",
+          "explanation": "After querer, the second verb stays in its infinitive form.",
+          "grammar": {
+            "structure": "querer + infinitive"
+          },
+          "start": 7,
+          "end": 20
+        }
+      ],
+      "audio": {
+        "start": 23.76,
+        "end": 26.96,
+        "words": [
+          {
+            "text": "Mañana",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 23.76,
+            "end": 24.16
+          },
+          {
+            "text": "quiere",
+            "charStart": 7,
+            "charEnd": 13,
+            "start": 24.24,
+            "end": 24.48
+          },
+          {
+            "text": "volver,",
+            "charStart": 14,
+            "charEnd": 21,
+            "start": 24.52,
+            "end": 25.2
+          },
+          {
+            "text": "con",
+            "charStart": 22,
+            "charEnd": 25,
+            "start": 25.28,
+            "end": 25.36
+          },
+          {
+            "text": "café",
+            "charStart": 26,
+            "charEnd": 30,
+            "start": 25.44,
+            "end": 25.76
+          },
+          {
+            "text": "o",
+            "charStart": 31,
+            "charEnd": 32,
+            "start": 26.08,
+            "end": 26.16
+          },
+          {
+            "text": "sin",
+            "charStart": 33,
+            "charEnd": 36,
+            "start": 26.24,
+            "end": 26.4
+          },
+          {
+            "text": "café.",
+            "charStart": 37,
+            "charEnd": 42,
+            "start": 26.48,
+            "end": 26.96
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "Where is Lucía?",
+      "options": [
+        "At a small café",
+        "At the library",
+        "On a train"
+      ],
+      "correctIndex": 0,
+      "explanation": "She is at a small café near her home."
+    },
+    {
+      "question": "What does she find?",
+      "options": [
+        "An old photograph",
+        "A red notebook",
+        "A blue key"
+      ],
+      "correctIndex": 1,
+      "explanation": "She sees a red notebook on the table."
+    },
+    {
+      "question": "What does she leave behind?",
+      "options": [
+        "Her phone number",
+        "Her book",
+        "A cup of coffee"
+      ],
+      "correctIndex": 0,
+      "explanation": "She writes her number on another page."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/el-ultimo-cafe.mp3",
+    "durationSeconds": 26.96,
+    "alignment": "words"
+  }
+}

@@ -1,0 +1,1504 @@
+{
+  "schemaVersion": 1,
+  "id": "la-casa-de-las-cartas",
+  "title": {
+    "es": "La casa de las cartas",
+    "en": "The House of Letters"
+  },
+  "level": "A2",
+  "dialect": "neutral Latin American Spanish",
+  "genre": "Human relationships",
+  "synopsis": "A young woman inherits a bookstore—and a stack of letters addressed to strangers.",
+  "series": null,
+  "episode": null,
+  "grammarFocus": "Imperfect vs preterite",
+  "secondaryGrammar": [
+    "Indirect object pronouns",
+    "Past habits"
+  ],
+  "estimatedDurationSeconds": 110,
+  "wordCount": 172,
+  "coverImagePrompt": "Dusty independent bookstore in Bogotá with golden window light, handwritten letters, green plants",
+  "coverImage": "/images/la-casa-de-las-cartas.svg",
+  "sentences": [
+    {
+      "id": "s1",
+      "es": "Cuando Inés era niña, pasaba los sábados en la librería de su abuelo.",
+      "en": "When Inés was a child, she spent Saturdays in her grandfather’s bookstore.",
+      "annotations": [
+        {
+          "id": "la-casa-de-las-cartas-a1-1",
+          "text": "era niña",
+          "type": "grammar",
+          "meaning": "was a child",
+          "explanation": "The imperfect describes a background state or ongoing period in the past.",
+          "grammar": {
+            "infinitive": "ser",
+            "tense": "imperfect",
+            "examples": [
+              {
+                "es": "Cuando era niña, jugaba aquí.",
+                "en": "When I was a girl, I used to play here."
+              },
+              {
+                "es": "De pequeño, mi abuelo vivía en el campo.",
+                "en": "When he was little, my grandfather lived in the countryside."
+              }
+            ]
+          },
+          "start": 12,
+          "end": 20
+        }
+      ],
+      "audio": {
+        "start": 0,
+        "end": 4.48,
+        "words": [
+          {
+            "text": "Cuando",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 0,
+            "end": 0.24
+          },
+          {
+            "text": "Inés",
+            "charStart": 7,
+            "charEnd": 11,
+            "start": 0.32,
+            "end": 0.56
+          },
+          {
+            "text": "era",
+            "charStart": 12,
+            "charEnd": 15,
+            "start": 0.68,
+            "end": 0.8
+          },
+          {
+            "text": "niña,",
+            "charStart": 16,
+            "charEnd": 21,
+            "start": 0.88,
+            "end": 1.44
+          },
+          {
+            "text": "pasaba",
+            "charStart": 22,
+            "charEnd": 28,
+            "start": 1.52,
+            "end": 1.84
+          },
+          {
+            "text": "los",
+            "charStart": 29,
+            "charEnd": 32,
+            "start": 1.92,
+            "end": 2
+          },
+          {
+            "text": "sábados",
+            "charStart": 33,
+            "charEnd": 40,
+            "start": 2.08,
+            "end": 2.56
+          },
+          {
+            "text": "en",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 2.6,
+            "end": 2.64
+          },
+          {
+            "text": "la",
+            "charStart": 44,
+            "charEnd": 46,
+            "start": 2.72,
+            "end": 2.76
+          },
+          {
+            "text": "librería",
+            "charStart": 47,
+            "charEnd": 55,
+            "start": 2.8,
+            "end": 3.28
+          },
+          {
+            "text": "de",
+            "charStart": 56,
+            "charEnd": 58,
+            "start": 3.36,
+            "end": 3.4
+          },
+          {
+            "text": "su",
+            "charStart": 59,
+            "charEnd": 61,
+            "start": 3.44,
+            "end": 3.52
+          },
+          {
+            "text": "abuelo.",
+            "charStart": 62,
+            "charEnd": 69,
+            "start": 3.6,
+            "end": 4.48
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "es": "El local olía a papel viejo y siempre sonaba música suave.",
+      "en": "The shop smelled of old paper, and soft music was always playing.",
+      "annotations": [],
+      "audio": {
+        "start": 4.56,
+        "end": 9.6,
+        "words": [
+          {
+            "text": "El",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 4.56,
+            "end": 4.64
+          },
+          {
+            "text": "local",
+            "charStart": 3,
+            "charEnd": 8,
+            "start": 4.88,
+            "end": 5.12
+          },
+          {
+            "text": "olía",
+            "charStart": 9,
+            "charEnd": 13,
+            "start": 5.28,
+            "end": 5.6
+          },
+          {
+            "text": "a",
+            "charStart": 14,
+            "charEnd": 15,
+            "start": 5.64,
+            "end": 5.68
+          },
+          {
+            "text": "papel",
+            "charStart": 16,
+            "charEnd": 21,
+            "start": 5.76,
+            "end": 6.08
+          },
+          {
+            "text": "viejo",
+            "charStart": 22,
+            "charEnd": 27,
+            "start": 6.16,
+            "end": 6.64
+          },
+          {
+            "text": "y",
+            "charStart": 28,
+            "charEnd": 29,
+            "start": 6.8,
+            "end": 7.04
+          },
+          {
+            "text": "siempre",
+            "charStart": 30,
+            "charEnd": 37,
+            "start": 7.12,
+            "end": 7.52
+          },
+          {
+            "text": "sonaba",
+            "charStart": 38,
+            "charEnd": 44,
+            "start": 7.64,
+            "end": 8
+          },
+          {
+            "text": "música",
+            "charStart": 45,
+            "charEnd": 51,
+            "start": 8.08,
+            "end": 8.48
+          },
+          {
+            "text": "suave.",
+            "charStart": 52,
+            "charEnd": 58,
+            "start": 8.56,
+            "end": 9.6
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "es": "Muchos años después, su abuelo murió y le dejó la librería.",
+      "en": "Many years later, her grandfather died and left her the bookstore.",
+      "annotations": [
+        {
+          "id": "la-casa-de-las-cartas-a3-1",
+          "text": "le dejó",
+          "type": "grammar",
+          "meaning": "left her",
+          "explanation": "Le is an indirect object pronoun: the bookstore was left to her.",
+          "grammar": {
+            "infinitive": "dejar",
+            "tense": "preterite",
+            "pronouns": "le = to her"
+          },
+          "start": 39,
+          "end": 46
+        }
+      ],
+      "audio": {
+        "start": 9.72,
+        "end": 14.08,
+        "words": [
+          {
+            "text": "Muchos",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 9.72,
+            "end": 10
+          },
+          {
+            "text": "años",
+            "charStart": 7,
+            "charEnd": 11,
+            "start": 10.08,
+            "end": 10.32
+          },
+          {
+            "text": "después,",
+            "charStart": 12,
+            "charEnd": 20,
+            "start": 10.44,
+            "end": 11.12
+          },
+          {
+            "text": "su",
+            "charStart": 21,
+            "charEnd": 23,
+            "start": 11.2,
+            "end": 11.28
+          },
+          {
+            "text": "abuelo",
+            "charStart": 24,
+            "charEnd": 30,
+            "start": 11.36,
+            "end": 11.68
+          },
+          {
+            "text": "murió",
+            "charStart": 31,
+            "charEnd": 36,
+            "start": 11.72,
+            "end": 12.08
+          },
+          {
+            "text": "y",
+            "charStart": 37,
+            "charEnd": 38,
+            "start": 12.32,
+            "end": 12.36
+          },
+          {
+            "text": "le",
+            "charStart": 39,
+            "charEnd": 41,
+            "start": 12.4,
+            "end": 12.48
+          },
+          {
+            "text": "dejó",
+            "charStart": 42,
+            "charEnd": 46,
+            "start": 12.56,
+            "end": 12.8
+          },
+          {
+            "text": "la",
+            "charStart": 47,
+            "charEnd": 49,
+            "start": 12.88,
+            "end": 12.96
+          },
+          {
+            "text": "librería.",
+            "charStart": 50,
+            "charEnd": 59,
+            "start": 13.04,
+            "end": 14.08
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "es": "Inés volvió una tarde de otoño para limpiar y decidir qué hacer.",
+      "en": "Inés returned one autumn afternoon to clean and decide what to do.",
+      "annotations": [],
+      "audio": {
+        "start": 14.16,
+        "end": 18.52,
+        "words": [
+          {
+            "text": "Inés",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 14.16,
+            "end": 14.48
+          },
+          {
+            "text": "volvió",
+            "charStart": 5,
+            "charEnd": 11,
+            "start": 14.56,
+            "end": 14.88
+          },
+          {
+            "text": "una",
+            "charStart": 12,
+            "charEnd": 15,
+            "start": 15,
+            "end": 15.12
+          },
+          {
+            "text": "tarde",
+            "charStart": 16,
+            "charEnd": 21,
+            "start": 15.2,
+            "end": 15.44
+          },
+          {
+            "text": "de",
+            "charStart": 22,
+            "charEnd": 24,
+            "start": 15.48,
+            "end": 15.52
+          },
+          {
+            "text": "otoño",
+            "charStart": 25,
+            "charEnd": 30,
+            "start": 15.6,
+            "end": 16
+          },
+          {
+            "text": "para",
+            "charStart": 31,
+            "charEnd": 35,
+            "start": 16.08,
+            "end": 16.16
+          },
+          {
+            "text": "limpiar",
+            "charStart": 36,
+            "charEnd": 43,
+            "start": 16.28,
+            "end": 16.72
+          },
+          {
+            "text": "y",
+            "charStart": 44,
+            "charEnd": 45,
+            "start": 16.88,
+            "end": 16.92
+          },
+          {
+            "text": "decidir",
+            "charStart": 46,
+            "charEnd": 53,
+            "start": 16.96,
+            "end": 17.44
+          },
+          {
+            "text": "qué",
+            "charStart": 54,
+            "charEnd": 57,
+            "start": 17.6,
+            "end": 17.76
+          },
+          {
+            "text": "hacer.",
+            "charStart": 58,
+            "charEnd": 64,
+            "start": 17.8,
+            "end": 18.52
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "es": "Detrás de una estantería encontró una caja llena de cartas sin enviar.",
+      "en": "Behind a bookshelf, she found a box full of unsent letters.",
+      "annotations": [
+        {
+          "id": "la-casa-de-las-cartas-a5-1",
+          "text": "encontró",
+          "type": "grammar",
+          "meaning": "found",
+          "explanation": "The preterite marks the discovery as a specific completed action.",
+          "grammar": {
+            "infinitive": "encontrar",
+            "tense": "preterite",
+            "person": "third-person singular"
+          },
+          "start": 25,
+          "end": 33
+        }
+      ],
+      "audio": {
+        "start": 18.992,
+        "end": 23.68,
+        "words": [
+          {
+            "text": "Detrás",
+            "charStart": 0,
+            "charEnd": 6,
+            "start": 18.992,
+            "end": 19.2
+          },
+          {
+            "text": "de",
+            "charStart": 7,
+            "charEnd": 9,
+            "start": 19.24,
+            "end": 19.28
+          },
+          {
+            "text": "una",
+            "charStart": 10,
+            "charEnd": 13,
+            "start": 19.36,
+            "end": 19.44
+          },
+          {
+            "text": "estantería",
+            "charStart": 14,
+            "charEnd": 24,
+            "start": 19.52,
+            "end": 20.32
+          },
+          {
+            "text": "encontró",
+            "charStart": 25,
+            "charEnd": 33,
+            "start": 20.4,
+            "end": 20.8
+          },
+          {
+            "text": "una",
+            "charStart": 34,
+            "charEnd": 37,
+            "start": 20.92,
+            "end": 21.04
+          },
+          {
+            "text": "caja",
+            "charStart": 38,
+            "charEnd": 42,
+            "start": 21.12,
+            "end": 21.44
+          },
+          {
+            "text": "llena",
+            "charStart": 43,
+            "charEnd": 48,
+            "start": 21.6,
+            "end": 21.92
+          },
+          {
+            "text": "de",
+            "charStart": 49,
+            "charEnd": 51,
+            "start": 22,
+            "end": 22.08
+          },
+          {
+            "text": "cartas",
+            "charStart": 52,
+            "charEnd": 58,
+            "start": 22.16,
+            "end": 22.48
+          },
+          {
+            "text": "sin",
+            "charStart": 59,
+            "charEnd": 62,
+            "start": 22.56,
+            "end": 22.72
+          },
+          {
+            "text": "enviar.",
+            "charStart": 63,
+            "charEnd": 70,
+            "start": 22.8,
+            "end": 23.68
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "es": "Cada carta tenía un nombre, una dirección y una pequeña historia.",
+      "en": "Each letter had a name, an address, and a small story.",
+      "annotations": [],
+      "audio": {
+        "start": 23.72,
+        "end": 28.64,
+        "words": [
+          {
+            "text": "Cada",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 23.72,
+            "end": 23.92
+          },
+          {
+            "text": "carta",
+            "charStart": 5,
+            "charEnd": 10,
+            "start": 24.08,
+            "end": 24.4
+          },
+          {
+            "text": "tenía",
+            "charStart": 11,
+            "charEnd": 16,
+            "start": 24.48,
+            "end": 24.8
+          },
+          {
+            "text": "un",
+            "charStart": 17,
+            "charEnd": 19,
+            "start": 24.88,
+            "end": 24.96
+          },
+          {
+            "text": "nombre,",
+            "charStart": 20,
+            "charEnd": 27,
+            "start": 25.04,
+            "end": 25.68
+          },
+          {
+            "text": "una",
+            "charStart": 28,
+            "charEnd": 31,
+            "start": 25.76,
+            "end": 25.92
+          },
+          {
+            "text": "dirección",
+            "charStart": 32,
+            "charEnd": 41,
+            "start": 26,
+            "end": 26.56
+          },
+          {
+            "text": "y",
+            "charStart": 42,
+            "charEnd": 43,
+            "start": 26.8,
+            "end": 26.88
+          },
+          {
+            "text": "una",
+            "charStart": 44,
+            "charEnd": 47,
+            "start": 26.96,
+            "end": 27.12
+          },
+          {
+            "text": "pequeña",
+            "charStart": 48,
+            "charEnd": 55,
+            "start": 27.28,
+            "end": 27.76
+          },
+          {
+            "text": "historia.",
+            "charStart": 56,
+            "charEnd": 65,
+            "start": 27.96,
+            "end": 28.64
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "es": "En una, su abuelo daba las gracias a un vecino que le prestó dinero cuando abrió la tienda.",
+      "en": "In one, her grandfather thanked a neighbor who had lent him money when he opened the shop.",
+      "annotations": [],
+      "audio": {
+        "start": 28.96,
+        "end": 33.92,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 28.96,
+            "end": 29.12
+          },
+          {
+            "text": "una,",
+            "charStart": 3,
+            "charEnd": 7,
+            "start": 29.2,
+            "end": 29.68
+          },
+          {
+            "text": "su",
+            "charStart": 8,
+            "charEnd": 10,
+            "start": 29.76,
+            "end": 29.84
+          },
+          {
+            "text": "abuelo",
+            "charStart": 11,
+            "charEnd": 17,
+            "start": 29.92,
+            "end": 30.16
+          },
+          {
+            "text": "daba",
+            "charStart": 18,
+            "charEnd": 22,
+            "start": 30.24,
+            "end": 30.4
+          },
+          {
+            "text": "las",
+            "charStart": 23,
+            "charEnd": 26,
+            "start": 30.48,
+            "end": 30.64
+          },
+          {
+            "text": "gracias",
+            "charStart": 27,
+            "charEnd": 34,
+            "start": 30.72,
+            "end": 31.04
+          },
+          {
+            "text": "a",
+            "charStart": 35,
+            "charEnd": 36,
+            "start": 31.12,
+            "end": 31.2
+          },
+          {
+            "text": "un",
+            "charStart": 37,
+            "charEnd": 39,
+            "start": 31.24,
+            "end": 31.28
+          },
+          {
+            "text": "vecino",
+            "charStart": 40,
+            "charEnd": 46,
+            "start": 31.36,
+            "end": 31.76
+          },
+          {
+            "text": "que",
+            "charStart": 47,
+            "charEnd": 50,
+            "start": 31.8,
+            "end": 31.84
+          },
+          {
+            "text": "le",
+            "charStart": 51,
+            "charEnd": 53,
+            "start": 31.92,
+            "end": 32
+          },
+          {
+            "text": "prestó",
+            "charStart": 54,
+            "charEnd": 60,
+            "start": 32.08,
+            "end": 32.4
+          },
+          {
+            "text": "dinero",
+            "charStart": 61,
+            "charEnd": 67,
+            "start": 32.48,
+            "end": 32.8
+          },
+          {
+            "text": "cuando",
+            "charStart": 68,
+            "charEnd": 74,
+            "start": 32.88,
+            "end": 33.04
+          },
+          {
+            "text": "abrió",
+            "charStart": 75,
+            "charEnd": 80,
+            "start": 33.12,
+            "end": 33.36
+          },
+          {
+            "text": "la",
+            "charStart": 81,
+            "charEnd": 83,
+            "start": 33.4,
+            "end": 33.44
+          },
+          {
+            "text": "tienda.",
+            "charStart": 84,
+            "charEnd": 91,
+            "start": 33.52,
+            "end": 33.92
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "es": "En otra, pedía perdón a una amiga por una discusión muy antigua.",
+      "en": "In another, he apologized to a friend for an argument long ago.",
+      "annotations": [
+        {
+          "id": "la-casa-de-las-cartas-a8-1",
+          "text": "pedía perdón",
+          "type": "expression",
+          "meaning": "was asking for forgiveness",
+          "explanation": "Pedir perdón is the natural Spanish expression for apologizing.",
+          "grammar": {
+            "infinitive": "pedir",
+            "tense": "imperfect"
+          },
+          "start": 9,
+          "end": 21
+        }
+      ],
+      "audio": {
+        "start": 34.48,
+        "end": 39.44,
+        "words": [
+          {
+            "text": "En",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 34.48,
+            "end": 34.56
+          },
+          {
+            "text": "otra,",
+            "charStart": 3,
+            "charEnd": 8,
+            "start": 34.64,
+            "end": 35.28
+          },
+          {
+            "text": "pedía",
+            "charStart": 9,
+            "charEnd": 14,
+            "start": 35.36,
+            "end": 35.68
+          },
+          {
+            "text": "perdón",
+            "charStart": 15,
+            "charEnd": 21,
+            "start": 35.8,
+            "end": 36.08
+          },
+          {
+            "text": "a",
+            "charStart": 22,
+            "charEnd": 23,
+            "start": 36.16,
+            "end": 36.24
+          },
+          {
+            "text": "una",
+            "charStart": 24,
+            "charEnd": 27,
+            "start": 36.32,
+            "end": 36.4
+          },
+          {
+            "text": "amiga",
+            "charStart": 28,
+            "charEnd": 33,
+            "start": 36.52,
+            "end": 36.8
+          },
+          {
+            "text": "por",
+            "charStart": 34,
+            "charEnd": 37,
+            "start": 36.88,
+            "end": 36.96
+          },
+          {
+            "text": "una",
+            "charStart": 38,
+            "charEnd": 41,
+            "start": 37.04,
+            "end": 37.12
+          },
+          {
+            "text": "discusión",
+            "charStart": 42,
+            "charEnd": 51,
+            "start": 37.2,
+            "end": 37.92
+          },
+          {
+            "text": "muy",
+            "charStart": 52,
+            "charEnd": 55,
+            "start": 38,
+            "end": 38.24
+          },
+          {
+            "text": "antigua.",
+            "charStart": 56,
+            "charEnd": 64,
+            "start": 38.4,
+            "end": 39.44
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "es": "Inés leyó las cartas durante toda la noche y comprendió algo importante.",
+      "en": "Inés read the letters all night and understood something important.",
+      "annotations": [],
+      "audio": {
+        "start": 39.52,
+        "end": 44.72,
+        "words": [
+          {
+            "text": "Inés",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 39.52,
+            "end": 39.84
+          },
+          {
+            "text": "leyó",
+            "charStart": 5,
+            "charEnd": 9,
+            "start": 39.96,
+            "end": 40.12
+          },
+          {
+            "text": "las",
+            "charStart": 10,
+            "charEnd": 13,
+            "start": 40.16,
+            "end": 40.32
+          },
+          {
+            "text": "cartas",
+            "charStart": 14,
+            "charEnd": 20,
+            "start": 40.44,
+            "end": 40.72
+          },
+          {
+            "text": "durante",
+            "charStart": 21,
+            "charEnd": 28,
+            "start": 40.8,
+            "end": 41.28
+          },
+          {
+            "text": "toda",
+            "charStart": 29,
+            "charEnd": 33,
+            "start": 41.36,
+            "end": 41.6
+          },
+          {
+            "text": "la",
+            "charStart": 34,
+            "charEnd": 36,
+            "start": 41.68,
+            "end": 41.76
+          },
+          {
+            "text": "noche",
+            "charStart": 37,
+            "charEnd": 42,
+            "start": 41.84,
+            "end": 42.32
+          },
+          {
+            "text": "y",
+            "charStart": 43,
+            "charEnd": 44,
+            "start": 42.4,
+            "end": 42.48
+          },
+          {
+            "text": "comprendió",
+            "charStart": 45,
+            "charEnd": 55,
+            "start": 42.56,
+            "end": 43.12
+          },
+          {
+            "text": "algo",
+            "charStart": 56,
+            "charEnd": 60,
+            "start": 43.2,
+            "end": 43.44
+          },
+          {
+            "text": "importante.",
+            "charStart": 61,
+            "charEnd": 72,
+            "start": 43.64,
+            "end": 44.72
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "es": "Para su abuelo, la librería no era solamente un negocio: era un lugar de encuentro.",
+      "en": "For her grandfather, the bookstore was not just a business: it was a meeting place.",
+      "annotations": [],
+      "audio": {
+        "start": 44.8,
+        "end": 50.8,
+        "words": [
+          {
+            "text": "Para",
+            "charStart": 0,
+            "charEnd": 4,
+            "start": 44.8,
+            "end": 44.88
+          },
+          {
+            "text": "su",
+            "charStart": 5,
+            "charEnd": 7,
+            "start": 44.96,
+            "end": 45.04
+          },
+          {
+            "text": "abuelo,",
+            "charStart": 8,
+            "charEnd": 15,
+            "start": 45.12,
+            "end": 45.88
+          },
+          {
+            "text": "la",
+            "charStart": 16,
+            "charEnd": 18,
+            "start": 45.92,
+            "end": 45.96
+          },
+          {
+            "text": "librería",
+            "charStart": 19,
+            "charEnd": 27,
+            "start": 46,
+            "end": 46.56
+          },
+          {
+            "text": "no",
+            "charStart": 28,
+            "charEnd": 30,
+            "start": 46.64,
+            "end": 46.8
+          },
+          {
+            "text": "era",
+            "charStart": 31,
+            "charEnd": 34,
+            "start": 46.88,
+            "end": 47.12
+          },
+          {
+            "text": "solamente",
+            "charStart": 35,
+            "charEnd": 44,
+            "start": 47.2,
+            "end": 47.6
+          },
+          {
+            "text": "un",
+            "charStart": 45,
+            "charEnd": 47,
+            "start": 47.64,
+            "end": 47.68
+          },
+          {
+            "text": "negocio:",
+            "charStart": 48,
+            "charEnd": 56,
+            "start": 47.8,
+            "end": 48.64
+          },
+          {
+            "text": "era",
+            "charStart": 57,
+            "charEnd": 60,
+            "start": 48.76,
+            "end": 48.88
+          },
+          {
+            "text": "un",
+            "charStart": 61,
+            "charEnd": 63,
+            "start": 48.96,
+            "end": 49.04
+          },
+          {
+            "text": "lugar",
+            "charStart": 64,
+            "charEnd": 69,
+            "start": 49.08,
+            "end": 49.44
+          },
+          {
+            "text": "de",
+            "charStart": 70,
+            "charEnd": 72,
+            "start": 49.52,
+            "end": 49.6
+          },
+          {
+            "text": "encuentro.",
+            "charStart": 73,
+            "charEnd": 83,
+            "start": 49.72,
+            "end": 50.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "es": "Al día siguiente, Inés buscó los nombres en una guía antigua y salió con los sobres.",
+      "en": "The next day, Inés looked up the names in an old directory and went out with the envelopes.",
+      "annotations": [],
+      "audio": {
+        "start": 50.88,
+        "end": 56.4,
+        "words": [
+          {
+            "text": "Al",
+            "charStart": 0,
+            "charEnd": 2,
+            "start": 50.88,
+            "end": 50.96
+          },
+          {
+            "text": "día",
+            "charStart": 3,
+            "charEnd": 6,
+            "start": 51.04,
+            "end": 51.12
+          },
+          {
+            "text": "siguiente,",
+            "charStart": 7,
+            "charEnd": 17,
+            "start": 51.2,
+            "end": 52.04
+          },
+          {
+            "text": "Inés",
+            "charStart": 18,
+            "charEnd": 22,
+            "start": 52.08,
+            "end": 52.4
+          },
+          {
+            "text": "buscó",
+            "charStart": 23,
+            "charEnd": 28,
+            "start": 52.52,
+            "end": 52.72
+          },
+          {
+            "text": "los",
+            "charStart": 29,
+            "charEnd": 32,
+            "start": 52.8,
+            "end": 52.96
+          },
+          {
+            "text": "nombres",
+            "charStart": 33,
+            "charEnd": 40,
+            "start": 53,
+            "end": 53.36
+          },
+          {
+            "text": "en",
+            "charStart": 41,
+            "charEnd": 43,
+            "start": 53.44,
+            "end": 53.52
+          },
+          {
+            "text": "una",
+            "charStart": 44,
+            "charEnd": 47,
+            "start": 53.6,
+            "end": 53.68
+          },
+          {
+            "text": "guía",
+            "charStart": 48,
+            "charEnd": 52,
+            "start": 53.76,
+            "end": 53.92
+          },
+          {
+            "text": "antigua",
+            "charStart": 53,
+            "charEnd": 60,
+            "start": 54.08,
+            "end": 54.56
+          },
+          {
+            "text": "y",
+            "charStart": 61,
+            "charEnd": 62,
+            "start": 54.64,
+            "end": 54.72
+          },
+          {
+            "text": "salió",
+            "charStart": 63,
+            "charEnd": 68,
+            "start": 54.8,
+            "end": 55.12
+          },
+          {
+            "text": "con",
+            "charStart": 69,
+            "charEnd": 72,
+            "start": 55.2,
+            "end": 55.28
+          },
+          {
+            "text": "los",
+            "charStart": 73,
+            "charEnd": 76,
+            "start": 55.36,
+            "end": 55.44
+          },
+          {
+            "text": "sobres.",
+            "charStart": 77,
+            "charEnd": 84,
+            "start": 55.48,
+            "end": 56.4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "es": "Algunos vecinos ya no vivían allí, pero otros la recibieron con abrazos y recuerdos.",
+      "en": "Some neighbors no longer lived there, but others welcomed her with hugs and memories.",
+      "annotations": [],
+      "audio": {
+        "start": 56.48,
+        "end": 62.36,
+        "words": [
+          {
+            "text": "Algunos",
+            "charStart": 0,
+            "charEnd": 7,
+            "start": 56.48,
+            "end": 56.88
+          },
+          {
+            "text": "vecinos",
+            "charStart": 8,
+            "charEnd": 15,
+            "start": 57,
+            "end": 57.44
+          },
+          {
+            "text": "ya",
+            "charStart": 16,
+            "charEnd": 18,
+            "start": 57.52,
+            "end": 57.6
+          },
+          {
+            "text": "no",
+            "charStart": 19,
+            "charEnd": 21,
+            "start": 57.68,
+            "end": 57.76
+          },
+          {
+            "text": "vivían",
+            "charStart": 22,
+            "charEnd": 28,
+            "start": 57.8,
+            "end": 58.16
+          },
+          {
+            "text": "allí,",
+            "charStart": 29,
+            "charEnd": 34,
+            "start": 58.24,
+            "end": 58.8
+          },
+          {
+            "text": "pero",
+            "charStart": 35,
+            "charEnd": 39,
+            "start": 58.88,
+            "end": 59.04
+          },
+          {
+            "text": "otros",
+            "charStart": 40,
+            "charEnd": 45,
+            "start": 59.12,
+            "end": 59.52
+          },
+          {
+            "text": "la",
+            "charStart": 46,
+            "charEnd": 48,
+            "start": 59.6,
+            "end": 59.68
+          },
+          {
+            "text": "recibieron",
+            "charStart": 49,
+            "charEnd": 59,
+            "start": 59.76,
+            "end": 60.32
+          },
+          {
+            "text": "con",
+            "charStart": 60,
+            "charEnd": 63,
+            "start": 60.4,
+            "end": 60.56
+          },
+          {
+            "text": "abrazos",
+            "charStart": 64,
+            "charEnd": 71,
+            "start": 60.64,
+            "end": 61.2
+          },
+          {
+            "text": "y",
+            "charStart": 72,
+            "charEnd": 73,
+            "start": 61.28,
+            "end": 61.36
+          },
+          {
+            "text": "recuerdos.",
+            "charStart": 74,
+            "charEnd": 84,
+            "start": 61.48,
+            "end": 62.36
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "es": "Esa semana decidió abrir la librería otra vez, con una mesa especial para escribir cartas.",
+      "en": "That week she decided to reopen the bookstore, with a special table for writing letters.",
+      "annotations": [
+        {
+          "id": "la-casa-de-las-cartas-a13-1",
+          "text": "decidió abrir",
+          "type": "grammar",
+          "meaning": "decided to open",
+          "explanation": "After decidir, use the infinitive to name the intended action.",
+          "grammar": {
+            "structure": "decidir + infinitive"
+          },
+          "start": 11,
+          "end": 24
+        }
+      ],
+      "audio": {
+        "start": 62.707,
+        "end": 68.64,
+        "words": [
+          {
+            "text": "Esa",
+            "charStart": 0,
+            "charEnd": 3,
+            "start": 62.707,
+            "end": 62.88
+          },
+          {
+            "text": "semana",
+            "charStart": 4,
+            "charEnd": 10,
+            "start": 62.96,
+            "end": 63.44
+          },
+          {
+            "text": "decidió",
+            "charStart": 11,
+            "charEnd": 18,
+            "start": 63.56,
+            "end": 63.88
+          },
+          {
+            "text": "abrir",
+            "charStart": 19,
+            "charEnd": 24,
+            "start": 63.92,
+            "end": 64.16
+          },
+          {
+            "text": "la",
+            "charStart": 25,
+            "charEnd": 27,
+            "start": 64.24,
+            "end": 64.32
+          },
+          {
+            "text": "librería",
+            "charStart": 28,
+            "charEnd": 36,
+            "start": 64.4,
+            "end": 64.96
+          },
+          {
+            "text": "otra",
+            "charStart": 37,
+            "charEnd": 41,
+            "start": 65.04,
+            "end": 65.36
+          },
+          {
+            "text": "vez,",
+            "charStart": 42,
+            "charEnd": 46,
+            "start": 65.52,
+            "end": 65.92
+          },
+          {
+            "text": "con",
+            "charStart": 47,
+            "charEnd": 50,
+            "start": 66,
+            "end": 66.08
+          },
+          {
+            "text": "una",
+            "charStart": 51,
+            "charEnd": 54,
+            "start": 66.16,
+            "end": 66.24
+          },
+          {
+            "text": "mesa",
+            "charStart": 55,
+            "charEnd": 59,
+            "start": 66.32,
+            "end": 66.52
+          },
+          {
+            "text": "especial",
+            "charStart": 60,
+            "charEnd": 68,
+            "start": 66.56,
+            "end": 67.12
+          },
+          {
+            "text": "para",
+            "charStart": 69,
+            "charEnd": 73,
+            "start": 67.2,
+            "end": 67.36
+          },
+          {
+            "text": "escribir",
+            "charStart": 74,
+            "charEnd": 82,
+            "start": 67.44,
+            "end": 67.84
+          },
+          {
+            "text": "cartas.",
+            "charStart": 83,
+            "charEnd": 90,
+            "start": 68,
+            "end": 68.64
+          }
+        ]
+      }
+    }
+  ],
+  "comprehension": [
+    {
+      "question": "What does Inés inherit?",
+      "options": [
+        "A café",
+        "A bookstore",
+        "A house"
+      ],
+      "correctIndex": 1,
+      "explanation": "Her grandfather leaves her his bookstore."
+    },
+    {
+      "question": "What does she find behind a shelf?",
+      "options": [
+        "Old photographs",
+        "A box of letters",
+        "A hidden doorway"
+      ],
+      "correctIndex": 1,
+      "explanation": "She discovers letters her grandfather never sent."
+    },
+    {
+      "question": "What does Inés decide to do?",
+      "options": [
+        "Sell everything",
+        "Leave the city",
+        "Reopen the bookstore"
+      ],
+      "correctIndex": 2,
+      "explanation": "She reopens the shop and adds a table for writing letters."
+    }
+  ],
+  "narration": {
+    "status": "ready",
+    "audioUrl": "/audio/la-casa-de-las-cartas.mp3",
+    "durationSeconds": 68.64,
+    "alignment": "words"
+  }
+}
