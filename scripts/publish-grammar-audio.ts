@@ -1,7 +1,7 @@
 /**
  * Generate Grammar Studio sentence audio with ElevenLabs.
- * Run: ELEVENLABS_API_KEY=... ELEVENLABS_VOICE_ID=... npx tsx scripts/publish-grammar-audio.ts
- * Optional: ELEVENLABS_MODEL_ID=eleven_multilingual_v2
+ * Run: ELEVENLABS_API_KEY=... npx tsx scripts/publish-grammar-audio.ts
+ * Defaults to George (Latin American Spanish) and eleven_v4. Override with ELEVENLABS_VOICE_ID / ELEVENLABS_MODEL_ID.
  * Existing MP3 files are skipped. Remove a file to regenerate it.
  */
 import { readFile, mkdir, writeFile, access } from 'node:fs/promises';
@@ -9,9 +9,9 @@ import { join, dirname } from 'node:path';
 type Example={id:string;spanish:string;audioPath:string};
 type Lesson={id:string;examples:Example[]};
 const key=process.env.ELEVENLABS_API_KEY;
-const voice=process.env.ELEVENLABS_VOICE_ID;
-const model=process.env.ELEVENLABS_MODEL_ID||'eleven_multilingual_v2';
-if(!key||!voice)throw new Error('Set ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID');
+const voice=process.env.ELEVENLABS_VOICE_ID||'7GCLDRn3tm42Ra1CZCPL';
+const model=process.env.ELEVENLABS_MODEL_ID||'eleven_v4';
+if(!key)throw new Error('Set ELEVENLABS_API_KEY');
 const data=JSON.parse(await readFile('content/grammar/lessons.json','utf8')) as {lessons:Lesson[]};
 for(const lesson of data.lessons)for(const example of lesson.examples){
  const dest=join('public',example.audioPath);
