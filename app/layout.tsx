@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import '@/components/grammar/grammar.css';
 export const metadata: Metadata = {
   title: { default: 'Sonora — Stories that teach you Spanish', template: '%s · Sonora' },
   description: 'Discover Spanish through beautiful stories, natural translations, and contextual language insights.',
