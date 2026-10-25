@@ -69,7 +69,13 @@
           "audioPath": "audio/grammar/vowels/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "casa",
+          "lemma": "casa",
+          "meaning": "house"
+        }
+      ]
     },
     {
       "id": "stress",
@@ -91,7 +97,13 @@
           "audioPath": "audio/grammar/stress/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "papá",
+          "lemma": "papá",
+          "meaning": "dad"
+        }
+      ]
     },
     {
       "id": "rr",
@@ -113,7 +125,13 @@
           "audioPath": "audio/grammar/rr/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "perro",
+          "lemma": "perro",
+          "meaning": "dog"
+        }
+      ]
     },
     {
       "id": "gender",
@@ -135,7 +153,13 @@
           "audioPath": "audio/grammar/gender/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "libro",
+          "lemma": "libro",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "articles",
@@ -157,7 +181,18 @@
           "audioPath": "audio/grammar/articles/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Tengo",
+          "lemma": "tener",
+          "meaning": "I have"
+        },
+        {
+          "surface": "libro",
+          "lemma": "libro",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "plural",
@@ -201,7 +236,18 @@
           "audioPath": "audio/grammar/adjectives/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "mesa",
+          "lemma": "mesa",
+          "meaning": "table"
+        },
+        {
+          "surface": "roja",
+          "lemma": "rojo",
+          "meaning": "red"
+        }
+      ]
     },
     {
       "id": "comparisons",
@@ -245,7 +291,23 @@
           "audioPath": "audio/grammar/subject-pronouns/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Hoy",
+          "lemma": "hoy",
+          "meaning": "today"
+        },
+        {
+          "surface": "compro",
+          "lemma": "comprar",
+          "meaning": "I buy"
+        },
+        {
+          "surface": "pan",
+          "lemma": "pan",
+          "meaning": "bread"
+        }
+      ]
     },
     {
       "id": "tu-usted",
@@ -267,7 +329,13 @@
           "audioPath": "audio/grammar/tu-usted/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "habla",
+          "lemma": "hablar",
+          "meaning": "speaks"
+        }
+      ]
     },
     {
       "id": "possessives",
@@ -289,7 +357,13 @@
           "audioPath": "audio/grammar/possessives/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "libros",
+          "lemma": "libro",
+          "meaning": "books"
+        }
+      ]
     },
     {
       "id": "object-pronouns",
@@ -311,7 +385,18 @@
           "audioPath": "audio/grammar/object-pronouns/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Tengo",
+          "lemma": "tener",
+          "meaning": "I have"
+        },
+        {
+          "surface": "libro",
+          "lemma": "libro",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "reflexive",
@@ -333,7 +418,13 @@
           "audioPath": "audio/grammar/reflexive/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Ella",
+          "lemma": "ella",
+          "meaning": "she"
+        }
+      ]
     },
     {
       "id": "infinitives",
@@ -377,7 +468,18 @@
           "audioPath": "audio/grammar/present-ar/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Ella",
+          "lemma": "ella",
+          "meaning": "she"
+        },
+        {
+          "surface": "pan",
+          "lemma": "pan",
+          "meaning": "bread"
+        }
+      ]
     },
     {
       "id": "present-er-ir",
@@ -399,7 +501,13 @@
           "audioPath": "audio/grammar/present-er-ir/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Ella",
+          "lemma": "ella",
+          "meaning": "she"
+        }
+      ]
     },
     {
       "id": "ser-estar",
@@ -421,7 +529,18 @@
           "audioPath": "audio/grammar/ser-estar/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Estoy",
+          "lemma": "estar",
+          "meaning": "I am"
+        },
+        {
+          "surface": "cansada",
+          "lemma": "cansado",
+          "meaning": "tired"
+        }
+      ]
     },
     {
       "id": "hay",
@@ -465,7 +584,18 @@
           "audioPath": "audio/grammar/ir-future/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "estudiar",
+          "lemma": "estudiar",
+          "meaning": "to study"
+        },
+        {
+          "surface": "mañana",
+          "lemma": "mañana",
+          "meaning": "tomorrow"
+        }
+      ]
     },
     {
       "id": "preterite",
@@ -487,7 +617,23 @@
           "audioPath": "audio/grammar/preterite/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Ayer",
+          "lemma": "ayer",
+          "meaning": "yesterday"
+        },
+        {
+          "surface": "compré",
+          "lemma": "comprar",
+          "meaning": "I bought"
+        },
+        {
+          "surface": "pan",
+          "lemma": "pan",
+          "meaning": "bread"
+        }
+      ]
     },
     {
       "id": "imperfect",
@@ -531,7 +677,18 @@
           "audioPath": "audio/grammar/past-contrast/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Leía",
+          "lemma": "leer",
+          "meaning": "was reading"
+        },
+        {
+          "surface": "sonó",
+          "lemma": "sonar",
+          "meaning": "rang"
+        }
+      ]
     },
     {
       "id": "future",
@@ -553,7 +710,13 @@
           "audioPath": "audio/grammar/future/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Mañana",
+          "lemma": "mañana",
+          "meaning": "tomorrow"
+        }
+      ]
     },
     {
       "id": "conditional",
@@ -597,7 +760,18 @@
           "audioPath": "audio/grammar/subjunctive/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "tengas",
+          "lemma": "tener",
+          "meaning": "you have (subjunctive)"
+        },
+        {
+          "surface": "tiempo",
+          "lemma": "tiempo",
+          "meaning": "time"
+        }
+      ]
     },
     {
       "id": "word-order",
@@ -619,7 +793,13 @@
           "audioPath": "audio/grammar/word-order/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "libro",
+          "lemma": "libro",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "questions",
@@ -641,7 +821,13 @@
           "audioPath": "audio/grammar/questions/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "vives",
+          "lemma": "vivir",
+          "meaning": "you live"
+        }
+      ]
     },
     {
       "id": "negatives",
@@ -663,7 +849,18 @@
           "audioPath": "audio/grammar/negatives/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "tengo",
+          "lemma": "tener",
+          "meaning": "I have"
+        },
+        {
+          "surface": "tiempo",
+          "lemma": "tiempo",
+          "meaning": "time"
+        }
+      ]
     },
     {
       "id": "connecting",
@@ -685,7 +882,23 @@
           "audioPath": "audio/grammar/connecting/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Estudio",
+          "lemma": "estudiar",
+          "meaning": "I study"
+        },
+        {
+          "surface": "porque",
+          "lemma": "porque",
+          "meaning": "because"
+        },
+        {
+          "surface": "aprender",
+          "lemma": "aprender",
+          "meaning": "to learn"
+        }
+      ]
     },
     {
       "id": "por-para",
@@ -707,7 +920,18 @@
           "audioPath": "audio/grammar/por-para/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Estudio",
+          "lemma": "estudiar",
+          "meaning": "I study"
+        },
+        {
+          "surface": "aprender",
+          "lemma": "aprender",
+          "meaning": "to learn"
+        }
+      ]
     },
     {
       "id": "gustar",
@@ -729,7 +953,18 @@
           "audioPath": "audio/grammar/gustar/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "gustan",
+          "lemma": "gustar",
+          "meaning": "are pleasing"
+        },
+        {
+          "surface": "libros",
+          "lemma": "libro",
+          "meaning": "books"
+        }
+      ]
     },
     {
       "id": "commands",
@@ -773,7 +1008,23 @@
           "audioPath": "audio/grammar/accent-marks/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "Tú",
+          "lemma": "tú",
+          "meaning": "you"
+        },
+        {
+          "surface": "tu",
+          "lemma": "tu",
+          "meaning": "your"
+        },
+        {
+          "surface": "libro",
+          "lemma": "libro",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "punctuation",
@@ -817,7 +1068,18 @@
           "audioPath": "audio/grammar/se/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "venden",
+          "lemma": "vender",
+          "meaning": "are sold"
+        },
+        {
+          "surface": "libros",
+          "lemma": "libro",
+          "meaning": "books"
+        }
+      ]
     },
     {
       "id": "hypotheticals",
@@ -839,7 +1101,23 @@
           "audioPath": "audio/grammar/hypotheticals/01.mp3"
         }
       ],
-      "vocabulary": []
+      "vocabulary": [
+        {
+          "surface": "tuviera",
+          "lemma": "tener",
+          "meaning": "had (hypothetical)"
+        },
+        {
+          "surface": "tiempo",
+          "lemma": "tiempo",
+          "meaning": "time"
+        },
+        {
+          "surface": "viajaría",
+          "lemma": "viajar",
+          "meaning": "would travel"
+        }
+      ]
     }
   ]
 }
