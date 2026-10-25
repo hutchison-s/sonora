@@ -45,6 +45,13 @@
           "english": "Spain is beautiful.",
           "explanation": "España contains ñ, a distinct letter pronounced roughly like 'ny' in canyon. Bonita describes España and takes feminine agreement.",
           "audioPath": "audio/grammar/alphabet/01.mp3"
+        },
+        {
+          "id": "alphabet-02",
+          "spanish": "El niño juega.",
+          "audioPath": "audio/grammar/alphabet/02.mp3",
+          "english": "The boy plays.",
+          "explanation": "Niño contains ñ, a separate Spanish letter. El agrees with the masculine singular noun niño."
         }
       ],
       "vocabulary": []
@@ -67,6 +74,13 @@
           "english": "My house is small.",
           "explanation": "Casa has two clear a vowels. Pequeña contains the letter ñ; its final -a agrees with the feminine noun casa.",
           "audioPath": "audio/grammar/vowels/01.mp3"
+        },
+        {
+          "id": "vowels-02",
+          "spanish": "La luna ilumina el patio.",
+          "audioPath": "audio/grammar/vowels/02.mp3",
+          "english": "The moon lights up the patio.",
+          "explanation": "The vowels in luna and patio retain their characteristic sounds; Spanish vowels are usually not reduced to a neutral schwa."
         }
       ],
       "vocabulary": [
@@ -95,6 +109,13 @@
           "english": "My dad works.",
           "explanation": "Papá has an accent because the final syllable is stressed, unlike the usual pattern for a word ending in a vowel.",
           "audioPath": "audio/grammar/stress/01.mp3"
+        },
+        {
+          "id": "stress-02",
+          "spanish": "El teléfono suena.",
+          "audioPath": "audio/grammar/stress/02.mp3",
+          "english": "The telephone rings.",
+          "explanation": "Teléfono is stressed on lé; the written accent marks stress outside the default penultimate-syllable pattern."
         }
       ],
       "vocabulary": [
@@ -123,6 +144,13 @@
           "english": "The dog runs.",
           "explanation": "Perro and corre contain rr, pronounced with a trill. Compare pero, which has a single tapped r.",
           "audioPath": "audio/grammar/rr/01.mp3"
+        },
+        {
+          "id": "rr-02",
+          "spanish": "Quiero pero no puedo.",
+          "audioPath": "audio/grammar/rr/02.mp3",
+          "english": "I want to, but I cannot.",
+          "explanation": "Quiero and pero use a single tapped r between vowels, unlike the trilled rr in perro."
         }
       ],
       "vocabulary": [
@@ -151,6 +179,13 @@
           "english": "The book is new.",
           "explanation": "Libro is masculine and uses el. Nuevo changes to its masculine singular form to describe libro.",
           "audioPath": "audio/grammar/gender/01.mp3"
+        },
+        {
+          "id": "gender-02",
+          "spanish": "La puerta está abierta.",
+          "audioPath": "audio/grammar/gender/02.mp3",
+          "english": "The door is open.",
+          "explanation": "Puerta is feminine, so it takes la and the feminine adjective abierta."
         }
       ],
       "vocabulary": [
@@ -179,6 +214,13 @@
           "english": "I have a book.",
           "explanation": "Un is a masculine singular indefinite article. It introduces a book without identifying which one.",
           "audioPath": "audio/grammar/articles/01.mp3"
+        },
+        {
+          "id": "articles-02",
+          "spanish": "La niña tiene una mochila.",
+          "audioPath": "audio/grammar/articles/02.mp3",
+          "english": "The girl has a backpack.",
+          "explanation": "La identifies a particular girl; una introduces a nonspecific feminine singular backpack."
         }
       ],
       "vocabulary": [
@@ -212,6 +254,13 @@
           "english": "The houses are big.",
           "explanation": "La becomes las, casa becomes casas, and grande becomes grandes. All three agree in plural number.",
           "audioPath": "audio/grammar/plural/01.mp3"
+        },
+        {
+          "id": "plural-02",
+          "spanish": "Los árboles son altos.",
+          "audioPath": "audio/grammar/plural/02.mp3",
+          "english": "The trees are tall.",
+          "explanation": "Árbol becomes árboles, el becomes los, and alto becomes altos to agree with the plural subject."
         }
       ],
       "vocabulary": []
@@ -234,6 +283,13 @@
           "english": "It is a red table.",
           "explanation": "Roja follows mesa and ends in -a to match the feminine singular noun.",
           "audioPath": "audio/grammar/adjectives/01.mp3"
+        },
+        {
+          "id": "adjectives-02",
+          "spanish": "Los zapatos negros son nuevos.",
+          "audioPath": "audio/grammar/adjectives/02.mp3",
+          "english": "The black shoes are new.",
+          "explanation": "Negros and nuevos both agree with zapatos in masculine plural; descriptive adjectives commonly follow the noun."
         }
       ],
       "vocabulary": [
@@ -267,6 +323,13 @@
           "english": "Ana is taller than Luis.",
           "explanation": "Más ... que expresses a comparison. Alta agrees with Ana, the person being described.",
           "audioPath": "audio/grammar/comparisons/01.mp3"
+        },
+        {
+          "id": "comparisons-02",
+          "spanish": "Este café es tan bueno como aquel.",
+          "audioPath": "audio/grammar/comparisons/02.mp3",
+          "english": "This coffee is as good as that one.",
+          "explanation": "Tan + adjective + como expresses equality, rather than the más ... que pattern for superiority."
         }
       ],
       "vocabulary": []
@@ -289,6 +352,20 @@
           "english": "Today I buy bread.",
           "explanation": "Compro comes from comprar: remove -ar and add -o for first-person singular. Yo (I) is implied by the verb ending.",
           "audioPath": "audio/grammar/subject-pronouns/01.mp3"
+        },
+        {
+          "id": "subject-pronouns-02",
+          "spanish": "Vivimos en México.",
+          "audioPath": "audio/grammar/subject-pronouns/02.mp3",
+          "english": "We live in Mexico.",
+          "explanation": "Vivimos is the nosotros form of vivir. The subject pronoun nosotros can be omitted because -imos signals first-person plural."
+        },
+        {
+          "id": "subject-pronouns-03",
+          "spanish": "¿Trabajas mañana?",
+          "english": "Are you working tomorrow?",
+          "explanation": "Trabajas is the tú form of trabajar. The subject tú is omitted because -as identifies the person addressed.",
+          "audioPath": "audio/grammar/subject-pronouns/03.mp3"
         }
       ],
       "vocabulary": [
@@ -327,6 +404,13 @@
           "english": "Do you speak English?",
           "explanation": "Usted addresses one person formally, but takes the third-person singular form habla, not hablas.",
           "audioPath": "audio/grammar/tu-usted/01.mp3"
+        },
+        {
+          "id": "tu-usted-02",
+          "spanish": "¿Tú estudias español?",
+          "audioPath": "audio/grammar/tu-usted/02.mp3",
+          "english": "Do you study Spanish?",
+          "explanation": "Tú uses the second-person singular ending -as in estudias, unlike usted estudia."
         }
       ],
       "vocabulary": [
@@ -355,6 +439,13 @@
           "english": "Their books are here.",
           "explanation": "Sus is plural because libros is plural. The form does not tell you whether the owner is one person or several.",
           "audioPath": "audio/grammar/possessives/01.mp3"
+        },
+        {
+          "id": "possessives-02",
+          "spanish": "Mi hermana busca nuestras llaves.",
+          "audioPath": "audio/grammar/possessives/02.mp3",
+          "english": "My sister is looking for our keys.",
+          "explanation": "Mi does not change for gender; nuestras agrees in feminine plural with llaves, not with the owners."
         }
       ],
       "vocabulary": [
@@ -383,6 +474,13 @@
           "english": "I have the book. I read it.",
           "explanation": "Lo replaces el libro, a masculine singular direct object. It appears before the conjugated verb leo.",
           "audioPath": "audio/grammar/object-pronouns/01.mp3"
+        },
+        {
+          "id": "object-pronouns-02",
+          "spanish": "¿Ves a María? Sí, la veo.",
+          "audioPath": "audio/grammar/object-pronouns/02.mp3",
+          "english": "Do you see María? Yes, I see her.",
+          "explanation": "La replaces the feminine singular direct object María and comes before the conjugated verb veo."
         }
       ],
       "vocabulary": [
@@ -416,6 +514,13 @@
           "english": "She washes her hands.",
           "explanation": "Se refers to ella. Spanish normally uses las manos instead of a possessive such as her hands here.",
           "audioPath": "audio/grammar/reflexive/01.mp3"
+        },
+        {
+          "id": "reflexive-02",
+          "spanish": "Me despierto a las siete.",
+          "audioPath": "audio/grammar/reflexive/02.mp3",
+          "english": "I wake up at seven.",
+          "explanation": "Despertarse is reflexive here: me refers back to the speaker, and despierto is the yo present-tense form."
         }
       ],
       "vocabulary": [
@@ -444,6 +549,13 @@
           "english": "I want to eat.",
           "explanation": "Comer is an infinitive ending in -er. Quiero is the first-person singular form of querer.",
           "audioPath": "audio/grammar/infinitives/01.mp3"
+        },
+        {
+          "id": "infinitives-02",
+          "spanish": "Necesitamos salir temprano.",
+          "audioPath": "audio/grammar/infinitives/02.mp3",
+          "english": "We need to leave early.",
+          "explanation": "Salir stays in its infinitive form after the conjugated verb necesitamos; only the first verb carries person and tense."
         }
       ],
       "vocabulary": []
@@ -466,6 +578,13 @@
           "english": "She buys bread.",
           "explanation": "Compra comes from comprar: remove -ar and add -a for third-person singular. Ella makes the subject explicit.",
           "audioPath": "audio/grammar/present-ar/01.mp3"
+        },
+        {
+          "id": "present-ar-02",
+          "spanish": "Nosotros hablamos español.",
+          "audioPath": "audio/grammar/present-ar/02.mp3",
+          "english": "We speak Spanish.",
+          "explanation": "Hablamos comes from hablar: remove -ar and add -amos for first-person plural in the present tense."
         }
       ],
       "vocabulary": [
@@ -499,6 +618,13 @@
           "english": "She lives here.",
           "explanation": "Vive comes from vivir: remove -ir and add -e for third-person singular.",
           "audioPath": "audio/grammar/present-er-ir/01.mp3"
+        },
+        {
+          "id": "present-er-ir-02",
+          "spanish": "Tú comes arroz.",
+          "audioPath": "audio/grammar/present-er-ir/02.mp3",
+          "english": "You eat rice.",
+          "explanation": "Comes is the tú present-tense form of comer, formed with the -es ending for regular -er verbs."
         }
       ],
       "vocabulary": [
@@ -527,6 +653,20 @@
           "english": "I am tired.",
           "explanation": "Estoy is first-person singular of estar. Cansada describes the speaker's state and uses feminine agreement.",
           "audioPath": "audio/grammar/ser-estar/01.mp3"
+        },
+        {
+          "id": "ser-estar-02",
+          "spanish": "Ella es médica.",
+          "audioPath": "audio/grammar/ser-estar/02.mp3",
+          "english": "She is a doctor.",
+          "explanation": "Ser expresses identity or profession. Compare está cansada, where estar describes a current condition."
+        },
+        {
+          "id": "ser-estar-03",
+          "spanish": "La sopa está fría.",
+          "english": "The soup is cold.",
+          "explanation": "Estar describes the soup's current state or temperature; es fría would characterize it as habitually cold.",
+          "audioPath": "audio/grammar/ser-estar/03.mp3"
         }
       ],
       "vocabulary": [
@@ -560,6 +700,13 @@
           "english": "There are three windows.",
           "explanation": "Hay stays the same even though ventanas is plural. Tres tells us there are three windows.",
           "audioPath": "audio/grammar/hay/01.mp3"
+        },
+        {
+          "id": "hay-02",
+          "spanish": "No hay leche en la nevera.",
+          "audioPath": "audio/grammar/hay/02.mp3",
+          "english": "There is no milk in the refrigerator.",
+          "explanation": "Hay is the impersonal form meaning there is or there are; it does not change for singular or plural nouns."
         }
       ],
       "vocabulary": []
@@ -582,6 +729,13 @@
           "english": "I'm going to study tomorrow.",
           "explanation": "Voy is first-person singular of ir. A connects it to the infinitive estudiar, which does not change.",
           "audioPath": "audio/grammar/ir-future/01.mp3"
+        },
+        {
+          "id": "ir-future-02",
+          "spanish": "Vamos a visitar a mis abuelos.",
+          "audioPath": "audio/grammar/ir-future/02.mp3",
+          "english": "We are going to visit my grandparents.",
+          "explanation": "Vamos a + infinitive visitar expresses a planned or near-future action; the personal a marks the people visited."
         }
       ],
       "vocabulary": [
@@ -615,6 +769,20 @@
           "english": "Yesterday I bought bread.",
           "explanation": "Compré comes from comprar. The accented -é ending signals first-person singular preterite, unlike present compro.",
           "audioPath": "audio/grammar/preterite/01.mp3"
+        },
+        {
+          "id": "preterite-02",
+          "spanish": "Anoche cenamos juntos.",
+          "audioPath": "audio/grammar/preterite/02.mp3",
+          "english": "Last night we ate dinner together.",
+          "explanation": "Cenamos is a regular -ar preterite nosotros form; anoche places the completed event in the past."
+        },
+        {
+          "id": "preterite-03",
+          "spanish": "El sábado fuimos al museo.",
+          "english": "On Saturday we went to the museum.",
+          "explanation": "Fuimos is the irregular preterite nosotros form of ir (also of ser); al museo and the context indicate movement.",
+          "audioPath": "audio/grammar/preterite/03.mp3"
         }
       ],
       "vocabulary": [
@@ -653,6 +821,13 @@
           "english": "We used to live nearby.",
           "explanation": "Vivíamos comes from vivir and uses -íamos for first-person plural imperfect. Antes places the habit in an earlier period.",
           "audioPath": "audio/grammar/imperfect/01.mp3"
+        },
+        {
+          "id": "imperfect-02",
+          "spanish": "De niño, jugaba en el parque.",
+          "audioPath": "audio/grammar/imperfect/02.mp3",
+          "english": "As a child, I used to play in the park.",
+          "explanation": "Jugaba is the imperfect of jugar and describes a repeated habit in the past, not one bounded event."
         }
       ],
       "vocabulary": []
@@ -675,6 +850,13 @@
           "english": "I was reading when the phone rang.",
           "explanation": "Leía is imperfect because reading was ongoing. Sonó is preterite because the ringing is presented as an event.",
           "audioPath": "audio/grammar/past-contrast/01.mp3"
+        },
+        {
+          "id": "past-contrast-02",
+          "spanish": "Mientras cocinaba, llegó Ana.",
+          "audioPath": "audio/grammar/past-contrast/02.mp3",
+          "english": "While I was cooking, Ana arrived.",
+          "explanation": "Cocinaba is imperfect background action; llegó is preterite for the completed event that happened during it."
         }
       ],
       "vocabulary": [
@@ -708,6 +890,13 @@
           "english": "Tomorrow I will study.",
           "explanation": "Estudiaré combines estudiar with the first-person future ending -é. The accent marks the stressed ending.",
           "audioPath": "audio/grammar/future/01.mp3"
+        },
+        {
+          "id": "future-02",
+          "spanish": "El próximo año aprenderemos más.",
+          "audioPath": "audio/grammar/future/02.mp3",
+          "english": "Next year we will learn more.",
+          "explanation": "Aprenderemos adds -emos to the full infinitive aprender to form the nosotros simple future."
         }
       ],
       "vocabulary": [
@@ -736,6 +925,13 @@
           "english": "Could you help me?",
           "explanation": "Podrías is the tú conditional form of poder. The conditional makes this request softer than a direct command.",
           "audioPath": "audio/grammar/conditional/01.mp3"
+        },
+        {
+          "id": "conditional-02",
+          "spanish": "Me gustaría un café.",
+          "audioPath": "audio/grammar/conditional/02.mp3",
+          "english": "I would like a coffee.",
+          "explanation": "Gustaría is the conditional of gustar, used here to make a polite request."
         }
       ],
       "vocabulary": []
@@ -758,6 +954,13 @@
           "english": "I hope you have time.",
           "explanation": "Espero que expresses a hope. Tengas is the tú present subjunctive of tener, rather than indicative tienes.",
           "audioPath": "audio/grammar/subjunctive/01.mp3"
+        },
+        {
+          "id": "subjunctive-02",
+          "spanish": "Es importante que descanses.",
+          "audioPath": "audio/grammar/subjunctive/02.mp3",
+          "english": "It is important that you rest.",
+          "explanation": "The expression es importante que introduces a judgment; descanses is present subjunctive after que."
         }
       ],
       "vocabulary": [
@@ -791,6 +994,13 @@
           "english": "Ana reads a book.",
           "explanation": "Ana is the subject, lee is the conjugated form of leer, and un libro is what she reads.",
           "audioPath": "audio/grammar/word-order/01.mp3"
+        },
+        {
+          "id": "word-order-02",
+          "spanish": "Ayer María compró flores.",
+          "audioPath": "audio/grammar/word-order/02.mp3",
+          "english": "Yesterday María bought flowers.",
+          "explanation": "The time expression ayer can lead the sentence while the subject María still precedes the verb compró."
         }
       ],
       "vocabulary": [
@@ -819,6 +1029,13 @@
           "english": "Where do you live?",
           "explanation": "Dónde carries a written accent as a question word. Vives is the tú form of vivir; the subject tú is implied.",
           "audioPath": "audio/grammar/questions/01.mp3"
+        },
+        {
+          "id": "questions-02",
+          "spanish": "¿Cuándo empieza la película?",
+          "audioPath": "audio/grammar/questions/02.mp3",
+          "english": "When does the movie start?",
+          "explanation": "Cuándo takes a written accent in a direct question, and Spanish questions use opening and closing question marks."
         }
       ],
       "vocabulary": [
@@ -847,6 +1064,13 @@
           "english": "I don't have time.",
           "explanation": "No comes before tengo to negate the statement. Tengo is the first-person singular of tener.",
           "audioPath": "audio/grammar/negatives/01.mp3"
+        },
+        {
+          "id": "negatives-02",
+          "spanish": "Nunca como carne.",
+          "audioPath": "audio/grammar/negatives/02.mp3",
+          "english": "I never eat meat.",
+          "explanation": "Nunca before the verb already negates the sentence; no is not needed before como."
         }
       ],
       "vocabulary": [
@@ -880,6 +1104,13 @@
           "english": "I study because I want to learn.",
           "explanation": "Porque introduces the reason. Quiero is the first-person singular of querer and is followed by the infinitive aprender.",
           "audioPath": "audio/grammar/connecting/01.mp3"
+        },
+        {
+          "id": "connecting-02",
+          "spanish": "Quería salir, pero estaba lloviendo.",
+          "audioPath": "audio/grammar/connecting/02.mp3",
+          "english": "I wanted to go out, but it was raining.",
+          "explanation": "Pero introduces contrast between the wish to leave and the reason that prevented it."
         }
       ],
       "vocabulary": [
@@ -918,6 +1149,13 @@
           "english": "I study in order to learn.",
           "explanation": "Para introduces the purpose of studying and is followed by the infinitive aprender.",
           "audioPath": "audio/grammar/por-para/01.mp3"
+        },
+        {
+          "id": "por-para-02",
+          "spanish": "Gracias por tu ayuda.",
+          "audioPath": "audio/grammar/por-para/02.mp3",
+          "english": "Thank you for your help.",
+          "explanation": "Por introduces the reason for the thanks; para instead commonly expresses purpose or destination."
         }
       ],
       "vocabulary": [
@@ -951,6 +1189,13 @@
           "english": "I like books.",
           "explanation": "Gustan is plural because los libros is plural. Me identifies the person experiencing the liking.",
           "audioPath": "audio/grammar/gustar/01.mp3"
+        },
+        {
+          "id": "gustar-02",
+          "spanish": "A mi hermano le gusta bailar.",
+          "audioPath": "audio/grammar/gustar/02.mp3",
+          "english": "My brother likes dancing.",
+          "explanation": "Le marks the person who experiences the liking; gusta is singular because the infinitive bailar is what pleases him."
         }
       ],
       "vocabulary": [
@@ -984,6 +1229,13 @@
           "english": "Don't speak so fast.",
           "explanation": "Negative tú commands use the present subjunctive hables, not the affirmative command habla.",
           "audioPath": "audio/grammar/commands/01.mp3"
+        },
+        {
+          "id": "commands-02",
+          "spanish": "Escucha con atención.",
+          "audioPath": "audio/grammar/commands/02.mp3",
+          "english": "Listen carefully.",
+          "explanation": "Escucha is an affirmative tú command of escuchar; affirmative regular -ar tú commands use the él/ella present form."
         }
       ],
       "vocabulary": []
@@ -1006,6 +1258,13 @@
           "english": "You have your book.",
           "explanation": "Tú with an accent means you; tu without an accent means your. Tienes is the tú form of tener.",
           "audioPath": "audio/grammar/accent-marks/01.mp3"
+        },
+        {
+          "id": "accent-marks-02",
+          "spanish": "Él quiere el café.",
+          "audioPath": "audio/grammar/accent-marks/02.mp3",
+          "english": "He wants the coffee.",
+          "explanation": "Él with an accent is the subject pronoun he; el without an accent is the definite article the."
         }
       ],
       "vocabulary": [
@@ -1044,6 +1303,13 @@
           "english": "What a surprise!",
           "explanation": "The inverted exclamation mark starts the exclamation. Qué has a written accent in this exclamatory use.",
           "audioPath": "audio/grammar/punctuation/01.mp3"
+        },
+        {
+          "id": "punctuation-02",
+          "spanish": "¿De verdad? ¡Qué alegría!",
+          "audioPath": "audio/grammar/punctuation/02.mp3",
+          "english": "Really? What a joy!",
+          "explanation": "Spanish opens questions with ¿ and exclamations with ¡, then closes each with its matching mark."
         }
       ],
       "vocabulary": []
@@ -1066,6 +1332,13 @@
           "english": "Books are sold.",
           "explanation": "Se venden is a passive se construction. Venden agrees with the plural noun libros.",
           "audioPath": "audio/grammar/se/01.mp3"
+        },
+        {
+          "id": "se-02",
+          "spanish": "Se habla español aquí.",
+          "audioPath": "audio/grammar/se/02.mp3",
+          "english": "Spanish is spoken here.",
+          "explanation": "Se + third-person singular habla expresses an impersonal statement without naming who speaks."
         }
       ],
       "vocabulary": [
@@ -1099,6 +1372,13 @@
           "english": "If I had time, I would travel.",
           "explanation": "Tuviera is imperfect subjunctive of tener after si; viajaría is conditional and expresses the imagined result.",
           "audioPath": "audio/grammar/hypotheticals/01.mp3"
+        },
+        {
+          "id": "hypotheticals-02",
+          "spanish": "Si ganara la lotería, compraría una casa.",
+          "audioPath": "audio/grammar/hypotheticals/02.mp3",
+          "english": "If I won the lottery, I would buy a house.",
+          "explanation": "Si + imperfect subjunctive ganara sets an unreal condition; compraría is conditional for the imagined result."
         }
       ],
       "vocabulary": [
