@@ -12,7 +12,8 @@
     "test:watch": "vitest",
     "validate:stories": "tsx scripts/validate-stories.ts",
     "narrate": "tsx scripts/publish-audio.ts",
-    "publish:vocabulary": "tsx scripts/publish-vocabulary.ts"
+    "publish:vocabulary": "tsx scripts/publish-vocabulary.ts",
+    "schema:grammar": "node --import tsx scripts/export-grammar-visual-schema.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
@@ -35,7 +36,10 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.20.0",
     "typescript": "^5.9.0",
-    "vitest": "^3.2.0"
+    "vitest": "^3.2.0",
+    "zod-to-json-schema": "^3.25.2"
   },
-  "engines": { "node": ">=20.9.0" }
+  "engines": {
+    "node": ">=20.9.0"
+  }
 }

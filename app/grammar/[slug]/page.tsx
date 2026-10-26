@@ -4,6 +4,8 @@ import { ArrowLeft } from 'lucide-react';
 import { ProfileLink } from '@/components/navigation/profile-link';
 import { ToolGallery } from '@/components/navigation/tool-gallery';
 import { GrammarExamples } from '@/components/grammar/grammar-examples';
+import { GrammarVisualTool } from '@/components/grammar/grammar-visual';
+import { getGrammarVisuals } from '@/lib/grammar/visuals';
 import catalog from '@/content/grammar/lessons.json';
 import expandedLessons from '@/content/grammar/expanded-lessons.json';
 
@@ -23,11 +25,12 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
  const lesson = catalog.lessons.find(item => item.id === slug);
  if (!lesson) notFound();
  const content = expandedLessons[lesson.id as keyof typeof expandedLessons];
+ const visuals = getGrammarVisuals(lesson.id);
  const category = catalog.categories.find(item => item.id === lesson.categoryId)?.title;
  const examples = [...lesson.examples, ...content.extraExamples.map((example, index) => ({
   ...example, id: `${lesson.id}-text-${index + 1}`,
  }))];
- const words = JSON.stringify(content).split(/\s+/).length;
+ const words = JSON.stringify({ content, visuals }).split(/\s+/).length;
  const minutes = Math.max(5, Math.ceil(words / 130));
 
  return <>
@@ -54,7 +57,9 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
        <h2 id="build-it-title" className="font-serif">Build It</h2>
        {content.build.map((step, index) => <div className="grammar-build-step" key={step.title}>
         <span className="grammar-step-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
-        <div><h3 className="font-serif">{step.title}</h3><p>{step.body}</p></div>
+        <div className="grammar-build-content"><h3 className="font-serif">{step.title}</h3><p>{step.body}</p>
+         {visuals.filter(visual => visual.afterBuildStep === index + 1).map(visual => <GrammarVisualTool key={visual.id} visual={visual} />)}
+        </div>
        </div>)}
       </section>
       <section id="see-it-work" className="grammar-lesson-section" aria-labelledby="see-it-work-title">
