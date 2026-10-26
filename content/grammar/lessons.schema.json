@@ -1,0 +1,158 @@
+{
+  "$ref": "#/definitions/GrammarCatalog",
+  "definitions": {
+    "GrammarCatalog": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9-]*$"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "title"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/id"
+              },
+              "categoryId": {
+                "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/id"
+              },
+              "level": {
+                "type": "string",
+                "enum": [
+                  "A1",
+                  "A2",
+                  "B1",
+                  "B2",
+                  "C1",
+                  "C2"
+                ]
+              },
+              "title": {
+                "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+              },
+              "summary": {
+                "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+              },
+              "grammarTerm": {
+                "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+              },
+              "keywords": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                }
+              },
+              "examples": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/id"
+                    },
+                    "spanish": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    },
+                    "english": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    },
+                    "explanation": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    },
+                    "audioPath": {
+                      "type": "string",
+                      "pattern": "^audio\\/grammar\\/[a-z0-9-]+\\/[0-9]+\\.mp3$"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "spanish",
+                    "english",
+                    "explanation"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 2
+              },
+              "vocabulary": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "surface": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    },
+                    "lemma": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    },
+                    "meaning": {
+                      "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/title"
+                    }
+                  },
+                  "required": [
+                    "surface",
+                    "lemma",
+                    "meaning"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "relatedLessons": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/GrammarCatalog/properties/categories/items/properties/id"
+                },
+                "default": []
+              }
+            },
+            "required": [
+              "id",
+              "categoryId",
+              "level",
+              "title",
+              "summary",
+              "grammarTerm",
+              "keywords",
+              "examples",
+              "vocabulary"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "categories",
+        "lessons"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

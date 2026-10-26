@@ -491,3 +491,5 @@ img {object-fit:cover}
 }
 
 .reader-header-title>h1 {margin:0}
+.insight-lesson-links{display:grid;gap:10px;margin:18px 0;padding:18px 0;border-top:1px solid var(--hairline)}
+.insight-lesson-links a{color:var(--amber-light);font-size:14px;line-height:1.6;overflow-wrap:anywhere}

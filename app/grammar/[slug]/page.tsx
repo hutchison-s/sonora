@@ -5,9 +5,9 @@ import { ProfileLink } from '@/components/navigation/profile-link';
 import { ToolGallery } from '@/components/navigation/tool-gallery';
 import { GrammarExamples } from '@/components/grammar/grammar-examples';
 import { GrammarVisualTool } from '@/components/grammar/grammar-visual';
+import { getGrammarReadings } from '@/lib/grammar/readings';
 import { getGrammarVisuals } from '@/lib/grammar/visuals';
-import catalog from '@/content/grammar/lessons.json';
-import expandedLessons from '@/content/grammar/expanded-lessons.json';
+import { grammarCatalog as catalog, expandedGrammarLessons as expandedLessons } from '@/lib/grammar/lessons';
 
 const sections = [
  ['big-idea', 'The Big Idea'], ['build-it', 'Build It'],
@@ -24,8 +24,10 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
  const { slug } = await params;
  const lesson = catalog.lessons.find(item => item.id === slug);
  if (!lesson) notFound();
- const content = expandedLessons[lesson.id as keyof typeof expandedLessons];
+ const content = expandedLessons[lesson.id];
  const visuals = getGrammarVisuals(lesson.id);
+ const readings = getGrammarReadings(lesson.id);
+ const related = lesson.relatedLessons.map(id => catalog.lessons.find(item => item.id === id)!);
  const category = catalog.categories.find(item => item.id === lesson.categoryId)?.title;
  const examples = [...lesson.examples, ...content.extraExamples.map((example, index) => ({
   ...example, id: `${lesson.id}-text-${index + 1}`,
@@ -42,7 +44,7 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
    <article className="grammar-detail grammar-expanded">
     <Link className="grammar-back" href="/grammar"><ArrowLeft size={17} /> Grammar Studio</Link>
     <div className="overline">{category} · {lesson.level} · About {minutes} minutes</div>
-    <h1 className="font-serif">{lesson.title}<span className="accent-period">.</span></h1>
+    <h1 className="font-serif">{lesson.title}{!/[.!?]$/.test(lesson.title) && <span className="accent-period">.</span>}</h1>
     <p className="grammar-intro">{content.goal}</p>
     <div className="grammar-lesson-layout">
      <nav className="grammar-contents" aria-label="In this lesson">
@@ -64,7 +66,7 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
       </section>
       <section id="see-it-work" className="grammar-lesson-section" aria-labelledby="see-it-work-title">
        <h2 id="see-it-work-title" className="font-serif">See It Work</h2>
-       <p className="grammar-section-intro">Follow the pattern through different sentences. Tap a speaker to listen.</p>
+       <p className="grammar-section-intro">Follow the pattern through different sentences.{lesson.examples.some(example => example.audioPath) ? ' Tap a speaker to listen.' : ''}</p>
        <GrammarExamples examples={examples} />
        {lesson.vocabulary.length > 0 && <details className="grammar-disclosure grammar-vocabulary-notes">
         <summary>Vocabulary in these examples</summary>
@@ -108,6 +110,8 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
       <section id="take-it-with-you" className="grammar-lesson-section" aria-labelledby="takeaway-title">
        <h2 id="takeaway-title" className="font-serif">Take It With You</h2>
        <ol className="grammar-takeaways">{content.takeaways.map(item => <li key={item}>{item}</li>)}</ol>
+       {readings.length > 0 && <div className="grammar-reading-links"><h3 className="font-serif">Find it in a story</h3>{readings.map(reading => <div key={`${reading.storyId}-${reading.sentenceId}`}><p lang="es">{reading.sentence}</p><p className="grammar-muted">Focus: <span lang="es">{reading.focus}</span> · Sentence {reading.sentenceNumber}</p><Link href={`/stories/${reading.storyId}`}>Read {reading.title} →</Link></div>)}</div>}
+       {related.length > 0 && <nav className="grammar-related" aria-label="Related grammar lessons"><h3 className="font-serif">Keep connecting the rules</h3>{related.map(item => <Link key={item.id} href={`/grammar/${item.id}`}>{item.title} →</Link>)}</nav>}
        <Link className="grammar-return" href="/grammar"><ArrowLeft size={16} /> Explore more lessons</Link>
       </section>
      </div>

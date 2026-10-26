@@ -30,7 +30,7 @@ test('every published lesson renders without missing sections or horizontal over
  for (const lesson of catalog.lessons) {
   const response = await page.goto(`/grammar/${lesson.id}`);
   expect(response?.status(), lesson.id).toBe(200);
-  await expect(page.getByRole('heading', { name: lesson.title + '.', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /[.!?]$/.test(lesson.title) ? lesson.title : lesson.title + '.', exact: true })).toBeVisible();
   for (const name of headings) await expect(page.getByRole('heading', { name, exact: true })).toHaveCount(1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), lesson.id).toBe(true);
  }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run validate:stories && next build",
+    "build": "npm run validate:stories && npm run validate:grammar && next build",
     "start": "next start",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
@@ -13,7 +13,9 @@
     "validate:stories": "tsx scripts/validate-stories.ts",
     "narrate": "tsx scripts/publish-audio.ts",
     "publish:vocabulary": "tsx scripts/publish-vocabulary.ts",
-    "schema:grammar": "node --import tsx scripts/export-grammar-visual-schema.ts"
+    "schema:grammar": "node --import tsx scripts/export-grammar-visual-schema.ts",
+    "schema:lessons": "node --import tsx scripts/export-grammar-lesson-schema.ts",
+    "validate:grammar": "node --import tsx scripts/validate-grammar.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
