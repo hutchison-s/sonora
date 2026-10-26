@@ -18,3 +18,7 @@ Use plain English, preserve Spanish accents, and distinguish useful defaults fro
 ## Validation
 
 `npm test` checks coverage, content structure, practice prompts, and availability of original MP3 files. `npm run build` statically generates the lesson routes. `npx playwright test tests/e2e/grammar.spec.ts` checks the lesson reading interactions, playback request, anchors, and every route at desktop and mobile widths. The Playwright checks require its Chromium browser installation.
+
+## Visual teaching tools
+
+Build It can embed a content-fed walkthrough after any teaching step. See [the lesson-by-lesson visual map](grammar-visual-map.md) for placements and [the visual authoring contract](grammar-visual-authoring.md) for data fields, generation prompts, validation and extension guidance. `content/grammar/visuals.schema.json` is the portable JSON Schema; regenerate it with `npm run schema:grammar` after changing the authoritative Zod contract.

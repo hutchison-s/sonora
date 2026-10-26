@@ -1,0 +1,398 @@
+{
+  "$ref": "#/definitions/GrammarVisualCatalog",
+  "definitions": {
+    "GrammarVisualCatalog": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "lessons": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]*$"
+                    },
+                    "title": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 600
+                    },
+                    "goal": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "afterBuildStep": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "kind": {
+                      "type": "string",
+                      "const": "transformation"
+                    },
+                    "scenarios": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                          },
+                          "label": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                          },
+                          "frames": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "label": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "explanation": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "spanish": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "english": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "tokens": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                                      },
+                                      "text": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 80
+                                      },
+                                      "role": {
+                                        "type": "string",
+                                        "enum": [
+                                          "plain",
+                                          "stem",
+                                          "ending",
+                                          "subject",
+                                          "mark",
+                                          "focus"
+                                        ]
+                                      },
+                                      "joinLeft": {
+                                        "type": "boolean"
+                                      }
+                                    },
+                                    "required": [
+                                      "id",
+                                      "text",
+                                      "role"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  "minItems": 1,
+                                  "maxItems": 24
+                                }
+                              },
+                              "required": [
+                                "label",
+                                "explanation",
+                                "spanish",
+                                "english",
+                                "tokens"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 2,
+                            "maxItems": 8
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "label",
+                          "frames"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "minItems": 1,
+                      "maxItems": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "goal",
+                    "afterBuildStep",
+                    "kind",
+                    "scenarios"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                    },
+                    "title": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "goal": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "afterBuildStep": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/afterBuildStep"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "const": "stress"
+                    },
+                    "scenarios": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                          },
+                          "label": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                          },
+                          "frames": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "label": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "explanation": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "spanish": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "english": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "syllables": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                                      },
+                                      "text": {
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "maxLength": 40
+                                      },
+                                      "stressed": {
+                                        "type": "boolean"
+                                      }
+                                    },
+                                    "required": [
+                                      "id",
+                                      "text",
+                                      "stressed"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  "minItems": 1,
+                                  "maxItems": 12
+                                }
+                              },
+                              "required": [
+                                "label",
+                                "explanation",
+                                "spanish",
+                                "english",
+                                "syllables"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 2,
+                            "maxItems": 8
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "label",
+                          "frames"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "minItems": 1,
+                      "maxItems": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "goal",
+                    "afterBuildStep",
+                    "kind",
+                    "scenarios"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                    },
+                    "title": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "goal": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "afterBuildStep": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/afterBuildStep"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "const": "timeline"
+                    },
+                    "axisStart": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "axisEnd": {
+                      "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                    },
+                    "scenarios": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                          },
+                          "label": {
+                            "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                          },
+                          "frames": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "label": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "explanation": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "spanish": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "english": {
+                                  "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                },
+                                "lanes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/id"
+                                      },
+                                      "label": {
+                                        "$ref": "#/definitions/GrammarVisualCatalog/properties/lessons/additionalProperties/items/anyOf/0/properties/title"
+                                      },
+                                      "start": {
+                                        "type": "number",
+                                        "minimum": 0,
+                                        "maximum": 100
+                                      },
+                                      "end": {
+                                        "type": "number",
+                                        "minimum": 0,
+                                        "maximum": 100
+                                      },
+                                      "kind": {
+                                        "type": "string",
+                                        "enum": [
+                                          "interval",
+                                          "event"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "id",
+                                      "label",
+                                      "start",
+                                      "end",
+                                      "kind"
+                                    ],
+                                    "additionalProperties": false
+                                  },
+                                  "minItems": 1,
+                                  "maxItems": 4
+                                }
+                              },
+                              "required": [
+                                "label",
+                                "explanation",
+                                "spanish",
+                                "english",
+                                "lanes"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 2,
+                            "maxItems": 8
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "label",
+                          "frames"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "minItems": 1,
+                      "maxItems": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "goal",
+                    "afterBuildStep",
+                    "kind",
+                    "axisStart",
+                    "axisEnd",
+                    "scenarios"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            },
+            "maxItems": 4
+          },
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9-]*$"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "lessons"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -1,0 +1,3295 @@
+{
+  "schemaVersion": 1,
+  "lessons": {
+    "alphabet": [
+      {
+        "id": "alphabet-demo",
+        "title": "One letter, a different word",
+        "goal": "Compare n with ñ as distinct letters.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Read the n",
+                "spanish": "campana",
+                "english": "bell",
+                "explanation": "Campana contains n. The highlighted letter belongs to the word, not a separate syllable.",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "campa",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "letter",
+                    "text": "n",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": "a",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Change n to ñ",
+                "spanish": "campaña",
+                "english": "campaign",
+                "explanation": "Campaña contains ñ. The tilde changes the letter and consonant sound; it is not a stress accent.",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "campa",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "letter",
+                    "text": "ñ",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": "a",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "vowels": [
+      {
+        "id": "vowels-demo",
+        "title": "Keep both vowels clear",
+        "goal": "Separate vowel identity from syllable stress.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Read the word",
+                "spanish": "luna",
+                "english": "moon",
+                "explanation": "The highlighted u and a each keep a recognizable vowel sound.",
+                "tokens": [
+                  {
+                    "id": "l",
+                    "text": "l",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "u",
+                    "text": "u",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "n",
+                    "text": "n",
+                    "role": "plain",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "a",
+                    "text": "a",
+                    "role": "focus",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Notice the unstressed vowel",
+                "spanish": "luna",
+                "english": "moon",
+                "explanation": "The final a is unstressed, but it remains a clear a. This spelling diagram does not produce the sound.",
+                "tokens": [
+                  {
+                    "id": "l",
+                    "text": "l",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "u",
+                    "text": "u",
+                    "role": "plain",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "n",
+                    "text": "n",
+                    "role": "plain",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "a",
+                    "text": "a",
+                    "role": "focus",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stress": [
+      {
+        "id": "stress-demo",
+        "title": "Find the prominent syllable",
+        "goal": "Compare the default stress patterns with an accent override.",
+        "afterBuildStep": 2,
+        "kind": "stress",
+        "scenarios": [
+          {
+            "id": "hablar",
+            "label": "Hablo → habló",
+            "frames": [
+              {
+                "label": "Default stress",
+                "spanish": "hablo",
+                "english": "I speak",
+                "explanation": "Hablo ends in a vowel with no written accent: HA-blo.",
+                "syllables": [
+                  {
+                    "id": "first",
+                    "text": "ha",
+                    "stressed": true
+                  },
+                  {
+                    "id": "last",
+                    "text": "blo",
+                    "stressed": false
+                  }
+                ]
+              },
+              {
+                "label": "Accent moves the stress",
+                "spanish": "habló",
+                "english": "He/she/you formal spoke",
+                "explanation": "The accent puts stress on the final syllable: ha-BLÓ. This is also a different verb form.",
+                "syllables": [
+                  {
+                    "id": "first",
+                    "text": "ha",
+                    "stressed": false
+                  },
+                  {
+                    "id": "last",
+                    "text": "bló",
+                    "stressed": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rr": [
+      {
+        "id": "rr-demo",
+        "title": "One r or two?",
+        "goal": "See where the sound contrast occurs between vowels.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "A quick tap",
+                "spanish": "caro",
+                "english": "expensive",
+                "explanation": "Between vowels, a single r normally represents the tap.",
+                "tokens": [
+                  {
+                    "id": "left",
+                    "text": "ca",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "r",
+                    "text": "r",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "right",
+                    "text": "o",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "A trill",
+                "spanish": "carro",
+                "english": "car",
+                "explanation": "Between vowels, rr represents the trill. The added letter changes the word; this diagram is not a pronunciation recording.",
+                "tokens": [
+                  {
+                    "id": "left",
+                    "text": "ca",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "r",
+                    "text": "rr",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "right",
+                    "text": "o",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gender": [
+      {
+        "id": "gender-demo",
+        "title": "Let the noun guide the endings",
+        "goal": "Follow feminine agreement from the noun to the article and adjective.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Masculine noun",
+                "spanish": "el libro nuevo",
+                "english": "the new book",
+                "explanation": "Libro is masculine; el and nuevo agree with it.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "el",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "nuevo",
+                    "role": "ending"
+                  }
+                ]
+              },
+              {
+                "label": "Change the noun",
+                "spanish": "la mesa nueva",
+                "english": "the new table",
+                "explanation": "Mesa is feminine, so the article and adjective change. The noun chooses the agreement.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "la",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "mesa",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "nueva",
+                    "role": "ending"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "articles": [
+      {
+        "id": "articles-demo",
+        "title": "Introduce it, then identify it",
+        "goal": "Watch an indefinite article become definite after the book is introduced.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Introduce a book",
+                "spanish": "Compré un libro.",
+                "english": "I bought a book.",
+                "explanation": "Un introduces one book that has not yet been identified.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Compré",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "article",
+                    "text": "un",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro.",
+                    "role": "subject"
+                  }
+                ]
+              },
+              {
+                "label": "Refer back to it",
+                "spanish": "El libro es corto.",
+                "english": "The book is short.",
+                "explanation": "The listener now knows which book: the one just introduced.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "El",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "rest",
+                    "text": "es corto.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "plural": [
+      {
+        "id": "plural-demo",
+        "title": "Number travels across the phrase",
+        "goal": "Change singular to plural and follow all three agreement changes.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "One book",
+                "spanish": "el libro rojo",
+                "english": "the red book",
+                "explanation": "The article, noun and adjective are singular.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "el",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "rojo",
+                    "role": "ending"
+                  }
+                ]
+              },
+              {
+                "label": "More than one",
+                "spanish": "los libros rojos",
+                "english": "the red books",
+                "explanation": "All three words change. Do not pluralize only the noun.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "los",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libros",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "rojos",
+                    "role": "ending"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "adjectives": [
+      {
+        "id": "adjectives-demo",
+        "title": "Match the description",
+        "goal": "Compare an adjective that changes gender with one that does not.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Masculine singular",
+                "spanish": "un libro interesante",
+                "english": "an interesting book",
+                "explanation": "Interesante has the same form for masculine and feminine singular nouns.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "un",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "interesante",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "Feminine singular",
+                "spanish": "una casa interesante",
+                "english": "an interesting house",
+                "explanation": "The adjective stays interesante even though the noun is feminine.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "una",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "casa",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "interesante",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "Feminine plural",
+                "spanish": "unas casas interesantes",
+                "english": "some interesting houses",
+                "explanation": "Gender did not change this adjective, but plural number adds -s.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "unas",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "casas",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "interesantes",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comparisons": [
+      {
+        "id": "comparisons-demo",
+        "title": "Quality or quantity?",
+        "goal": "Choose the comparison pattern based on the kind of information.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "quality",
+            "label": "Quality",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Ana es más alta que Luis.",
+                "english": "Ana is taller than Luis.",
+                "explanation": "Más…que compares unequal height.",
+                "tokens": [
+                  {
+                    "id": "subject",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "es",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "scale",
+                    "text": "más",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "quality",
+                    "text": "alta",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "que",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "other",
+                    "text": "Luis.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Ana es tan alta como Luis.",
+                "english": "Ana is as tall as Luis.",
+                "explanation": "Tan…como expresses equal height.",
+                "tokens": [
+                  {
+                    "id": "subject",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "es",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "scale",
+                    "text": "tan",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "quality",
+                    "text": "alta",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "como",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "other",
+                    "text": "Luis.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "quantity",
+            "label": "Quantity",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Tengo tantos libros como tú.",
+                "english": "I have as many books as you.",
+                "explanation": "Tantos agrees with masculine plural libros.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Tengo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "scale",
+                    "text": "tantos",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libros",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "como",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "other",
+                    "text": "tú.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Tengo tantas preguntas como tú.",
+                "english": "I have as many questions as you.",
+                "explanation": "Tantas agrees with feminine plural preguntas.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Tengo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "scale",
+                    "text": "tantas",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "preguntas",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "como",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "other",
+                    "text": "tú.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subject-pronouns": [
+      {
+        "id": "subject-pronouns-demo",
+        "title": "The ending carries the subject",
+        "goal": "Remove an optional pronoun while keeping a complete sentence.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Make the subject explicit",
+                "spanish": "Yo hablo español.",
+                "english": "I speak Spanish.",
+                "explanation": "Yo explicitly names the subject; -o already identifies the speaker.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Yo",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "object",
+                    "text": "español.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Let the verb identify the speaker",
+                "spanish": "hablo español.",
+                "english": "I speak Spanish.",
+                "explanation": "The pronoun disappears, but the sentence is complete. Keep yo when useful for contrast or clarity.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "object",
+                    "text": "español.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tu-usted": [
+      {
+        "id": "tu-usted-demo",
+        "title": "Change the relationship, change the form",
+        "goal": "Keep the addressee and verb consistent.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Informal singular you",
+                "spanish": "Tú hablas español.",
+                "english": "You speak Spanish. (informal)",
+                "explanation": "Tú uses the -as ending for hablar.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Tú",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "as",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "rest",
+                    "text": "español.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Formal singular you",
+                "spanish": "Usted habla español.",
+                "english": "You speak Spanish. (formal)",
+                "explanation": "Usted addresses you but takes the same verb form as él/ella.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Usted",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "a",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "rest",
+                    "text": "español.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "possessives": [
+      {
+        "id": "possessives-demo",
+        "title": "Count the things, not the owners",
+        "goal": "Keep the owner fixed while the possessed noun changes.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "One thing",
+                "spanish": "mi libro",
+                "english": "my book",
+                "explanation": "Mi refers to one possessed thing.",
+                "tokens": [
+                  {
+                    "id": "owner",
+                    "text": "mi",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libro",
+                    "role": "subject"
+                  }
+                ]
+              },
+              {
+                "label": "Several things",
+                "spanish": "mis libros",
+                "english": "my books",
+                "explanation": "The owner remains the speaker. Mis changes because libros is plural.",
+                "tokens": [
+                  {
+                    "id": "owner",
+                    "text": "mis",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "libros",
+                    "role": "subject"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "object-pronouns": [
+      {
+        "id": "object-pronouns-demo",
+        "title": "Replace it, then move it",
+        "goal": "Follow the object as a noun phrase becomes a pronoun before the verb.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Find the object",
+                "spanish": "Leo el libro",
+                "english": "I read the book.",
+                "explanation": "El libro receives the action. It is masculine singular.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Leo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "object",
+                    "text": "el libro",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "Choose its replacement",
+                "spanish": "lo",
+                "english": "it (masculine singular)",
+                "explanation": "Lo replaces el libro. This intermediate frame isolates a pronoun; it is not a complete sentence.",
+                "tokens": [
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "Put it before the verb",
+                "spanish": "Lo leo.",
+                "english": "I read it.",
+                "explanation": "The object pronoun comes before the conjugated verb, unlike the full noun phrase.",
+                "tokens": [
+                  {
+                    "id": "object",
+                    "text": "Lo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "leo.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reflexive": [
+      {
+        "id": "reflexive-demo",
+        "title": "Keep the subject linked to itself",
+        "goal": "Change both the pronoun and verb when changing the subject.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "The speaker acts on themself",
+                "spanish": "Yo me lavo.",
+                "english": "I wash myself.",
+                "explanation": "Yo, me and lavo point to the same person.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Yo",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "reflexive",
+                    "text": "me",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "lav",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": ".",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Address the listener",
+                "spanish": "Tú te lavas.",
+                "english": "You wash yourself.",
+                "explanation": "Change yo → tú, me → te and lavo → lavas together.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Tú",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "reflexive",
+                    "text": "te",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "lav",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "as",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": ".",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "infinitives": [
+      {
+        "id": "infinitives-demo",
+        "title": "Only the first verb carries the person",
+        "goal": "Change the subject while leaving the wanted action in its dictionary form.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "I want to eat",
+                "spanish": "Yo quiero comer.",
+                "english": "I want to eat.",
+                "explanation": "Quiero carries the subject; comer names the action.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Yo",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "first",
+                    "text": "quiero",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "action",
+                    "text": "comer.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "You want to eat",
+                "spanish": "Tú quieres comer.",
+                "english": "You want to eat.",
+                "explanation": "Quiero becomes quieres. Comer stays in the infinitive.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Tú",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "first",
+                    "text": "quieres",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "action",
+                    "text": "comer.",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "present-ar": [
+      {
+        "id": "present-ar-demo",
+        "title": "Build the verb, one piece at a time",
+        "goal": "Choose a subject and watch the dictionary ending become a personal ending.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablo",
+                "english": "I speak",
+                "explanation": "The new ending identifies yo. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tu",
+            "label": "tú",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablas",
+                "english": "You speak",
+                "explanation": "The new ending identifies tú. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "as",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros",
+            "label": "nosotros",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablamos",
+                "english": "We speak",
+                "explanation": "The new ending identifies nosotros. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "amos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "present-er-ir": [
+      {
+        "id": "present-er-ir-demo",
+        "title": "Build the verb, one piece at a time",
+        "goal": "Choose a subject and watch the dictionary ending become a personal ending.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "comer",
+                "english": "to eat",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "er",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "com",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "como",
+                "english": "I eat",
+                "explanation": "The new ending identifies yo. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tu",
+            "label": "tú",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "comer",
+                "english": "to eat",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "er",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "com",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "comes",
+                "english": "You eat",
+                "explanation": "The new ending identifies tú. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "es",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros",
+            "label": "nosotros",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "comer",
+                "english": "to eat",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "er",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "com",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "comemos",
+                "english": "We eat",
+                "explanation": "The new ending identifies nosotros. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "com",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "emos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros-vivir",
+            "label": "nosotros · vivir",
+            "frames": [
+              {
+                "label": "The -ir family",
+                "spanish": "vivir",
+                "english": "to live",
+                "explanation": "Vivir belongs to the -ir family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "viv",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ir",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "The we form",
+                "spanish": "vivimos",
+                "english": "We we live",
+                "explanation": "Compare comemos with vivimos: the nosotros ending differs by family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "viv",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "imos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ser-estar": [
+      {
+        "id": "ser-estar-demo",
+        "title": "One adjective, two messages",
+        "goal": "Change the verb while holding the person and adjective still.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Characterize the person",
+                "spanish": "Luis es aburrido.",
+                "english": "Luis is boring.",
+                "explanation": "Ser presents aburrido as a characteristic.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Luis",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "es",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "aburrido.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Describe his state",
+                "spanish": "Luis está aburrido.",
+                "english": "Luis is bored.",
+                "explanation": "Estar presents a state. The English interpretation changes with the verb.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Luis",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "está",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "adj",
+                    "text": "aburrido.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hay": [
+      {
+        "id": "hay-demo",
+        "title": "Introduce something, then locate it",
+        "goal": "Distinguish existence from the location of an identified thing.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Introduce a pharmacy",
+                "spanish": "Hay una farmacia cerca.",
+                "english": "There is a pharmacy nearby.",
+                "explanation": "Hay introduces a pharmacy’s existence. Una introduces the noun.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Hay",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "article",
+                    "text": "una",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "farmacia",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "place",
+                    "text": "cerca.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Locate the known pharmacy",
+                "spanish": "La farmacia está cerca.",
+                "english": "The pharmacy is nearby.",
+                "explanation": "La identifies the pharmacy; está locates it.",
+                "tokens": [
+                  {
+                    "id": "article",
+                    "text": "La",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "noun",
+                    "text": "farmacia",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "está",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "place",
+                    "text": "cerca.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ir-future": [
+      {
+        "id": "ir-future-demo",
+        "title": "Build a future plan",
+        "goal": "Change the person on ir while keeping a + infinitive.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo-tu",
+            "label": "Yo tu",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Yo voy a estudiar.",
+                "english": "I am going to study.",
+                "explanation": "Voy matches yo. A connects ir to the infinitive.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Yo",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "ir",
+                    "text": "voy",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "link",
+                    "text": "a",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "action",
+                    "text": "estudiar.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Tú vas a estudiar.",
+                "english": "You are going to study.",
+                "explanation": "Only the personal form of ir changes: vas. A estudiar stays.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Tú",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "ir",
+                    "text": "vas",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "link",
+                    "text": "a",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "action",
+                    "text": "estudiar.",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros-ellos",
+            "label": "Nosotros ellos",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Nosotros vamos a comer.",
+                "english": "We are going to eat.",
+                "explanation": "Vamos identifies we.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Nosotros",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "ir",
+                    "text": "vamos",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "link",
+                    "text": "a",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "action",
+                    "text": "comer.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Ellos van a comer.",
+                "english": "They are going to eat.",
+                "explanation": "Van identifies they; the planned action stays comer.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Ellos",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "ir",
+                    "text": "van",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "link",
+                    "text": "a",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "action",
+                    "text": "comer.",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "preterite": [
+      {
+        "id": "preterite-demo",
+        "title": "Build a completed past form",
+        "goal": "Choose a subject and watch the dictionary ending become a personal ending.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablé",
+                "english": "I spoke",
+                "explanation": "The new ending identifies yo. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "é",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tu",
+            "label": "tú",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablaste",
+                "english": "You spoke",
+                "explanation": "The new ending identifies tú. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "aste",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ella",
+            "label": "ella",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "habló",
+                "english": "She spoke",
+                "explanation": "The new ending identifies ella. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ó",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "imperfect": [
+      {
+        "id": "imperfect-demo",
+        "title": "Build a past habit",
+        "goal": "Choose a subject and watch the dictionary ending become a personal ending.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablaba",
+                "english": "I used to speak",
+                "explanation": "The new ending identifies yo. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "aba",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros",
+            "label": "nosotros",
+            "frames": [
+              {
+                "label": "Start with the infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "The dictionary ending identifies the verb family.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ar",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Keep the stem",
+                "spanish": "habl",
+                "english": "Verb stem",
+                "explanation": "Remove the infinitive ending. This is a building piece, not a complete verb form.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the personal ending",
+                "spanish": "hablábamos",
+                "english": "We used to speak",
+                "explanation": "The new ending identifies nosotros. Read the stem and ending together as one word.",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "habl",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ábamos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "past-contrast": [
+      {
+        "id": "past-contrast-demo",
+        "title": "Background meets an event",
+        "goal": "See ongoing background and a completed event in the same past scene.",
+        "afterBuildStep": 1,
+        "kind": "timeline",
+        "scenarios": [
+          {
+            "id": "rain",
+            "label": "Llovía cuando salí",
+            "frames": [
+              {
+                "label": "Set the scene",
+                "spanish": "Llovía.",
+                "english": "It was raining.",
+                "explanation": "The imperfect shows the rain from inside the situation, without asserting its start or endpoint.",
+                "lanes": [
+                  {
+                    "id": "rain",
+                    "label": "Rain · ongoing background",
+                    "start": 5,
+                    "end": 95,
+                    "kind": "interval"
+                  }
+                ]
+              },
+              {
+                "label": "Add the event",
+                "spanish": "Llovía cuando salí.",
+                "english": "It was raining when I left.",
+                "explanation": "Salí presents leaving as a completed event within the rainy background. Track edges show only the scene window, not the true start/end of the rain.",
+                "lanes": [
+                  {
+                    "id": "rain",
+                    "label": "Rain · ongoing background",
+                    "start": 5,
+                    "end": 95,
+                    "kind": "interval"
+                  },
+                  {
+                    "id": "leave",
+                    "label": "Leaving · completed event",
+                    "start": 55,
+                    "end": 55,
+                    "kind": "event"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "axisStart": "Earlier in the past scene",
+        "axisEnd": "Later in the past scene"
+      }
+    ],
+    "future": [
+      {
+        "id": "future-demo",
+        "title": "The future keeps the infinitive",
+        "goal": "Keep the whole infinitive and attach the new ending.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Keep the whole infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "Unlike present-tense conjugation, keep the infinitive ending.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the ending",
+                "spanish": "hablaré",
+                "english": "I will speak",
+                "explanation": "Attach é to the whole infinitive. The base remains hablar.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "é",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tu",
+            "label": "tú",
+            "frames": [
+              {
+                "label": "Keep the whole infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "Unlike present-tense conjugation, keep the infinitive ending.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the ending",
+                "spanish": "hablarás",
+                "english": "You will speak",
+                "explanation": "Attach ás to the whole infinitive. The base remains hablar.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ás",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros",
+            "label": "nosotros",
+            "frames": [
+              {
+                "label": "Keep the whole infinitive",
+                "spanish": "hablar",
+                "english": "to speak",
+                "explanation": "Unlike present-tense conjugation, keep the infinitive ending.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the ending",
+                "spanish": "hablaremos",
+                "english": "We will speak",
+                "explanation": "Attach emos to the whole infinitive. The base remains hablar.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "hablar",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "emos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "conditional": [
+      {
+        "id": "conditional-demo",
+        "title": "Attach an imagined-result ending",
+        "goal": "Keep the whole infinitive and attach the new ending.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "yo",
+            "label": "yo",
+            "frames": [
+              {
+                "label": "Keep the whole infinitive",
+                "spanish": "comer",
+                "english": "to eat",
+                "explanation": "Unlike present-tense conjugation, keep the infinitive ending.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "comer",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the ending",
+                "spanish": "comería",
+                "english": "I would eat",
+                "explanation": "Attach ía to the whole infinitive. The base remains comer.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "comer",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ía",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nosotros",
+            "label": "nosotros",
+            "frames": [
+              {
+                "label": "Keep the whole infinitive",
+                "spanish": "comer",
+                "english": "to eat",
+                "explanation": "Unlike present-tense conjugation, keep the infinitive ending.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "comer",
+                    "role": "stem"
+                  }
+                ]
+              },
+              {
+                "label": "Attach the ending",
+                "spanish": "comeríamos",
+                "english": "We would eat",
+                "explanation": "Attach íamos to the whole infinitive. The base remains comer.",
+                "tokens": [
+                  {
+                    "id": "base",
+                    "text": "comer",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "íamos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subjunctive": [
+      {
+        "id": "subjunctive-demo",
+        "title": "Change the stance, change the mood",
+        "goal": "Compare affirmative belief with a negated belief.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Assert a belief",
+                "spanish": "Creo que tiene tiempo.",
+                "english": "I think she has time.",
+                "explanation": "Affirmative creo que normally presents the belief with indicative tiene.",
+                "tokens": [
+                  {
+                    "id": "stance",
+                    "text": "Creo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "que",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "tien",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "e",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "rest",
+                    "text": "tiempo.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Withhold the belief",
+                "spanish": "No creo que tenga tiempo.",
+                "english": "I do not think she has time.",
+                "explanation": "No creo que normally takes subjunctive tenga here. Tener changes its stem too; this is not a rule that every negative sentence takes subjunctive.",
+                "tokens": [
+                  {
+                    "id": "no",
+                    "text": "No",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "stance",
+                    "text": "creo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "que",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "stem",
+                    "text": "teng",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "a",
+                    "role": "ending",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "rest",
+                    "text": "tiempo.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "word-order": [
+      {
+        "id": "word-order-demo",
+        "title": "Follow the sentence roles",
+        "goal": "Remove a clear subject without removing the action or object.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Name all three roles",
+                "spanish": "Yo compro pan.",
+                "english": "I buy bread.",
+                "explanation": "Yo is the subject, compro the verb and pan the direct object.",
+                "tokens": [
+                  {
+                    "id": "subject",
+                    "text": "Yo",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "compro",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "object",
+                    "text": "pan.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Omit a clear subject",
+                "spanish": "Compro pan.",
+                "english": "I buy bread.",
+                "explanation": "Compro still identifies the speaker. The sentence does not need an explicit yo.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Compro",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "object",
+                    "text": "pan.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "questions-demo",
+        "title": "Frame the question",
+        "goal": "Add question marks without adding an English-style helper verb.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "A statement",
+                "spanish": "Hablas español.",
+                "english": "You speak Spanish.",
+                "explanation": "The words state something.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Hablas",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "object",
+                    "text": "español",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "close",
+                    "text": ".",
+                    "role": "mark",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "A direct question",
+                "spanish": "¿Hablas español?",
+                "english": "Do you speak Spanish?",
+                "explanation": "Opening and closing marks frame the same words. In speech, question intonation supplies the cue; the animation itself does not demonstrate the sound.",
+                "tokens": [
+                  {
+                    "id": "open",
+                    "text": "¿",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "Hablas",
+                    "role": "plain",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "object",
+                    "text": "español",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "close",
+                    "text": "?",
+                    "role": "mark",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "negatives": [
+      {
+        "id": "negatives-demo",
+        "title": "Put no before the pronoun group",
+        "goal": "Negate a sentence without splitting the object pronoun from its verb.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Affirmative",
+                "spanish": "Lo veo.",
+                "english": "I see it.",
+                "explanation": "Lo comes before the conjugated verb.",
+                "tokens": [
+                  {
+                    "id": "object",
+                    "text": "Lo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "veo.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Negative",
+                "spanish": "No lo veo.",
+                "english": "I do not see it.",
+                "explanation": "Add no before lo veo. No English-style do not helper is needed.",
+                "tokens": [
+                  {
+                    "id": "no",
+                    "text": "No",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "veo.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "connecting": [
+      {
+        "id": "connecting-demo",
+        "title": "Reason and result point in different directions",
+        "goal": "Reorder two ideas and choose the connector that preserves the relationship.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Introduce the reason",
+                "spanish": "Estudio porque tengo un examen.",
+                "english": "I study because I have an exam.",
+                "explanation": "Porque introduces the reason: having an exam.",
+                "tokens": [
+                  {
+                    "id": "result",
+                    "text": "Estudio",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "porque",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "reason",
+                    "text": "tengo un examen.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Introduce the result",
+                "spanish": "Tengo un examen; por eso estudio.",
+                "english": "I have an exam; that is why I study.",
+                "explanation": "Por eso introduces the consequence: studying. The logical relationship stays, but the order and connector change.",
+                "tokens": [
+                  {
+                    "id": "reason",
+                    "text": "Tengo un examen;",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "connector",
+                    "text": "por eso",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "result",
+                    "text": "estudio.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "por-para": [
+      {
+        "id": "por-para-demo",
+        "title": "Recipient or reason?",
+        "goal": "Keep the surrounding words and inspect the relationship expressed by the preposition.",
+        "afterBuildStep": 1,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Intended recipient",
+                "spanish": "Lo hago para ti.",
+                "english": "I make/do it for you.",
+                "explanation": "Para highlights you as the intended recipient or beneficiary.",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "Lo hago",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "prep",
+                    "text": "para",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "you",
+                    "text": "ti.",
+                    "role": "plain"
+                  }
+                ]
+              },
+              {
+                "label": "Motivating reason",
+                "spanish": "Lo hago por ti.",
+                "english": "I do it for your sake.",
+                "explanation": "Por highlights you as the motivating reason. This contrast does not cover every use of either preposition.",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "Lo hago",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "prep",
+                    "text": "por",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "you",
+                    "text": "ti.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gustar": [
+      {
+        "id": "gustar-demo",
+        "title": "The liked thing controls the verb",
+        "goal": "Pluralize the thing liked while keeping the experiencer unchanged.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "One liked thing",
+                "spanish": "Me gusta el libro.",
+                "english": "I like the book.",
+                "explanation": "Me names the experiencer; singular libro controls gusta.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Me",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "gusta",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "el libro.",
+                    "role": "subject"
+                  }
+                ]
+              },
+              {
+                "label": "Several liked things",
+                "spanish": "Me gustan los libros.",
+                "english": "I like the books.",
+                "explanation": "Me stays the same. Plural libros changes gusta to gustan.",
+                "tokens": [
+                  {
+                    "id": "person",
+                    "text": "Me",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "gustan",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "los libros.",
+                    "role": "subject"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "id": "commands-demo",
+        "title": "Attach it—or move it before",
+        "goal": "Compare pronoun placement and verb form in affirmative and negative tú commands.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Affirmative command",
+                "spanish": "Léelo.",
+                "english": "Read it.",
+                "explanation": "Lo attaches to the affirmative command. The written accent preserves stress.",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Lée",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "stop",
+                    "text": ".",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Negative command",
+                "spanish": "No lo leas.",
+                "english": "Do not read it.",
+                "explanation": "Lo moves before the verb. The negative tú command uses leas, not lee.",
+                "tokens": [
+                  {
+                    "id": "no",
+                    "text": "No",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "leas",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "stop",
+                    "text": ".",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "accent-marks": [
+      {
+        "id": "accent-marks-demo",
+        "title": "Move the stress, change the form",
+        "goal": "See the written accent and stressed syllable change together.",
+        "afterBuildStep": 1,
+        "kind": "stress",
+        "scenarios": [
+          {
+            "id": "hablar",
+            "label": "Hablo → habló",
+            "frames": [
+              {
+                "label": "Default stress",
+                "spanish": "hablo",
+                "english": "I speak",
+                "explanation": "Hablo ends in a vowel with no written accent: HA-blo.",
+                "syllables": [
+                  {
+                    "id": "first",
+                    "text": "ha",
+                    "stressed": true
+                  },
+                  {
+                    "id": "last",
+                    "text": "blo",
+                    "stressed": false
+                  }
+                ]
+              },
+              {
+                "label": "Accent moves the stress",
+                "spanish": "habló",
+                "english": "He/she/you formal spoke",
+                "explanation": "The accent puts stress on the final syllable: ha-BLÓ. This is also a different verb form.",
+                "syllables": [
+                  {
+                    "id": "first",
+                    "text": "ha",
+                    "stressed": false
+                  },
+                  {
+                    "id": "last",
+                    "text": "bló",
+                    "stressed": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "punctuation": [
+      {
+        "id": "punctuation-demo",
+        "title": "Where does the question begin?",
+        "goal": "Keep the name outside the question and frame only the question itself.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "First, the statement",
+                "spanish": "Ana, vienes mañana.",
+                "english": "Ana, you are coming tomorrow.",
+                "explanation": "Ana is direct address. The remainder is currently a statement.",
+                "tokens": [
+                  {
+                    "id": "name",
+                    "text": "Ana,",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "vienes",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "time",
+                    "text": "mañana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "close",
+                    "text": ".",
+                    "role": "mark",
+                    "joinLeft": true
+                  }
+                ]
+              },
+              {
+                "label": "Ask the question",
+                "spanish": "Ana, ¿vienes mañana?",
+                "english": "Ana, are you coming tomorrow?",
+                "explanation": "The opening mark goes after the name, where the question begins.",
+                "tokens": [
+                  {
+                    "id": "name",
+                    "text": "Ana,",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "open",
+                    "text": "¿",
+                    "role": "mark"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "vienes",
+                    "role": "plain",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "time",
+                    "text": "mañana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "close",
+                    "text": "?",
+                    "role": "mark",
+                    "joinLeft": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "se": [
+      {
+        "id": "se-demo",
+        "title": "Track what se is doing",
+        "goal": "Compare agreement and pronoun replacement in distinct se constructions.",
+        "afterBuildStep": 3,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "agreement",
+            "label": "Agreement",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Se vende una casa.",
+                "english": "A house is for sale.",
+                "explanation": "Passive-like se: singular casa agrees with vende.",
+                "tokens": [
+                  {
+                    "id": "se",
+                    "text": "Se",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "vende",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "una casa.",
+                    "role": "subject"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Se venden casas.",
+                "english": "Houses are for sale.",
+                "explanation": "Plural casas agrees with venden. Se itself does not change.",
+                "tokens": [
+                  {
+                    "id": "se",
+                    "text": "Se",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "venden",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "casas.",
+                    "role": "subject"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "replacement",
+            "label": "Replacement",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Le doy el libro.",
+                "english": "I give him/her/you formal the book.",
+                "explanation": "Le marks the recipient; el libro is the object.",
+                "tokens": [
+                  {
+                    "id": "recipient",
+                    "text": "Le",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "doy",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "object",
+                    "text": "el libro.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Se lo doy.",
+                "english": "I give it to him/her/you formal.",
+                "explanation": "El libro becomes lo before doy; le becomes se before lo. This is not reflexive se.",
+                "tokens": [
+                  {
+                    "id": "recipient",
+                    "text": "Se",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "doy.",
+                    "role": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hypotheticals": [
+      {
+        "id": "hypotheticals-demo",
+        "title": "Pair the condition with its result",
+        "goal": "Choose an open possibility or an imagined situation and compare both verb clauses.",
+        "afterBuildStep": 2,
+        "kind": "transformation",
+        "scenarios": [
+          {
+            "id": "present-and-future",
+            "label": "Present and future",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Si tengo tiempo, iré.",
+                "english": "If I have time, I will go.",
+                "explanation": "Open possibility: present indicative in the si clause; future in this result.",
+                "tokens": [
+                  {
+                    "id": "si",
+                    "text": "Si",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "condition",
+                    "text": "tengo",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "time",
+                    "text": "tiempo,",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "result",
+                    "text": "iré.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Si tuviera tiempo, iría.",
+                "english": "If I had time, I would go.",
+                "explanation": "Imagined situation: imperfect subjunctive in the condition and conditional in the result.",
+                "tokens": [
+                  {
+                    "id": "si",
+                    "text": "Si",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "condition",
+                    "text": "tuviera",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "time",
+                    "text": "tiempo,",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "result",
+                    "text": "iría.",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "past",
+            "label": "Past",
+            "frames": [
+              {
+                "label": "Start here",
+                "spanish": "Si hubiera tenido tiempo, habría ido.",
+                "english": "If I had had time, I would have gone.",
+                "explanation": "Unreal completed past: hubiera + participle pairs with habría + participle.",
+                "tokens": [
+                  {
+                    "id": "si",
+                    "text": "Si",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "condition",
+                    "text": "hubiera tenido",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "time",
+                    "text": "tiempo,",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "result",
+                    "text": "habría ido.",
+                    "role": "focus"
+                  }
+                ]
+              },
+              {
+                "label": "See the change",
+                "spanish": "Si hubiera estudiado, habría aprobado.",
+                "english": "If I had studied, I would have passed.",
+                "explanation": "Change the actions while keeping the same compound-tense pattern.",
+                "tokens": [
+                  {
+                    "id": "si",
+                    "text": "Si",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "condition",
+                    "text": "hubiera estudiado,",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "result",
+                    "text": "habría aprobado.",
+                    "role": "focus"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
