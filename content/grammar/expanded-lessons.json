@@ -1,0 +1,3312 @@
+{
+  "alphabet": {
+    "bigIdea": "Spanish uses many familiar letters, but their names and sounds do not always match English. Learn the alphabet as a way to decode words and spell names—not as a promise that every letter has just one sound.",
+    "goal": "Recognize ñ as a separate letter and distinguish a letter’s name from its sound.",
+    "build": [
+      {
+        "title": "Start with 27 letters",
+        "body": "The Spanish alphabet has 27 letters. Ñ comes after n and is a separate letter, not an accented version of n. The sequences ch and ll represent sounds but are not separate alphabet letters."
+      },
+      {
+        "title": "Separate names from sounds",
+        "body": "The letter h is called hache, but it is normally silent in words such as hola. A letter’s name helps you spell; its sound helps you read."
+      },
+      {
+        "title": "Read small groups, not isolated symbols",
+        "body": "Some spellings work together: qu before e or i represents a k sound, as in queso. Learn these combinations alongside whole words."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Hola, Ana.",
+        "english": "Hello, Ana.",
+        "explanation": "The h in hola is silent; begin with the vowel sound."
+      },
+      {
+        "spanish": "Quiero queso.",
+        "english": "I want cheese.",
+        "explanation": "In quiero and queso, qu represents a k sound and the u is silent."
+      }
+    ],
+    "contrast": {
+      "title": "One letter can change the word",
+      "items": [
+        {
+          "spanish": "La campana suena.",
+          "english": "The bell rings.",
+          "explanation": "Campana contains n; compare it with campaña, which contains ñ."
+        },
+        {
+          "spanish": "La campaña empieza.",
+          "english": "The campaign begins.",
+          "explanation": "Changing n to ñ creates a different word with a different consonant sound."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Letters vary by region",
+        "body": "Z and c before e/i are commonly pronounced like s in Latin America and parts of Spain. Much of Spain distinguishes them with a sound like th in English thin. Both patterns are standard."
+      },
+      {
+        "title": "Spelling your name",
+        "body": "Use letter names when spelling aloud. For example, Ana is a–ene–a. Letter names are vocabulary worth learning separately from pronunciation."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "hola with an English h sound",
+        "correct": "hola with a silent h",
+        "explanation": "The written h usually does not represent a spoken consonant."
+      },
+      {
+        "incorrect": "Treating ñ as n",
+        "correct": "Treat ñ as a separate letter",
+        "explanation": "The tongue movement and word meaning can change."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Which letter comes after n?",
+        "answer": "Ñ.",
+        "explanation": "Ñ has its own place in the 27-letter alphabet."
+      },
+      {
+        "prompt": "Does the h in hola sound like English h?",
+        "answer": "No; it is silent.",
+        "explanation": "The letter name hache does not tell you to pronounce h inside the word."
+      },
+      {
+        "prompt": "In queso, do you pronounce the u separately?",
+        "answer": "No.",
+        "explanation": "Qu before e forms the spelling for a k sound."
+      }
+    ],
+    "takeaways": [
+      "Learn letter names for spelling and sound patterns for reading.",
+      "Ñ and n are different letters.",
+      "Learn combinations such as qu in whole words."
+    ]
+  },
+  "vowels": {
+    "bigIdea": "Spanish has five basic vowel sounds. Compared with English, they are relatively steady: an unstressed vowel usually stays recognizable instead of fading into an “uh” sound.",
+    "goal": "Keep vowels clear in both stressed and unstressed syllables.",
+    "build": [
+      {
+        "title": "Give each vowel a target",
+        "body": "A is an open ah sound; e is a pure mid-front sound; i resembles ee; o is a pure rounded sound; u resembles oo. English comparisons are starting points, not exact matches."
+      },
+      {
+        "title": "Keep the sound steady",
+        "body": "Avoid adding a glide to e or o. Say no with one steady o rather than the changing vowel often heard in English no."
+      },
+      {
+        "title": "Keep unstressed vowels alive",
+        "body": "In casa, both a vowels remain clear even though the first syllable is stressed. Less stress does not mean replacing the vowel with uh."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "No tomo café.",
+        "english": "I do not drink coffee.",
+        "explanation": "Keep the o vowels in no and tomo steady; café ends with a stressed e."
+      },
+      {
+        "spanish": "Tu libro está aquí.",
+        "english": "Your book is here.",
+        "explanation": "The u in tu and the i in libro are clear vowels; aquí ends with a stressed i."
+      }
+    ],
+    "contrast": {
+      "title": "Stress changes emphasis, not the vowel’s identity",
+      "items": [
+        {
+          "spanish": "La casa.",
+          "english": "The house.",
+          "explanation": "The final a is unstressed but stays an a."
+        },
+        {
+          "spanish": "El café.",
+          "english": "The coffee.",
+          "explanation": "The stressed e gets emphasis without becoming an English ay glide."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Two vowels can share a syllable",
+        "body": "In words such as aire or ciudad, vowels can form a diphthong. In other words they form separate syllables. Learn syllable patterns after establishing the five basic sounds."
+      },
+      {
+        "title": "Silent u is a spelling exception",
+        "body": "The u is normally silent in que, qui, gue and gui. A diaeresis makes it sound in güe/güi, as in pingüino."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "casa ending in an English uh sound",
+        "correct": "casa with a clear final a",
+        "explanation": "Unstressed Spanish vowels usually retain their quality."
+      },
+      {
+        "incorrect": "no with an exaggerated oh-oo glide",
+        "correct": "no with a steady o",
+        "explanation": "A pure vowel helps keep Spanish rhythm clear."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Which vowel should stay clear at the end of casa?",
+        "answer": "A.",
+        "explanation": "It is unstressed, but it does not normally become a neutral uh."
+      },
+      {
+        "prompt": "How many basic vowel sounds are the starting point?",
+        "answer": "Five: a, e, i, o, u.",
+        "explanation": "Spellings and combinations add detail, but these are the foundation."
+      },
+      {
+        "prompt": "Should the e in café turn into ay?",
+        "answer": "No; keep it steady.",
+        "explanation": "Stress makes it prominent, not a different vowel."
+      }
+    ],
+    "takeaways": [
+      "Keep a, e, i, o and u distinct.",
+      "Avoid English-style vowel glides and reductions.",
+      "Check special spellings before assuming every written vowel sounds."
+    ]
+  },
+  "stress": {
+    "bigIdea": "Stress is the syllable you make most prominent. Spanish spelling often tells you where it belongs, so reading an unfamiliar word can be a reasoned choice rather than a guess.",
+    "goal": "Use the default stress patterns and written accents to find the prominent syllable.",
+    "build": [
+      {
+        "title": "Check for an accent first",
+        "body": "A written accent tells you which vowel carries stress: café is ca-FÉ and teléfono is te-LÉ-fo-no."
+      },
+      {
+        "title": "Look at the ending",
+        "body": "Without an accent, words ending in a vowel, n or s normally stress the next-to-last syllable: casa, comen, lunes. Words ending in most other consonants normally stress the last: hotel, hablar."
+      },
+      {
+        "title": "Say the whole word",
+        "body": "Keep other syllables clear while giving the stressed syllable more prominence. Stress does not require shouting or swallowing the remaining vowels."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "El hotel está cerca.",
+        "english": "The hotel is nearby.",
+        "explanation": "Hotel ends in l and has no accent: ho-TEL."
+      },
+      {
+        "spanish": "El teléfono está aquí.",
+        "english": "The telephone is here.",
+        "explanation": "The accent overrides the default: te-LÉ-fo-no."
+      }
+    ],
+    "contrast": {
+      "title": "The same letters can carry different stress",
+      "items": [
+        {
+          "spanish": "Yo hablo.",
+          "english": "I speak.",
+          "explanation": "Hablo ends in a vowel with no accent: HA-blo."
+        },
+        {
+          "spanish": "Ella habló.",
+          "english": "She spoke.",
+          "explanation": "The accent marks ha-BLÓ; this is a different verb form."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "A useful boundary",
+        "body": "Unusual consonant groups and vowel combinations need additional rules. Start with ordinary words and consult pronunciation when syllable division is uncertain."
+      },
+      {
+        "title": "Stress can move in your attention, not in the word",
+        "body": "Emphasizing a whole word in a sentence does not move its lexical stress to another syllable."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "HO-tel",
+        "correct": "ho-TEL",
+        "explanation": "The default for a word ending in l is final-syllable stress."
+      },
+      {
+        "incorrect": "te-le-FO-no",
+        "correct": "te-LÉ-fo-no",
+        "explanation": "The accent explicitly identifies the stressed vowel."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Where is the stress in casa?",
+        "answer": "CA-sa.",
+        "explanation": "It ends in a vowel and has no accent."
+      },
+      {
+        "prompt": "Where is the stress in hablar?",
+        "answer": "ha-BLAR.",
+        "explanation": "It ends in r, so the usual default is final stress."
+      },
+      {
+        "prompt": "What changes between hablo and habló?",
+        "answer": "Stress and verb meaning.",
+        "explanation": "HA-blo means I speak; ha-BLÓ means he/she/you formal spoke."
+      }
+    ],
+    "takeaways": [
+      "Check written accents first.",
+      "Vowel, n or s usually means next-to-last stress.",
+      "Most other consonant endings usually mean final stress."
+    ]
+  },
+  "rr": {
+    "bigIdea": "Spanish distinguishes a quick tap from a trill. In the middle of a word, this difference can change the meaning, so practice it as a sound contrast rather than a louder English r.",
+    "goal": "Recognize where the tap and trill occur and compare a minimal pair.",
+    "build": [
+      {
+        "title": "Make a quick tap",
+        "body": "For the r in caro, the tongue tip briefly taps the ridge just behind your upper teeth. The American English middle sound in butter can be a rough starting point."
+      },
+      {
+        "title": "Let the tongue vibrate",
+        "body": "For rr in carro, airflow helps a relaxed tongue tip vibrate near that ridge. Extra throat tension usually makes it harder."
+      },
+      {
+        "title": "Read the position",
+        "body": "Between vowels, r usually signals the tap and rr the trill. A word-initial r also uses the strong sound: rojo. You never need rr at the start of an ordinary word."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "El coche es caro.",
+        "english": "The car is expensive.",
+        "explanation": "Caro has a single r between vowels: use a tap."
+      },
+      {
+        "spanish": "El carro es rojo.",
+        "english": "The car is red.",
+        "explanation": "Carro has rr, while rojo begins with r; both use the strong r sound."
+      }
+    ],
+    "contrast": {
+      "title": "One extra r, a different word",
+      "items": [
+        {
+          "spanish": "Es caro.",
+          "english": "It is expensive.",
+          "explanation": "Caro uses the tap."
+        },
+        {
+          "spanish": "Es un carro.",
+          "english": "It is a car.",
+          "explanation": "Carro uses the trill. Carro is a common word for car in many regions."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Other strong-r positions",
+        "body": "R is also strong after n, l and s, as in enredo or alrededor. Consonant clusters such as pr in primo generally use a tap."
+      },
+      {
+        "title": "Progress before perfection",
+        "body": "If the trill is not available yet, keep practicing short relaxed attempts. Understanding the contrast is useful before you can produce it consistently."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "rr pronounced as an English throat r",
+        "correct": "rr made near the ridge behind the teeth",
+        "explanation": "The Spanish sound depends on the tongue tip and airflow."
+      },
+      {
+        "incorrect": "Writing rrojo",
+        "correct": "Writing rojo",
+        "explanation": "Initial r already represents the strong sound."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Which has the tap: caro or carro?",
+        "answer": "Caro.",
+        "explanation": "A single r between vowels normally represents the tap."
+      },
+      {
+        "prompt": "Does rojo need rr at the start?",
+        "answer": "No.",
+        "explanation": "Initial r already takes the strong pronunciation."
+      },
+      {
+        "prompt": "Where should the tongue tip work?",
+        "answer": "Near the ridge behind the upper teeth.",
+        "explanation": "Avoid trying to force the sound from the throat."
+      }
+    ],
+    "takeaways": [
+      "Between vowels, r and rr distinguish sounds.",
+      "Initial r uses the strong sound.",
+      "Practice relaxed tongue-tip movement rather than force."
+    ]
+  },
+  "gender": {
+    "bigIdea": "Spanish nouns belong to grammatical gender classes. Gender helps nearby words fit together; it does not mean that objects have a biological sex.",
+    "goal": "Learn nouns with their articles and carry agreement into descriptions.",
+    "build": [
+      {
+        "title": "Learn the noun with el or la",
+        "body": "Store el libro and la mesa as small units. The article gives you gender information that a bare noun may not reveal."
+      },
+      {
+        "title": "Use endings as clues",
+        "body": "Many nouns in -o are masculine and many in -a are feminine. These are patterns, not guarantees: el día and la mano are common exceptions."
+      },
+      {
+        "title": "Carry gender into agreement",
+        "body": "A describing word often changes: el libro nuevo, la mesa nueva. Some adjectives, such as interesante, use the same form for either gender."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "La mano está fría.",
+        "english": "The hand is cold.",
+        "explanation": "Mano is feminine despite ending in -o; fría agrees with it."
+      },
+      {
+        "spanish": "El día es largo.",
+        "english": "The day is long.",
+        "explanation": "Día is masculine despite ending in -a; largo agrees with it."
+      }
+    ],
+    "contrast": {
+      "title": "The noun determines the agreement",
+      "items": [
+        {
+          "spanish": "El libro es nuevo.",
+          "english": "The book is new.",
+          "explanation": "Libro is masculine, so use el and nuevo."
+        },
+        {
+          "spanish": "La mesa es nueva.",
+          "english": "The table is new.",
+          "explanation": "Mesa is feminine, so use la and nueva."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "People and grammatical gender",
+        "body": "Some nouns for people vary by article: el estudiante / la estudiante. Others have different endings. Learn the whole expression rather than changing every noun mechanically."
+      },
+      {
+        "title": "El agua is still feminine",
+        "body": "A stressed initial a sound can trigger el with a singular feminine noun: el agua fría. The adjective remains feminine; the plural is las aguas."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "la día",
+        "correct": "el día",
+        "explanation": "The -a ending is not a guarantee of feminine gender."
+      },
+      {
+        "incorrect": "la mesa nuevo",
+        "correct": "la mesa nueva",
+        "explanation": "The adjective agrees with the noun, not with the speaker."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Choose: el or la mano.",
+        "answer": "La mano.",
+        "explanation": "Mano is a common feminine noun ending in -o."
+      },
+      {
+        "prompt": "Complete: la casa blanc__.",
+        "answer": "La casa blanca.",
+        "explanation": "Casa is feminine singular, so blanca matches it."
+      },
+      {
+        "prompt": "Is agua masculine because we say el agua?",
+        "answer": "No; it is feminine.",
+        "explanation": "The singular article changes before stressed initial a; agreement stays feminine."
+      }
+    ],
+    "takeaways": [
+      "Learn nouns together with their articles.",
+      "Endings are clues, with exceptions.",
+      "Gender agreement follows the noun."
+    ]
+  },
+  "articles": {
+    "bigIdea": "Articles help a listener tell whether you mean an identifiable thing or are introducing one. Spanish also uses articles in places where English may leave them out.",
+    "goal": "Choose definite and indefinite articles and match gender and number.",
+    "build": [
+      {
+        "title": "Choose identifiable or newly introduced",
+        "body": "El/la often point to something identifiable in context. Un/una often introduce one member of a group: un libro, then el libro."
+      },
+      {
+        "title": "Match the noun",
+        "body": "Definite articles are el, la, los, las. Indefinite articles are un, una, unos, unas. Select both gender and number: unas mesas."
+      },
+      {
+        "title": "Notice Spanish habits",
+        "body": "Spanish often uses a definite article to speak about a category: Me gusta el café. An English translation may simply say I like coffee."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Compré un libro. El libro es corto.",
+        "english": "I bought a book. The book is short.",
+        "explanation": "Un introduces the book; el refers back to the now-identifiable book."
+      },
+      {
+        "spanish": "Las ventanas están abiertas.",
+        "english": "The windows are open.",
+        "explanation": "Ventanas is feminine plural, so use las."
+      }
+    ],
+    "contrast": {
+      "title": "Introduce it, then refer back",
+      "items": [
+        {
+          "spanish": "Hay una farmacia aquí.",
+          "english": "There is a pharmacy here.",
+          "explanation": "Una introduces a pharmacy."
+        },
+        {
+          "spanish": "La farmacia cierra a las ocho.",
+          "english": "The pharmacy closes at eight.",
+          "explanation": "La can identify the pharmacy already under discussion."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Not every noun needs an article",
+        "body": "After ser, an unmodified profession often has no article: Soy profesora. Modifying or evaluating it can change the pattern: Es una profesora excelente."
+      },
+      {
+        "title": "Two contractions",
+        "body": "A + el becomes al and de + el becomes del: Voy al parque; Vengo del trabajo. This does not happen with la, los or las."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "la libros",
+        "correct": "los libros",
+        "explanation": "Libros is masculine plural."
+      },
+      {
+        "incorrect": "Voy a el parque.",
+        "correct": "Voy al parque.",
+        "explanation": "A and the article el contract to al."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Introduce a feminine singular house: __ casa.",
+        "answer": "Una casa.",
+        "explanation": "Una introduces one house and matches its gender."
+      },
+      {
+        "prompt": "Refer back to those books: __ libros.",
+        "answer": "Los libros.",
+        "explanation": "The definite masculine plural article is los."
+      },
+      {
+        "prompt": "Combine de + el mercado.",
+        "answer": "Del mercado.",
+        "explanation": "De and the article el contract to del."
+      }
+    ],
+    "takeaways": [
+      "Use context to choose identifiable or newly introduced.",
+      "Match article gender and number.",
+      "Learn article usage through Spanish patterns, not just English translations."
+    ]
+  },
+  "plural": {
+    "bigIdea": "When a noun becomes plural, the words describing or introducing it often change too. Think of number as an agreement chain rather than one extra s.",
+    "goal": "Form common plurals and update articles and adjectives alongside them.",
+    "build": [
+      {
+        "title": "Choose the noun ending",
+        "body": "Most nouns ending in an unstressed vowel add -s: casa → casas. Many ending in a consonant add -es: papel → papeles."
+      },
+      {
+        "title": "Handle z and accents",
+        "body": "Final z changes to c before -es: luz → luces. Accent marks may change to preserve the stress pattern: canción → canciones."
+      },
+      {
+        "title": "Update the whole group",
+        "body": "La casa blanca becomes las casas blancas. The article, noun and adjective all signal plural."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Las casas blancas son grandes.",
+        "english": "The white houses are big.",
+        "explanation": "Las, casas and blancas all show plural agreement."
+      },
+      {
+        "spanish": "Hay dos luces.",
+        "english": "There are two lights.",
+        "explanation": "Luz becomes luces: z changes to c before -es."
+      }
+    ],
+    "contrast": {
+      "title": "Number spreads through the phrase",
+      "items": [
+        {
+          "spanish": "El papel azul.",
+          "english": "The blue paper.",
+          "explanation": "Each word is singular."
+        },
+        {
+          "spanish": "Los papeles azules.",
+          "english": "The blue papers.",
+          "explanation": "El becomes los; papel and azul add -es."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Some nouns keep their form",
+        "body": "Words such as lunes and paraguas can have the same singular and plural form: el lunes / los lunes. The article helps identify number."
+      },
+      {
+        "title": "Not all vowel endings behave alike",
+        "body": "Stressed -í and -ú have additional patterns and variants. Treat the basic -s/-es rules as a starting point and check unfamiliar forms."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "las casa blanca",
+        "correct": "las casas blancas",
+        "explanation": "The noun and adjective must agree with the plural article."
+      },
+      {
+        "incorrect": "luzes",
+        "correct": "luces",
+        "explanation": "Final z changes to c before -es."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Make el libro rojo plural.",
+        "answer": "Los libros rojos.",
+        "explanation": "All three words change to plural."
+      },
+      {
+        "prompt": "Make la luz plural.",
+        "answer": "Las luces.",
+        "explanation": "Change the article and replace z with c before -es."
+      },
+      {
+        "prompt": "Why does canción lose its accent in canciones?",
+        "answer": "The default stress rule now puts stress in the right place.",
+        "explanation": "Canciones ends in s and naturally stresses the next-to-last syllable."
+      }
+    ],
+    "takeaways": [
+      "Form the noun plural, then check nearby agreement.",
+      "Final z becomes c before -es.",
+      "Preserve stress even when the accent spelling changes."
+    ]
+  },
+  "adjectives": {
+    "bigIdea": "Adjectives describe nouns. Many Spanish adjectives adjust their endings to match the noun, and their position can affect how a description feels or what it means.",
+    "goal": "Match common adjective endings and use a dependable default word order.",
+    "build": [
+      {
+        "title": "Match gender when the form changes",
+        "body": "Adjectives ending in -o often change to -a with feminine nouns: un libro rojo, una casa roja. Adjectives such as grande and interesante do not change for gender."
+      },
+      {
+        "title": "Match number too",
+        "body": "Add the appropriate plural ending: libros rojos, casas grandes. Even adjectives with one gender form normally change for number."
+      },
+      {
+        "title": "Start after the noun",
+        "body": "For a neutral description, noun + adjective is a useful starting point: una mesa pequeña. Position is flexible, but not every position has the same meaning."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Las casas son pequeñas.",
+        "english": "The houses are small.",
+        "explanation": "Pequeñas agrees with the feminine plural subject casas."
+      },
+      {
+        "spanish": "Los libros son interesantes.",
+        "english": "The books are interesting.",
+        "explanation": "Interesante has one gender form but adds -s for plural."
+      }
+    ],
+    "contrast": {
+      "title": "Agreement follows the thing described",
+      "items": [
+        {
+          "spanish": "Un coche rojo.",
+          "english": "A red car.",
+          "explanation": "Rojo matches masculine singular coche."
+        },
+        {
+          "spanish": "Dos casas rojas.",
+          "english": "Two red houses.",
+          "explanation": "Rojas matches feminine plural casas."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Position can change meaning",
+        "body": "Un amigo viejo is an elderly friend; un viejo amigo is a longstanding friend. Learn these contrasts as phrases rather than moving adjectives freely."
+      },
+      {
+        "title": "Some forms shorten before a noun",
+        "body": "Bueno becomes buen before a masculine singular noun: un buen libro. Grande often becomes gran before a singular noun: una gran idea."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "una casa rojo",
+        "correct": "una casa roja",
+        "explanation": "Roja agrees with casa, regardless of who owns it."
+      },
+      {
+        "incorrect": "libros interesante",
+        "correct": "libros interesantes",
+        "explanation": "The adjective must match plural number."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete: las mesas pequeñ__.",
+        "answer": "Las mesas pequeñas.",
+        "explanation": "Feminine plural requires -as."
+      },
+      {
+        "prompt": "Describe two interesting books.",
+        "answer": "Dos libros interesantes.",
+        "explanation": "Interesante does not change gender, but it does change number."
+      },
+      {
+        "prompt": "Does un viejo amigo necessarily mean an elderly friend?",
+        "answer": "No; it usually means a longstanding friend.",
+        "explanation": "Adjective position can change the interpretation."
+      }
+    ],
+    "takeaways": [
+      "Check the noun’s gender and number.",
+      "Not every adjective has separate masculine and feminine forms.",
+      "After the noun is a useful default, not an absolute rule."
+    ]
+  },
+  "comparisons": {
+    "bigIdea": "Comparisons place two things on a shared scale. Spanish uses different patterns for more/less and for equality, so first decide what relationship you want to express.",
+    "goal": "Compare qualities and quantities using más, menos, tan and tanto.",
+    "build": [
+      {
+        "title": "Compare a quality",
+        "body": "Use más/menos + adjective + que: Ana es más alta que Luis. The adjective still agrees with the thing being described."
+      },
+      {
+        "title": "Express equal quality",
+        "body": "Use tan + adjective + como: La casa es tan grande como el piso. Tan does not change its ending."
+      },
+      {
+        "title": "Compare amounts",
+        "body": "Use más/menos + noun + que. For equal amounts use tanto/tanta/tantos/tantas + noun + como: Tengo tantos libros como tú. Tanto matches the noun."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Este libro es menos caro que ese.",
+        "english": "This book is less expensive than that one.",
+        "explanation": "Menos + adjective + que compares the price."
+      },
+      {
+        "spanish": "Tengo tantas preguntas como tú.",
+        "english": "I have as many questions as you.",
+        "explanation": "Tantas agrees with feminine plural preguntas."
+      }
+    ],
+    "contrast": {
+      "title": "Quality or quantity?",
+      "items": [
+        {
+          "spanish": "Es tan interesante como el otro.",
+          "english": "It is as interesting as the other one.",
+          "explanation": "Tan modifies the adjective interesante."
+        },
+        {
+          "spanish": "Tiene tantos capítulos como el otro.",
+          "english": "It has as many chapters as the other one.",
+          "explanation": "Tantos modifies masculine plural capítulos."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Irregular comparisons",
+        "body": "Bueno often becomes mejor and malo becomes peor: Este libro es mejor. Do not add más to mejor or peor in these ordinary comparisons."
+      },
+      {
+        "title": "An amount above a number",
+        "body": "Use más de before a numerical threshold: más de diez libros. This differs from comparing two things with más…que."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "más mejor",
+        "correct": "mejor",
+        "explanation": "Mejor already means better."
+      },
+      {
+        "incorrect": "tan libros como tú",
+        "correct": "tantos libros como tú",
+        "explanation": "A noun needs the quantity form tantos, not tan."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: Ana is taller than Luis.",
+        "answer": "Ana es más alta que Luis.",
+        "explanation": "Use más + adjective + que; alta agrees with Ana."
+      },
+      {
+        "prompt": "Complete: Tengo __ tiempo como tú.",
+        "answer": "Tanto.",
+        "explanation": "Tiempo is masculine singular, so use tanto."
+      },
+      {
+        "prompt": "Say: more than ten books.",
+        "answer": "Más de diez libros.",
+        "explanation": "A numerical threshold uses de."
+      }
+    ],
+    "takeaways": [
+      "Más/menos…que compare differences.",
+      "Tan…como compares qualities; tanto…como compares amounts.",
+      "Mejor and peor already express a comparison."
+    ]
+  },
+  "subject-pronouns": {
+    "bigIdea": "A subject pronoun names who does something: I, you, we. Spanish verb endings often carry that information already, so pronouns are useful choices rather than mandatory sentence starters.",
+    "goal": "Identify subjects and decide when a pronoun adds useful information.",
+    "build": [
+      {
+        "title": "Know the main forms",
+        "body": "Yo means I; tú means informal singular you; él/ella mean he/she; usted is formal singular you; nosotros/nosotras mean we; ellos/ellas mean they; ustedes means plural you."
+      },
+      {
+        "title": "Let the ending do its work",
+        "body": "Hablo español is a complete sentence. Hablo identifies yo, so adding yo is optional unless you want emphasis or contrast."
+      },
+      {
+        "title": "Use a pronoun to clarify or contrast",
+        "body": "Él habla and ella habla have the same verb ending. A pronoun or name can clarify who you mean. Yo estudio, pero él trabaja creates a contrast."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Estudiamos español.",
+        "english": "We study Spanish.",
+        "explanation": "The -amos ending identifies nosotros/nosotras without an explicit pronoun."
+      },
+      {
+        "spanish": "Yo cocino y tú limpias.",
+        "english": "I cook and you clean.",
+        "explanation": "The pronouns highlight a contrast between who does each task."
+      }
+    ],
+    "contrast": {
+      "title": "The pronoun adds emphasis, not a new action",
+      "items": [
+        {
+          "spanish": "Hablo español.",
+          "english": "I speak Spanish.",
+          "explanation": "A neutral statement; the verb identifies the speaker."
+        },
+        {
+          "spanish": "Yo hablo español.",
+          "english": "I speak Spanish.",
+          "explanation": "Yo can emphasize or contrast the speaker, depending on context."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Plural you varies by region",
+        "body": "In most of Spain, vosotros/vosotras is informal plural you. Ustedes is the usual plural you throughout Latin America and also occurs in parts of Spain."
+      },
+      {
+        "title": "Usted uses third-person grammar",
+        "body": "Although usted addresses the listener, it takes habla, not hablas. Ustedes takes hablan."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "yo habla",
+        "correct": "yo hablo",
+        "explanation": "The verb ending must match yo."
+      },
+      {
+        "incorrect": "usted hablas",
+        "correct": "usted habla",
+        "explanation": "Usted takes the third-person singular form."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Who is implied by hablamos?",
+        "answer": "Nosotros or nosotras.",
+        "explanation": "The -amos ending identifies we."
+      },
+      {
+        "prompt": "Must you put yo before hablo?",
+        "answer": "No.",
+        "explanation": "The ending already identifies the subject; yo can add emphasis."
+      },
+      {
+        "prompt": "Complete: usted __ español. (hablar)",
+        "answer": "Usted habla español.",
+        "explanation": "Formal you uses the third-person singular form."
+      }
+    ],
+    "takeaways": [
+      "Match the verb to the subject.",
+      "Omit a pronoun when the subject is clear.",
+      "Include it for clarity, emphasis or contrast."
+    ]
+  },
+  "tu-usted": {
+    "bigIdea": "Spanish has more than one way to address one person. Tú and usted both mean you, but they signal different relationships and require different verb forms.",
+    "goal": "Keep your chosen form of address consistent across verbs and possessives.",
+    "build": [
+      {
+        "title": "Choose the relationship",
+        "body": "Tú is often used with friends, family and peers. Usted can express respect or distance. Age, region, workplace and personal preference all affect the choice."
+      },
+      {
+        "title": "Match the verb pattern",
+        "body": "Tú hablas, comes, vives; usted habla, come, vive. Usted shares its verb forms with él and ella even though you are speaking to the listener."
+      },
+      {
+        "title": "Keep nearby words consistent",
+        "body": "With tú, use your forms such as tu casa. With usted, use su casa. Subject tú has an accent; possessive tu does not."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "¿Tú trabajas aquí?",
+        "english": "Do you work here? (informal)",
+        "explanation": "Trabajas matches tú. The pronoun can be omitted."
+      },
+      {
+        "spanish": "¿Usted trabaja aquí?",
+        "english": "Do you work here? (formal)",
+        "explanation": "Trabaja matches usted and can also appear without the pronoun when context is clear."
+      }
+    ],
+    "contrast": {
+      "title": "Same question, different relationship",
+      "items": [
+        {
+          "spanish": "¿Cómo estás?",
+          "english": "How are you? (informal)",
+          "explanation": "Estás addresses tú."
+        },
+        {
+          "spanish": "¿Cómo está usted?",
+          "english": "How are you? (formal)",
+          "explanation": "Está addresses usted; the pronoun makes the intended subject explicit."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "No universal stranger rule",
+        "body": "Some communities use tú readily with strangers; others prefer usted more often. Listen to local usage and follow the other person’s preference."
+      },
+      {
+        "title": "Another form: vos",
+        "body": "Many regions use vos with its own patterns, such as vos hablás. Recognize this as a legitimate regional system, not a mistake."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "usted tienes",
+        "correct": "usted tiene",
+        "explanation": "Usted takes the third-person singular verb form."
+      },
+      {
+        "incorrect": "tú casa",
+        "correct": "tu casa",
+        "explanation": "The subject pronoun tú has an accent; possessive tu does not."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Make ¿Cómo estás? formal.",
+        "answer": "¿Cómo está usted?",
+        "explanation": "Change estás to está; usted can clarify the addressee."
+      },
+      {
+        "prompt": "Complete: tú __ aquí. (vivir)",
+        "answer": "Tú vives aquí.",
+        "explanation": "The tú form ends in -es."
+      },
+      {
+        "prompt": "Is usted always required with every stranger?",
+        "answer": "No.",
+        "explanation": "The appropriate choice depends on region, situation and preference."
+      }
+    ],
+    "takeaways": [
+      "Tú and usted both address one person.",
+      "The choice changes the verb pattern.",
+      "Use local context rather than a rigid age rule."
+    ]
+  },
+  "possessives": {
+    "bigIdea": "Possessive words show a relationship such as my book or our house. Their endings usually match the thing possessed—not the gender of the owner.",
+    "goal": "Choose a possessive for the owner and match it to the noun.",
+    "build": [
+      {
+        "title": "Choose the owner",
+        "body": "Before a noun, use mi for my, tu for your informal singular, su for his/her/your formal/their, and nuestro/nuestra for our."
+      },
+      {
+        "title": "Match the number of things",
+        "body": "Mi libro becomes mis libros. Tu casa becomes tus casas. Mi, tu and su change for number but not gender."
+      },
+      {
+        "title": "Match nuestro for both features",
+        "body": "Nuestro libro, nuestra casa, nuestros libros, nuestras casas. The ending follows the possessed noun."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Mi hermano tiene mis llaves.",
+        "english": "My brother has my keys.",
+        "explanation": "Mi is singular with hermano; mis is plural with llaves. The owner is the same."
+      },
+      {
+        "spanish": "Nuestra casa está cerca.",
+        "english": "Our house is nearby.",
+        "explanation": "Nuestra agrees with feminine singular casa."
+      }
+    ],
+    "contrast": {
+      "title": "One owner, different things",
+      "items": [
+        {
+          "spanish": "Su libro.",
+          "english": "His/her/your/their book.",
+          "explanation": "Su agrees with one book and does not reveal the owner’s identity."
+        },
+        {
+          "spanish": "Sus llaves.",
+          "english": "His/her/your/their keys.",
+          "explanation": "Sus agrees with plural keys; it does not mean there are multiple owners."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Clarify su when needed",
+        "body": "Su casa can be ambiguous. La casa de Ana or la casa de ustedes makes the owner explicit."
+      },
+      {
+        "title": "Possessives after the noun",
+        "body": "Un amigo mío and la casa es mía use another set of forms. Learn those separately rather than placing mi after a noun."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "mi libros",
+        "correct": "mis libros",
+        "explanation": "The possessive matches the plural noun."
+      },
+      {
+        "incorrect": "nuestro casa",
+        "correct": "nuestra casa",
+        "explanation": "Nuestro changes gender as well as number."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: my houses.",
+        "answer": "Mis casas.",
+        "explanation": "Plural casas requires mis."
+      },
+      {
+        "prompt": "Say: our books.",
+        "answer": "Nuestros libros.",
+        "explanation": "Libros is masculine plural."
+      },
+      {
+        "prompt": "Does sus libros tell you there are several owners?",
+        "answer": "No.",
+        "explanation": "Sus marks multiple books; the owner needs context."
+      }
+    ],
+    "takeaways": [
+      "Choose by owner; adjust by the thing owned.",
+      "Mi, tu and su change only for number.",
+      "Nuestro changes for gender and number."
+    ]
+  },
+  "object-pronouns": {
+    "bigIdea": "A direct object receives the action of a verb. Instead of repeating a known thing, Spanish can replace it with lo, la, los or las.",
+    "goal": "Find the direct object and place its replacement before a conjugated verb.",
+    "build": [
+      {
+        "title": "Find what receives the action",
+        "body": "In Leo el libro, ask “I read what?” El libro is the direct object. The subject yo is the person reading."
+      },
+      {
+        "title": "Choose the matching pronoun",
+        "body": "Use lo for masculine singular, la for feminine singular, los for masculine plural and las for feminine plural: la carta → la."
+      },
+      {
+        "title": "Put it before the conjugated verb",
+        "body": "Leo el libro becomes Lo leo. The pronoun usually comes before a simple conjugated verb, unlike English I read it."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Compro las entradas. Las compro hoy.",
+        "english": "I buy the tickets. I buy them today.",
+        "explanation": "Las replaces feminine plural entradas and goes before compro."
+      },
+      {
+        "spanish": "¿Tienes el libro? Sí, lo tengo.",
+        "english": "Do you have the book? Yes, I have it.",
+        "explanation": "Lo replaces masculine singular libro; tengo still agrees with yo."
+      }
+    ],
+    "contrast": {
+      "title": "The noun changes; the subject does not",
+      "items": [
+        {
+          "spanish": "Leo la carta. La leo.",
+          "english": "I read the letter. I read it.",
+          "explanation": "La replaces the feminine singular object."
+        },
+        {
+          "spanish": "Leo los mensajes. Los leo.",
+          "english": "I read the messages. I read them.",
+          "explanation": "Los replaces the masculine plural object."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Two places with an infinitive",
+        "body": "Lo voy a leer and Voy a leerlo both work. Put the pronoun before the conjugated verb or attach it to the infinitive; do not put it between a and leer."
+      },
+      {
+        "title": "Direct versus indirect objects",
+        "body": "In Le doy el libro a Ana, le marks the recipient, not the book. Regional leísmo adds further variation; this lesson starts with the standard thing-replacement pattern."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Leo lo.",
+        "correct": "Lo leo.",
+        "explanation": "Before a simple conjugated verb, put the pronoun first."
+      },
+      {
+        "incorrect": "La leo. when replacing el libro",
+        "correct": "Lo leo.",
+        "explanation": "Match the object’s grammatical gender, not the reader’s gender."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Replace la película in Veo la película.",
+        "answer": "La veo.",
+        "explanation": "La replaces the feminine singular object and precedes veo."
+      },
+      {
+        "prompt": "Replace los libros in Tengo los libros.",
+        "answer": "Los tengo.",
+        "explanation": "Los is masculine plural."
+      },
+      {
+        "prompt": "Give one version of I am going to read it, referring to el libro.",
+        "answer": "Lo voy a leer. / Voy a leerlo.",
+        "explanation": "Both positions are valid with this infinitive construction."
+      }
+    ],
+    "takeaways": [
+      "Find the object before choosing the pronoun.",
+      "Lo/la/los/las match the object.",
+      "Place it before a conjugated verb or attach it to an infinitive."
+    ]
+  },
+  "reflexive": {
+    "bigIdea": "In a reflexive action, the person doing something also receives the action. Spanish uses a small pronoun to show this link, though not every verb with se has a literal “self” meaning.",
+    "goal": "Match reflexive pronouns and distinguish an action on yourself from one on someone else.",
+    "build": [
+      {
+        "title": "Pair the subject and pronoun",
+        "body": "Yo me, tú te, él/ella/usted se, nosotros/nosotras nos, ellos/ellas/ustedes se. With vosotros/vosotras, use os."
+      },
+      {
+        "title": "Conjugate the verb too",
+        "body": "Lavarse is the dictionary form. Me lavo means I wash myself; te lavas means you wash yourself. Both the pronoun and verb track the subject."
+      },
+      {
+        "title": "Place the pronoun",
+        "body": "Use Me voy a lavar or Voy a lavarme with an infinitive. With a simple conjugated verb, use Me lavo."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Me levanto a las siete.",
+        "english": "I get up at seven.",
+        "explanation": "Me and levanto both refer to yo. Levantarse is learned as a complete verb pattern."
+      },
+      {
+        "spanish": "Nos lavamos las manos.",
+        "english": "We wash our hands.",
+        "explanation": "Nos refers back to we. Spanish commonly uses the article las with body parts in this pattern."
+      }
+    ],
+    "contrast": {
+      "title": "Who receives the action?",
+      "items": [
+        {
+          "spanish": "Lavo al niño.",
+          "english": "I wash the child.",
+          "explanation": "Someone else receives the washing."
+        },
+        {
+          "spanish": "Me lavo.",
+          "english": "I wash myself.",
+          "explanation": "Me links the receiver to the speaker."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Se does more than reflexive work",
+        "body": "Se vende pan and Se lo doy use se for different reasons. Do not translate every se as himself or herself."
+      },
+      {
+        "title": "Meaning can shift",
+        "body": "Ir means go; irse often means leave. Learn the whole expression rather than assuming the pronoun just adds self."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "yo se lavo",
+        "correct": "yo me lavo",
+        "explanation": "The reflexive pronoun must match yo."
+      },
+      {
+        "incorrect": "me lavar every morning",
+        "correct": "me lavo every morning",
+        "explanation": "A simple personal statement needs a conjugated verb."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: you wash yourself, using tú.",
+        "answer": "Te lavas.",
+        "explanation": "Both te and lavas match tú."
+      },
+      {
+        "prompt": "Say: we get up early.",
+        "answer": "Nos levantamos temprano.",
+        "explanation": "Use nos and the nosotros verb ending."
+      },
+      {
+        "prompt": "Must se always mean herself or himself?",
+        "answer": "No.",
+        "explanation": "Reflexive use is only one of several se patterns."
+      }
+    ],
+    "takeaways": [
+      "Match both pronoun and verb to the subject.",
+      "Use the article with body parts in patterns such as me lavo las manos.",
+      "Learn verbs with se as complete expressions."
+    ]
+  },
+  "infinitives": {
+    "bigIdea": "An infinitive is the dictionary form of a verb: hablar, comer, vivir. It names an action without saying who does it or when.",
+    "goal": "Recognize infinitives and use them after common verb and preposition patterns.",
+    "build": [
+      {
+        "title": "Recognize the three endings",
+        "body": "Spanish infinitives end in -ar, -er or -ir. These endings group verbs into families that share many conjugation patterns."
+      },
+      {
+        "title": "Conjugate the verb that carries the sentence",
+        "body": "In Quiero comer, quiero tells you who wants something. Comer names the wanted action and stays in its dictionary form."
+      },
+      {
+        "title": "Use infinitives after prepositions",
+        "body": "Para aprender means in order to learn. Antes de salir means before leaving. English may use -ing where Spanish uses an infinitive."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Necesito estudiar.",
+        "english": "I need to study.",
+        "explanation": "Necesito is conjugated for yo; estudiar stays in the infinitive."
+      },
+      {
+        "spanish": "Leo para aprender.",
+        "english": "I read in order to learn.",
+        "explanation": "After para, aprender names the purpose without a personal ending."
+      }
+    ],
+    "contrast": {
+      "title": "Name the action or say who does it",
+      "items": [
+        {
+          "spanish": "Hablar español es útil.",
+          "english": "Speaking Spanish is useful.",
+          "explanation": "The infinitive phrase acts as the subject."
+        },
+        {
+          "spanish": "Hablo español.",
+          "english": "I speak Spanish.",
+          "explanation": "Hablo is a personal verb form identifying yo."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Two verbs do not always mean an infinitive",
+        "body": "Quiero estudiar works, but Quiero que estudies uses a clause with its own subject. The relationship between the actions determines the structure."
+      },
+      {
+        "title": "Infinitive is not always English to",
+        "body": "Me gusta leer translates as I like reading or I like to read. Translate the whole expression, not a fixed word for word label."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "quiero estudio",
+        "correct": "quiero estudiar",
+        "explanation": "After quiero with the same intended actor, use the infinitive."
+      },
+      {
+        "incorrect": "para aprendo",
+        "correct": "para aprender",
+        "explanation": "The verb directly after this preposition stays in the infinitive."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Which family does vivir belong to?",
+        "answer": "The -ir family.",
+        "explanation": "Its dictionary ending identifies the group."
+      },
+      {
+        "prompt": "Complete: Necesito __. (to eat)",
+        "answer": "Necesito comer.",
+        "explanation": "Necesito carries the subject; comer names the action."
+      },
+      {
+        "prompt": "Translate before leaving.",
+        "answer": "Antes de salir.",
+        "explanation": "Use an infinitive after de in this expression."
+      }
+    ],
+    "takeaways": [
+      "Infinitives end in -ar, -er or -ir.",
+      "They name actions without personal endings.",
+      "Learn the surrounding pattern to decide whether an infinitive belongs."
+    ]
+  },
+  "present-ar": {
+    "bigIdea": "Regular -ar verbs share a set of present-tense endings. Once you know the pattern, you can apply it to many new verbs while keeping the subject clear.",
+    "goal": "Build present forms of regular -ar verbs and recognize their uses.",
+    "build": [
+      {
+        "title": "Find the stem",
+        "body": "Remove -ar from hablar to get habl-. Keep this stem for a regular present-tense verb."
+      },
+      {
+        "title": "Choose the ending",
+        "body": "Use yo -o, tú -as, él/ella/usted -a, nosotros -amos, vosotros -áis, ellos/ustedes -an: hablo, hablas, habla, hablamos, habláis, hablan."
+      },
+      {
+        "title": "Let context supply the time meaning",
+        "body": "Trabajo can mean I work or I am working. The simple present can express habits, general situations and some current actions."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Trabajamos los lunes.",
+        "english": "We work on Mondays.",
+        "explanation": "Trabaj- + -amos identifies nosotros and describes a habit."
+      },
+      {
+        "spanish": "Ana y Luis estudian español.",
+        "english": "Ana and Luis study Spanish.",
+        "explanation": "Two named people form a plural subject, so use -an."
+      }
+    ],
+    "contrast": {
+      "title": "Same stem, a new subject",
+      "items": [
+        {
+          "spanish": "Yo hablo español.",
+          "english": "I speak Spanish.",
+          "explanation": "Habl- takes -o for yo."
+        },
+        {
+          "spanish": "Tú hablas español.",
+          "english": "You speak Spanish.",
+          "explanation": "The stem stays; -as identifies tú."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Not every -ar verb is regular",
+        "body": "Estar and dar have irregular forms. Pensar changes its stem in several persons. Knowing the family helps, but check a new verb’s pattern."
+      },
+      {
+        "title": "A shared form across tenses",
+        "body": "Hablamos can mean we speak or we spoke. Context and time expressions distinguish present from preterite."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "yo habla",
+        "correct": "yo hablo",
+        "explanation": "Yo requires -o in this regular pattern."
+      },
+      {
+        "incorrect": "nosotros hablan",
+        "correct": "nosotros hablamos",
+        "explanation": "Use -amos for nosotros, not the they ending."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: you work, using tú.",
+        "answer": "Trabajas.",
+        "explanation": "Remove -ar and add -as."
+      },
+      {
+        "prompt": "Say: we study.",
+        "answer": "Estudiamos.",
+        "explanation": "Estudi- + -amos."
+      },
+      {
+        "prompt": "Can hablo mean I am speaking?",
+        "answer": "Yes, with suitable context.",
+        "explanation": "Spanish present tense covers more than English’s simple-present translation."
+      }
+    ],
+    "takeaways": [
+      "Remove -ar, then add the subject ending.",
+      "Use the pattern only for regular verbs.",
+      "Context tells you whether the present describes a habit or a current situation."
+    ]
+  },
+  "present-er-ir": {
+    "bigIdea": "Regular -er and -ir verbs use closely related present-tense endings. Learn what they share and notice the two plural forms where the families differ.",
+    "goal": "Conjugate regular -er and -ir verbs without mixing their nosotros and vosotros endings.",
+    "build": [
+      {
+        "title": "Start with the stem",
+        "body": "Comer becomes com-; vivir becomes viv-. Add the ending to this stem."
+      },
+      {
+        "title": "Learn the shared endings",
+        "body": "Both families use -o, -es, -e and -en for yo, tú, él/ella/usted and ellos/ustedes: como/vivo, comes/vives, come/vive, comen/viven."
+      },
+      {
+        "title": "Keep the plural differences",
+        "body": "Nosotros uses comemos but vivimos. Vosotros uses coméis but vivís. The -er family keeps e; the -ir family uses i in these forms."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Comemos a las dos.",
+        "english": "We eat at two.",
+        "explanation": "Com- takes -emos for nosotros."
+      },
+      {
+        "spanish": "Vivimos cerca del parque.",
+        "english": "We live near the park.",
+        "explanation": "Viv- takes -imos for nosotros."
+      }
+    ],
+    "contrast": {
+      "title": "The family matters in the we form",
+      "items": [
+        {
+          "spanish": "Bebemos agua.",
+          "english": "We drink water.",
+          "explanation": "Beber is an -er verb: -emos."
+        },
+        {
+          "spanish": "Abrimos la puerta.",
+          "english": "We open the door.",
+          "explanation": "Abrir is an -ir verb: -imos."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Regular endings do not guarantee a regular stem",
+        "body": "Pedir and dormir have stem changes; tener has additional irregularities. Learn those as related patterns later."
+      },
+      {
+        "title": "Present or past?",
+        "body": "Vivimos can mean we live or we lived. A time phrase and the surrounding story clarify which tense is intended."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "vivemos",
+        "correct": "vivimos",
+        "explanation": "An -ir verb uses -imos for nosotros."
+      },
+      {
+        "incorrect": "tú come",
+        "correct": "tú comes",
+        "explanation": "The tú ending is -es in both regular families."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: you eat, using tú.",
+        "answer": "Comes.",
+        "explanation": "Com- + -es."
+      },
+      {
+        "prompt": "Say: we open.",
+        "answer": "Abrimos.",
+        "explanation": "Abrir uses -imos for nosotros."
+      },
+      {
+        "prompt": "Say: they live.",
+        "answer": "Viven.",
+        "explanation": "Both families use -en for ellos/ellas/ustedes."
+      }
+    ],
+    "takeaways": [
+      "Most present endings are shared by -er and -ir.",
+      "Nosotros and vosotros distinguish the families.",
+      "Check for irregular stems before applying the regular pattern."
+    ]
+  },
+  "ser-estar": {
+    "bigIdea": "Ser and estar both translate as to be, but they frame information differently. The useful distinction is characterization versus state or location—not permanent versus temporary.",
+    "goal": "Choose ser or estar by the job it does in the sentence.",
+    "build": [
+      {
+        "title": "Use ser to identify or characterize",
+        "body": "Soy Ana identifies a person. Es médica gives a profession. El libro es interesante characterizes a book. Ser also handles origin, time and material."
+      },
+      {
+        "title": "Use estar for states and locations",
+        "body": "Estoy cansada describes a state. El libro está en la mesa gives an object’s location. A location can be long-lasting and still use estar."
+      },
+      {
+        "title": "Watch the adjective’s meaning",
+        "body": "Es aburrido characterizes someone as boring; está aburrido describes someone as bored. The verb can change the interpretation, not just the duration."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Madrid está en España.",
+        "english": "Madrid is in Spain.",
+        "explanation": "A stable geographic location uses estar, which disproves the temporary-only shortcut."
+      },
+      {
+        "spanish": "La reunión es en la oficina.",
+        "english": "The meeting is in the office.",
+        "explanation": "The location of an event commonly uses ser: where it takes place."
+      }
+    ],
+    "contrast": {
+      "title": "Same adjective, a different message",
+      "items": [
+        {
+          "spanish": "Luis es aburrido.",
+          "english": "Luis is boring.",
+          "explanation": "Ser presents a characteristic."
+        },
+        {
+          "spanish": "Luis está aburrido.",
+          "english": "Luis is bored.",
+          "explanation": "Estar presents his state."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Learn useful forms together",
+        "body": "Ser: soy, eres, es, somos, sois, son. Estar: estoy, estás, está, estamos, estáis, están. Both are irregular."
+      },
+      {
+        "title": "Event location is a special pattern",
+        "body": "Objects and people are located with estar. Saying where a party, class or meeting takes place commonly uses ser."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Madrid es en España.",
+        "correct": "Madrid está en España.",
+        "explanation": "Geographic location uses estar even when it is stable."
+      },
+      {
+        "incorrect": "La fiesta está en mi casa. for where it takes place",
+        "correct": "La fiesta es en mi casa.",
+        "explanation": "Event location normally uses ser."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete: El libro __ en la mesa.",
+        "answer": "Está.",
+        "explanation": "You are locating an object."
+      },
+      {
+        "prompt": "Complete: Ana __ médica.",
+        "answer": "Es.",
+        "explanation": "A profession identifies or characterizes someone."
+      },
+      {
+        "prompt": "Does temporary versus permanent explain every choice?",
+        "answer": "No.",
+        "explanation": "Location and event-location patterns show why the shortcut fails."
+      }
+    ],
+    "takeaways": [
+      "Ask whether you are identifying, characterizing, locating or describing a state.",
+      "Duration alone does not choose the verb.",
+      "Learn adjective meanings with ser and estar."
+    ]
+  },
+  "hay": {
+    "bigIdea": "Hay introduces the existence or presence of something. Use it to say what is available or what there is; use estar when locating an identifiable thing.",
+    "goal": "Distinguish introducing something from locating something already identified.",
+    "build": [
+      {
+        "title": "Introduce what exists",
+        "body": "Hay un banco aquí means there is a bank here. The listener is learning that a bank exists in this place."
+      },
+      {
+        "title": "Keep hay with plural nouns",
+        "body": "Hay una mesa and Hay tres mesas use the same form. Do not change hay to match the noun’s number."
+      },
+      {
+        "title": "Locate an identified thing with estar",
+        "body": "El banco está aquí locates the bank the listener can identify. Compare an introduction with hay and a location statement with está/están."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Hay dos ventanas en la habitación.",
+        "english": "There are two windows in the room.",
+        "explanation": "Hay stays unchanged with plural ventanas."
+      },
+      {
+        "spanish": "Las ventanas están abiertas.",
+        "english": "The windows are open.",
+        "explanation": "The identified windows take están; this describes their state."
+      }
+    ],
+    "contrast": {
+      "title": "Existence or location?",
+      "items": [
+        {
+          "spanish": "Hay una farmacia cerca.",
+          "english": "There is a pharmacy nearby.",
+          "explanation": "Introduce the presence of a pharmacy."
+        },
+        {
+          "spanish": "La farmacia está cerca.",
+          "english": "The pharmacy is nearby.",
+          "explanation": "Locate the identified pharmacy."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Past existence",
+        "body": "The standard impersonal forms also remain singular in the past: había muchas personas; hubo problemas. This is different from ordinary subject-verb agreement."
+      },
+      {
+        "title": "A different pattern: hay que",
+        "body": "Hay que estudiar means one must study / studying is necessary. Learn hay que + infinitive as a separate construction."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "hayn tres mesas",
+        "correct": "hay tres mesas",
+        "explanation": "Hay is unchanged for singular and plural."
+      },
+      {
+        "incorrect": "La farmacia hay cerca.",
+        "correct": "La farmacia está cerca.",
+        "explanation": "Use estar to locate an identified pharmacy."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: there are three books.",
+        "answer": "Hay tres libros.",
+        "explanation": "Use hay with plural nouns too."
+      },
+      {
+        "prompt": "Complete: El libro __ aquí.",
+        "answer": "Está.",
+        "explanation": "You are locating the identified book."
+      },
+      {
+        "prompt": "Say: there is no water.",
+        "answer": "No hay agua.",
+        "explanation": "Put no before hay."
+      }
+    ],
+    "takeaways": [
+      "Hay introduces existence or availability.",
+      "Hay does not change for plural nouns.",
+      "Estar locates identified people and things."
+    ]
+  },
+  "ir-future": {
+    "bigIdea": "Ir + a + infinitive lets you talk about intentions and expected future events. The part that changes is ir; the action you plan stays in its dictionary form.",
+    "goal": "Build future plans for different subjects using ir a.",
+    "build": [
+      {
+        "title": "Choose the form of ir",
+        "body": "Voy, vas, va, vamos, vais, van match yo, tú, él/ella/usted, nosotros, vosotros and ellos/ustedes."
+      },
+      {
+        "title": "Keep the connecting a",
+        "body": "Voy a estudiar has three pieces: a form of ir, a, and an infinitive. The a belongs even though English may not suggest a separate word."
+      },
+      {
+        "title": "Leave the planned action unconjugated",
+        "body": "Vamos a comer means we are going to eat. Vamos identifies we; comer names the action without another personal ending."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Vamos a cenar a las ocho.",
+        "english": "We are going to have dinner at eight.",
+        "explanation": "Vamos matches we; cenar stays in the infinitive."
+      },
+      {
+        "spanish": "Ana va a estudiar mañana.",
+        "english": "Ana is going to study tomorrow.",
+        "explanation": "Va matches Ana. Mañana supplies the future time."
+      }
+    ],
+    "contrast": {
+      "title": "A destination or a future action?",
+      "items": [
+        {
+          "spanish": "Voy a Madrid.",
+          "english": "I am going to Madrid.",
+          "explanation": "A place after a describes movement."
+        },
+        {
+          "spanish": "Voy a estudiar.",
+          "english": "I am going to study.",
+          "explanation": "An infinitive after a describes a future action or intention."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Future does not have to mean immediate",
+        "body": "Voy a viajar el año que viene is possible. The construction is common for plans and expectations, not restricted to the next few minutes."
+      },
+      {
+        "title": "Another way to discuss plans",
+        "body": "The present can describe scheduled plans: Mañana trabajo. The simple future has its own uses and is covered separately."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "voy estudiar",
+        "correct": "voy a estudiar",
+        "explanation": "Keep a between ir and the infinitive."
+      },
+      {
+        "incorrect": "vamos a comemos",
+        "correct": "vamos a comer",
+        "explanation": "Only ir is conjugated in this pattern."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: I am going to read.",
+        "answer": "Voy a leer.",
+        "explanation": "Voy + a + infinitive."
+      },
+      {
+        "prompt": "Say: they are going to eat.",
+        "answer": "Van a comer.",
+        "explanation": "Van matches they; comer stays unchanged."
+      },
+      {
+        "prompt": "Is Voy a casa a future-action construction?",
+        "answer": "No; it describes going home.",
+        "explanation": "Casa is a destination, not an infinitive."
+      }
+    ],
+    "takeaways": [
+      "Conjugate ir, keep a, then use the infinitive.",
+      "Match ir to the person making the plan.",
+      "Distinguish destinations from planned actions."
+    ]
+  },
+  "preterite": {
+    "bigIdea": "The preterite presents a past event as bounded or completed. It is a way to frame an event, not a rule that the event must have been short or happened only once.",
+    "goal": "Form regular preterites and use them for completed events and sequences.",
+    "build": [
+      {
+        "title": "Choose a completed viewpoint",
+        "body": "Ayer trabajé puts yesterday’s work inside a completed time frame. Viví allí diez años can describe a long period viewed as a whole."
+      },
+      {
+        "title": "Build regular forms",
+        "body": "For -ar: -é, -aste, -ó, -amos, -asteis, -aron. For -er/-ir: -í, -iste, -ió, -imos, -isteis, -ieron. Keep written accents: hablé, comió."
+      },
+      {
+        "title": "Move a story forward",
+        "body": "Llegué, abrí la puerta y entré presents a sequence of completed events. Use each verb to advance the narrative."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Viví en Madrid diez años.",
+        "english": "I lived in Madrid for ten years.",
+        "explanation": "A long period can use the preterite when viewed as a completed whole."
+      },
+      {
+        "spanish": "Llegué, cené y me acosté.",
+        "english": "I arrived, had dinner and went to bed.",
+        "explanation": "The completed events move the story forward in sequence."
+      }
+    ],
+    "contrast": {
+      "title": "A whole event or background?",
+      "items": [
+        {
+          "spanish": "Ayer leí el libro.",
+          "english": "Yesterday I read the book.",
+          "explanation": "The preterite presents the reading as completed."
+        },
+        {
+          "spanish": "Leía cuando llamaste.",
+          "english": "I was reading when you called.",
+          "explanation": "The imperfect frames reading as ongoing background."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Common irregulars",
+        "body": "Ir and ser share fui, fuiste, fue, fuimos, fuisteis, fueron. Context distinguishes went from was/were. Tener uses tuve; hacer uses hice."
+      },
+      {
+        "title": "Spelling preserves sound",
+        "body": "Buscar becomes busqué in yo, with qu keeping the k sound before é. Do not mechanically append endings without checking spelling."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "yo hablo for I spoke",
+        "correct": "yo hablé",
+        "explanation": "Present hablo and preterite hablé are different forms."
+      },
+      {
+        "incorrect": "A long event must use the imperfect.",
+        "correct": "A completed long event can use the preterite.",
+        "explanation": "Duration alone does not determine the viewpoint."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: yesterday I spoke with Ana.",
+        "answer": "Ayer hablé con Ana.",
+        "explanation": "A completed event takes hablé, with its accent."
+      },
+      {
+        "prompt": "Say: we ate at two.",
+        "answer": "Comimos a las dos.",
+        "explanation": "The regular -er nosotros preterite ends in -imos."
+      },
+      {
+        "prompt": "Can Viví allí veinte años use the preterite?",
+        "answer": "Yes.",
+        "explanation": "The twenty years can be presented as a completed period."
+      }
+    ],
+    "takeaways": [
+      "Use preterite for events viewed as completed wholes.",
+      "Duration alone does not choose the tense.",
+      "Learn irregular forms and preserve accent marks."
+    ]
+  },
+  "imperfect": {
+    "bigIdea": "The imperfect places you inside a past situation without presenting its endpoint. It is useful for habits, descriptions and actions in progress—the setting around events.",
+    "goal": "Describe past routines and background with regular imperfect forms.",
+    "build": [
+      {
+        "title": "Describe the background",
+        "body": "Era tarde and Hacía frío set the scene. The imperfect does not tell you where the situation began or ended."
+      },
+      {
+        "title": "Describe repeated activity",
+        "body": "De niño jugaba aquí describes a childhood habit. English might use used to, would, or a simple past translation."
+      },
+      {
+        "title": "Build the forms",
+        "body": "For -ar use -aba, -abas, -aba, -ábamos, -abais, -aban. For -er/-ir use -ía, -ías, -ía, -íamos, -íais, -ían. The main irregular verbs are ser, ir and ver."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "De niña, vivía cerca del mar.",
+        "english": "As a child, I lived near the sea.",
+        "explanation": "Vivía describes a past situation without packaging it as a completed period."
+      },
+      {
+        "spanish": "Eran las ocho y llovía.",
+        "english": "It was eight o’clock and it was raining.",
+        "explanation": "Time and weather establish the background."
+      }
+    ],
+    "contrast": {
+      "title": "View the action from inside or as a whole",
+      "items": [
+        {
+          "spanish": "Leía cuando llegaste.",
+          "english": "I was reading when you arrived.",
+          "explanation": "Reading is the ongoing background."
+        },
+        {
+          "spanish": "Leí tres capítulos.",
+          "english": "I read three chapters.",
+          "explanation": "The preterite presents a completed amount of reading."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "The main irregulars",
+        "body": "Ser: era, eras, era, éramos, erais, eran. Ir: iba, ibas, iba, íbamos, ibais, iban. Ver: veía, veías, veía, veíamos, veíais, veían."
+      },
+      {
+        "title": "Repeated does not always mean imperfect",
+        "body": "Fui tres veces presents three visits as a completed set. Repetition helps suggest a habit but does not force the imperfect."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "comaba",
+        "correct": "comía",
+        "explanation": "The -aba set belongs to -ar verbs; comer takes -ía."
+      },
+      {
+        "incorrect": "Every repeated action requires the imperfect.",
+        "correct": "A completed set can use the preterite.",
+        "explanation": "The viewpoint matters more than counting repetitions."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: we used to speak every day.",
+        "answer": "Hablábamos todos los días.",
+        "explanation": "Use the imperfect for a past routine; keep the accent."
+      },
+      {
+        "prompt": "Complete: Cuando era niño, __ aquí. (vivir, yo)",
+        "answer": "Vivía.",
+        "explanation": "An ongoing childhood situation uses the imperfect."
+      },
+      {
+        "prompt": "Must three completed visits be imperfect?",
+        "answer": "No: Fui tres veces is possible.",
+        "explanation": "The visits can be grouped as a completed set."
+      }
+    ],
+    "takeaways": [
+      "Use imperfect for background, habits and actions viewed from inside.",
+      "Regular -ar uses -aba; -er/-ir use -ía.",
+      "A time word alone does not mechanically choose a tense."
+    ]
+  },
+  "past-contrast": {
+    "bigIdea": "Preterite and imperfect offer different viewpoints on the past. One presents an event as a whole; the other shows the situation from inside. A story often needs both.",
+    "goal": "Choose a tense by narrative role rather than by event length.",
+    "build": [
+      {
+        "title": "Separate event from setting",
+        "body": "Llovía cuando salí means it was raining when I left. Llovía gives the setting; salí marks the event."
+      },
+      {
+        "title": "Choose your viewpoint",
+        "body": "Vivía en Madrid gives background. Viví en Madrid diez años presents a completed period. The real-life situation can be similar while the storytelling changes."
+      },
+      {
+        "title": "Use interruptions as a model, not a law",
+        "body": "Dormía cuando sonó el teléfono is a useful pattern. But not every preterite interrupts an imperfect, and not every imperfect needs an interruption."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Caminábamos cuando empezó a llover.",
+        "english": "We were walking when it started to rain.",
+        "explanation": "Caminábamos supplies ongoing background; empezó introduces a new event."
+      },
+      {
+        "spanish": "Trabajé allí cinco años.",
+        "english": "I worked there for five years.",
+        "explanation": "A long period is presented as completed; length does not require imperfect."
+      }
+    ],
+    "contrast": {
+      "title": "Same verb, different framing",
+      "items": [
+        {
+          "spanish": "Cuando llegué, Ana preparaba la cena.",
+          "english": "When I arrived, Ana was preparing dinner.",
+          "explanation": "Preparation was already in progress."
+        },
+        {
+          "spanish": "Cuando llegué, Ana preparó la cena.",
+          "english": "When I arrived, Ana prepared dinner.",
+          "explanation": "Preparation is presented as a completed event in the narrative, naturally read as following the arrival."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Meaning effects",
+        "body": "Sabía means knew; supe can mean found out. Conocía describes knowing someone; conocí can describe meeting them. Viewpoint can produce different natural English translations."
+      },
+      {
+        "title": "Time expressions give clues",
+        "body": "Siempre and ayer are context, not automatic switches. Ayer llovía cuando salí is perfectly possible."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Long action = imperfect, short action = preterite.",
+        "correct": "Choose by viewpoint and narrative role.",
+        "explanation": "Both tenses can describe events of many durations."
+      },
+      {
+        "incorrect": "Ayer forces every verb into the preterite.",
+        "correct": "Ayer llovía cuando salí.",
+        "explanation": "A past day can contain both background and completed events."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete: __ cuando sonó el teléfono. (I was sleeping)",
+        "answer": "Dormía.",
+        "explanation": "Sleeping is the ongoing background."
+      },
+      {
+        "prompt": "Complete: Dormía cuando __ el teléfono. (ring)",
+        "answer": "Sonó.",
+        "explanation": "The ringing is presented as the event."
+      },
+      {
+        "prompt": "Explain vivía versus viví en Madrid.",
+        "answer": "Vivía supplies background; viví presents a completed stay.",
+        "explanation": "The choice frames the information differently."
+      }
+    ],
+    "takeaways": [
+      "Preterite packages events as wholes.",
+      "Imperfect gives an inside view or background.",
+      "Choose based on what the sentence is doing in the story."
+    ]
+  },
+  "future": {
+    "bigIdea": "The simple future can describe future events, predictions and promises. It can also express a guess about the present, so its meaning comes from context as well as its name.",
+    "goal": "Attach future endings to an infinitive and recognize common irregular stems.",
+    "build": [
+      {
+        "title": "Keep the infinitive",
+        "body": "For regular verbs, start with the whole infinitive: hablar-, comer-, vivir-. Do not remove the final -ar, -er or -ir."
+      },
+      {
+        "title": "Use one set of endings",
+        "body": "Add -é, -ás, -á, -emos, -éis, -án: hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán. The same endings work for all three families."
+      },
+      {
+        "title": "Read the context",
+        "body": "Te llamaré mañana is a future promise. ¿Dónde estará Ana? can mean I wonder where Ana is now, with future morphology expressing conjecture."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Te llamaré mañana.",
+        "english": "I will call you tomorrow.",
+        "explanation": "Llamar + -é identifies yo and presents a future action."
+      },
+      {
+        "spanish": "Comeremos después.",
+        "english": "We will eat later.",
+        "explanation": "Comer stays whole before -emos."
+      }
+    ],
+    "contrast": {
+      "title": "Future event or present guess?",
+      "items": [
+        {
+          "spanish": "Ana estará en casa mañana.",
+          "english": "Ana will be at home tomorrow.",
+          "explanation": "Mañana places the situation in the future."
+        },
+        {
+          "spanish": "¿Dónde está Ana? Estará en casa.",
+          "english": "Where is Ana? She is probably at home.",
+          "explanation": "The future form expresses a present guess in this context."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Irregular stems keep the same endings",
+        "body": "Tener → tendr-, poder → podr-, salir → saldr-, hacer → har-, decir → dir-. For example, tendré and haré."
+      },
+      {
+        "title": "Choose among natural future expressions",
+        "body": "Voy a llamar often expresses an intention. Llamaré can express a promise or prediction. The present also works for some scheduled events."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "hablé for I will speak",
+        "correct": "hablaré",
+        "explanation": "The future keeps the infinitive; hablé is preterite."
+      },
+      {
+        "incorrect": "teneré",
+        "correct": "tendré",
+        "explanation": "Tener uses the irregular future stem tendr-."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: we will live here.",
+        "answer": "Viviremos aquí.",
+        "explanation": "Add -emos to vivir."
+      },
+      {
+        "prompt": "Say: I will have time.",
+        "answer": "Tendré tiempo.",
+        "explanation": "Use tendr- + -é."
+      },
+      {
+        "prompt": "In response to Where is Ana now, what can Estará en casa mean?",
+        "answer": "She is probably at home.",
+        "explanation": "The future can express conjecture about the present."
+      }
+    ],
+    "takeaways": [
+      "Regular future endings attach to the whole infinitive.",
+      "Irregular stems use the same ending set.",
+      "Context distinguishes a future event from a present guess."
+    ]
+  },
+  "conditional": {
+    "bigIdea": "The conditional lets you describe an imagined result, make a request more tentative, or speak about a future viewed from the past. It often corresponds to English would.",
+    "goal": "Form regular conditionals and distinguish their main uses.",
+    "build": [
+      {
+        "title": "Attach endings to the infinitive",
+        "body": "Add -ía, -ías, -ía, -íamos, -íais, -ían to the full infinitive: hablaría, comerías, viviríamos."
+      },
+      {
+        "title": "Frame an imagined result",
+        "body": "Con más tiempo, viajaría means with more time, I would travel. The condition can be stated as a phrase rather than a full si clause."
+      },
+      {
+        "title": "Make a request tentative",
+        "body": "¿Podrías ayudarme? means could you help me? The conditional softens the request; it does not necessarily describe a future event."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Con más dinero, compraría una casa.",
+        "english": "With more money, I would buy a house.",
+        "explanation": "Compraría presents an imagined result."
+      },
+      {
+        "spanish": "Dijo que llegaría tarde.",
+        "english": "She said she would arrive late.",
+        "explanation": "Llegaría is future relative to the past moment dijo."
+      }
+    ],
+    "contrast": {
+      "title": "Prediction or imagined outcome?",
+      "items": [
+        {
+          "spanish": "Viajaré mañana.",
+          "english": "I will travel tomorrow.",
+          "explanation": "Future presents a future event."
+        },
+        {
+          "spanish": "Viajaría con más tiempo.",
+          "english": "I would travel with more time.",
+          "explanation": "Conditional presents a result dependent on circumstances."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Share irregular stems with the future",
+        "body": "Tener → tendría, poder → podría, hacer → haría, decir → diría. The stem changes match the simple future."
+      },
+      {
+        "title": "A common si pattern",
+        "body": "Si tuviera tiempo, viajaría uses imperfect subjunctive in the condition and conditional in the result. Do not automatically put the conditional after si."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "si tendría tiempo, viajaría",
+        "correct": "si tuviera tiempo, viajaría",
+        "explanation": "In this hypothetical pattern, the si clause uses imperfect subjunctive."
+      },
+      {
+        "incorrect": "hablaba for I would speak in an imagined result",
+        "correct": "hablaría",
+        "explanation": "Hablaba is imperfect; hablaría is conditional."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: we would eat here.",
+        "answer": "Comeríamos aquí.",
+        "explanation": "Keep comer and add -íamos."
+      },
+      {
+        "prompt": "Make Can you help me? more tentative with poder and tú.",
+        "answer": "¿Podrías ayudarme?",
+        "explanation": "Podrías uses the irregular stem podr-."
+      },
+      {
+        "prompt": "Complete: Dijo que __ tarde. (would arrive)",
+        "answer": "Llegaría.",
+        "explanation": "This is future viewed from a past reference point."
+      }
+    ],
+    "takeaways": [
+      "Conditional endings attach to the infinitive.",
+      "Use it for imagined results, tentative requests and future-in-the-past.",
+      "A hypothetical si clause usually needs a different form."
+    ]
+  },
+  "subjunctive": {
+    "bigIdea": "The subjunctive is a grammatical mood used in particular constructions. It often presents a desired, evaluated or unconfirmed situation instead of asserting it as a fact. “Uncertain” alone is not a complete rule.",
+    "goal": "Recognize three common triggers and build regular present subjunctive forms.",
+    "build": [
+      {
+        "title": "Start with the whole expression",
+        "body": "Quiero que vengas expresses a wish about someone else. Es importante que estudies evaluates an action. No creo que sea verdad does not assert the following idea as true."
+      },
+      {
+        "title": "Build regular forms",
+        "body": "Use the present yo stem and swap vowel families: hablar → hable, hables, hable, hablemos, habléis, hablen; comer/vivir → coma/viva, comas/vivas, coma/viva, comamos/vivamos, comáis/viváis, coman/vivan."
+      },
+      {
+        "title": "Check who performs each action",
+        "body": "Quiero estudiar means I want to study. Quiero que estudies means I want you to study. A different subject commonly leads to que + a conjugated verb."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Espero que tengas tiempo.",
+        "english": "I hope you have time.",
+        "explanation": "Espero que presents a desired situation; tener has the subjunctive form tengas."
+      },
+      {
+        "spanish": "Es importante que llegues temprano.",
+        "english": "It is important that you arrive early.",
+        "explanation": "The evaluation es importante que calls for the subjunctive here."
+      }
+    ],
+    "contrast": {
+      "title": "Assert a belief or withhold it",
+      "items": [
+        {
+          "spanish": "Creo que tiene tiempo.",
+          "english": "I think she has time.",
+          "explanation": "An affirmative belief normally uses indicative tiene."
+        },
+        {
+          "spanish": "No creo que tenga tiempo.",
+          "english": "I do not think she has time.",
+          "explanation": "The negated belief normally uses subjunctive tenga."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Important irregulars",
+        "body": "Ser → sea, ir → vaya, estar → esté, saber → sepa, dar → dé. Stem-changing and spelling-changing verbs require extra attention."
+      },
+      {
+        "title": "Que is not a trigger by itself",
+        "body": "Sé que viene uses indicative because it asserts knowledge. Learn governing expressions rather than treating every que as a command to change mood."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "quiero que tú estudias",
+        "correct": "quiero que tú estudies",
+        "explanation": "The wish about the listener requires the subjunctive here."
+      },
+      {
+        "incorrect": "sé que sea verdad",
+        "correct": "sé que es verdad",
+        "explanation": "An assertion of knowledge normally takes indicative."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete: Quiero que __. (hablar, tú)",
+        "answer": "Hables.",
+        "explanation": "The wish about tú uses present subjunctive."
+      },
+      {
+        "prompt": "Say: I want to study.",
+        "answer": "Quiero estudiar.",
+        "explanation": "The same intended actor allows an infinitive."
+      },
+      {
+        "prompt": "Does every clause after que use the subjunctive?",
+        "answer": "No.",
+        "explanation": "The governing expression and meaning determine mood."
+      }
+    ],
+    "takeaways": [
+      "Learn subjunctive in complete constructions.",
+      "Wishes, evaluations and negated beliefs provide useful starting patterns.",
+      "Do not equate que or uncertainty with an automatic mood choice."
+    ]
+  },
+  "word-order": {
+    "bigIdea": "Spanish often uses subject–verb–object order, but the subject can disappear when the verb makes it clear. Other word orders help organize emphasis and information.",
+    "goal": "Build a neutral sentence and distinguish a subject from an object.",
+    "build": [
+      {
+        "title": "Name the roles",
+        "body": "In Ana compra pan, Ana is the subject, compra is the verb and pan is the direct object. Ask who buys and what is bought."
+      },
+      {
+        "title": "Start with a neutral order",
+        "body": "Subject + verb + object is a dependable beginning: Luis lee un libro. Add time or place where needed: Luis lee un libro en casa."
+      },
+      {
+        "title": "Leave out a clear subject",
+        "body": "Compro pan is complete: compro identifies yo. Spanish does not require an explicit subject pronoun in every sentence."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Ana compra pan en el mercado.",
+        "english": "Ana buys bread at the market.",
+        "explanation": "Subject, verb, object and place appear in a neutral order."
+      },
+      {
+        "spanish": "Leo un libro por la noche.",
+        "english": "I read a book at night.",
+        "explanation": "The subject yo is supplied by leo; the time phrase comes afterward."
+      }
+    ],
+    "contrast": {
+      "title": "Same event, different emphasis",
+      "items": [
+        {
+          "spanish": "Ana llega mañana.",
+          "english": "Ana arrives tomorrow.",
+          "explanation": "This is a neutral statement about Ana."
+        },
+        {
+          "spanish": "Mañana llega Ana.",
+          "english": "Ana arrives tomorrow.",
+          "explanation": "Putting mañana first frames the time; final Ana can supply the arriving person as new information."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Pronouns have their own positions",
+        "body": "Lo leo means I read it. A direct-object pronoun normally comes before a conjugated verb, even though a full noun object commonly follows it."
+      },
+      {
+        "title": "People as direct objects",
+        "body": "Veo a Ana includes the personal a before a specific person. That a does not make Ana the subject."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Yo un libro leo. as a neutral beginner pattern",
+        "correct": "Yo leo un libro.",
+        "explanation": "Start with subject–verb–object before exploring marked word orders."
+      },
+      {
+        "incorrect": "Adding yo to every sentence as a requirement",
+        "correct": "Leo un libro.",
+        "explanation": "The verb can identify the subject."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Put in neutral order: pan / compra / Ana.",
+        "answer": "Ana compra pan.",
+        "explanation": "Subject, verb, direct object."
+      },
+      {
+        "prompt": "Who is the subject in Comemos arroz?",
+        "answer": "Nosotros/nosotras.",
+        "explanation": "The verb ending identifies we."
+      },
+      {
+        "prompt": "In Veo a Ana, is Ana the subject?",
+        "answer": "No, Ana is the direct object.",
+        "explanation": "The speaker does the seeing."
+      }
+    ],
+    "takeaways": [
+      "Use subject–verb–object as a starting point.",
+      "Let verb endings identify clear subjects.",
+      "Word order can organize emphasis and new information."
+    ]
+  },
+  "questions": {
+    "bigIdea": "A question starts with a gap. Sometimes you check whether something is true; sometimes you need a missing detail. Decide which answer you want before choosing the structure.",
+    "goal": "Build yes/no and information questions without importing English’s helper do.",
+    "build": [
+      {
+        "title": "Turn a statement into a question",
+        "body": "Hablas español becomes ¿Hablas español? Keep the words, add question marks, and use question intonation. A neutral yes/no question often rises at the end, though patterns vary."
+      },
+      {
+        "title": "Ask for the missing detail",
+        "body": "Use qué for what, dónde for where, cuándo for when, cómo for how, quién for who and por qué for why. A useful pattern is question word + conjugated verb + the rest."
+      },
+      {
+        "title": "Match the person",
+        "body": "¿Dónde vives? addresses tú. ¿Dónde vive Ana? asks about Ana. The verb still matches its subject; a named subject commonly follows the verb in this pattern."
+      },
+      {
+        "title": "Keep the marks and accents",
+        "body": "Write ¿…? around the question and keep the accents on question words. In Ana, ¿dónde vives?, the question begins after the name."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "¿Tienes un perro?",
+        "english": "Do you have a dog?",
+        "explanation": "Tienes already means you have; Spanish does not add a helper equivalent to do."
+      },
+      {
+        "spanish": "¿Dónde vive Ana?",
+        "english": "Where does Ana live?",
+        "explanation": "Vive agrees with Ana. The question word requests a place."
+      }
+    ],
+    "contrast": {
+      "title": "Change one word. Change the gap.",
+      "items": [
+        {
+          "spanish": "¿Dónde trabajas?",
+          "english": "Where do you work?",
+          "explanation": "Dónde asks for a place: Trabajo en un hospital."
+        },
+        {
+          "spanish": "¿Cuándo trabajas?",
+          "english": "When do you work?",
+          "explanation": "Cuándo asks for a time: Trabajo los lunes."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Talking to Ana or about her?",
+        "body": "¿Dónde vive Ana? asks about Ana. Ana, ¿dónde vives? addresses her directly. The comma and verb ending help distinguish the messages."
+      },
+      {
+        "title": "An accent beyond question marks",
+        "body": "¿Dónde trabajas? asks for a place; Trabajo donde vivo connects ideas without a question. An indirect question keeps the accent: No sé dónde vive Ana."
+      },
+      {
+        "title": "Por qué asks; porque answers",
+        "body": "¿Por qué estudias español? asks why. Porque me gusta answers because I like it. Why is two words with an accent; because is one word without one."
+      },
+      {
+        "title": "Including tú",
+        "body": "¿Dónde vives? is complete. ¿Dónde vives tú? can add contrast: Yo vivo en Madrid. ¿Dónde vives tú?"
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "¿Haces hablas español?",
+        "correct": "¿Hablas español?",
+        "explanation": "Haces is not an English-style question helper. Hablas is enough."
+      },
+      {
+        "incorrect": "¿Dónde vivir tú?",
+        "correct": "¿Dónde vives?",
+        "explanation": "Use a conjugated verb, not the infinitive."
+      },
+      {
+        "incorrect": "¿Donde vives?",
+        "correct": "¿Dónde vives?",
+        "explanation": "The question word needs its written accent."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Turn Tienes un perro into a yes/no question.",
+        "answer": "¿Tienes un perro?",
+        "explanation": "Keep the words and add question marks and question intonation."
+      },
+      {
+        "prompt": "Your friend says Trabajo en una escuela. Ask where they work.",
+        "answer": "¿Dónde trabajas?",
+        "explanation": "Dónde requests the place; trabajas addresses your friend, while trabajo describes the speaker."
+      },
+      {
+        "prompt": "Ask where Ana lives.",
+        "answer": "¿Dónde vive Ana?",
+        "explanation": "Ana is the subject, so use vive, not vives."
+      }
+    ],
+    "takeaways": [
+      "Decide whether you need yes/no or a missing detail.",
+      "Match the verb to the person the question is about.",
+      "Add ¿…? and keep the accents on question words."
+    ]
+  },
+  "negatives": {
+    "bigIdea": "Spanish normally puts no before a conjugated verb to make a negative statement. Words such as nada and nadie can work with no without canceling the negative meaning.",
+    "goal": "Negate a sentence and use common negative words in their usual positions.",
+    "build": [
+      {
+        "title": "Put no before the verb",
+        "body": "Trabajo becomes No trabajo. Spanish does not add an English-style do not helper."
+      },
+      {
+        "title": "Keep pronouns between no and the verb",
+        "body": "Lo veo becomes No lo veo. Me levanto becomes No me levanto. No comes before the whole pronoun-and-verb group."
+      },
+      {
+        "title": "Choose negative words",
+        "body": "Nada means nothing/not anything; nadie means nobody/not anybody; nunca means never. After the verb, these normally accompany no: No veo nada."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "No tengo tiempo.",
+        "english": "I do not have time.",
+        "explanation": "No goes directly before tengo."
+      },
+      {
+        "spanish": "No lo entiendo.",
+        "english": "I do not understand it.",
+        "explanation": "The object pronoun lo stays between no and entiendo."
+      }
+    ],
+    "contrast": {
+      "title": "The position changes the need for no",
+      "items": [
+        {
+          "spanish": "No viene nadie.",
+          "english": "Nobody is coming.",
+          "explanation": "Nadie follows the verb, so no appears before it."
+        },
+        {
+          "spanish": "Nadie viene.",
+          "english": "Nobody is coming.",
+          "explanation": "Nadie before the verb already supplies the negation."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Negative concord is normal",
+        "body": "No veo nada means I do not see anything. It is standard Spanish, not an accidental positive made from two negatives."
+      },
+      {
+        "title": "Negation can target another part",
+        "body": "No todos vienen means not everyone is coming. This is different from Nadie viene, which means nobody is coming."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Veo no el libro.",
+        "correct": "No veo el libro.",
+        "explanation": "Ordinary sentence negation places no before the verb."
+      },
+      {
+        "incorrect": "No nadie viene.",
+        "correct": "Nadie viene.",
+        "explanation": "A preverbal nadie normally supplies negation without no."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Negate Tengo hambre.",
+        "answer": "No tengo hambre.",
+        "explanation": "Place no before tengo."
+      },
+      {
+        "prompt": "Negate Lo veo.",
+        "answer": "No lo veo.",
+        "explanation": "No comes before the object pronoun."
+      },
+      {
+        "prompt": "Say I do not see anything.",
+        "answer": "No veo nada.",
+        "explanation": "Postverbal nada combines with no."
+      }
+    ],
+    "takeaways": [
+      "Place no before the conjugated verb group.",
+      "Nada and nadie after the verb normally accompany no.",
+      "Negative concord is standard Spanish."
+    ]
+  },
+  "connecting": {
+    "bigIdea": "Connecting words tell the reader how two ideas relate. Choose the relationship first—addition, contrast, reason or result—then choose the connector.",
+    "goal": "Join clauses with y, pero, porque and por eso while preserving their meaning.",
+    "build": [
+      {
+        "title": "Add or contrast",
+        "body": "Y adds related information: Trabajo y estudio. Pero introduces a contrast: Quiero ir, pero no puedo."
+      },
+      {
+        "title": "Give a reason",
+        "body": "Porque introduces why: Estudio porque tengo un examen. The reason follows porque."
+      },
+      {
+        "title": "Give a result",
+        "body": "Por eso points to a consequence: Tengo un examen; por eso estudio. Notice how reversing the clauses changes which connector makes sense."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Quiero salir, pero llueve.",
+        "english": "I want to go out, but it is raining.",
+        "explanation": "Pero signals a contrast between the wish and the situation."
+      },
+      {
+        "spanish": "Tengo hambre; por eso cocino.",
+        "english": "I am hungry; that is why I cook.",
+        "explanation": "Por eso introduces the result of being hungry."
+      }
+    ],
+    "contrast": {
+      "title": "Reason or result?",
+      "items": [
+        {
+          "spanish": "Estudio porque tengo un examen.",
+          "english": "I study because I have an exam.",
+          "explanation": "Porque introduces the reason."
+        },
+        {
+          "spanish": "Tengo un examen; por eso estudio.",
+          "english": "I have an exam; that is why I study.",
+          "explanation": "Por eso introduces the consequence."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Y sometimes becomes e",
+        "body": "Before an i sound, y usually changes to e: español e inglés. The change follows sound, with exceptions such as y hielo, where the next word starts with a glide."
+      },
+      {
+        "title": "Pero versus sino",
+        "body": "No quiero té, sino café corrects an alternative: not tea but coffee. Pero simply contrasts two ideas."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "¿Porque estudias?",
+        "correct": "¿Por qué estudias?",
+        "explanation": "The question why uses two words and an accent; porque introduces an answer or reason."
+      },
+      {
+        "incorrect": "No quiero té, pero café. for not tea but coffee",
+        "correct": "No quiero té, sino café.",
+        "explanation": "Sino supplies a correction after a negative."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Join: I want to go / I cannot, showing contrast.",
+        "answer": "Quiero ir, pero no puedo.",
+        "explanation": "Pero marks the contrast."
+      },
+      {
+        "prompt": "Complete: Estudio __ tengo un examen.",
+        "answer": "Porque.",
+        "explanation": "The second clause supplies the reason."
+      },
+      {
+        "prompt": "Complete: español __ inglés.",
+        "answer": "E.",
+        "explanation": "Y changes to e before the initial i sound."
+      }
+    ],
+    "takeaways": [
+      "Choose the logical relationship before the connector.",
+      "Porque introduces a reason; por eso introduces a result.",
+      "Use sino to correct an alternative after a negative."
+    ]
+  },
+  "por-para": {
+    "bigIdea": "Por and para both translate as for in some sentences, but they express several different relationships. Learn those relationships rather than assigning one English word to each.",
+    "goal": "Distinguish common purpose, recipient, cause, exchange and route patterns.",
+    "build": [
+      {
+        "title": "Use para for a goal",
+        "body": "Estudio para aprender gives a purpose. Salgo para Madrid points to a destination. Es para Ana identifies an intended recipient."
+      },
+      {
+        "title": "Use por for a cause or path",
+        "body": "Lo hago por ti gives a motivating reason or someone’s sake. Camino por el parque describes a route through an area."
+      },
+      {
+        "title": "Recognize exchange and deadlines",
+        "body": "Pago diez euros por el libro uses por for an exchange. Lo necesito para el lunes uses para for a deadline."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Este regalo es para Ana.",
+        "english": "This gift is for Ana.",
+        "explanation": "Para names the intended recipient."
+      },
+      {
+        "spanish": "Pagamos veinte euros por la cena.",
+        "english": "We paid twenty euros for dinner.",
+        "explanation": "Por marks what the money is exchanged for."
+      }
+    ],
+    "contrast": {
+      "title": "Intended recipient or motivating reason?",
+      "items": [
+        {
+          "spanish": "Lo hago para ti.",
+          "english": "I make/do it for you.",
+          "explanation": "Para highlights you as the intended beneficiary or recipient."
+        },
+        {
+          "spanish": "Lo hago por ti.",
+          "english": "I do it for your sake.",
+          "explanation": "Por highlights you as the motivating reason."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Useful fixed expressions",
+        "body": "Por ejemplo, por favor and para siempre are learned as whole expressions. Their meanings are not reliably reconstructed from English for."
+      },
+      {
+        "title": "A shortcut with limits",
+        "body": "Purpose versus cause is a useful contrast, but it does not cover routes, exchanges, recipients and every fixed expression. Ask what relationship is being expressed."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Estudio por aprender. for in order to learn",
+        "correct": "Estudio para aprender.",
+        "explanation": "Para + infinitive is the purpose pattern here."
+      },
+      {
+        "incorrect": "Pago diez euros para el libro.",
+        "correct": "Pago diez euros por el libro.",
+        "explanation": "The book is the item received in exchange."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete: Este regalo es __ ti.",
+        "answer": "Para.",
+        "explanation": "You are naming the recipient."
+      },
+      {
+        "prompt": "Complete: Caminamos __ el parque.",
+        "answer": "Por.",
+        "explanation": "You are describing the route through an area."
+      },
+      {
+        "prompt": "Say: I need it by Monday.",
+        "answer": "Lo necesito para el lunes.",
+        "explanation": "Para introduces this deadline."
+      }
+    ],
+    "takeaways": [
+      "Para often points toward a purpose, destination, recipient or deadline.",
+      "Por often marks cause, route or exchange.",
+      "Learn fixed expressions as units."
+    ]
+  },
+  "gustar": {
+    "bigIdea": "Gustar is easiest to understand as “be pleasing to.” The liked thing controls the verb; a small pronoun tells you who experiences the liking.",
+    "goal": "Choose gusta or gustan and match the experiencer pronoun.",
+    "build": [
+      {
+        "title": "Start with the thing liked",
+        "body": "Me gusta el libro is structurally the book is pleasing to me. El libro is the subject of gusta, even though English says I like the book."
+      },
+      {
+        "title": "Match singular or plural",
+        "body": "Use gusta with a singular noun or an infinitive: Me gusta el café; Me gusta leer. Use gustan with a plural noun: Me gustan los libros."
+      },
+      {
+        "title": "Choose who experiences it",
+        "body": "Use me, te, le, nos, os, les. Le can mean to him, her or you formal; les can mean to them or you plural."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Nos gusta cocinar.",
+        "english": "We like cooking.",
+        "explanation": "The infinitive cocinar takes singular gusta; nos names the people who like it."
+      },
+      {
+        "spanish": "A Ana le gustan las películas.",
+        "english": "Ana likes films.",
+        "explanation": "Plural películas takes gustan. A Ana clarifies who le refers to."
+      }
+    ],
+    "contrast": {
+      "title": "The number belongs to the liked thing",
+      "items": [
+        {
+          "spanish": "Me gusta el libro.",
+          "english": "I like the book.",
+          "explanation": "One book takes gusta."
+        },
+        {
+          "spanish": "Me gustan los libros.",
+          "english": "I like the books.",
+          "explanation": "Plural books take gustan; me stays unchanged."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Clarifying and emphasizing",
+        "body": "A mí me gusta can emphasize the experiencer. A Ana le gusta clarifies le. Keep the small pronoun in these ordinary constructions."
+      },
+      {
+        "title": "Similar verbs",
+        "body": "Encantar and interesar often follow a similar pattern: Me encantan estos libros; Me interesa la historia. Learn meaning and agreement together."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Me gusto el café.",
+        "correct": "Me gusta el café.",
+        "explanation": "Café, not yo, controls the verb."
+      },
+      {
+        "incorrect": "Me gusta los libros.",
+        "correct": "Me gustan los libros.",
+        "explanation": "The plural subject requires gustan."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Say: I like the houses.",
+        "answer": "Me gustan las casas.",
+        "explanation": "Casas is plural, so use gustan."
+      },
+      {
+        "prompt": "Say: we like reading.",
+        "answer": "Nos gusta leer.",
+        "explanation": "Nos identifies we; an infinitive takes gusta."
+      },
+      {
+        "prompt": "Complete: A Ana __ gusta el café.",
+        "answer": "Le.",
+        "explanation": "Ana is the experiencer, represented by le."
+      }
+    ],
+    "takeaways": [
+      "The liked thing controls gusta/gustan.",
+      "The pronoun identifies the experiencer.",
+      "Use gusta with an infinitive."
+    ]
+  },
+  "commands": {
+    "bigIdea": "Commands ask someone to act or not act. Spanish changes the form for the person addressed, and a negative tú command does not simply add no to the affirmative form.",
+    "goal": "Build common tú and usted commands and place attached pronouns correctly.",
+    "build": [
+      {
+        "title": "Start with affirmative tú",
+        "body": "For a regular verb, the form matches the present él/ella form: habla, come, vive. Common irregulars include di, haz, ve, pon, sal, sé, ten and ven."
+      },
+      {
+        "title": "Change the pattern for no",
+        "body": "Negative tú uses present subjunctive: no hables, no comas, no vivas. Keep the final s in these forms."
+      },
+      {
+        "title": "Use subjunctive forms for usted",
+        "body": "Hable, coma, viva address usted; no hable, no coma, no viva are negative. Plural ustedes uses hablen, coman, vivan."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Abre la puerta, por favor.",
+        "english": "Open the door, please.",
+        "explanation": "Abre is an affirmative tú command from abrir."
+      },
+      {
+        "spanish": "No abras la ventana.",
+        "english": "Do not open the window.",
+        "explanation": "Negative tú uses abras, the subjunctive form."
+      }
+    ],
+    "contrast": {
+      "title": "Affirmative and negative change pronoun position",
+      "items": [
+        {
+          "spanish": "Léelo.",
+          "english": "Read it.",
+          "explanation": "An affirmative command attaches lo to the verb; the accent preserves stress."
+        },
+        {
+          "spanish": "No lo leas.",
+          "english": "Do not read it.",
+          "explanation": "A negative command puts lo before the verb and uses leas."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Politeness is more than verb choice",
+        "body": "Usted commands can sound formal, but tone, context and por favor matter too. ¿Podrías ayudarme? offers a more tentative request."
+      },
+      {
+        "title": "Affirmative tú is not always regular",
+        "body": "Ven aquí uses the irregular command of venir. Do not assume every command equals a regular present form."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "No habla. when telling tú not to speak",
+        "correct": "No hables.",
+        "explanation": "Use the negative tú subjunctive form."
+      },
+      {
+        "incorrect": "Lo lee. for Read it! to tú",
+        "correct": "Léelo.",
+        "explanation": "Attach the pronoun to the affirmative command and preserve stress."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Tell a friend: speak slowly.",
+        "answer": "Habla despacio.",
+        "explanation": "Use affirmative tú habla."
+      },
+      {
+        "prompt": "Tell a friend: do not speak.",
+        "answer": "No hables.",
+        "explanation": "Negative tú uses hables."
+      },
+      {
+        "prompt": "Make Léelo negative for tú.",
+        "answer": "No lo leas.",
+        "explanation": "Move lo before the verb and use leas."
+      }
+    ],
+    "takeaways": [
+      "Choose the addressee and affirmative/negative pattern.",
+      "Negative tú uses the subjunctive.",
+      "Attach pronouns to affirmative commands; place them before negative ones."
+    ]
+  },
+  "accent-marks": {
+    "bigIdea": "A written accent can show stress that differs from the usual pattern or distinguish certain words. Learn what the mark does instead of treating it as decoration.",
+    "goal": "Explain a stress accent and recognize common meaning-distinguishing accents.",
+    "build": [
+      {
+        "title": "Check the normal stress pattern",
+        "body": "Without an accent, vowel/n/s endings usually take next-to-last stress; most other consonants usually take final stress. Café needs its mark to show final stress despite ending in a vowel."
+      },
+      {
+        "title": "Recognize distinguishing pairs",
+        "body": "Tú means you; tu means your. Él means he; el means the. Sí means yes; si means if. These marks distinguish grammatical roles rather than simply making a syllable louder."
+      },
+      {
+        "title": "Keep accents on question words",
+        "body": "Qué, quién, cómo, dónde and cuándo carry accents when interrogative or exclamatory, including indirect questions such as No sé dónde está."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Tú tienes tu libro.",
+        "english": "You have your book.",
+        "explanation": "Subject tú has an accent; possessive tu does not."
+      },
+      {
+        "spanish": "Sí, voy si tengo tiempo.",
+        "english": "Yes, I will go if I have time.",
+        "explanation": "Sí is yes; si introduces a condition."
+      }
+    ],
+    "contrast": {
+      "title": "Same letters, different grammatical job",
+      "items": [
+        {
+          "spanish": "Él lee.",
+          "english": "He reads.",
+          "explanation": "Él is a subject pronoun."
+        },
+        {
+          "spanish": "El libro es nuevo.",
+          "english": "The book is new.",
+          "explanation": "El is a definite article."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Accents can separate vowel sounds",
+        "body": "In día, the accent on the weak vowel í helps signal a hiatus: dí-a. Accent rules involve syllable structure as well as the default stress pattern."
+      },
+      {
+        "title": "Forms can gain or lose a mark",
+        "body": "Canción becomes canciones without an accent because the default plural stress is already correct. Preserve the pronunciation, not the mark mechanically."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "tu eres",
+        "correct": "tú eres",
+        "explanation": "The subject pronoun tú needs an accent."
+      },
+      {
+        "incorrect": "canciónes",
+        "correct": "canciones",
+        "explanation": "The plural’s default stress already falls on the correct syllable."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Choose: __ tienes tiempo. (you)",
+        "answer": "Tú.",
+        "explanation": "The subject pronoun has an accent."
+      },
+      {
+        "prompt": "Choose: __ libro. (the)",
+        "answer": "El.",
+        "explanation": "The article has no accent."
+      },
+      {
+        "prompt": "Why does café need an accent?",
+        "answer": "Its final stress differs from the usual vowel-ending pattern.",
+        "explanation": "Without the mark, the ordinary default would stress the next-to-last syllable."
+      }
+    ],
+    "takeaways": [
+      "Accents can signal exceptional stress or grammatical distinctions.",
+      "Learn common pairs in complete phrases.",
+      "Recheck spelling when a word changes form."
+    ]
+  },
+  "punctuation": {
+    "bigIdea": "Spanish marks direct questions and exclamations at both ends. The opening mark helps readers choose the right intonation before they reach the end.",
+    "goal": "Place opening marks at the start of the question or exclamation, including inside a longer sentence.",
+    "build": [
+      {
+        "title": "Mark the whole direct question",
+        "body": "Write ¿Cómo estás? with an opening inverted question mark and a closing question mark. Do not add a full stop after the closing mark at the end of the sentence."
+      },
+      {
+        "title": "Mark an exclamation",
+        "body": "¡Qué bonito! expresses an exclamation. Exclamation words such as qué and cómo keep their written accents."
+      },
+      {
+        "title": "Find where the question actually starts",
+        "body": "In Ana, ¿vienes mañana?, the name gets someone’s attention before the question begins. The opening mark belongs before vienes."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Ana, ¿tienes tiempo?",
+        "english": "Ana, do you have time?",
+        "explanation": "The opening question mark starts the actual question, after the name."
+      },
+      {
+        "spanish": "¡Qué buena idea!",
+        "english": "What a good idea!",
+        "explanation": "Opening and closing exclamation marks frame the exclamation."
+      }
+    ],
+    "contrast": {
+      "title": "Direct question or reported uncertainty?",
+      "items": [
+        {
+          "spanish": "¿Dónde está Ana?",
+          "english": "Where is Ana?",
+          "explanation": "A direct question uses question marks."
+        },
+        {
+          "spanish": "No sé dónde está Ana.",
+          "english": "I do not know where Ana is.",
+          "explanation": "An indirect question uses no question marks here, but dónde retains its accent."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Inside a longer sentence",
+        "body": "Si puedes, ¿me llamas? places the opening mark after the initial condition. Punctuation marks the scope of the question rather than automatically enclosing every preceding word."
+      },
+      {
+        "title": "More than punctuation",
+        "body": "Writing marks cannot replace the right verb form or word choice. In speech, listeners rely on the structure and intonation instead."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Cómo estás?",
+        "correct": "¿Cómo estás?",
+        "explanation": "Written direct questions use an opening mark too."
+      },
+      {
+        "incorrect": "¿Vienes?.",
+        "correct": "¿Vienes?",
+        "explanation": "Do not add a full stop after a closing question mark ending the sentence."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Punctuate: Dónde vives",
+        "answer": "¿Dónde vives?",
+        "explanation": "Add both marks and retain the accent."
+      },
+      {
+        "prompt": "Punctuate a greeting to Ana followed by Are you coming?: Ana vienes",
+        "answer": "Ana, ¿vienes?",
+        "explanation": "The name is outside the question; the comma marks direct address."
+      },
+      {
+        "prompt": "Does No sé dónde está need question marks as a statement?",
+        "answer": "No.",
+        "explanation": "It contains an indirect question, with an accent on dónde."
+      }
+    ],
+    "takeaways": [
+      "Use opening and closing marks for direct questions and exclamations.",
+      "Place the opening mark where that part begins.",
+      "Indirect questions can keep accents without question marks."
+    ]
+  },
+  "se": {
+    "bigIdea": "Se is a small word with several grammatical jobs. Instead of assigning it one translation, identify the construction around it: self-directed action, a general statement, an affected person, or a pronoun combination.",
+    "goal": "Distinguish four common se patterns using meaning and agreement.",
+    "build": [
+      {
+        "title": "Look for a self-directed action",
+        "body": "Ana se lava means Ana washes herself. Se links the receiver of the action to Ana. Some verbs with se have a broader or changed meaning, such as irse."
+      },
+      {
+        "title": "Look for a general or passive-like statement",
+        "body": "Se vive bien aquí means people live well here: impersonal se with a singular verb. Se venden libros is passive-like: books are sold, with plural agreement."
+      },
+      {
+        "title": "Check neighboring pronouns",
+        "body": "In Se lo doy, se replaces le or les before lo/la/los/las. In Se me cayó el vaso, me identifies the affected person, while el vaso controls cayó."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Se venden casas.",
+        "english": "Houses are sold.",
+        "explanation": "In this passive-like construction, plural casas agrees with venden."
+      },
+      {
+        "spanish": "Se lo doy a Ana.",
+        "english": "I give it to Ana.",
+        "explanation": "Se replaces le before lo; it does not mean herself."
+      }
+    ],
+    "contrast": {
+      "title": "Similar surface, different structure",
+      "items": [
+        {
+          "spanish": "Se vive bien aquí.",
+          "english": "People live well here.",
+          "explanation": "Impersonal se has no expressed subject; vive stays singular."
+        },
+        {
+          "spanish": "Se venden libros aquí.",
+          "english": "Books are sold here.",
+          "explanation": "Passive-like se has plural libros as the grammatical subject, so use venden."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "An affected-person pattern",
+        "body": "Se me cayó el vaso means I dropped the glass / the glass fell on me. Caerse describes the event; me marks the affected person. The construction can downplay agency without guaranteeing an accident."
+      },
+      {
+        "title": "A personal object stays singular in the impersonal pattern",
+        "body": "Se busca a los responsables uses a personal object with a, not a plural subject; busca stays singular. Contrast Se buscan empleados, where empleados agrees with buscan."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Le lo doy.",
+        "correct": "Se lo doy.",
+        "explanation": "Le/les changes to se before lo/la/los/las."
+      },
+      {
+        "incorrect": "Se vende casas.",
+        "correct": "Se venden casas.",
+        "explanation": "In this passive-like construction, casas is plural and controls the verb."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Classify Ana se lava.",
+        "answer": "Reflexive.",
+        "explanation": "Ana does the washing and receives it."
+      },
+      {
+        "prompt": "Complete: Se __ libros. (vender, passive-like)",
+        "answer": "Venden.",
+        "explanation": "Plural libros requires plural agreement."
+      },
+      {
+        "prompt": "Why does le become se in Se lo doy?",
+        "answer": "Because it comes before lo.",
+        "explanation": "This se is a pronoun replacement, not a reflexive marker."
+      }
+    ],
+    "takeaways": [
+      "Identify the construction before translating se.",
+      "Impersonal and passive-like patterns differ in agreement.",
+      "Se can replace le/les or occur in affected-person constructions."
+    ]
+  },
+  "hypotheticals": {
+    "bigIdea": "Conditional sentences connect a possible situation with its result. Spanish changes the verb pattern depending on whether the condition is treated as open, imagined or contrary to a completed past.",
+    "goal": "Distinguish open conditions, imagined present/future conditions and unreal past conditions.",
+    "build": [
+      {
+        "title": "Leave a possibility open",
+        "body": "Si tengo tiempo, iré means if I have time, I will go. The si clause uses present indicative, even though the situation concerns the future."
+      },
+      {
+        "title": "Imagine a different present or future",
+        "body": "Si tuviera tiempo, iría means if I had time, I would go. Use imperfect subjunctive in the condition and conditional in the result."
+      },
+      {
+        "title": "Imagine a different completed past",
+        "body": "Si hubiera tenido tiempo, habría ido means if I had had time, I would have gone. Use pluperfect subjunctive for the condition and conditional perfect for the result."
+      }
+    ],
+    "extraExamples": [
+      {
+        "spanish": "Si llueve, nos quedaremos en casa.",
+        "english": "If it rains, we will stay at home.",
+        "explanation": "An open future possibility uses present llueve after si and future in the result."
+      },
+      {
+        "spanish": "Si hubiera estudiado, habría aprobado.",
+        "english": "If I had studied, I would have passed.",
+        "explanation": "The speaker imagines a different completed past, using compound forms."
+      }
+    ],
+    "contrast": {
+      "title": "Open possibility or imagined situation?",
+      "items": [
+        {
+          "spanish": "Si tengo tiempo, iré.",
+          "english": "If I have time, I will go.",
+          "explanation": "The condition is treated as open."
+        },
+        {
+          "spanish": "Si tuviera tiempo, iría.",
+          "english": "If I had time, I would go.",
+          "explanation": "The speaker takes a more hypothetical stance toward having time."
+        }
+      ]
+    },
+    "closerLook": [
+      {
+        "title": "Form the imperfect subjunctive",
+        "body": "Start with the preterite ellos form, remove -ron and add -ra endings: tuvieron → tuviera. The -se series, such as tuviese, is also standard."
+      },
+      {
+        "title": "Results can vary",
+        "body": "Si tienes tiempo, ven uses a command as the result. Si tengo tiempo, voy can use the present. Mixed-time hypotheticals also exist; choose a pattern by meaning rather than memorizing one mandatory result tense."
+      }
+    ],
+    "mistakes": [
+      {
+        "incorrect": "Si tendré tiempo, iré.",
+        "correct": "Si tengo tiempo, iré.",
+        "explanation": "An ordinary open future condition uses present indicative after si."
+      },
+      {
+        "incorrect": "Si tendría tiempo, iría.",
+        "correct": "Si tuviera tiempo, iría.",
+        "explanation": "This imagined-condition pattern uses imperfect subjunctive in the si clause."
+      }
+    ],
+    "practice": [
+      {
+        "prompt": "Complete an open condition: Si __ tiempo, iré. (tener, yo)",
+        "answer": "Tengo.",
+        "explanation": "Use present indicative for an open future condition."
+      },
+      {
+        "prompt": "Complete an imagined condition: Si tuviera tiempo, __. (go, yo)",
+        "answer": "Iría.",
+        "explanation": "The result uses the conditional in this pattern."
+      },
+      {
+        "prompt": "Complete the unreal past: Si hubiera estudiado, __ aprobado.",
+        "answer": "Habría.",
+        "explanation": "Habría + participle builds the conditional perfect result."
+      }
+    ],
+    "takeaways": [
+      "Decide how the speaker frames the condition.",
+      "Open: si + present; imagined: si + imperfect subjunctive.",
+      "Unreal past commonly combines hubiera + participle with habría + participle."
+    ]
+  }
+}
