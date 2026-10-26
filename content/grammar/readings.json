@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "references": [
+    {
+      "lessonId": "letter-combinations",
+      "storyId": "la-llave-azul",
+      "sentenceId": "s2",
+      "focus": "llave",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "syllables",
+      "storyId": "la-llave-azul",
+      "sentenceId": "s1",
+      "focus": "edificio",
+      "annotationIds": [
+        "la-llave-azul-a1-2"
+      ]
+    },
+    {
+      "lessonId": "vowel-combinations",
+      "storyId": "el-mapa-en-la-pared",
+      "sentenceId": "s6",
+      "focus": "río",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "sentence-emphasis",
+      "storyId": "un-mensaje-equivocado",
+      "sentenceId": "s9",
+      "focus": "soy Nico",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "location-prepositions",
+      "storyId": "el-mapa-en-la-pared",
+      "sentenceId": "s3",
+      "focus": "debajo del mapa",
+      "annotationIds": [
+        "el-mapa-en-la-pared-a3-1"
+      ]
+    },
+    {
+      "lessonId": "time-prepositions",
+      "storyId": "un-mensaje-equivocado",
+      "sentenceId": "s6",
+      "focus": "A las doce",
+      "annotationIds": [
+        "un-mensaje-equivocado-a6-1"
+      ]
+    },
+    {
+      "lessonId": "indirect-objects",
+      "storyId": "la-mesa-para-dos",
+      "sentenceId": "s4",
+      "focus": "le ofrece",
+      "annotationIds": [
+        "la-mesa-para-dos-a4-1"
+      ]
+    },
+    {
+      "lessonId": "irregular-present",
+      "storyId": "el-ultimo-cafe",
+      "sentenceId": "s8",
+      "focus": "quiere volver",
+      "annotationIds": [
+        "el-ultimo-cafe-a8-1"
+      ]
+    },
+    {
+      "lessonId": "irregular-preterite",
+      "storyId": "el-tren-de-las-seis",
+      "sentenceId": "s6",
+      "focus": "dijo",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "demonstratives",
+      "storyId": "un-mensaje-equivocado",
+      "sentenceId": "s3",
+      "focus": "ese número",
+      "annotationIds": [
+        "un-mensaje-equivocado-a3-2"
+      ]
+    },
+    {
+      "lessonId": "relative-clauses",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s9",
+      "focus": "que sostenía una vela",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "content-clauses",
+      "storyId": "la-mesa-para-dos",
+      "sentenceId": "s5",
+      "focus": "que espera a alguien",
+      "annotationIds": [
+        "la-mesa-para-dos-a5-1"
+      ]
+    },
+    {
+      "lessonId": "participles",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s20",
+      "focus": "escrito a mano",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "pluperfect",
+      "storyId": "la-habitacion-doce",
+      "sentenceId": "s2",
+      "focus": "Había viajado",
+      "annotationIds": [
+        "la-habitacion-doce-a2-1"
+      ]
+    },
+    {
+      "lessonId": "progressive",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s2",
+      "focus": "estaba preparando",
+      "annotationIds": [
+        "cuando-volvio-la-luz-a2-1"
+      ]
+    },
+    {
+      "lessonId": "verb-patterns",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s2",
+      "focus": "dejó de funcionar",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "duration",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s6",
+      "focus": "desde hacía ocho años",
+      "annotationIds": [
+        "cuando-volvio-la-luz-a6-1"
+      ]
+    },
+    {
+      "lessonId": "reported-speech",
+      "storyId": "la-habitacion-doce",
+      "sentenceId": "s16",
+      "focus": "Le explicó que",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "past-subjunctive",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s3",
+      "focus": "regresara",
+      "annotationIds": [
+        "cuando-volvio-la-luz-a3-1"
+      ]
+    },
+    {
+      "lessonId": "subjunctive-time",
+      "storyId": "las-marcas-del-agua",
+      "sentenceId": "s6",
+      "focus": "hasta que entiendas",
+      "annotationIds": [
+        "las-marcas-del-agua-a6-1"
+      ]
+    },
+    {
+      "lessonId": "prepositional-pronouns",
+      "storyId": "el-ultimo-cafe",
+      "sentenceId": "s6",
+      "focus": "para mí",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "narrative-connectors",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s16",
+      "focus": "sin embargo",
+      "annotationIds": [
+        "cuando-volvio-la-luz-a16-1"
+      ]
+    },
+    {
+      "lessonId": "pronominal-verbs",
+      "storyId": "la-llave-azul",
+      "sentenceId": "s7",
+      "focus": "se llama",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "quantifiers",
+      "storyId": "el-mapa-en-la-pared",
+      "sentenceId": "s12",
+      "focus": "la otra",
+      "annotationIds": [
+        "el-mapa-en-la-pared-a12-1"
+      ]
+    },
+    {
+      "lessonId": "possessives",
+      "storyId": "la-llave-azul",
+      "sentenceId": "s6",
+      "focus": "Es mía",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "alphabet",
+      "storyId": "la-llave-azul",
+      "sentenceId": "s4",
+      "focus": "llama",
+      "annotationIds": [
+        "la-llave-azul-a4-2"
+      ]
+    },
+    {
+      "lessonId": "stress",
+      "storyId": "un-mensaje-equivocado",
+      "sentenceId": "s1",
+      "focus": "mensaje",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "accent-marks",
+      "storyId": "el-mapa-en-la-pared",
+      "sentenceId": "s6",
+      "focus": "río",
+      "annotationIds": []
+    },
+    {
+      "lessonId": "object-pronouns",
+      "storyId": "un-mensaje-equivocado",
+      "sentenceId": "s2",
+      "focus": "Te espero",
+      "annotationIds": [
+        "un-mensaje-equivocado-a2-1"
+      ]
+    },
+    {
+      "lessonId": "word-order",
+      "storyId": "cuando-volvio-la-luz",
+      "sentenceId": "s9",
+      "focus": "encontraron a una niña",
+      "annotationIds": []
+    }
+  ]
+}

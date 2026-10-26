@@ -89,6 +89,8 @@ Unit tests cover editorial validation, audio timing, storage, scoring, and speed
 
 - `app/`: home, reader route, profile, saved phrases
 - `components/`: library, story, phrase-insights, audio, navigation
+- `content/grammar/`: catalog, expanded lessons, visuals, source references and generated schemas
+- `lib/grammar/`: validated grammar contracts and loaders
 - `content/stories/`: versioned JSON narratives
 - `content/vocabulary/`: full vocabulary references for generated stories
 - `content/narration/`: optional editorial delivery cues for audio publishing
@@ -100,4 +102,10 @@ Unit tests cover editorial validation, audio timing, storage, scoring, and speed
 
 ## Design approach
 
-Dark charcoal, warm ivory, amber controls, sea-glass secondary accents, generous serif narrative typography, image-led discovery, and an unobtrusive reading toolbar. All gallery studios besides the Story Room are explicitly labeled upcoming.
+Dark charcoal, warm ivory, amber controls, sea-glass secondary accents, generous serif narrative typography, image-led discovery, and an unobtrusive reading toolbar. Grammar Studio provides structured explanations and visual teaching tools; Pronunciation and Translation are labeled upcoming.
+
+## Grammar Studio content
+
+Grammar Studio includes 63 structured lessons with content-driven visual walkthroughs. The catalog, expanded explanations, visuals and curated story references live in `content/grammar/`; runtime contracts and loaders live in `lib/grammar/`. See [lesson format](docs/grammar-lesson-format.md), [foundation coverage](docs/grammar-foundation-coverage.md), and [visual authoring](docs/grammar-visual-authoring.md).
+
+Use `npm run validate:grammar` to check lesson structure, related references, story passages, visuals and existing media. Use `npm run schema:lessons` to export portable JSON Schemas for content generation. New examples can be text-only; only existing recordings have playback controls. Pronunciation and Translation remain upcoming studios, while spelling and stress foundations are available in Grammar Studio.

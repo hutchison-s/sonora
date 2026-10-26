@@ -6,7 +6,7 @@
  */
 import { readFile, mkdir, writeFile, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
-type Example={id:string;spanish:string;audioPath:string};
+type Example={id:string;spanish:string;audioPath?:string};
 type Lesson={id:string;examples:Example[]};
 const key=process.env.ELEVENLABS_API_KEY;
 const voice=process.env.ELEVENLABS_VOICE_ID||'7GCLDRn3tm42Ra1CZCPL';
@@ -14,6 +14,7 @@ const model=process.env.ELEVENLABS_MODEL_ID||'eleven_v4';
 if(!key)throw new Error('Set ELEVENLABS_API_KEY');
 const data=JSON.parse(await readFile('content/grammar/lessons.json','utf8')) as {lessons:Lesson[]};
 for(const lesson of data.lessons)for(const example of lesson.examples){
+ if (!example.audioPath) { console.log('Text-only example:', example.id); continue; }
  const dest=join('public',example.audioPath);
  try{await access(dest);console.log('Skip',dest);continue;}catch{}
  console.log('Generate',dest);

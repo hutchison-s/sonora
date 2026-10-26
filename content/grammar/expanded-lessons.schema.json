@@ -1,0 +1,176 @@
+{
+  "$ref": "#/definitions/ExpandedGrammarCatalog",
+  "definitions": {
+    "ExpandedGrammarCatalog": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "bigIdea": {
+            "type": "string",
+            "minLength": 1
+          },
+          "goal": {
+            "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+          },
+          "build": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "body": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                }
+              },
+              "required": [
+                "title",
+                "body"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2
+          },
+          "extraExamples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "spanish": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "english": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "explanation": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                }
+              },
+              "required": [
+                "spanish",
+                "english",
+                "explanation"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2
+          },
+          "contrast": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/extraExamples/items"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "title",
+              "items"
+            ],
+            "additionalProperties": false
+          },
+          "closerLook": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "body": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                }
+              },
+              "required": [
+                "title",
+                "body"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "mistakes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "incorrect": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "correct": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "explanation": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                }
+              },
+              "required": [
+                "incorrect",
+                "correct",
+                "explanation"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2
+          },
+          "practice": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "prompt": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "answer": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "explanation": {
+                  "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                }
+              },
+              "required": [
+                "prompt",
+                "answer",
+                "explanation"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 3
+          },
+          "takeaways": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+            },
+            "minItems": 2
+          }
+        },
+        "required": [
+          "bigIdea",
+          "goal",
+          "build",
+          "extraExamples",
+          "contrast",
+          "closerLook",
+          "mistakes",
+          "practice",
+          "takeaways"
+        ],
+        "additionalProperties": false
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9-]*$"
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

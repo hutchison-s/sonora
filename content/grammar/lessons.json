@@ -54,7 +54,12 @@
           "explanation": "Niño contains ñ, a separate Spanish letter. El agrees with the masculine singular noun niño."
         }
       ],
-      "vocabulary": []
+      "vocabulary": [],
+      "relatedLessons": [
+        "letter-combinations",
+        "syllables",
+        "vowels"
+      ]
     },
     {
       "id": "vowels",
@@ -89,18 +94,26 @@
           "lemma": "casa",
           "meaning": "house"
         }
+      ],
+      "relatedLessons": [
+        "letter-combinations",
+        "vowel-combinations",
+        "syllables"
       ]
     },
     {
       "id": "stress",
       "categoryId": "sounds",
       "level": "A1",
-      "title": "Which Syllable Gets the Stress?",
-      "summary": "Every Spanish word has a stressed syllable.",
+      "title": "Know Where the Stress Goes",
+      "summary": "Find a word’s prominent syllable with spelling and accent rules.",
       "grammarTerm": "Which Syllable Gets the Stress?",
       "keywords": [
         "which syllable gets the stress?",
-        "every spanish word has a stressed syllable."
+        "every spanish word has a stressed syllable.",
+        "emphasis",
+        "syllables",
+        "word stress"
       ],
       "examples": [
         {
@@ -124,6 +137,11 @@
           "lemma": "papá",
           "meaning": "dad"
         }
+      ],
+      "relatedLessons": [
+        "syllables",
+        "accent-marks",
+        "sentence-emphasis"
       ]
     },
     {
@@ -454,6 +472,11 @@
           "lemma": "libro",
           "meaning": "books"
         }
+      ],
+      "relatedLessons": [
+        "prepositional-pronouns",
+        "demonstratives",
+        "gender"
       ]
     },
     {
@@ -494,6 +517,11 @@
           "lemma": "libro",
           "meaning": "book"
         }
+      ],
+      "relatedLessons": [
+        "indirect-objects",
+        "pronoun-combinations",
+        "commands"
       ]
     },
     {
@@ -529,6 +557,11 @@
           "lemma": "ella",
           "meaning": "she"
         }
+      ],
+      "relatedLessons": [
+        "pronominal-verbs",
+        "se",
+        "object-pronouns"
       ]
     },
     {
@@ -974,6 +1007,11 @@
           "lemma": "tiempo",
           "meaning": "time"
         }
+      ],
+      "relatedLessons": [
+        "past-subjunctive",
+        "subjunctive-time",
+        "relative-clauses"
       ]
     },
     {
@@ -1009,6 +1047,11 @@
           "lemma": "libro",
           "meaning": "book"
         }
+      ],
+      "relatedLessons": [
+        "relative-clauses",
+        "content-clauses",
+        "indirect-objects"
       ]
     },
     {
@@ -1129,6 +1172,11 @@
           "lemma": "aprender",
           "meaning": "to learn"
         }
+      ],
+      "relatedLessons": [
+        "narrative-connectors",
+        "relative-clauses",
+        "content-clauses"
       ]
     },
     {
@@ -1244,12 +1292,18 @@
       "id": "accent-marks",
       "categoryId": "sounds",
       "level": "A1",
-      "title": "When Words Need an Accent Mark",
-      "summary": "Accent marks indicate stress or distinguish words.",
+      "title": "Read the Accent Mark",
+      "summary": "Understand written accents, tilde rules and meaning contrasts.",
       "grammarTerm": "When Words Need an Accent Mark",
       "keywords": [
         "when words need an accent mark",
-        "accent marks indicate stress or distinguish words."
+        "accent marks indicate stress or distinguish words.",
+        "tilde",
+        "emphasis",
+        "acute accent",
+        "agudas",
+        "llanas",
+        "esdrújulas"
       ],
       "examples": [
         {
@@ -1283,6 +1337,12 @@
           "lemma": "libro",
           "meaning": "book"
         }
+      ],
+      "relatedLessons": [
+        "syllables",
+        "stress",
+        "vowel-combinations",
+        "sentence-emphasis"
       ]
     },
     {
@@ -1397,6 +1457,916 @@
           "lemma": "viajar",
           "meaning": "would travel"
         }
+      ]
+    },
+    {
+      "id": "letter-combinations",
+      "categoryId": "sounds",
+      "level": "A1",
+      "title": "Read Spanish Letter Combinations",
+      "summary": "Read ll, ch, qu and other spellings as sound patterns.",
+      "grammarTerm": "Read Spanish Letter Combinations",
+      "keywords": [
+        "letter combinations",
+        "Read ll, ch, qu and other spellings as sound patterns.",
+        "alphabet",
+        "vowels",
+        "rr"
+      ],
+      "examples": [
+        {
+          "id": "letter-combinations-01",
+          "spanish": "La llave está aquí.",
+          "english": "The key is here.",
+          "explanation": "Ll in llave is one consonant spelling; do not pronounce two l sounds."
+        },
+        {
+          "id": "letter-combinations-02",
+          "spanish": "El chico quiere queso.",
+          "english": "The boy wants cheese.",
+          "explanation": "Ch works together; qu before i/e preserves a k sound with silent u."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "alphabet",
+        "vowels",
+        "rr"
+      ]
+    },
+    {
+      "id": "syllables",
+      "categoryId": "sounds",
+      "level": "A1",
+      "title": "Find the Beat in a Word",
+      "summary": "Separate syllables before finding the stressed one.",
+      "grammarTerm": "Find the Beat in a Word",
+      "keywords": [
+        "syllables",
+        "Separate syllables before finding the stressed one.",
+        "vowel-combinations",
+        "stress",
+        "accent-marks"
+      ],
+      "examples": [
+        {
+          "id": "syllables-01",
+          "spanish": "La casa es pequeña.",
+          "english": "The house is small.",
+          "explanation": "Casa divides ca-sa and normally stresses ca."
+        },
+        {
+          "id": "syllables-02",
+          "spanish": "El teléfono suena.",
+          "english": "The telephone rings.",
+          "explanation": "Teléfono divides te-lé-fo-no; the written accent identifies lé."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "vowel-combinations",
+        "stress",
+        "accent-marks"
+      ]
+    },
+    {
+      "id": "vowel-combinations",
+      "categoryId": "sounds",
+      "level": "A2",
+      "title": "When Vowels Meet",
+      "summary": "Learn when adjacent vowels share a syllable or separate.",
+      "grammarTerm": "When Vowels Meet",
+      "keywords": [
+        "vowel combinations",
+        "Learn when adjacent vowels share a syllable or separate.",
+        "syllables",
+        "vowels",
+        "accent-marks"
+      ],
+      "examples": [
+        {
+          "id": "vowel-combinations-01",
+          "spanish": "El río pasa por aquí.",
+          "english": "The river passes here.",
+          "explanation": "Río has two syllables, rí-o. The accent marks a stressed i separated from o."
+        },
+        {
+          "id": "vowel-combinations-02",
+          "spanish": "Hace buen tiempo.",
+          "english": "The weather is good.",
+          "explanation": "The ie in tiempo shares a syllable: tiem-po."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "syllables",
+        "vowels",
+        "accent-marks"
+      ]
+    },
+    {
+      "id": "sentence-emphasis",
+      "categoryId": "sounds",
+      "level": "A2",
+      "title": "Put the Focus Where You Mean It",
+      "summary": "Emphasize a word without changing its normal stressed syllable.",
+      "grammarTerm": "Put the Focus Where You Mean It",
+      "keywords": [
+        "sentence emphasis",
+        "Emphasize a word without changing its normal stressed syllable.",
+        "stress",
+        "accent-marks",
+        "subject-pronouns"
+      ],
+      "examples": [
+        {
+          "id": "sentence-emphasis-01",
+          "spanish": "Yo tengo la llave, no Ana.",
+          "english": "I have the key, not Ana.",
+          "explanation": "The explicit pronoun supports a contrast about who has the key."
+        },
+        {
+          "id": "sentence-emphasis-02",
+          "spanish": "Tengo la llave, no el mapa.",
+          "english": "I have the key, not the map.",
+          "explanation": "The contrast concerns the object, not the subject."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "stress",
+        "accent-marks",
+        "subject-pronouns"
+      ]
+    },
+    {
+      "id": "location-prepositions",
+      "categoryId": "sentences",
+      "level": "A1",
+      "title": "Find Your Way Through a Sentence",
+      "summary": "Use prepositions to locate things and describe movement.",
+      "grammarTerm": "Find Your Way Through a Sentence",
+      "keywords": [
+        "location prepositions",
+        "Use prepositions to locate things and describe movement.",
+        "por-para",
+        "time-prepositions",
+        "prepositional-pronouns"
+      ],
+      "examples": [
+        {
+          "id": "location-prepositions-01",
+          "spanish": "La caja está debajo del mapa.",
+          "english": "The box is under the map.",
+          "explanation": "Debajo de is one location pattern; de + el contracts to del."
+        },
+        {
+          "id": "location-prepositions-02",
+          "spanish": "Caminan hasta un puente.",
+          "english": "They walk as far as a bridge.",
+          "explanation": "Hasta marks the endpoint of the walk."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "por-para",
+        "time-prepositions",
+        "prepositional-pronouns"
+      ]
+    },
+    {
+      "id": "time-prepositions",
+      "categoryId": "sentences",
+      "level": "A1",
+      "title": "Place Events in Time",
+      "summary": "Read clock times, parts of the day and before/after relationships.",
+      "grammarTerm": "Place Events in Time",
+      "keywords": [
+        "time prepositions",
+        "Read clock times, parts of the day and before/after relationships.",
+        "location-prepositions",
+        "infinitives",
+        "duration"
+      ],
+      "examples": [
+        {
+          "id": "time-prepositions-01",
+          "spanish": "El tren sale a las ocho.",
+          "english": "The train leaves at eight.",
+          "explanation": "A las places the departure at a clock time."
+        },
+        {
+          "id": "time-prepositions-02",
+          "spanish": "Trabajo los lunes.",
+          "english": "I work on Mondays.",
+          "explanation": "The plural article expresses a repeated weekday."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "location-prepositions",
+        "infinitives",
+        "duration"
+      ]
+    },
+    {
+      "id": "indirect-objects",
+      "categoryId": "people",
+      "level": "A1",
+      "title": "Who Receives It?",
+      "summary": "Distinguish the thing given from the person receiving it.",
+      "grammarTerm": "Who Receives It?",
+      "keywords": [
+        "indirect objects",
+        "Distinguish the thing given from the person receiving it.",
+        "object-pronouns",
+        "pronoun-combinations",
+        "gustar"
+      ],
+      "examples": [
+        {
+          "id": "indirect-objects-01",
+          "spanish": "Rosa le ofrece agua.",
+          "english": "Rosa offers him/her water.",
+          "explanation": "Le marks the recipient; agua is the offered thing."
+        },
+        {
+          "id": "indirect-objects-02",
+          "spanish": "Les doy las llaves a mis amigas.",
+          "english": "I give the keys to my friends.",
+          "explanation": "Les agrees in number with the recipients, not with llaves."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "object-pronouns",
+        "pronoun-combinations",
+        "gustar"
+      ]
+    },
+    {
+      "id": "pronoun-combinations",
+      "categoryId": "people",
+      "level": "A2",
+      "title": "Put the Pronouns Together",
+      "summary": "Combine recipient and object pronouns in a predictable order.",
+      "grammarTerm": "Put the Pronouns Together",
+      "keywords": [
+        "pronoun combinations",
+        "Combine recipient and object pronouns in a predictable order.",
+        "indirect-objects",
+        "object-pronouns",
+        "commands"
+      ],
+      "examples": [
+        {
+          "id": "pronoun-combinations-01",
+          "spanish": "Se lo doy a Ana.",
+          "english": "I give it to Ana.",
+          "explanation": "Se replaces le before lo; a Ana clarifies the recipient."
+        },
+        {
+          "id": "pronoun-combinations-02",
+          "spanish": "Me las trae hoy.",
+          "english": "He/she brings them to me today.",
+          "explanation": "Me comes before las, which replaces a feminine plural object."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "indirect-objects",
+        "object-pronouns",
+        "commands"
+      ]
+    },
+    {
+      "id": "irregular-present",
+      "categoryId": "actions",
+      "level": "A1",
+      "title": "Recognize Verbs That Change Inside",
+      "summary": "Read common stem changes and irregular present-tense forms.",
+      "grammarTerm": "Recognize Verbs That Change Inside",
+      "keywords": [
+        "irregular present",
+        "Read common stem changes and irregular present-tense forms.",
+        "present-ar",
+        "present-er-ir",
+        "infinitives"
+      ],
+      "examples": [
+        {
+          "id": "irregular-present-01",
+          "spanish": "Mañana quiere volver.",
+          "english": "Tomorrow he/she wants to return.",
+          "explanation": "Quiere comes from querer: the stem e changes to ie."
+        },
+        {
+          "id": "irregular-present-02",
+          "spanish": "La mujer tiene un jardín.",
+          "english": "The woman has a garden.",
+          "explanation": "Tiene comes from tener and differs from the regular pattern."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "present-ar",
+        "present-er-ir",
+        "infinitives"
+      ]
+    },
+    {
+      "id": "irregular-preterite",
+      "categoryId": "actions",
+      "level": "A2",
+      "title": "Recognize Unexpected Past Forms",
+      "summary": "Connect dijo, tuvo and other past forms to their infinitives.",
+      "grammarTerm": "Recognize Unexpected Past Forms",
+      "keywords": [
+        "irregular preterite",
+        "Connect dijo, tuvo and other past forms to their infinitives.",
+        "preterite",
+        "irregular-present",
+        "past-contrast"
+      ],
+      "examples": [
+        {
+          "id": "irregular-preterite-01",
+          "spanish": "Ella dijo la verdad.",
+          "english": "She told the truth.",
+          "explanation": "Dijo is the third-person preterite of decir."
+        },
+        {
+          "id": "irregular-preterite-02",
+          "spanish": "Tuvieron que elegir.",
+          "english": "They had to choose.",
+          "explanation": "Tuvieron comes from tener; the infinitive construction adds obligation."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "preterite",
+        "irregular-present",
+        "past-contrast"
+      ]
+    },
+    {
+      "id": "demonstratives",
+      "categoryId": "words",
+      "level": "A1",
+      "title": "Point to This, That, and the Other One",
+      "summary": "Track what este, ese and aquel refer to.",
+      "grammarTerm": "Point to This, That, and the Other One",
+      "keywords": [
+        "demonstratives",
+        "Track what este, ese and aquel refer to.",
+        "gender",
+        "possessives",
+        "quantifiers"
+      ],
+      "examples": [
+        {
+          "id": "demonstratives-01",
+          "spanish": "Esta mañana encuentra una llave.",
+          "english": "This morning he/she finds a key.",
+          "explanation": "Esta agrees with mañana and points to the current morning."
+        },
+        {
+          "id": "demonstratives-02",
+          "spanish": "No conoce ese número.",
+          "english": "He/she does not recognize that number.",
+          "explanation": "Ese identifies the number being discussed."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "gender",
+        "possessives",
+        "quantifiers"
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "categoryId": "sentences",
+      "level": "A2",
+      "title": "Describe the Person or Thing You Mean",
+      "summary": "Use que and donde to attach a description to a noun.",
+      "grammarTerm": "Describe the Person or Thing You Mean",
+      "keywords": [
+        "relative clauses",
+        "Use que and donde to attach a description to a noun.",
+        "content-clauses",
+        "word-order",
+        "subjunctive"
+      ],
+      "examples": [
+        {
+          "id": "relative-clauses-01",
+          "spanish": "Encontraron a una niña que sostenía una vela.",
+          "english": "They found a girl who was holding a candle.",
+          "explanation": "Que attaches sostenía una vela to niña."
+        },
+        {
+          "id": "relative-clauses-02",
+          "spanish": "Leo el libro que compraste.",
+          "english": "I am reading the book that you bought.",
+          "explanation": "You bought the book; the subject inside the relative clause differs from the main subject."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "content-clauses",
+        "word-order",
+        "subjunctive"
+      ]
+    },
+    {
+      "id": "content-clauses",
+      "categoryId": "sentences",
+      "level": "A2",
+      "title": "Read What Someone Says or Thinks",
+      "summary": "Recognize que clauses that carry the content of a statement.",
+      "grammarTerm": "Read What Someone Says or Thinks",
+      "keywords": [
+        "content clauses",
+        "Recognize que clauses that carry the content of a statement.",
+        "relative-clauses",
+        "questions",
+        "reported-speech"
+      ],
+      "examples": [
+        {
+          "id": "content-clauses-01",
+          "spanish": "Él dice que espera a alguien.",
+          "english": "He says that he is waiting for someone.",
+          "explanation": "Que introduces the content of dice."
+        },
+        {
+          "id": "content-clauses-02",
+          "spanish": "Ana cree que Luis tiene la llave.",
+          "english": "Ana thinks that Luis has the key.",
+          "explanation": "Each clause has its own subject and verb."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "relative-clauses",
+        "questions",
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "participles",
+      "categoryId": "actions",
+      "level": "A2",
+      "title": "Recognize Actions Turned into Forms",
+      "summary": "Distinguish verb compounds from descriptions such as escrita and cerrada.",
+      "grammarTerm": "Recognize Actions Turned into Forms",
+      "keywords": [
+        "participles",
+        "Distinguish verb compounds from descriptions such as escrita and cerrada.",
+        "present-perfect",
+        "pluperfect",
+        "ser-estar"
+      ],
+      "examples": [
+        {
+          "id": "participles-01",
+          "spanish": "Había escrito una nota.",
+          "english": "He/she had written a note.",
+          "explanation": "After haber, escrito stays fixed even with feminine nota."
+        },
+        {
+          "id": "participles-02",
+          "spanish": "La nota estaba escrita a mano.",
+          "english": "The note was handwritten.",
+          "explanation": "Escrita describes nota and agrees with it."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "present-perfect",
+        "pluperfect",
+        "ser-estar"
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "categoryId": "actions",
+      "level": "A2",
+      "title": "Connect a Past Event to Now",
+      "summary": "Build he leído and understand its reference to the present.",
+      "grammarTerm": "Connect a Past Event to Now",
+      "keywords": [
+        "present perfect",
+        "Build he leído and understand its reference to the present.",
+        "participles",
+        "preterite",
+        "pluperfect"
+      ],
+      "examples": [
+        {
+          "id": "present-perfect-01",
+          "spanish": "He leído el libro.",
+          "english": "I have read the book.",
+          "explanation": "He identifies yo; leído is the participle of leer."
+        },
+        {
+          "id": "present-perfect-02",
+          "spanish": "Nunca hemos visto ese hotel.",
+          "english": "We have never seen that hotel.",
+          "explanation": "The experience is considered up to the present."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "participles",
+        "preterite",
+        "pluperfect"
+      ]
+    },
+    {
+      "id": "pluperfect",
+      "categoryId": "actions",
+      "level": "B1",
+      "title": "Go Back Before the Story’s Past",
+      "summary": "Use había + participle for an event before another past moment.",
+      "grammarTerm": "Go Back Before the Story’s Past",
+      "keywords": [
+        "pluperfect",
+        "Use había + participle for an event before another past moment.",
+        "participles",
+        "present-perfect",
+        "past-contrast"
+      ],
+      "examples": [
+        {
+          "id": "pluperfect-01",
+          "spanish": "Cuando llegué, Ana ya había salido.",
+          "english": "When I arrived, Ana had already left.",
+          "explanation": "Leaving precedes the arrival."
+        },
+        {
+          "id": "pluperfect-02",
+          "spanish": "Su padre había sido fotógrafo.",
+          "english": "His/her father had been a photographer.",
+          "explanation": "Había sido introduces an earlier layer of the father’s life."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "participles",
+        "present-perfect",
+        "past-contrast"
+      ]
+    },
+    {
+      "id": "progressive",
+      "categoryId": "actions",
+      "level": "A2",
+      "title": "Watch an Action Unfold",
+      "summary": "Read estar + gerund and distinguish an action in progress from a habit.",
+      "grammarTerm": "Watch an Action Unfold",
+      "keywords": [
+        "progressive",
+        "Read estar + gerund and distinguish an action in progress from a habit.",
+        "imperfect",
+        "verb-patterns",
+        "object-pronouns"
+      ],
+      "examples": [
+        {
+          "id": "progressive-01",
+          "spanish": "Sofía estaba preparando una presentación.",
+          "english": "Sofía was preparing a presentation.",
+          "explanation": "Estaba sets the past reference; preparando presents the activity in progress."
+        },
+        {
+          "id": "progressive-02",
+          "spanish": "Rosa está colocando flores.",
+          "english": "Rosa is arranging flowers.",
+          "explanation": "Está matches Rosa; colocando stays unchanged."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "imperfect",
+        "verb-patterns",
+        "object-pronouns"
+      ]
+    },
+    {
+      "id": "verb-patterns",
+      "categoryId": "actions",
+      "level": "A2",
+      "title": "Read Two Verbs as One Pattern",
+      "summary": "Recognize starting, stopping, repeating, recent actions and obligation.",
+      "grammarTerm": "Read Two Verbs as One Pattern",
+      "keywords": [
+        "verb patterns",
+        "Recognize starting, stopping, repeating, recent actions and obligation.",
+        "infinitives",
+        "ir-future",
+        "progressive"
+      ],
+      "examples": [
+        {
+          "id": "verb-patterns-01",
+          "spanish": "La computadora dejó de funcionar.",
+          "english": "The computer stopped working.",
+          "explanation": "Dejar de changes the action into something that ceased."
+        },
+        {
+          "id": "verb-patterns-02",
+          "spanish": "Clara empezó a correr.",
+          "english": "Clara started running.",
+          "explanation": "Empezar a introduces the beginning."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "infinitives",
+        "ir-future",
+        "progressive"
+      ]
+    },
+    {
+      "id": "duration",
+      "categoryId": "actions",
+      "level": "B1",
+      "title": "Measure Time from the Right Moment",
+      "summary": "Distinguish ongoing duration, a completed span and time ago.",
+      "grammarTerm": "Measure Time from the Right Moment",
+      "keywords": [
+        "duration",
+        "Distinguish ongoing duration, a completed span and time ago.",
+        "time-prepositions",
+        "imperfect",
+        "progressive"
+      ],
+      "examples": [
+        {
+          "id": "duration-01",
+          "spanish": "Vivo aquí desde hace dos años.",
+          "english": "I have lived here for two years.",
+          "explanation": "The situation continues now; present vivo is natural."
+        },
+        {
+          "id": "duration-02",
+          "spanish": "Vivía allí desde hacía ocho años.",
+          "english": "He/she had been living there for eight years.",
+          "explanation": "The duration is measured to a past reference point."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "time-prepositions",
+        "imperfect",
+        "progressive"
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "categoryId": "sentences",
+      "level": "B1",
+      "title": "Follow Words Retold by Someone Else",
+      "summary": "Track tense, person and reference when dialogue becomes narration.",
+      "grammarTerm": "Follow Words Retold by Someone Else",
+      "keywords": [
+        "reported speech",
+        "Track tense, person and reference when dialogue becomes narration.",
+        "content-clauses",
+        "pluperfect",
+        "conditional"
+      ],
+      "examples": [
+        {
+          "id": "reported-speech-01",
+          "spanish": "Ana dijo que tenía la llave.",
+          "english": "Ana said she had the key.",
+          "explanation": "Tenía presents possession relative to Ana’s past statement."
+        },
+        {
+          "id": "reported-speech-02",
+          "spanish": "Le explicó que Clara había desaparecido.",
+          "english": "She explained to him that Clara had disappeared.",
+          "explanation": "The disappearance precedes the past explanation."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "content-clauses",
+        "pluperfect",
+        "conditional"
+      ]
+    },
+    {
+      "id": "past-subjunctive",
+      "categoryId": "actions",
+      "level": "B1",
+      "title": "Recognize Wishes and Requests in the Past",
+      "summary": "Understand regresara and explicara outside hypothetical if clauses.",
+      "grammarTerm": "Recognize Wishes and Requests in the Past",
+      "keywords": [
+        "past subjunctive",
+        "Understand regresara and explicara outside hypothetical if clauses.",
+        "subjunctive",
+        "hypotheticals",
+        "reported-speech"
+      ],
+      "examples": [
+        {
+          "id": "past-subjunctive-01",
+          "spanish": "Le pidió que explicara el sistema.",
+          "english": "He/she asked him/her to explain the system.",
+          "explanation": "The past request governs explicara."
+        },
+        {
+          "id": "past-subjunctive-02",
+          "spanish": "Esperó a que regresara la electricidad.",
+          "english": "He/she waited for the electricity to return.",
+          "explanation": "Regresara is part of what was awaited."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "subjunctive",
+        "hypotheticals",
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "subjunctive-time",
+      "categoryId": "sentences",
+      "level": "B1",
+      "title": "Wait Until It Happens",
+      "summary": "Choose mood in time clauses by whether the event is anticipated or presented as factual.",
+      "grammarTerm": "Wait Until It Happens",
+      "keywords": [
+        "subjunctive time",
+        "Choose mood in time clauses by whether the event is anticipated or presented as factual.",
+        "subjunctive",
+        "past-subjunctive",
+        "time-prepositions"
+      ],
+      "examples": [
+        {
+          "id": "subjunctive-time-01",
+          "spanish": "Cuando llega, llama.",
+          "english": "When he/she arrives, he/she calls.",
+          "explanation": "The indicative presents a habitual relationship."
+        },
+        {
+          "id": "subjunctive-time-02",
+          "spanish": "Cuando llegue, llamará.",
+          "english": "When he/she arrives, he/she will call.",
+          "explanation": "The arrival is anticipated from the current reference."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "subjunctive",
+        "past-subjunctive",
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "prepositional-pronouns",
+      "categoryId": "people",
+      "level": "A2",
+      "title": "After a Preposition: Mí, Ti, Él",
+      "summary": "Recognize the pronoun forms used after para, de and other prepositions.",
+      "grammarTerm": "After a Preposition: Mí, Ti, Él",
+      "keywords": [
+        "prepositional pronouns",
+        "Recognize the pronoun forms used after para, de and other prepositions.",
+        "possessives",
+        "indirect-objects",
+        "accent-marks"
+      ],
+      "examples": [
+        {
+          "id": "prepositional-pronouns-01",
+          "spanish": "Este lugar es especial para mí.",
+          "english": "This place is special to me.",
+          "explanation": "Para is followed by mí, not the subject form yo."
+        },
+        {
+          "id": "prepositional-pronouns-02",
+          "spanish": "Se sentó frente a él.",
+          "english": "He/she sat down facing him.",
+          "explanation": "The preposition a introduces the pronoun él."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "possessives",
+        "indirect-objects",
+        "accent-marks"
+      ]
+    },
+    {
+      "id": "narrative-connectors",
+      "categoryId": "meaning",
+      "level": "A2",
+      "title": "Follow the Thread of a Story",
+      "summary": "Read sequence, continuation and contrast signals.",
+      "grammarTerm": "Follow the Thread of a Story",
+      "keywords": [
+        "narrative connectors",
+        "Read sequence, continuation and contrast signals.",
+        "connecting",
+        "past-contrast",
+        "subjunctive-time"
+      ],
+      "examples": [
+        {
+          "id": "narrative-connectors-01",
+          "spanish": "Al principio hablaban del problema.",
+          "english": "At first they talked about the problem.",
+          "explanation": "Al principio marks an initial stage."
+        },
+        {
+          "id": "narrative-connectors-02",
+          "spanish": "Todavía esperaba una respuesta.",
+          "english": "He/she was still waiting for a reply.",
+          "explanation": "Todavía signals continuation."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "connecting",
+        "past-contrast",
+        "subjunctive-time"
+      ]
+    },
+    {
+      "id": "pronominal-verbs",
+      "categoryId": "people",
+      "level": "A2",
+      "title": "When Se Does More Than Mean Self",
+      "summary": "Read llamarse, irse and changes of state as whole verb patterns.",
+      "grammarTerm": "When Se Does More Than Mean Self",
+      "keywords": [
+        "pronominal verbs",
+        "Read llamarse, irse and changes of state as whole verb patterns.",
+        "reflexive",
+        "se",
+        "ser-estar"
+      ],
+      "examples": [
+        {
+          "id": "pronominal-verbs-01",
+          "spanish": "La mujer se llama Elena.",
+          "english": "The woman’s name is Elena.",
+          "explanation": "Llamarse is learned as a whole naming pattern."
+        },
+        {
+          "id": "pronominal-verbs-02",
+          "spanish": "Clara se sentó en un banco.",
+          "english": "Clara sat down on a bench.",
+          "explanation": "Sentarse presents the act of sitting down."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "reflexive",
+        "se",
+        "ser-estar"
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "categoryId": "words",
+      "level": "A2",
+      "title": "Read Some, Every, Another, and None",
+      "summary": "Track quantity and recover nouns that are left understood.",
+      "grammarTerm": "Read Some, Every, Another, and None",
+      "keywords": [
+        "quantifiers",
+        "Track quantity and recover nouns that are left understood.",
+        "demonstratives",
+        "negatives",
+        "relative-clauses"
+      ],
+      "examples": [
+        {
+          "id": "quantifiers-01",
+          "spanish": "Cada jueves prepara una mesa.",
+          "english": "Every Thursday he/she prepares a table.",
+          "explanation": "Cada introduces a singular time unit."
+        },
+        {
+          "id": "quantifiers-02",
+          "spanish": "Hay otra nota.",
+          "english": "There is another note.",
+          "explanation": "Otra already expresses another; no una is needed."
+        }
+      ],
+      "vocabulary": [],
+      "relatedLessons": [
+        "demonstratives",
+        "negatives",
+        "relative-clauses"
       ]
     }
   ]

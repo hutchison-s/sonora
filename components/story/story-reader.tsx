@@ -4,6 +4,7 @@ import Link from 'next/link';
 import * as Switch from '@radix-ui/react-switch';
 import { ArrowLeft, ArrowRight, BookMarked, BookOpen, ChevronDown, Headphones, Languages, MoreHorizontal } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import type { AnnotationLessonLinks } from '@/lib/types/grammar';
 import type { Annotation, Mode, Story } from '@/lib/types/story';
 import { useProgress } from '@/lib/progress/use-progress';
 import { isSaved, setSaved, setSetting, visitStory, finishStory, type ProgressState } from '@/lib/progress/storage';
@@ -14,13 +15,13 @@ import { PhraseInsight } from '@/components/insights/phrase-insight';
 import { Comprehension } from './comprehension';
 import { stories } from '@/lib/content/stories';
 
-export function StoryReader({ story }: { story: Story }) {
+export function StoryReader({ story, grammarLinks = {} }: { story: Story; grammarLinks?: AnnotationLessonLinks }) {
   const [progress, hydrated] = useProgress();
   if (!hydrated) return <main className="reader-loading"><span className="wordmark">sonora<span>.</span></span><p>Opening your story…</p></main>;
-  return <StoryReaderInner story={story} initial={progress} />;
+  return <StoryReaderInner story={story} initial={progress} grammarLinks={grammarLinks} />;
 }
 
-function StoryReaderInner({ story, initial }: { story: Story; initial: ProgressState }) {
+function StoryReaderInner({ story, initial, grammarLinks }: { story: Story; initial: ProgressState; grammarLinks: AnnotationLessonLinks }) {
   const [progress] = useProgress();
   const initialReading = initial.reading[story.id];
   const [mode, setMode] = useState<Mode>(story.narration.status === 'ready' ? initial.settings.mode : 'read');
@@ -141,7 +142,7 @@ function StoryReaderInner({ story, initial }: { story: Story; initial: ProgressS
       <Comprehension story={story} completed={progress.reading[story.id]?.completed ?? initialReading?.completed ?? false} nextStoryId={next.id}/>
       <div className="reader-end"><Link href="/">← Explore more stories</Link><span>sonora<span className="accent-period">.</span></span></div>
     </div>
-    <PhraseInsight annotation={insight?.annotation ?? null} open={insight !== null} onClose={() => setInsight(null)} saved={saved} onSave={() => { if (insight) setSaved(insight.annotation.id, !saved); }} onReplay={listening && insight?.sentence !== undefined && story.sentences[insight.sentence].audio ? () => { const index = insight.sentence; setInsight(null); void audio.replay(index); } : undefined}/>
+    <PhraseInsight lessonLinks={insight ? grammarLinks[insight.annotation.id] : undefined} annotation={insight?.annotation ?? null} open={insight !== null} onClose={() => setInsight(null)} saved={saved} onSave={() => { if (insight) setSaved(insight.annotation.id, !saved); }} onReplay={listening && insight?.sentence !== undefined && story.sentences[insight.sentence].audio ? () => { const index = insight.sentence; setInsight(null); void audio.replay(index); } : undefined}/>
     {listening && <AudioToolbar controller={audio} replaySentence={audio.activeSentence >= 0 ? audio.activeSentence : 0}/>}
   </main>;
 }

@@ -1,12 +1,14 @@
 'use client';
+import Link from 'next/link';
+import type { GrammarLessonLink } from '@/lib/types/grammar';
 import * as Dialog from '@radix-ui/react-dialog';
 import { Bookmark, BookmarkCheck, Play, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import type { Annotation } from '@/lib/types/story';
 
-type Props = { annotation: Annotation | null; open: boolean; saved: boolean; onClose: () => void; onSave: () => void; onReplay?: () => void };
+type Props = { lessonLinks?: GrammarLessonLink[]; annotation: Annotation | null; open: boolean; saved: boolean; onClose: () => void; onSave: () => void; onReplay?: () => void };
 type Tab = 'explanation' | 'breakdown' | 'examples';
-export function PhraseInsight({ annotation, open, saved, onClose, onSave, onReplay }: Props) {
+export function PhraseInsight({ annotation, open, saved, onClose, onSave, onReplay, lessonLinks = [] }: Props) {
   const [tab, setTab] = useState<Tab>('explanation');
   useEffect(() => { setTab('explanation'); }, [annotation?.id]);
   if (!annotation) return null;
@@ -30,6 +32,7 @@ export function PhraseInsight({ annotation, open, saved, onClose, onSave, onRepl
     {tab === 'breakdown' && <><div className="grammar-metadata">{metadata.map(([key,value]) => <div key={key}><span>{key === 'pronouns' ? 'Pronouns' : key}</span><strong>{value}</strong></div>)}</div>{breakdown.length > 0 && <div className="breakdown-list">{breakdown.map(item => <div key={item.part}><strong lang="es">{item.part}</strong><span>{item.explanation}</span></div>)}</div>}</>}
     {tab === 'examples' && <div className="example-list">{examples.map((item,i) => <div key={i}><p lang="es">{item.es}</p><small>{item.en}</small></div>)}</div>}
   </div>
+  {lessonLinks.length > 0 && <nav className="insight-lesson-links" aria-label="Learn the grammar rule"><span className="overline">UNDERSTAND THE RULE</span>{lessonLinks.map(lesson => <Link key={lesson.id} href={`/grammar/${lesson.id}`}>{lesson.title} →</Link>)}</nav>}
   <div className="insight-actions"><button type="button" className={`save-phrase-button ${saved ? 'saved' : ''}`} onClick={onSave}>{saved ? <BookmarkCheck size={18}/> : <Bookmark size={18}/>} {saved ? 'Saved to phrases' : 'Save phrase'}</button>{onReplay && <button className="replay-phrase-button" onClick={onReplay}><Play size={17}/> Replay sentence</button>}</div>
   </div></Dialog.Content></Dialog.Portal></Dialog.Root>;
 }

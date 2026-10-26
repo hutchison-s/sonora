@@ -66,6 +66,65 @@
             ]
           }
         ]
+      },
+      {
+        "id": "alphabet-ll",
+        "kind": "transformation",
+        "title": "Read ll as one consonant spelling",
+        "goal": "Keep the spelling together while recognizing it in two story words.",
+        "afterBuildStep": 4,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Find the spelling",
+                "tokens": [
+                  {
+                    "id": "ll",
+                    "text": "ll",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "end",
+                    "text": "ave",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "llave",
+                "english": "key",
+                "explanation": "Ll in llave is one consonant spelling, not two English l sounds. Follow the audio’s regional model."
+              },
+              {
+                "label": "Recognize it inside a word",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "ca",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "ll",
+                    "text": "ll",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": "e",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "calle",
+                "english": "street",
+                "explanation": "The same ll spelling appears inside calle. Regional ll/y pronunciation varies; this diagram shows spelling, not sound."
+              }
+            ]
+          }
+        ]
       }
     ],
     "vowels": [
@@ -3285,6 +3344,1861 @@
                     "role": "focus"
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "letter-combinations": [
+      {
+        "id": "letter-combinations-demo",
+        "kind": "transformation",
+        "title": "Read ll as one consonant spelling",
+        "goal": "Keep the spelling together while recognizing it in two story words.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Find the spelling",
+                "tokens": [
+                  {
+                    "id": "ll",
+                    "text": "ll",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "end",
+                    "text": "ave",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "llave",
+                "english": "key",
+                "explanation": "Ll in llave is one consonant spelling, not two English l sounds. Follow the audio’s regional model."
+              },
+              {
+                "label": "Recognize it inside a word",
+                "tokens": [
+                  {
+                    "id": "start",
+                    "text": "ca",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "ll",
+                    "text": "ll",
+                    "role": "focus",
+                    "joinLeft": true
+                  },
+                  {
+                    "id": "end",
+                    "text": "e",
+                    "role": "plain",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "calle",
+                "english": "street",
+                "explanation": "The same ll spelling appears inside calle. Regional ll/y pronunciation varies; this diagram shows spelling, not sound."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "syllables": [
+      {
+        "id": "syllables-demo",
+        "kind": "stress",
+        "title": "Count the beats, then find the stress",
+        "goal": "Syllables group sounds; one beat is prominent.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Two syllables",
+                "spanish": "casa",
+                "english": "house",
+                "explanation": "Ca-sa has two beats; ca is prominent.",
+                "syllables": [
+                  {
+                    "id": "syllable-0",
+                    "text": "ca",
+                    "stressed": true
+                  },
+                  {
+                    "id": "syllable-1",
+                    "text": "sa",
+                    "stressed": false
+                  }
+                ]
+              },
+              {
+                "label": "Four syllables",
+                "spanish": "teléfono",
+                "english": "telephone",
+                "explanation": "Te-lé-fo-no has four beats; the accent marks lé.",
+                "syllables": [
+                  {
+                    "id": "syllable-0",
+                    "text": "te",
+                    "stressed": false
+                  },
+                  {
+                    "id": "syllable-1",
+                    "text": "lé",
+                    "stressed": true
+                  },
+                  {
+                    "id": "syllable-2",
+                    "text": "fo",
+                    "stressed": false
+                  },
+                  {
+                    "id": "syllable-3",
+                    "text": "no",
+                    "stressed": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "vowel-combinations": [
+      {
+        "id": "vowel-combinations-demo",
+        "kind": "stress",
+        "title": "One syllable together—or two apart",
+        "goal": "A stressed closed vowel can separate from its neighbor.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Shared vowel syllable",
+                "spanish": "hacia",
+                "english": "toward",
+                "explanation": "Ha-cia has two syllables; ia shares a syllable.",
+                "syllables": [
+                  {
+                    "id": "syllable-0",
+                    "text": "ha",
+                    "stressed": true
+                  },
+                  {
+                    "id": "syllable-1",
+                    "text": "cia",
+                    "stressed": false
+                  }
+                ]
+              },
+              {
+                "label": "Stressed í separates",
+                "spanish": "hacía",
+                "english": "was doing / used to do",
+                "explanation": "Ha-cí-a has three syllables. The accent and meaning distinguish hacía from hacia.",
+                "syllables": [
+                  {
+                    "id": "syllable-0",
+                    "text": "ha",
+                    "stressed": false
+                  },
+                  {
+                    "id": "syllable-1",
+                    "text": "cí",
+                    "stressed": true
+                  },
+                  {
+                    "id": "syllable-2",
+                    "text": "a",
+                    "stressed": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sentence-emphasis": [
+      {
+        "id": "sentence-emphasis-demo",
+        "kind": "transformation",
+        "title": "Same spelling, a different focus",
+        "goal": "Move sentence focus while preserving every word’s normal stress.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Contrast who",
+                "tokens": [
+                  {
+                    "id": "who",
+                    "text": "Yo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "have",
+                    "text": "tengo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "the",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "llave.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Yo tengo la llave.",
+                "english": "I have the key. (Not Ana.)",
+                "explanation": "Highlighting yo can contrast who has it; no new written accent is needed."
+              },
+              {
+                "label": "Contrast what",
+                "tokens": [
+                  {
+                    "id": "who",
+                    "text": "Yo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "have",
+                    "text": "tengo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "the",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "llave.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Yo tengo la llave.",
+                "english": "I have the key. (Not the map.)",
+                "explanation": "The object is now the contrast. The words and their lexical stress do not change; listen to audio for actual intonation."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "location-prepositions": [
+      {
+        "id": "location-prepositions-demo",
+        "kind": "transformation",
+        "title": "Position or destination?",
+        "goal": "Read basic location and movement phrases, including multiword prepositions.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-estoy-1",
+                    "text": "Estoy",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-en-1",
+                    "text": "en",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-el-1",
+                    "text": "el",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-hotel-1",
+                    "text": "hotel.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Estoy en el hotel.",
+                "english": "I am at the hotel.",
+                "explanation": "En locates the speaker."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-voy-1",
+                    "text": "Voy",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-al-1",
+                    "text": "al",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-hotel-1",
+                    "text": "hotel.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Voy al hotel.",
+                "english": "I am going to the hotel.",
+                "explanation": "A marks the destination and contracts with el."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "time-prepositions": [
+      {
+        "id": "time-prepositions-demo",
+        "kind": "transformation",
+        "title": "Tell the time or schedule an event",
+        "goal": "Use common time phrases and connect an action to before or after another.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-son-1",
+                    "text": "Son",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-las-1",
+                    "text": "las",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ocho-1",
+                    "text": "ocho.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Son las ocho.",
+                "english": "It is eight o’clock.",
+                "explanation": "This states the time."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-el-1",
+                    "text": "El",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-tren-1",
+                    "text": "tren",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-sale-1",
+                    "text": "sale",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-a-1",
+                    "text": "a",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-las-1",
+                    "text": "las",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ocho-1",
+                    "text": "ocho.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "El tren sale a las ocho.",
+                "english": "The train leaves at eight.",
+                "explanation": "A las attaches the clock time to an action."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "indirect-objects": [
+      {
+        "id": "indirect-objects-demo",
+        "kind": "transformation",
+        "title": "Count the recipients",
+        "goal": "Identify recipients and choose me, te, le, nos or les.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-le-1",
+                    "text": "Le",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-doy-1",
+                    "text": "doy",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-un-1",
+                    "text": "un",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-libro-1",
+                    "text": "libro",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-a-1",
+                    "text": "a",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Le doy un libro a Ana.",
+                "english": "I give Ana a book.",
+                "explanation": "One recipient takes le."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-les-1",
+                    "text": "Les",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-doy-1",
+                    "text": "doy",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-un-1",
+                    "text": "un",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-libro-1",
+                    "text": "libro",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-a-1",
+                    "text": "a",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-y-1",
+                    "text": "y",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-luis-1",
+                    "text": "Luis.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Les doy un libro a Ana y Luis.",
+                "english": "I give Ana and Luis a book.",
+                "explanation": "Two recipients take les, even with one book."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pronoun-combinations": [
+      {
+        "id": "pronoun-combinations-demo",
+        "kind": "transformation",
+        "title": "Choose both roles, then combine",
+        "goal": "Le changes to se before lo.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Identify the recipient",
+                "tokens": [
+                  {
+                    "id": "recipient",
+                    "text": "Le",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "doy",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "object",
+                    "text": "el libro.",
+                    "role": "subject"
+                  }
+                ],
+                "spanish": "Le doy el libro.",
+                "english": "I give him/her the book.",
+                "explanation": "Le marks the recipient; el libro is the direct object."
+              },
+              {
+                "label": "Replace the thing and adjust le",
+                "tokens": [
+                  {
+                    "id": "recipient",
+                    "text": "Se",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "object",
+                    "text": "lo",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "verb",
+                    "text": "doy.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Se lo doy.",
+                "english": "I give it to him/her.",
+                "explanation": "Lo replaces the book before the verb. Le becomes se before lo; this is not reflexive se."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "irregular-present": [
+      {
+        "id": "irregular-present-demo",
+        "kind": "transformation",
+        "title": "An ending change can include a stem change",
+        "goal": "Compare the common stem pattern with nosotros.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "I can",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "pued",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "o",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "puedo",
+                "english": "I can",
+                "explanation": "Poder changes o to ue in puedo."
+              },
+              {
+                "label": "We can",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "pod",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "emos",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "podemos",
+                "english": "We can",
+                "explanation": "Nosotros keeps the original stem vowel o. Do not apply the change to every person."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "irregular-preterite": [
+      {
+        "id": "irregular-preterite-demo",
+        "kind": "transformation",
+        "title": "Learn the new stem with its endings",
+        "goal": "A strong preterite uses a shared stem and unaccented ending set.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "I had",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "tuv",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "e",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "tuve",
+                "english": "I had",
+                "explanation": "Tener uses tuv- and -e here."
+              },
+              {
+                "label": "They had",
+                "tokens": [
+                  {
+                    "id": "stem",
+                    "text": "tuv",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "ending",
+                    "text": "ieron",
+                    "role": "ending",
+                    "joinLeft": true
+                  }
+                ],
+                "spanish": "tuvieron",
+                "english": "They had",
+                "explanation": "Keep tuv- and attach -ieron. The strong-stem endings differ from regular accented preterites."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "demonstratives": [
+      {
+        "id": "demonstratives-demo",
+        "kind": "transformation",
+        "title": "A noun can be expressed or understood",
+        "goal": "Match demonstratives to nouns and recover omitted nouns from context.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-esta-1",
+                    "text": "Esta",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-llave-1",
+                    "text": "llave",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-es-1",
+                    "text": "es",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-azul-1",
+                    "text": "azul.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Esta llave es azul.",
+                "english": "This key is blue.",
+                "explanation": "The noun llave is explicit."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-esta-1",
+                    "text": "Esta",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-es-1",
+                    "text": "es",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-azul-1",
+                    "text": "azul.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Esta es azul.",
+                "english": "This one is blue.",
+                "explanation": "Context supplies the omitted noun; esta remains feminine."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "relative-clauses": [
+      {
+        "id": "relative-clauses-demo",
+        "kind": "transformation",
+        "title": "Find the main action beneath the description",
+        "goal": "The relative clause attaches to the girl; it is not another main event.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Read the core event",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Encontraron",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "person",
+                    "text": "a una niña.",
+                    "role": "subject"
+                  }
+                ],
+                "spanish": "Encontraron a una niña.",
+                "english": "They found a girl.",
+                "explanation": "Encontraron is the main verb; a una niña is the object."
+              },
+              {
+                "label": "Attach her description",
+                "tokens": [
+                  {
+                    "id": "verb",
+                    "text": "Encontraron",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "person",
+                    "text": "a una niña",
+                    "role": "subject"
+                  },
+                  {
+                    "id": "clause",
+                    "text": "que sostenía una vela.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Encontraron a una niña que sostenía una vela.",
+                "english": "They found a girl who was holding a candle.",
+                "explanation": "Que sostenía una vela describes niña. Find its verb without losing the main verb encontraron."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "content-clauses": [
+      {
+        "id": "content-clauses-demo",
+        "kind": "transformation",
+        "title": "Content or description?",
+        "goal": "Distinguish content clauses, indirect questions and relative descriptions.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-dice-1",
+                    "text": "Dice",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-que-1",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-tiene-1",
+                    "text": "tiene",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-un-1",
+                    "text": "un",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-libro-1",
+                    "text": "libro.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Dice que tiene un libro.",
+                "english": "He/she says that he/she has a book.",
+                "explanation": "Que introduces the statement’s content."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-lee-1",
+                    "text": "Lee",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-el-1",
+                    "text": "el",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-libro-1",
+                    "text": "libro",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-que-1",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-tiene-1",
+                    "text": "tiene.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Lee el libro que tiene.",
+                "english": "He/she reads the book that he/she has.",
+                "explanation": "Que introduces a description attached to libro."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "participles": [
+      {
+        "id": "participles-demo",
+        "kind": "transformation",
+        "title": "Completed action or resulting state?",
+        "goal": "Form common participles and decide whether agreement is required.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-he-1",
+                    "text": "He",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-cerrado-1",
+                    "text": "cerrado",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-las-1",
+                    "text": "las",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-puertas-1",
+                    "text": "puertas.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "He cerrado las puertas.",
+                "english": "I have closed the doors.",
+                "explanation": "Haber forms a tense; cerrado remains unchanged."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-las-1",
+                    "text": "Las",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-puertas-1",
+                    "text": "puertas",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-estn-1",
+                    "text": "están",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-cerradas-1",
+                    "text": "cerradas.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Las puertas están cerradas.",
+                "english": "The doors are closed.",
+                "explanation": "Estar presents a state; cerradas agrees with puertas."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "present-perfect": [
+      {
+        "id": "present-perfect-demo",
+        "kind": "transformation",
+        "title": "The auxiliary carries the person",
+        "goal": "Keep the participle unchanged when changing who acts.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "One speaker",
+                "tokens": [
+                  {
+                    "id": "aux",
+                    "text": "He",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "part",
+                    "text": "leído",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "el libro.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "He leído el libro.",
+                "english": "I have read the book.",
+                "explanation": "He matches yo. Leído is a fixed participle."
+              },
+              {
+                "label": "Several speakers",
+                "tokens": [
+                  {
+                    "id": "aux",
+                    "text": "Hemos",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "part",
+                    "text": "leído",
+                    "role": "stem"
+                  },
+                  {
+                    "id": "thing",
+                    "text": "el libro.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Hemos leído el libro.",
+                "english": "We have read the book.",
+                "explanation": "Hemos changes the subject to we; leído does not change."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pluperfect": [
+      {
+        "id": "pluperfect-demo",
+        "kind": "transformation",
+        "title": "Same participle, different time relationship",
+        "goal": "Recognize the earlier past and track its relationship to the story’s reference point.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ha-1",
+                    "text": "ha",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-salido-1",
+                    "text": "salido.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ana ha salido.",
+                "english": "Ana has gone out.",
+                "explanation": "Present reference."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-haba-1",
+                    "text": "había",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-salido-1",
+                    "text": "salido",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-cuando-1",
+                    "text": "cuando",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-llegu-1",
+                    "text": "llegué.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ana había salido cuando llegué.",
+                "english": "Ana had gone out when I arrived.",
+                "explanation": "Leaving is earlier than another past event."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "progressive": [
+      {
+        "id": "progressive-demo",
+        "kind": "transformation",
+        "title": "Change reference time, keep the activity",
+        "goal": "Estar supplies time and person; the gerund stays the same.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "At the present reference",
+                "tokens": [
+                  {
+                    "id": "aux",
+                    "text": "Estoy",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "action",
+                    "text": "leyendo.",
+                    "role": "stem"
+                  }
+                ],
+                "spanish": "Estoy leyendo.",
+                "english": "I am reading.",
+                "explanation": "Present estoy locates the ongoing activity now."
+              },
+              {
+                "label": "At a past reference",
+                "tokens": [
+                  {
+                    "id": "aux",
+                    "text": "Estaba",
+                    "role": "ending"
+                  },
+                  {
+                    "id": "action",
+                    "text": "leyendo.",
+                    "role": "stem"
+                  }
+                ],
+                "spanish": "Estaba leyendo.",
+                "english": "I was reading.",
+                "explanation": "Imperfect estaba moves the viewpoint into a past scene. Leyendo stays unchanged."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "verb-patterns": [
+      {
+        "id": "verb-patterns-demo",
+        "kind": "transformation",
+        "title": "A small connector changes the relationship",
+        "goal": "Decode frequent infinitive patterns found in the stories.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-volvi-1",
+                    "text": "Volvió",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-a-1",
+                    "text": "a",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-leer-1",
+                    "text": "leer",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-la-1",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-nota-1",
+                    "text": "nota.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Volvió a leer la nota.",
+                "english": "He/she read the note again.",
+                "explanation": "Volver a marks repetition."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-dej-1",
+                    "text": "Dejó",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-de-1",
+                    "text": "de",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-leer-1",
+                    "text": "leer",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-la-1",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-nota-1",
+                    "text": "nota.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Dejó de leer la nota.",
+                "english": "He/she stopped reading the note.",
+                "explanation": "Dejar de marks stopping."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "duration": [
+      {
+        "id": "duration-demo",
+        "kind": "transformation",
+        "title": "Ongoing or completed?",
+        "goal": "Use desde, hace and llevar to locate a situation in time.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-vivo-1",
+                    "text": "Vivo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-aqu-1",
+                    "text": "aquí",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-desde-1",
+                    "text": "desde",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-hace-1",
+                    "text": "hace",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-dos-1",
+                    "text": "dos",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-aos-1",
+                    "text": "años.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Vivo aquí desde hace dos años.",
+                "english": "I have lived here for two years.",
+                "explanation": "The residence continues now."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-viv-1",
+                    "text": "Viví",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-all-1",
+                    "text": "allí",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-durante-1",
+                    "text": "durante",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-dos-1",
+                    "text": "dos",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-aos-1",
+                    "text": "años.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Viví allí durante dos años.",
+                "english": "I lived there for two years.",
+                "explanation": "The residence is presented as a completed span."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reported-speech": [
+      {
+        "id": "reported-speech-demo",
+        "kind": "transformation",
+        "title": "Direct words or a later report?",
+        "goal": "Read statements and questions reported from a past viewpoint.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-dijo-1",
+                    "text": "dijo:",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-tengo-1",
+                    "text": "«Tengo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-tiempo-1",
+                    "text": "tiempo».",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ana dijo: «Tengo tiempo».",
+                "english": "Ana said, “I have time.”",
+                "explanation": "The quoted speaker uses her own present viewpoint."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-dijo-1",
+                    "text": "dijo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-que-1",
+                    "text": "que",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-tena-1",
+                    "text": "tenía",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-tiempo-1",
+                    "text": "tiempo.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ana dijo que tenía tiempo.",
+                "english": "Ana said she had time.",
+                "explanation": "The narrator reports from a past viewpoint."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "past-subjunctive": [
+      {
+        "id": "past-subjunctive-demo",
+        "kind": "transformation",
+        "title": "Assert an event or request it?",
+        "goal": "Form common -ra forms and relate them to a past governing verb.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-dijo-1",
+                    "text": "Dijo",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-que-1",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-explicaba-1",
+                    "text": "explicaba",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-el-1",
+                    "text": "el",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-sistema-1",
+                    "text": "sistema.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Dijo que explicaba el sistema.",
+                "english": "He/she said he/she was explaining the system.",
+                "explanation": "Indicative reports an asserted explanation."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-pidi-1",
+                    "text": "Pidió",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-que-1",
+                    "text": "que",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-explicara-1",
+                    "text": "explicara",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-el-1",
+                    "text": "el",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-sistema-1",
+                    "text": "sistema.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Pidió que explicara el sistema.",
+                "english": "He/she asked for the system to be explained.",
+                "explanation": "Subjunctive presents the requested action."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subjunctive-time": [
+      {
+        "id": "subjunctive-time-demo",
+        "kind": "transformation",
+        "title": "Same connector, different framing",
+        "goal": "Compare factual and anticipated time clauses, including before and until.",
+        "afterBuildStep": 1,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-cuando-1",
+                    "text": "Cuando",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-viene-1",
+                    "text": "viene,",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-trae-1",
+                    "text": "trae",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-flores-1",
+                    "text": "flores.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Cuando viene, trae flores.",
+                "english": "When he/she comes, he/she brings flowers.",
+                "explanation": "A habitual visit uses indicative viene."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-cuando-1",
+                    "text": "Cuando",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-venga-1",
+                    "text": "venga,",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-traer-1",
+                    "text": "traerá",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-flores-1",
+                    "text": "flores.",
+                    "role": "plain"
+                  }
+                ],
+                "spanish": "Cuando venga, traerá flores.",
+                "english": "When he/she comes, he/she will bring flowers.",
+                "explanation": "A future anticipated visit uses subjunctive venga."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "prepositional-pronouns": [
+      {
+        "id": "prepositional-pronouns-demo",
+        "kind": "transformation",
+        "title": "Owner or person after a preposition?",
+        "goal": "Choose common prepositional pronouns and distinguish them from possessives and object pronouns.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-mi-1",
+                    "text": "Mi",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-casa-1",
+                    "text": "casa",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-est-1",
+                    "text": "está",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-aqu-1",
+                    "text": "aquí.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Mi casa está aquí.",
+                "english": "My house is here.",
+                "explanation": "Mi modifies casa and has no accent."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-la-1",
+                    "text": "La",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-casa-1",
+                    "text": "casa",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-es-1",
+                    "text": "es",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-para-1",
+                    "text": "para",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-m-1",
+                    "text": "mí.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "La casa es para mí.",
+                "english": "The house is for me.",
+                "explanation": "Mí is a standalone pronoun after para and has an accent."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "narrative-connectors": [
+      {
+        "id": "narrative-connectors-demo",
+        "kind": "transformation",
+        "title": "Not yet or no longer?",
+        "goal": "Use narrative markers to track sequence and expectations.",
+        "afterBuildStep": 2,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-todava-1",
+                    "text": "Todavía",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-no-1",
+                    "text": "no",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-ha-1",
+                    "text": "ha",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-llegado-1",
+                    "text": "llegado.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Todavía no ha llegado.",
+                "english": "He/she has not arrived yet.",
+                "explanation": "The arrival remains expected or relevant."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-ya-1",
+                    "text": "Ya",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-no-1",
+                    "text": "no",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-vive-1",
+                    "text": "vive",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-aqu-1",
+                    "text": "aquí.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ya no vive aquí.",
+                "english": "He/she no longer lives here.",
+                "explanation": "A former residence has ended."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pronominal-verbs": [
+      {
+        "id": "pronominal-verbs-demo",
+        "kind": "transformation",
+        "title": "An agent causes it, or it happens to the subject",
+        "goal": "Distinguish reflexive actions, lexical pronominal verbs and common changes of state.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-ana-1",
+                    "text": "Ana",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-apag-1",
+                    "text": "apagó",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-la-1",
+                    "text": "la",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-luz-1",
+                    "text": "luz.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Ana apagó la luz.",
+                "english": "Ana switched off the light.",
+                "explanation": "Ana causes the change; la luz is the object."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-la-1",
+                    "text": "La",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-luz-1",
+                    "text": "luz",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-se-1",
+                    "text": "se",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-apag-1",
+                    "text": "apagó.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "La luz se apagó.",
+                "english": "The light went out.",
+                "explanation": "The light is the subject undergoing the change."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quantifiers": [
+      {
+        "id": "quantifiers-demo",
+        "kind": "transformation",
+        "title": "A noun is named or recovered",
+        "goal": "Read common quantifiers and recognize noun omission in story references.",
+        "afterBuildStep": 3,
+        "scenarios": [
+          {
+            "id": "main",
+            "label": "Explore the pattern",
+            "frames": [
+              {
+                "label": "Compare A",
+                "tokens": [
+                  {
+                    "id": "word-leo-1",
+                    "text": "Leo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-guarda-1",
+                    "text": "guarda",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-la-1",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-otra-1",
+                    "text": "otra",
+                    "role": "focus"
+                  },
+                  {
+                    "id": "word-semilla-1",
+                    "text": "semilla.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Leo guarda la otra semilla.",
+                "english": "Leo keeps the other seed.",
+                "explanation": "The noun is expressed."
+              },
+              {
+                "label": "Compare B",
+                "tokens": [
+                  {
+                    "id": "word-leo-1",
+                    "text": "Leo",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-guarda-1",
+                    "text": "guarda",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-la-1",
+                    "text": "la",
+                    "role": "plain"
+                  },
+                  {
+                    "id": "word-otra-1",
+                    "text": "otra.",
+                    "role": "focus"
+                  }
+                ],
+                "spanish": "Leo guarda la otra.",
+                "english": "Leo keeps the other one.",
+                "explanation": "Context supplies semilla; feminine agreement remains."
               }
             ]
           }
