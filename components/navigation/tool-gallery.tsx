@@ -5,7 +5,7 @@ import { BookOpen, AudioLines, Languages, LibraryBig } from 'lucide-react';
 const items = [
  {label:'Story Room',icon:BookOpen,href:'/'},
  {label:'Grammar Studio',icon:LibraryBig,href:'/grammar'},
- {label:'Pronunciation',icon:AudioLines},
+ {label:'Pronunciation',icon:AudioLines,href:'/pronunciation'},
  {label:'Translation',icon:Languages}
 ];
 export function ToolGallery(){
