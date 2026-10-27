@@ -2,9 +2,11 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { rLesson } from '@/content/pronunciation/lessons';
+import { rLesson, vowelLesson } from '@/content/pronunciation/lessons';
 
-type Example = (typeof rLesson.examples)[number];
+type Example = { id: string; spanish: string; english: string; hint: string; audio: string };
+type Lesson = { id: string; title: string; summary: string; contrast: readonly { word: string; description: string }[]; note: string; grammarPath: string; grammarLabel: string; cues: readonly { title: string; text: string }[]; examples: readonly Example[] };
+const lessons: readonly Lesson[] = [rLesson, vowelLesson];
 
 function Practice({ example }: { example: Example }) {
   const [recording, setRecording] = useState(false);
@@ -71,7 +73,12 @@ function Practice({ example }: { example: Example }) {
   </section>;
 }
 
-export function PronunciationLesson() {
+function LessonContent({ lesson }: { lesson: Lesson }) {
   const [index, setIndex] = useState(0);
-  return <><div className="home-lede"><span className="overline">PRONUNCIATION STUDIO ✦ LISTEN &amp; PRACTICE</span><h1 className="font-serif">Find your <em>voice.</em></h1><p className="tiny-subtitle">Notice the sound, shape it, and practice in context.</p></div><div className="pron-lesson"><p className="pron-label">SOUND STUDY · A1</p><h2 className="font-serif">{rLesson.title}</h2><p>{rLesson.summary}</p><div className="pron-contrast"><div><b lang="es">pe<span>r</span>o</b><small>but · one tap</small></div><div><b lang="es">pe<span>rr</span>o</b><small>dog · trill</small></div></div><p className="pron-note">Between vowels, a single r is usually a tap; rr is a trill. A word-initial r is also a strong sound.</p><h3>Shape the sound</h3><div className="pron-cues">{rLesson.cues.map(cue => <div key={cue.title}><strong>{cue.title}</strong><p>{cue.text}</p></div>)}</div><h3>Practice in sentences</h3><p className="pron-note">Compare by listening to the model and your own recording. Your recording stays in this browser session and is not assessed.</p><div className="pron-selector" aria-label="Choose a practice sentence">{rLesson.examples.map((example, i) => <button key={example.id} type="button" aria-pressed={index === i} onClick={() => setIndex(i)}>Sentence {i + 1}</button>)}</div><Practice key={rLesson.examples[index].id} example={rLesson.examples[index]} /><p className="pron-note">Switching sentences clears your recording. <Link href="/grammar/rr">Explore the two r sounds in Grammar Studio →</Link></p></div></>;
+  return <div className="pron-lesson"><p className="pron-label">SOUND STUDY · A1</p><h2 className="font-serif">{lesson.title}</h2><p>{lesson.summary}</p><div className="pron-contrast">{lesson.contrast.map(item => <div key={item.word}><b lang="es">{item.word}</b><small>{item.description}</small></div>)}</div><p className="pron-note">{lesson.note}</p><h3>Shape the sound</h3><div className="pron-cues">{lesson.cues.map(cue => <div key={cue.title}><strong>{cue.title}</strong><p>{cue.text}</p></div>)}</div><h3>Practice in sentences</h3><p className="pron-note">Compare by listening to the model and your own recording. Your recording stays in this browser session and is not assessed.</p><div className="pron-selector" aria-label="Choose a practice sentence">{lesson.examples.map((example, i) => <button key={example.id} type="button" aria-pressed={index === i} onClick={() => setIndex(i)}>Sentence {i + 1}</button>)}</div><Practice key={lesson.examples[index].id} example={lesson.examples[index]} /><p className="pron-note">Switching sentences or lessons clears your recording. <Link href={lesson.grammarPath}>{lesson.grammarLabel} →</Link></p></div>;
+}
+
+export function PronunciationLesson() {
+  const [selected, setSelected] = useState(0);
+  return <><div className="home-lede"><span className="overline">PRONUNCIATION STUDIO ✦ LISTEN &amp; PRACTICE</span><h1 className="font-serif">Find your <em>voice.</em></h1><p className="tiny-subtitle">Notice the sound, shape it, and practice in context.</p></div><div className="pron-lesson-switch"><p className="pron-label">CHOOSE A SOUND STUDY</p><div className="pron-selector" aria-label="Choose a sound study">{lessons.map((lesson, i) => <button type="button" key={lesson.id} aria-pressed={selected === i} onClick={() => setSelected(i)}>{lesson.title}</button>)}</div></div><LessonContent key={lessons[selected].id} lesson={lessons[selected]} /></>;
 }
