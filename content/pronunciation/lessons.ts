@@ -45,3 +45,75 @@ export const vowelLesson = {
     { id: 'vowels-04', spanish: 'Tu libro está aquí.', english: 'Your book is here.', hint: 'Listen for the u in tu and the i in libro and aquí.', audio: '/audio/grammar/vowels/04.mp3' },
   ],
 } as const;
+
+export const tLesson = {
+  id: 't', title: 'A dental T',
+  summary: 'Move the tongue forward for a crisp Spanish t.',
+  contrast: [{ word: 't', description: 'Tongue at the upper teeth' }, { word: 'tú', description: 'you · a clear, unaspirated t' }],
+  note: 'Spanish t is generally dental: the tongue touches the upper teeth. English t is often made farther back at the ridge and can release a puff of air, especially at the start of a stressed syllable.',
+  grammarPath: '/grammar/alphabet', grammarLabel: 'Explore Spanish letters in Grammar Studio',
+  cues: [
+    { title: 'Move forward', text: 'Place the tip or blade of your tongue against the back of your upper front teeth, rather than farther back on the ridge used for English t.' },
+    { title: 'Release gently', text: 'Briefly stop the airflow, then release it without the strong puff common in English “top.” Try holding a hand in front of your mouth to notice the difference.' },
+  ],
+  examples: [
+    { id: 't-01', spanish: 'Tú tienes tu libro.', english: 'You have your book.', hint: 'Listen for the clear t in tú, tienes and tu, without a strong puff.', audio: '/audio/grammar/accent-marks/01.mp3' },
+    { id: 't-02', spanish: '¿Tú trabajas aquí?', english: 'Do you work here? (informal)', hint: 'Bring your tongue forward for the t in tú and trabajas.', audio: '/audio/grammar/tu-usted/03.mp3' },
+    { id: 't-03', spanish: 'No tengo tiempo.', english: 'I do not have time.', hint: 'Listen for the t in tengo and tiempo, then imitate the release.', audio: '/audio/grammar/negatives/01.mp3' },
+    { id: 't-04', spanish: 'Tengo tantas preguntas como tú.', english: 'I have as many questions as you.', hint: 'Keep each t crisp as the sentence speeds up.', audio: '/audio/grammar/comparisons/04.mp3' },
+  ],
+} as const;
+
+export const dLesson = {
+  id: 'd', title: 'A softer Spanish D',
+  summary: 'Feel how Spanish d changes with its position.',
+  contrast: [{ word: 'd', description: 'Often dental, sometimes soft' }, { word: 'cansada', description: 'Soft d between vowels' }],
+  note: 'Spanish d is typically a stop after a pause, n or l. In many other positions, including between vowels, it is usually softer; pronunciation varies by speaker and region.',
+  grammarPath: '/grammar/alphabet', grammarLabel: 'Explore Spanish letters in Grammar Studio',
+  cues: [
+    { title: 'Move to the teeth', text: 'For the stop, touch the tongue to the back of the upper front teeth, rather than the ridge typically used for English d. Release with your voice on.' },
+    { title: 'Soften between vowels', text: 'Bring the tongue near or lightly against the upper teeth without a full stop, letting air and voice continue. It can resemble the sound in English “this,” though it is often gentler.' },
+  ],
+  examples: [
+    { id: 'd-01', spanish: 'Dijo que llegaría tarde.', english: 'She said she would arrive late.', hint: 'Hear the firmer initial d in dijo and the softer d in tarde.', audio: '/audio/grammar/conditional/04.mp3' },
+    { id: 'd-02', spanish: 'Estoy cansada.', english: 'I am tired.', hint: 'Listen for the soft d between vowels in cansada.', audio: '/audio/grammar/ser-estar/01.mp3' },
+    { id: 'd-03', spanish: 'Quiero pero no puedo.', english: 'I want to, but I cannot.', hint: 'Listen for the soft d in puedo without a complete stop.', audio: '/audio/grammar/rr/02.mp3' },
+    { id: 'd-04', spanish: 'El sábado fuimos al museo.', english: 'On Saturday we went to the museum.', hint: 'Notice the gentle d between vowels in sábado.', audio: '/audio/grammar/preterite/03.mp3' },
+  ],
+} as const;
+
+export const bvLesson = {
+  id: 'bv', title: 'B and V together',
+  summary: 'Use your lips for both letters and notice their two common sounds.',
+  contrast: [{ word: 'b', description: 'Both lips' }, { word: 'v', description: 'Both lips, too' }],
+  note: 'Spanish b and v generally represent the same sounds; spelling alone does not determine which sound you hear. Neither normally uses the English v made with upper teeth on the lower lip.',
+  grammarPath: '/grammar/alphabet', grammarLabel: 'Explore Spanish letters in Grammar Studio',
+  cues: [
+    { title: 'Firm after a pause or nasal sound', text: 'Close both lips briefly, let your voice start, then release. The opening b in bueno is a useful example.' },
+    { title: 'Soft between vowels', text: 'Bring both lips close together, without fully closing, and let voiced air pass. Avoid pressing the upper teeth against the lower lip, as in English v.' },
+  ],
+  examples: [
+    { id: 'bv-01', spanish: 'Este café es tan bueno como aquel.', english: 'This coffee is as good as that one.', hint: 'Listen for the b in bueno after n, with both lips closing.', audio: '/audio/grammar/comparisons/02.mp3' },
+    { id: 'bv-02', spanish: 'Ella vive aquí.', english: 'She lives here.', hint: 'Listen for the soft v in vive. Use both lips, not your teeth.', audio: '/audio/grammar/present-er-ir/01.mp3' },
+    { id: 'bv-03', spanish: 'Vivimos en México.', english: 'We live in Mexico.', hint: 'Notice the initial v and the softer v between vowels in vivimos.', audio: '/audio/grammar/subject-pronouns/02.mp3' },
+    { id: 'bv-04', spanish: 'Vamos a visitar a mis abuelos.', english: 'We are going to visit my grandparents.', hint: 'Listen for both-lip sounds in vamos, visitar and abuelos.', audio: '/audio/grammar/ir-future/02.mp3' },
+  ],
+} as const;
+
+export const diphthongLesson = {
+  id: 'diphthongs', title: 'Vowels moving together',
+  summary: 'Hear two vowels moving within one syllable.',
+  contrast: [{ word: 'tiem-po', description: 'ie shares one syllable' }, { word: 'rí-o', description: 'í and o form two syllables' }],
+  note: 'A diphthong joins two vowel sounds within one syllable; a hiatus separates them. A written accent on stressed í or ú can signal separation, as in río.',
+  grammarPath: '/grammar/vowel-combinations', grammarLabel: 'Explore vowel combinations in Grammar Studio',
+  cues: [
+    { title: 'Move smoothly', text: 'For ie in tiempo, move from the i-like position toward e in one syllable. For ue in bueno, move from rounded lips toward e.' },
+    { title: 'Listen for syllable beats', text: 'Compare one beat in tiem-po with separate vowel beats in rí-o. Keep the vowel sounds audible without inserting an extra consonant.' },
+  ],
+  examples: [
+    { id: 'dip-01', spanish: 'No tengo tiempo.', english: 'I do not have time.', hint: 'Listen for ie moving together in the first syllable of tiempo.', audio: '/audio/grammar/negatives/01.mp3' },
+    { id: 'dip-02', spanish: 'Este café es tan bueno como aquel.', english: 'This coffee is as good as that one.', hint: 'Listen for ue moving together in the first syllable of bueno.', audio: '/audio/grammar/comparisons/02.mp3' },
+    { id: 'dip-03', spanish: 'Quiero pero no puedo.', english: 'I want to, but I cannot.', hint: 'Hear ie in quiero and ue in puedo; each pair moves within a syllable.', audio: '/audio/grammar/rr/02.mp3' },
+    { id: 'dip-04', spanish: 'La luna ilumina el patio.', english: 'The moon lights up the patio.', hint: 'Listen for io together in the final syllable of patio.', audio: '/audio/grammar/vowels/02.mp3' },
+  ],
+} as const;
