@@ -17,7 +17,7 @@ Use plain English, preserve Spanish accents, and distinguish useful defaults fro
 
 ## Validation
 
-`npm test` checks coverage, content structure, practice prompts, and availability of original MP3 files. `npm run build` statically generates the lesson routes. `npx playwright test tests/e2e/grammar.spec.ts` checks the lesson reading interactions, playback request, anchors, and every route at desktop and mobile widths. The Playwright checks require its Chromium browser installation.
+`npm test` checks coverage, content structure, practice prompts, and availability of referenced MP3 files. `npm run build` statically generates the lesson routes. `npx playwright test tests/e2e/grammar.spec.ts` checks the lesson reading interactions, playback request, anchors, and every route at desktop and mobile widths. The Playwright checks require its Chromium browser installation.
 
 ## Visual teaching tools
 
@@ -25,7 +25,7 @@ Build It can embed a content-fed walkthrough after any teaching step. See [the l
 
 ## Adding reading foundations
 
-Use `lib/grammar/lesson-schema.ts` for the catalog and expanded-content contracts; `lib/grammar/lessons.ts` validates them at module initialization. `relatedLessons` contains existing lesson IDs. An absent `audioPath` means a real text-only example: do not invent media paths or show a playback control. Library counts include the expanded examples and identify only actual audio-bearing catalog entries as recorded.
+Use `lib/grammar/lesson-schema.ts` for the catalog and expanded-content contracts; `lib/grammar/lessons.ts` validates them at module initialization. `relatedLessons` contains existing lesson IDs. An absent `audioPath` means a real text-only example: do not invent media paths or show a playback control. Library counts include catalog and expanded examples and count both when they have a recording. For a recorded expanded example, set its optional `audioPath` to the exact `/audio/grammar/<lesson>/<NN>.mp3` asset and commit the JSON and MP3 together. Reuse an existing asset only when its spoken Spanish matches the example exactly.
 
 `content/grammar/readings.json` is a separate, versioned editorial index of exact story/sentence/focus references with optional existing annotation IDs. `lib/grammar/readings.ts` validates those references and supplies lesson-source cards and the small per-story phrase-link map. Keep story text and offsets unchanged when adding these links. A grammar topic absent from the current stories can have no reading reference; do not fabricate one.
 

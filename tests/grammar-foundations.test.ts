@@ -27,6 +27,8 @@ describe('reading-focused grammar foundations', () => {
   const original = grammarLibraryCatalog.lessons.find(l => l.id === 'questions')!;
   expect(original.exampleCount).toBe(4);
   expect(original.examples.filter(e => e.audioPath)).toHaveLength(2);
+  expect(original.recordedExampleCount).toBe(4);
+  expect(letters.recordedExampleCount).toBe(0);
  });
  it('rejects missing expanded content, duplicate IDs and dangling related-lesson links', () => {
   const incomplete = { ...expanded } as Record<string, unknown>;

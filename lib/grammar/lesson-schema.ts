@@ -18,7 +18,7 @@ export const grammarCatalogSchema = z.object({
  categories: z.array(z.object({ id, title: text }).strict()).min(1),
  lessons: z.array(grammarLessonSchema).min(1),
 }).strict();
-const example = z.object({ spanish: text, english: text, explanation: text }).strict();
+const example = z.object({ spanish: text, english: text, explanation: text, audioPath: grammarExampleSchema.shape.audioPath }).strict();
 export const expandedGrammarLessonSchema = z.object({
  bigIdea: text, goal: text,
  build: z.array(z.object({ title: text, body: text }).strict()).min(2),

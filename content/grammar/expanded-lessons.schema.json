@@ -46,6 +46,10 @@
                 },
                 "explanation": {
                   "$ref": "#/definitions/ExpandedGrammarCatalog/additionalProperties/properties/bigIdea"
+                },
+                "audioPath": {
+                  "type": "string",
+                  "pattern": "^audio\\/grammar\\/[a-z0-9-]+\\/[0-9]+\\.mp3$"
                 }
               },
               "required": [

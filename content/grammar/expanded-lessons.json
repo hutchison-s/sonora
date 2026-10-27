@@ -24,12 +24,14 @@
       {
         "spanish": "Hola, Ana.",
         "english": "Hello, Ana.",
-        "explanation": "The h in hola is silent; begin with the vowel sound."
+        "explanation": "The h in hola is silent; begin with the vowel sound.",
+        "audioPath": "audio/grammar/alphabet/03.mp3"
       },
       {
         "spanish": "Quiero queso.",
         "english": "I want cheese.",
-        "explanation": "In quiero and queso, qu represents a k sound and the u is silent."
+        "explanation": "In quiero and queso, qu represents a k sound and the u is silent.",
+        "audioPath": "audio/grammar/alphabet/04.mp3"
       }
     ],
     "contrast": {
@@ -118,12 +120,14 @@
       {
         "spanish": "No tomo café.",
         "english": "I do not drink coffee.",
-        "explanation": "Keep the o vowels in no and tomo steady; café ends with a stressed e."
+        "explanation": "Keep the o vowels in no and tomo steady; café ends with a stressed e.",
+        "audioPath": "audio/grammar/vowels/03.mp3"
       },
       {
         "spanish": "Tu libro está aquí.",
         "english": "Your book is here.",
-        "explanation": "The u in tu and the i in libro are clear vowels; aquí ends with a stressed i."
+        "explanation": "The u in tu and the i in libro are clear vowels; aquí ends with a stressed i.",
+        "audioPath": "audio/grammar/vowels/04.mp3"
       }
     ],
     "contrast": {
@@ -207,12 +211,14 @@
       {
         "spanish": "El hotel está cerca.",
         "english": "The hotel is nearby.",
-        "explanation": "Hotel ends in l and has no accent: ho-TEL."
+        "explanation": "Hotel ends in l and has no accent: ho-TEL.",
+        "audioPath": "audio/grammar/stress/03.mp3"
       },
       {
         "spanish": "El teléfono está aquí.",
         "english": "The telephone is here.",
-        "explanation": "The accent overrides the default: te-LÉ-fo-no."
+        "explanation": "The accent overrides the default: te-LÉ-fo-no.",
+        "audioPath": "audio/grammar/stress/04.mp3"
       }
     ],
     "contrast": {
@@ -300,12 +306,14 @@
       {
         "spanish": "El coche es caro.",
         "english": "The car is expensive.",
-        "explanation": "Caro has a single r between vowels: use a tap."
+        "explanation": "Caro has a single r between vowels: use a tap.",
+        "audioPath": "audio/grammar/rr/03.mp3"
       },
       {
         "spanish": "El carro es rojo.",
         "english": "The car is red.",
-        "explanation": "Carro has rr, while rojo begins with r; both use the strong r sound."
+        "explanation": "Carro has rr, while rojo begins with r; both use the strong r sound.",
+        "audioPath": "audio/grammar/rr/04.mp3"
       }
     ],
     "contrast": {
@@ -389,12 +397,14 @@
       {
         "spanish": "La mano está fría.",
         "english": "The hand is cold.",
-        "explanation": "Mano is feminine despite ending in -o; fría agrees with it."
+        "explanation": "Mano is feminine despite ending in -o; fría agrees with it.",
+        "audioPath": "audio/grammar/gender/03.mp3"
       },
       {
         "spanish": "El día es largo.",
         "english": "The day is long.",
-        "explanation": "Día is masculine despite ending in -a; largo agrees with it."
+        "explanation": "Día is masculine despite ending in -a; largo agrees with it.",
+        "audioPath": "audio/grammar/gender/04.mp3"
       }
     ],
     "contrast": {
@@ -478,12 +488,14 @@
       {
         "spanish": "Compré un libro. El libro es corto.",
         "english": "I bought a book. The book is short.",
-        "explanation": "Un introduces the book; el refers back to the now-identifiable book."
+        "explanation": "Un introduces the book; el refers back to the now-identifiable book.",
+        "audioPath": "audio/grammar/articles/03.mp3"
       },
       {
         "spanish": "Las ventanas están abiertas.",
         "english": "The windows are open.",
-        "explanation": "Ventanas is feminine plural, so use las."
+        "explanation": "Ventanas is feminine plural, so use las.",
+        "audioPath": "audio/grammar/articles/04.mp3"
       }
     ],
     "contrast": {
@@ -567,12 +579,14 @@
       {
         "spanish": "Las casas blancas son grandes.",
         "english": "The white houses are big.",
-        "explanation": "Las, casas and blancas all show plural agreement."
+        "explanation": "Las, casas and blancas all show plural agreement.",
+        "audioPath": "audio/grammar/plural/03.mp3"
       },
       {
         "spanish": "Hay dos luces.",
         "english": "There are two lights.",
-        "explanation": "Luz becomes luces: z changes to c before -es."
+        "explanation": "Luz becomes luces: z changes to c before -es.",
+        "audioPath": "audio/grammar/plural/04.mp3"
       }
     ],
     "contrast": {
@@ -656,12 +670,14 @@
       {
         "spanish": "Las casas son pequeñas.",
         "english": "The houses are small.",
-        "explanation": "Pequeñas agrees with the feminine plural subject casas."
+        "explanation": "Pequeñas agrees with the feminine plural subject casas.",
+        "audioPath": "audio/grammar/adjectives/03.mp3"
       },
       {
         "spanish": "Los libros son interesantes.",
         "english": "The books are interesting.",
-        "explanation": "Interesante has one gender form but adds -s for plural."
+        "explanation": "Interesante has one gender form but adds -s for plural.",
+        "audioPath": "audio/grammar/adjectives/04.mp3"
       }
     ],
     "contrast": {
@@ -745,12 +761,14 @@
       {
         "spanish": "Este libro es menos caro que ese.",
         "english": "This book is less expensive than that one.",
-        "explanation": "Menos + adjective + que compares the price."
+        "explanation": "Menos + adjective + que compares the price.",
+        "audioPath": "audio/grammar/comparisons/03.mp3"
       },
       {
         "spanish": "Tengo tantas preguntas como tú.",
         "english": "I have as many questions as you.",
-        "explanation": "Tantas agrees with feminine plural preguntas."
+        "explanation": "Tantas agrees with feminine plural preguntas.",
+        "audioPath": "audio/grammar/comparisons/04.mp3"
       }
     ],
     "contrast": {
@@ -834,12 +852,14 @@
       {
         "spanish": "Estudiamos español.",
         "english": "We study Spanish.",
-        "explanation": "The -amos ending identifies nosotros/nosotras without an explicit pronoun."
+        "explanation": "The -amos ending identifies nosotros/nosotras without an explicit pronoun.",
+        "audioPath": "audio/grammar/subject-pronouns/04.mp3"
       },
       {
         "spanish": "Yo cocino y tú limpias.",
         "english": "I cook and you clean.",
-        "explanation": "The pronouns highlight a contrast between who does each task."
+        "explanation": "The pronouns highlight a contrast between who does each task.",
+        "audioPath": "audio/grammar/subject-pronouns/05.mp3"
       }
     ],
     "contrast": {
@@ -923,12 +943,14 @@
       {
         "spanish": "¿Tú trabajas aquí?",
         "english": "Do you work here? (informal)",
-        "explanation": "Trabajas matches tú. The pronoun can be omitted."
+        "explanation": "Trabajas matches tú. The pronoun can be omitted.",
+        "audioPath": "audio/grammar/tu-usted/03.mp3"
       },
       {
         "spanish": "¿Usted trabaja aquí?",
         "english": "Do you work here? (formal)",
-        "explanation": "Trabaja matches usted and can also appear without the pronoun when context is clear."
+        "explanation": "Trabaja matches usted and can also appear without the pronoun when context is clear.",
+        "audioPath": "audio/grammar/tu-usted/04.mp3"
       }
     ],
     "contrast": {
@@ -1016,12 +1038,14 @@
       {
         "spanish": "Mi hermano tiene mis llaves.",
         "english": "My brother has my keys.",
-        "explanation": "Mi is singular with hermano; mis is plural with llaves. The owner is the same."
+        "explanation": "Mi is singular with hermano; mis is plural with llaves. The owner is the same.",
+        "audioPath": "audio/grammar/possessives/03.mp3"
       },
       {
         "spanish": "Nuestra casa está cerca.",
         "english": "Our house is nearby.",
-        "explanation": "Nuestra agrees with feminine singular casa."
+        "explanation": "Nuestra agrees with feminine singular casa.",
+        "audioPath": "audio/grammar/possessives/04.mp3"
       },
       {
         "spanish": "¡Es mía!",
@@ -1114,12 +1138,14 @@
       {
         "spanish": "Compro las entradas. Las compro hoy.",
         "english": "I buy the tickets. I buy them today.",
-        "explanation": "Las replaces feminine plural entradas and goes before compro."
+        "explanation": "Las replaces feminine plural entradas and goes before compro.",
+        "audioPath": "audio/grammar/object-pronouns/03.mp3"
       },
       {
         "spanish": "¿Tienes el libro? Sí, lo tengo.",
         "english": "Do you have the book? Yes, I have it.",
-        "explanation": "Lo replaces masculine singular libro; tengo still agrees with yo."
+        "explanation": "Lo replaces masculine singular libro; tengo still agrees with yo.",
+        "audioPath": "audio/grammar/object-pronouns/04.mp3"
       },
       {
         "spanish": "Te espero en el café.",
@@ -1212,12 +1238,14 @@
       {
         "spanish": "Me levanto a las siete.",
         "english": "I get up at seven.",
-        "explanation": "Me and levanto both refer to yo. Levantarse is learned as a complete verb pattern."
+        "explanation": "Me and levanto both refer to yo. Levantarse is learned as a complete verb pattern.",
+        "audioPath": "audio/grammar/reflexive/03.mp3"
       },
       {
         "spanish": "Nos lavamos las manos.",
         "english": "We wash our hands.",
-        "explanation": "Nos refers back to we. Spanish commonly uses the article las with body parts in this pattern."
+        "explanation": "Nos refers back to we. Spanish commonly uses the article las with body parts in this pattern.",
+        "audioPath": "audio/grammar/reflexive/04.mp3"
       }
     ],
     "contrast": {
@@ -1301,12 +1329,14 @@
       {
         "spanish": "Necesito estudiar.",
         "english": "I need to study.",
-        "explanation": "Necesito is conjugated for yo; estudiar stays in the infinitive."
+        "explanation": "Necesito is conjugated for yo; estudiar stays in the infinitive.",
+        "audioPath": "audio/grammar/infinitives/03.mp3"
       },
       {
         "spanish": "Leo para aprender.",
         "english": "I read in order to learn.",
-        "explanation": "After para, aprender names the purpose without a personal ending."
+        "explanation": "After para, aprender names the purpose without a personal ending.",
+        "audioPath": "audio/grammar/infinitives/04.mp3"
       }
     ],
     "contrast": {
@@ -1390,12 +1420,14 @@
       {
         "spanish": "Trabajamos los lunes.",
         "english": "We work on Mondays.",
-        "explanation": "Trabaj- + -amos identifies nosotros and describes a habit."
+        "explanation": "Trabaj- + -amos identifies nosotros and describes a habit.",
+        "audioPath": "audio/grammar/present-ar/03.mp3"
       },
       {
         "spanish": "Ana y Luis estudian español.",
         "english": "Ana and Luis study Spanish.",
-        "explanation": "Two named people form a plural subject, so use -an."
+        "explanation": "Two named people form a plural subject, so use -an.",
+        "audioPath": "audio/grammar/present-ar/04.mp3"
       }
     ],
     "contrast": {
@@ -1479,12 +1511,14 @@
       {
         "spanish": "Comemos a las dos.",
         "english": "We eat at two.",
-        "explanation": "Com- takes -emos for nosotros."
+        "explanation": "Com- takes -emos for nosotros.",
+        "audioPath": "audio/grammar/present-er-ir/03.mp3"
       },
       {
         "spanish": "Vivimos cerca del parque.",
         "english": "We live near the park.",
-        "explanation": "Viv- takes -imos for nosotros."
+        "explanation": "Viv- takes -imos for nosotros.",
+        "audioPath": "audio/grammar/present-er-ir/04.mp3"
       }
     ],
     "contrast": {
@@ -1568,12 +1602,14 @@
       {
         "spanish": "Madrid está en España.",
         "english": "Madrid is in Spain.",
-        "explanation": "A stable geographic location uses estar, which disproves the temporary-only shortcut."
+        "explanation": "A stable geographic location uses estar, which disproves the temporary-only shortcut.",
+        "audioPath": "audio/grammar/ser-estar/04.mp3"
       },
       {
         "spanish": "La reunión es en la oficina.",
         "english": "The meeting is in the office.",
-        "explanation": "The location of an event commonly uses ser: where it takes place."
+        "explanation": "The location of an event commonly uses ser: where it takes place.",
+        "audioPath": "audio/grammar/ser-estar/05.mp3"
       }
     ],
     "contrast": {
@@ -1657,12 +1693,14 @@
       {
         "spanish": "Hay dos ventanas en la habitación.",
         "english": "There are two windows in the room.",
-        "explanation": "Hay stays unchanged with plural ventanas."
+        "explanation": "Hay stays unchanged with plural ventanas.",
+        "audioPath": "audio/grammar/hay/03.mp3"
       },
       {
         "spanish": "Las ventanas están abiertas.",
         "english": "The windows are open.",
-        "explanation": "The identified windows take están; this describes their state."
+        "explanation": "The identified windows take están; this describes their state.",
+        "audioPath": "audio/grammar/articles/04.mp3"
       }
     ],
     "contrast": {
@@ -1746,12 +1784,14 @@
       {
         "spanish": "Vamos a cenar a las ocho.",
         "english": "We are going to have dinner at eight.",
-        "explanation": "Vamos matches we; cenar stays in the infinitive."
+        "explanation": "Vamos matches we; cenar stays in the infinitive.",
+        "audioPath": "audio/grammar/ir-future/03.mp3"
       },
       {
         "spanish": "Ana va a estudiar mañana.",
         "english": "Ana is going to study tomorrow.",
-        "explanation": "Va matches Ana. Mañana supplies the future time."
+        "explanation": "Va matches Ana. Mañana supplies the future time.",
+        "audioPath": "audio/grammar/ir-future/04.mp3"
       }
     ],
     "contrast": {
@@ -1835,12 +1875,14 @@
       {
         "spanish": "Viví en Madrid diez años.",
         "english": "I lived in Madrid for ten years.",
-        "explanation": "A long period can use the preterite when viewed as a completed whole."
+        "explanation": "A long period can use the preterite when viewed as a completed whole.",
+        "audioPath": "audio/grammar/preterite/04.mp3"
       },
       {
         "spanish": "Llegué, cené y me acosté.",
         "english": "I arrived, had dinner and went to bed.",
-        "explanation": "The completed events move the story forward in sequence."
+        "explanation": "The completed events move the story forward in sequence.",
+        "audioPath": "audio/grammar/preterite/05.mp3"
       }
     ],
     "contrast": {
@@ -1924,12 +1966,14 @@
       {
         "spanish": "De niña, vivía cerca del mar.",
         "english": "As a child, I lived near the sea.",
-        "explanation": "Vivía describes a past situation without packaging it as a completed period."
+        "explanation": "Vivía describes a past situation without packaging it as a completed period.",
+        "audioPath": "audio/grammar/imperfect/03.mp3"
       },
       {
         "spanish": "Eran las ocho y llovía.",
         "english": "It was eight o’clock and it was raining.",
-        "explanation": "Time and weather establish the background."
+        "explanation": "Time and weather establish the background.",
+        "audioPath": "audio/grammar/imperfect/04.mp3"
       }
     ],
     "contrast": {
@@ -2013,12 +2057,14 @@
       {
         "spanish": "Caminábamos cuando empezó a llover.",
         "english": "We were walking when it started to rain.",
-        "explanation": "Caminábamos supplies ongoing background; empezó introduces a new event."
+        "explanation": "Caminábamos supplies ongoing background; empezó introduces a new event.",
+        "audioPath": "audio/grammar/past-contrast/03.mp3"
       },
       {
         "spanish": "Trabajé allí cinco años.",
         "english": "I worked there for five years.",
-        "explanation": "A long period is presented as completed; length does not require imperfect."
+        "explanation": "A long period is presented as completed; length does not require imperfect.",
+        "audioPath": "audio/grammar/past-contrast/04.mp3"
       }
     ],
     "contrast": {
@@ -2102,12 +2148,14 @@
       {
         "spanish": "Te llamaré mañana.",
         "english": "I will call you tomorrow.",
-        "explanation": "Llamar + -é identifies yo and presents a future action."
+        "explanation": "Llamar + -é identifies yo and presents a future action.",
+        "audioPath": "audio/grammar/future/03.mp3"
       },
       {
         "spanish": "Comeremos después.",
         "english": "We will eat later.",
-        "explanation": "Comer stays whole before -emos."
+        "explanation": "Comer stays whole before -emos.",
+        "audioPath": "audio/grammar/future/04.mp3"
       }
     ],
     "contrast": {
@@ -2191,12 +2239,14 @@
       {
         "spanish": "Con más dinero, compraría una casa.",
         "english": "With more money, I would buy a house.",
-        "explanation": "Compraría presents an imagined result."
+        "explanation": "Compraría presents an imagined result.",
+        "audioPath": "audio/grammar/conditional/03.mp3"
       },
       {
         "spanish": "Dijo que llegaría tarde.",
         "english": "She said she would arrive late.",
-        "explanation": "Llegaría is future relative to the past moment dijo."
+        "explanation": "Llegaría is future relative to the past moment dijo.",
+        "audioPath": "audio/grammar/conditional/04.mp3"
       }
     ],
     "contrast": {
@@ -2280,12 +2330,14 @@
       {
         "spanish": "Espero que tengas tiempo.",
         "english": "I hope you have time.",
-        "explanation": "Espero que presents a desired situation; tener has the subjunctive form tengas."
+        "explanation": "Espero que presents a desired situation; tener has the subjunctive form tengas.",
+        "audioPath": "audio/grammar/subjunctive/01.mp3"
       },
       {
         "spanish": "Es importante que llegues temprano.",
         "english": "It is important that you arrive early.",
-        "explanation": "The evaluation es importante que calls for the subjunctive here."
+        "explanation": "The evaluation es importante que calls for the subjunctive here.",
+        "audioPath": "audio/grammar/subjunctive/04.mp3"
       }
     ],
     "contrast": {
@@ -2377,12 +2429,14 @@
       {
         "spanish": "Ana compra pan en el mercado.",
         "english": "Ana buys bread at the market.",
-        "explanation": "Subject, verb, object and place appear in a neutral order."
+        "explanation": "Subject, verb, object and place appear in a neutral order.",
+        "audioPath": "audio/grammar/word-order/03.mp3"
       },
       {
         "spanish": "Leo un libro por la noche.",
         "english": "I read a book at night.",
-        "explanation": "The subject yo is supplied by leo; the time phrase comes afterward."
+        "explanation": "The subject yo is supplied by leo; the time phrase comes afterward.",
+        "audioPath": "audio/grammar/word-order/04.mp3"
       }
     ],
     "contrast": {
@@ -2474,12 +2528,14 @@
       {
         "spanish": "¿Tienes un perro?",
         "english": "Do you have a dog?",
-        "explanation": "Tienes already means you have; Spanish does not add a helper equivalent to do."
+        "explanation": "Tienes already means you have; Spanish does not add a helper equivalent to do.",
+        "audioPath": "audio/grammar/questions/03.mp3"
       },
       {
         "spanish": "¿Dónde vive Ana?",
         "english": "Where does Ana live?",
-        "explanation": "Vive agrees with Ana. The question word requests a place."
+        "explanation": "Vive agrees with Ana. The question word requests a place.",
+        "audioPath": "audio/grammar/questions/04.mp3"
       }
     ],
     "contrast": {
@@ -2576,12 +2632,14 @@
       {
         "spanish": "No tengo tiempo.",
         "english": "I do not have time.",
-        "explanation": "No goes directly before tengo."
+        "explanation": "No goes directly before tengo.",
+        "audioPath": "audio/grammar/negatives/01.mp3"
       },
       {
         "spanish": "No lo entiendo.",
         "english": "I do not understand it.",
-        "explanation": "The object pronoun lo stays between no and entiendo."
+        "explanation": "The object pronoun lo stays between no and entiendo.",
+        "audioPath": "audio/grammar/negatives/04.mp3"
       }
     ],
     "contrast": {
@@ -2665,12 +2723,14 @@
       {
         "spanish": "Quiero salir, pero llueve.",
         "english": "I want to go out, but it is raining.",
-        "explanation": "Pero signals a contrast between the wish and the situation."
+        "explanation": "Pero signals a contrast between the wish and the situation.",
+        "audioPath": "audio/grammar/connecting/03.mp3"
       },
       {
         "spanish": "Tengo hambre; por eso cocino.",
         "english": "I am hungry; that is why I cook.",
-        "explanation": "Por eso introduces the result of being hungry."
+        "explanation": "Por eso introduces the result of being hungry.",
+        "audioPath": "audio/grammar/connecting/04.mp3"
       }
     ],
     "contrast": {
@@ -2754,12 +2814,14 @@
       {
         "spanish": "Este regalo es para Ana.",
         "english": "This gift is for Ana.",
-        "explanation": "Para names the intended recipient."
+        "explanation": "Para names the intended recipient.",
+        "audioPath": "audio/grammar/por-para/03.mp3"
       },
       {
         "spanish": "Pagamos veinte euros por la cena.",
         "english": "We paid twenty euros for dinner.",
-        "explanation": "Por marks what the money is exchanged for."
+        "explanation": "Por marks what the money is exchanged for.",
+        "audioPath": "audio/grammar/por-para/04.mp3"
       }
     ],
     "contrast": {
@@ -2843,12 +2905,14 @@
       {
         "spanish": "Nos gusta cocinar.",
         "english": "We like cooking.",
-        "explanation": "The infinitive cocinar takes singular gusta; nos names the people who like it."
+        "explanation": "The infinitive cocinar takes singular gusta; nos names the people who like it.",
+        "audioPath": "audio/grammar/gustar/03.mp3"
       },
       {
         "spanish": "A Ana le gustan las películas.",
         "english": "Ana likes films.",
-        "explanation": "Plural películas takes gustan. A Ana clarifies who le refers to."
+        "explanation": "Plural películas takes gustan. A Ana clarifies who le refers to.",
+        "audioPath": "audio/grammar/gustar/04.mp3"
       }
     ],
     "contrast": {
@@ -2932,12 +2996,14 @@
       {
         "spanish": "Abre la puerta, por favor.",
         "english": "Open the door, please.",
-        "explanation": "Abre is an affirmative tú command from abrir."
+        "explanation": "Abre is an affirmative tú command from abrir.",
+        "audioPath": "audio/grammar/commands/03.mp3"
       },
       {
         "spanish": "No abras la ventana.",
         "english": "Do not open the window.",
-        "explanation": "Negative tú uses abras, the subjunctive form."
+        "explanation": "Negative tú uses abras, the subjunctive form.",
+        "audioPath": "audio/grammar/commands/04.mp3"
       }
     ],
     "contrast": {
@@ -3025,12 +3091,14 @@
       {
         "spanish": "Tú tienes tu libro.",
         "english": "You have your book.",
-        "explanation": "Subject tú has an accent; possessive tu does not."
+        "explanation": "Subject tú has an accent; possessive tu does not.",
+        "audioPath": "audio/grammar/accent-marks/01.mp3"
       },
       {
         "spanish": "Sí, voy si tengo tiempo.",
         "english": "Yes, I will go if I have time.",
-        "explanation": "Sí is yes; si introduces a condition."
+        "explanation": "Sí is yes; si introduces a condition.",
+        "audioPath": "audio/grammar/accent-marks/04.mp3"
       }
     ],
     "contrast": {
@@ -3126,12 +3194,14 @@
       {
         "spanish": "Ana, ¿tienes tiempo?",
         "english": "Ana, do you have time?",
-        "explanation": "The opening question mark starts the actual question, after the name."
+        "explanation": "The opening question mark starts the actual question, after the name.",
+        "audioPath": "audio/grammar/punctuation/03.mp3"
       },
       {
         "spanish": "¡Qué buena idea!",
         "english": "What a good idea!",
-        "explanation": "Opening and closing exclamation marks frame the exclamation."
+        "explanation": "Opening and closing exclamation marks frame the exclamation.",
+        "audioPath": "audio/grammar/punctuation/04.mp3"
       }
     ],
     "contrast": {
@@ -3215,12 +3285,14 @@
       {
         "spanish": "Se venden casas.",
         "english": "Houses are sold.",
-        "explanation": "In this passive-like construction, plural casas agrees with venden."
+        "explanation": "In this passive-like construction, plural casas agrees with venden.",
+        "audioPath": "audio/grammar/se/03.mp3"
       },
       {
         "spanish": "Se lo doy a Ana.",
         "english": "I give it to Ana.",
-        "explanation": "Se replaces le before lo; it does not mean herself."
+        "explanation": "Se replaces le before lo; it does not mean herself.",
+        "audioPath": "audio/grammar/se/04.mp3"
       }
     ],
     "contrast": {
@@ -3304,12 +3376,14 @@
       {
         "spanish": "Si llueve, nos quedaremos en casa.",
         "english": "If it rains, we will stay at home.",
-        "explanation": "An open future possibility uses present llueve after si and future in the result."
+        "explanation": "An open future possibility uses present llueve after si and future in the result.",
+        "audioPath": "audio/grammar/hypotheticals/03.mp3"
       },
       {
         "spanish": "Si hubiera estudiado, habría aprobado.",
         "english": "If I had studied, I would have passed.",
-        "explanation": "The speaker imagines a different completed past, using compound forms."
+        "explanation": "The speaker imagines a different completed past, using compound forms.",
+        "audioPath": "audio/grammar/hypotheticals/04.mp3"
       }
     ],
     "contrast": {
