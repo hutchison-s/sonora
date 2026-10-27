@@ -66,7 +66,7 @@ export default async function GrammarLessonPage({ params }: { params: Promise<{ 
       </section>
       <section id="see-it-work" className="grammar-lesson-section" aria-labelledby="see-it-work-title">
        <h2 id="see-it-work-title" className="font-serif">See It Work</h2>
-       <p className="grammar-section-intro">Follow the pattern through different sentences.{lesson.examples.some(example => example.audioPath) ? ' Tap a speaker to listen.' : ''}</p>
+       <p className="grammar-section-intro">Follow the pattern through different sentences.{examples.some(example => example.audioPath) ? ' Tap a speaker to listen.' : ''}</p>
        <GrammarExamples examples={examples} />
        {lesson.vocabulary.length > 0 && <details className="grammar-disclosure grammar-vocabulary-notes">
         <summary>Vocabulary in these examples</summary>

@@ -13,13 +13,15 @@ describe('expanded grammar content', () => {
    expect(new Set(content.practice.map(item => item.prompt)).size, id).toBe(content.practice.length);
   }
  });
- it('keeps existing recorded examples available and additional examples text-only', () => {
+ it('keeps existing and newly linked recordings available', () => {
   for (const item of catalog.lessons) {
    for (const example of item.examples) {
-    if ('audioPath' in example) expect(existsSync(join(process.cwd(), 'public', example.audioPath)), example.audioPath).toBe(true);
+    if ('audioPath' in example && example.audioPath) expect(existsSync(join(process.cwd(), 'public', example.audioPath)), example.audioPath).toBe(true);
    }
    const content = expanded[item.id as keyof typeof expanded];
-   expect(content.extraExamples.every(example => !('audioPath' in example))).toBe(true);
+   for (const example of content.extraExamples) {
+    if ('audioPath' in example && example.audioPath) expect(existsSync(join(process.cwd(), 'public', example.audioPath)), example.audioPath).toBe(true);
+   }
   }
  });
 });

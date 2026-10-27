@@ -15,8 +15,8 @@ test('reads an expanded lesson, explores a note, reveals practice and plays exis
  await expect(note.locator('p')).not.toBeVisible();
  await note.locator('summary').click();
  await expect(note.locator('p')).toBeVisible();
- await expect(page.getByRole('button', { name: /^Play Spanish sentence:/ })).toHaveCount(2);
- await expect(page.locator('.grammar-text-example')).toHaveCount(2);
+ await expect(page.getByRole('button', { name: /^Play Spanish sentence:/ })).toHaveCount(4);
+ await expect(page.locator('.grammar-text-example')).toHaveCount(0);
  const audioRequest = page.waitForResponse(response => response.url().endsWith('/audio/grammar/questions/01.mp3'));
  await page.getByRole('button', { name: 'Play Spanish sentence: ¿Dónde vives?', exact: true }).click();
  expect((await audioRequest).ok()).toBe(true);
