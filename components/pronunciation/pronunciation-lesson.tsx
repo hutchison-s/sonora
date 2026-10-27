@@ -2,11 +2,11 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { rLesson, vowelLesson } from '@/content/pronunciation/lessons';
+import { rLesson, vowelLesson, tLesson, dLesson, bvLesson, diphthongLesson } from '@/content/pronunciation/lessons';
 
 type Example = { id: string; spanish: string; english: string; hint: string; audio: string };
 type Lesson = { id: string; title: string; summary: string; contrast: readonly { word: string; description: string }[]; note: string; grammarPath: string; grammarLabel: string; cues: readonly { title: string; text: string }[]; examples: readonly Example[] };
-const lessons: readonly Lesson[] = [rLesson, vowelLesson];
+const lessons: readonly Lesson[] = [rLesson, vowelLesson, tLesson, dLesson, bvLesson, diphthongLesson];
 
 function Practice({ example }: { example: Example }) {
   const [recording, setRecording] = useState(false);
