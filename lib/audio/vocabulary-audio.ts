@@ -1,3 +1,4 @@
+import standaloneManifest from '@/public/audio/vocabulary/manifest.json';
 import type { Story, StorySentence } from '@/lib/types/story';
 import type { StoryVocabulary } from '@/lib/content/vocabulary';
 
@@ -46,7 +47,23 @@ function findCandidates(sentence: StorySentence, requested: string[], audioUrl: 
 }
 
 export function buildVocabularyAudioMap(story: Story, vocabulary: StoryVocabulary): VocabularyAudioMap {
-  if (story.narration.status !== 'ready' || story.narration.alignment !== 'words') return {};
+  // Standalone recordings take priority; narration clips remain a fallback while batches finish.
+  const standalone: VocabularyAudioMap = {};
+  const manifest = standaloneManifest as Record<string, { text: string; file: string }>;
+  for (const category of ['noun', 'verb', 'preposition', 'expression'] as const) {
+    const terms = category === 'noun' ? vocabulary.nouns.map(term => term.es)
+      : category === 'verb' ? vocabulary.verbs.flatMap(term => [term.es, ...term.present])
+      : category === 'preposition' ? vocabulary.prepositions.map(term => term.es)
+      : vocabulary.expressions.map(term => term.es);
+    for (const text of terms) {
+      const key = `${category}:${vocabularyAudioKey(text)}`;
+      const entry = manifest[key];
+      if (entry) standalone[vocabularyAudioKey(text)] = {
+        audioUrl: entry.file, start: 0, end: Number.POSITIVE_INFINITY, sentenceId: `standalone:${key}`,
+      };
+    }
+  }
+  if (story.narration.status !== 'ready' || story.narration.alignment !== 'words') return standalone;
   const audioUrl = story.narration.audioUrl;
   const texts = new Set<string>();
   for (const section of [vocabulary.nouns, vocabulary.verbs, vocabulary.prepositions, vocabulary.expressions]) {
@@ -64,7 +81,7 @@ export function buildVocabularyAudioMap(story: Story, vocabulary: StoryVocabular
       clips[vocabularyAudioKey(text)] = clip;
     }
   }
-  return clips;
+  return { ...clips, ...standalone };
 }
 
 export function clipForText(audio: VocabularyAudioMap, text: string): VocabularyAudioClip | undefined {
