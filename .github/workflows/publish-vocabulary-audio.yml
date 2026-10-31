@@ -23,6 +23,8 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Generate recordings
+        id: generate
+        continue-on-error: true
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           MONICA_VOICE_ID: rLNAvPlbeeD0hXimOh7A
@@ -37,3 +39,8 @@ jobs:
             git commit -m "Add standalone vocabulary audio batch"
             git push
           fi
+      - name: Report generation failure
+        if: steps.generate.outcome == 'failure'
+        run: |
+          echo 'Generation failed; any completed MP3s were committed for the next run to skip.'
+          exit 1
