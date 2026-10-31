@@ -3,7 +3,7 @@
  * Usage: ELEVENLABS_API_KEY=... MONICA_VOICE_ID=... GEORGE_VOICE_ID=... npm run narrate:vocabulary
  * --dry-run lists work without calling ElevenLabs. Existing files are never regenerated.
  */
-import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
+import { mkdir, writeFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { vocabularyByStory } from '../lib/content/vocabulary';
@@ -61,5 +61,9 @@ for (const item of Object.values(manifest)) {
   generated++;
 }
 await mkdir(output, { recursive: true });
-await writeFile(path.join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+const published: Record<string, Item> = {};
+for (const [key, item] of Object.entries(manifest)) {
+  try { await access(path.join(process.cwd(), 'public', item.file.slice(1))); published[key] = item; } catch { /* not generated yet */ }
+}
+if (!dryRun) await writeFile(path.join(output, 'manifest.json'), JSON.stringify(published, null, 2) + '\n');
 console.info(`${items.size} unique category/form entries; ${skipped} existing; ${generated} generated; ${dryRun ? 'dry run' : 'complete'}.`);
