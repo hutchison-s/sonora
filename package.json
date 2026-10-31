@@ -15,7 +15,8 @@
     "publish:vocabulary": "tsx scripts/publish-vocabulary.ts",
     "schema:grammar": "node --import tsx scripts/export-grammar-visual-schema.ts",
     "schema:lessons": "node --import tsx scripts/export-grammar-lesson-schema.ts",
-    "validate:grammar": "node --import tsx scripts/validate-grammar.ts"
+    "validate:grammar": "node --import tsx scripts/validate-grammar.ts",
+    "narrate:vocabulary": "tsx scripts/publish-standalone-vocabulary.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
