@@ -35,6 +35,9 @@ for (const vocab of Object.values(vocabularyByStory)) {
 }
 const manifest = Object.fromEntries([...items.entries()].sort(([a], [b]) => a.localeCompare(b)));
 const dryRun = process.argv.includes('--dry-run');
+const batchArg = process.argv.find(arg => arg.startsWith('--batch-size='));
+const batchSize = batchArg ? Number(batchArg.split('=')[1]) : Infinity;
+if (!(batchSize > 0)) throw new Error('--batch-size must be positive');
 const output = path.join(process.cwd(), 'public/audio/vocabulary');
 let generated = 0;
 let skipped = 0;
@@ -42,6 +45,7 @@ for (const item of Object.values(manifest)) {
   const target = path.join(process.cwd(), 'public', item.file.slice(1));
   try { await access(target); skipped++; continue; } catch { /* missing */ }
   if (dryRun) continue;
+  if (generated >= batchSize) break;
   const voiceId = item.voice === 'monica' ? process.env.MONICA_VOICE_ID : process.env.GEORGE_VOICE_ID;
   if (!process.env.ELEVENLABS_API_KEY || !voiceId) throw new Error('Missing ELEVENLABS_API_KEY or ' + item.voice.toUpperCase() + '_VOICE_ID');
   const response = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(voiceId)}`, {
