@@ -118,5 +118,245 @@
     "category": "expression",
     "voice": "george",
     "file": "/audio/vocabulary/252187a9f0754aa0.mp3"
+  },
+  "expression:de nuevo": {
+    "text": "de nuevo",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/aca2829e1318cbe2.mp3"
+  },
+  "expression:dejar su número": {
+    "text": "dejar su número",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/692c4a14ae2b1c33.mp3"
+  },
+  "expression:desde la última vez": {
+    "text": "desde la última vez",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/5a48787be39473fa.mp3"
+  },
+  "expression:donde el agua canta": {
+    "text": "donde el agua canta",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/6c8fc9cbf7c34c2f.mp3"
+  },
+  "expression:el último tren": {
+    "text": "el último tren",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/0df05d913e75c134.mp3"
+  },
+  "expression:en algunos casos": {
+    "text": "en algunos casos",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/341a78590a338239.mp3"
+  },
+  "expression:en cambio": {
+    "text": "en cambio",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/acd0c81274861867.mp3"
+  },
+  "expression:en cinco minutos": {
+    "text": "en cinco minutos",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c08cf8c5f22040d2.mp3"
+  },
+  "expression:en el suelo": {
+    "text": "en el suelo",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/46c8be2fae268a4c.mp3"
+  },
+  "expression:en la azotea": {
+    "text": "en la azotea",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/31dd03b85c89eaa2.mp3"
+  },
+  "expression:en su lugar": {
+    "text": "en su lugar",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/57376f874a60e20a.mp3"
+  },
+  "expression:esperar a alguien": {
+    "text": "esperar a alguien",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/0d8eba4e9a1215ee.mp3"
+  },
+  "expression:esta vez": {
+    "text": "esta vez",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/01be389494c1988b.mp3"
+  },
+  "expression:estar dispuesto a": {
+    "text": "estar dispuesto a",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/b24b828329fcef19.mp3"
+  },
+  "expression:hasta que": {
+    "text": "hasta que",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/72325ac0f451932c.mp3"
+  },
+  "expression:levantar la mano": {
+    "text": "levantar la mano",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/78d3743efcd3682b.mp3"
+  },
+  "expression:llamar a la puerta": {
+    "text": "llamar a la puerta",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/2ef0303bcaca18fc.mp3"
+  },
+  "expression:llegar tarde": {
+    "text": "llegar tarde",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/b5f632f0d1e2208f.mp3"
+  },
+  "expression:lo poco que queda": {
+    "text": "lo poco que queda",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/39117bf34523323e.mp3"
+  },
+  "expression:mirar el reloj": {
+    "text": "mirar el reloj",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2f20e28e5092fa69.mp3"
+  },
+  "expression:no busques oro": {
+    "text": "no busques oro",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f8f9afd8213914d1.mp3"
+  },
+  "expression:no pasa nada": {
+    "text": "No pasa nada",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/bddf75791dd84fdb.mp3"
+  },
+  "expression:nuestro aniversario": {
+    "text": "nuestro aniversario",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/c50fdc9ba6598ebd.mp3"
+  },
+  "expression:número equivocado": {
+    "text": "número equivocado",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/7748854283c9ce75.mp3"
+  },
+  "expression:oler a papel viejo": {
+    "text": "oler a papel viejo",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2593696a9de1e30f.mp3"
+  },
+  "expression:pedir perdón": {
+    "text": "pedir perdón",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/c1274d589a92afe3.mp3"
+  },
+  "expression:plantar un árbol": {
+    "text": "plantar un árbol",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/28c0edf39c2d6e8c.mp3"
+  },
+  "expression:por convincente que parezca": {
+    "text": "por convincente que parezca",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/325c5fa8c41d8ba0.mp3"
+  },
+  "expression:por encima del hombro": {
+    "text": "por encima del hombro",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/652662571afac217.mp3"
+  },
+  "expression:por eso": {
+    "text": "por eso",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d0ec27841bfda67a.mp3"
+  },
+  "expression:por primera vez": {
+    "text": "por primera vez",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/526d4444e4588f7e.mp3"
+  },
+  "expression:por qué": {
+    "text": "por qué",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/10f590d8e7e6cbb9.mp3"
+  },
+  "expression:porque": {
+    "text": "porque",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a7c6a99cfdfdaa4c.mp3"
+  },
+  "expression:se cruzó con": {
+    "text": "se cruzó con",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/034d9431fa011d2a.mp3"
+  },
+  "expression:se quedó inmóvil": {
+    "text": "se quedó inmóvil",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/0ae2182afa9e02f8.mp3"
+  },
+  "expression:seguir en venta": {
+    "text": "seguir en venta",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/d808481bc6ba556d.mp3"
+  },
+  "expression:seguir vacía": {
+    "text": "seguir vacía",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/84671a28d8a437e4.mp3"
+  },
+  "expression:ser especial para alguien": {
+    "text": "ser especial para alguien",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/004e5a47e8af3671.mp3"
+  },
+  "expression:sin embargo": {
+    "text": "sin embargo",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/874888279bf2c4ca.mp3"
+  },
+  "expression:sin levantar la vista": {
+    "text": "sin levantar la vista",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a5110ca7de37c370.mp3"
   }
 }
