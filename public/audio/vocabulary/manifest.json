@@ -1,0 +1,122 @@
+{
+  "expression:¿quién eres?": {
+    "text": "¿quién eres?",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/71aa7f2db282673f.mp3"
+  },
+  "expression:a las doce": {
+    "text": "a las doce",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/e40ad0739e0822ef.mp3"
+  },
+  "expression:a las ocho": {
+    "text": "a las ocho",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/47208147ea9a4ed9.mp3"
+  },
+  "expression:acabar de llegar": {
+    "text": "acabar de llegar",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/54ff2f1e21fe6c02.mp3"
+  },
+  "expression:al día siguiente": {
+    "text": "al día siguiente",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/eb341de9ab4195ff.mp3"
+  },
+  "expression:al mismo tiempo": {
+    "text": "al mismo tiempo",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ab588c1c1898fee7.mp3"
+  },
+  "expression:al salir": {
+    "text": "al salir",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/0d612a1059e05ea9.mp3"
+  },
+  "expression:antes de despedirse": {
+    "text": "antes de despedirse",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/719b5e1bb312e720.mp3"
+  },
+  "expression:antes de marcharse": {
+    "text": "antes de marcharse",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/0eb95bf91b6c83d9.mp3"
+  },
+  "expression:apenas se habían saludado": {
+    "text": "apenas se habían saludado",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f75279e70d76b79f.mp3"
+  },
+  "expression:cada jueves": {
+    "text": "cada jueves",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/a1866b541ada4cfb.mp3"
+  },
+  "expression:cambió el rumbo": {
+    "text": "cambió el rumbo",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/05aa08864da46a07.mp3"
+  },
+  "expression:cerrar temprano": {
+    "text": "cerrar temprano",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/4d0f9db06f1ca915.mp3"
+  },
+  "expression:como si": {
+    "text": "como si",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b719e394ed34fc14.mp3"
+  },
+  "expression:con café o sin café": {
+    "text": "con café o sin café",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/fc757ef060f8df74.mp3"
+  },
+  "expression:con cuidado": {
+    "text": "con cuidado",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/63f08cb72f943652.mp3"
+  },
+  "expression:con una sonrisa": {
+    "text": "con una sonrisa",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/693cc5bfa08f5e86.mp3"
+  },
+  "expression:dar a conocer": {
+    "text": "dar a conocer",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/e80b818c85f788b4.mp3"
+  },
+  "expression:dar las gracias": {
+    "text": "dar las gracias",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/913bb6db30d21f0b.mp3"
+  },
+  "expression:de latón": {
+    "text": "de latón",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/252187a9f0754aa0.mp3"
+  }
+}
