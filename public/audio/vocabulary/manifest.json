@@ -358,5 +358,1205 @@
     "category": "expression",
     "voice": "monica",
     "file": "/audio/vocabulary/a5110ca7de37c370.mp3"
+  },
+  "expression:sin prisa": {
+    "text": "sin prisa",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/de14bf1442b4fd01.mp3"
+  },
+  "expression:sin querer": {
+    "text": "sin querer",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8a94bd2a097070a2.mp3"
+  },
+  "expression:tal vez": {
+    "text": "tal vez",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/95659e52a8295a6b.mp3"
+  },
+  "expression:te espero": {
+    "text": "te espero",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7db1c6c1f0a24f04.mp3"
+  },
+  "expression:tener derecho a": {
+    "text": "tener derecho a",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/dc4603c326a03d2e.mp3"
+  },
+  "expression:tener que": {
+    "text": "tener que",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/9eaeba7023c98e72.mp3"
+  },
+  "expression:todos sus rincones": {
+    "text": "todos sus rincones",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/afbc51b38599c676.mp3"
+  },
+  "expression:un lugar de encuentro": {
+    "text": "un lugar de encuentro",
+    "category": "expression",
+    "voice": "monica",
+    "file": "/audio/vocabulary/04ab6990efb5d3a1.mp3"
+  },
+  "expression:vamos por un café": {
+    "text": "vamos por un café",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/41a615884db8deed.mp3"
+  },
+  "expression:ver venir": {
+    "text": "ver venir",
+    "category": "expression",
+    "voice": "george",
+    "file": "/audio/vocabulary/474902b0bff431d6.mp3"
+  },
+  "noun:el abuelo": {
+    "text": "el abuelo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/78735de1858ab31b.mp3"
+  },
+  "noun:el acta": {
+    "text": "el acta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/facb9ca273277f59.mp3"
+  },
+  "noun:el agua": {
+    "text": "el agua",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/1646fc33fad21c96.mp3"
+  },
+  "noun:el andén": {
+    "text": "el andén",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/37e4fd4901b715c5.mp3"
+  },
+  "noun:el aniversario": {
+    "text": "el aniversario",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/eee5fce106d156ad.mp3"
+  },
+  "noun:el año": {
+    "text": "el año",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b6186752b70edaab.mp3"
+  },
+  "noun:el apagón": {
+    "text": "el apagón",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f5b1182a7e50eebe.mp3"
+  },
+  "noun:el apartamento": {
+    "text": "el apartamento",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e25710ae66be832e.mp3"
+  },
+  "noun:el árbol": {
+    "text": "el árbol",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7292ee7e1733c97f.mp3"
+  },
+  "noun:el archivo": {
+    "text": "el archivo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f50f5202a0fcf564.mp3"
+  },
+  "noun:el ascensor": {
+    "text": "el ascensor",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/71cff62e51a75166.mp3"
+  },
+  "noun:el autobús": {
+    "text": "el autobús",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8f2607081f4d0c62.mp3"
+  },
+  "noun:el ayuntamiento": {
+    "text": "el ayuntamiento",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/016bef7d2e4c4212.mp3"
+  },
+  "noun:el banco": {
+    "text": "el banco",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/99319429fecd336c.mp3"
+  },
+  "noun:el barrio": {
+    "text": "el barrio",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/787dd5cd5c74c71a.mp3"
+  },
+  "noun:el barro": {
+    "text": "el barro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f44deebd7fe0be95.mp3"
+  },
+  "noun:el billete": {
+    "text": "el billete",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4b4ee93d7a9f3c2a.mp3"
+  },
+  "noun:el boleto": {
+    "text": "el boleto",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a9e35d2f6a706aac.mp3"
+  },
+  "noun:el café": {
+    "text": "el café",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e9f1b29c2aaf8963.mp3"
+  },
+  "noun:el cajón": {
+    "text": "el cajón",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9df4f4e77269c367.mp3"
+  },
+  "noun:el camarero": {
+    "text": "el camarero",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0dd78ccfbebb49a4.mp3"
+  },
+  "noun:el cartel": {
+    "text": "el cartel",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/070c2ca1e40f934b.mp3"
+  },
+  "noun:el caso": {
+    "text": "el caso",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/5a35adc3948d5eea.mp3"
+  },
+  "noun:el centro": {
+    "text": "el centro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/07fe85da09ca57c0.mp3"
+  },
+  "noun:el círculo": {
+    "text": "el círculo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9f9ceddf74c4893e.mp3"
+  },
+  "noun:el concejal": {
+    "text": "el concejal",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d6a6421089926079.mp3"
+  },
+  "noun:el corredor": {
+    "text": "el corredor",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bfacbcd357085d9d.mp3"
+  },
+  "noun:el cuaderno": {
+    "text": "el cuaderno",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4e5e73210246249e.mp3"
+  },
+  "noun:el cuidado": {
+    "text": "el cuidado",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c69dd080b33f9f1b.mp3"
+  },
+  "noun:el cumpleaños": {
+    "text": "el cumpleaños",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d849058575477b8a.mp3"
+  },
+  "noun:el depósito": {
+    "text": "el depósito",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0ec7923a58ccd1d4.mp3"
+  },
+  "noun:el derecho": {
+    "text": "el derecho",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8c78276be11a3a98.mp3"
+  },
+  "noun:el desayuno": {
+    "text": "el desayuno",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/703bacc9597a13d6.mp3"
+  },
+  "noun:el destino": {
+    "text": "el destino",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2fb98a8b08d09b03.mp3"
+  },
+  "noun:el día": {
+    "text": "el día",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/117c7e5f33bc8d45.mp3"
+  },
+  "noun:el documento": {
+    "text": "el documento",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/fafadf249f96fc24.mp3"
+  },
+  "noun:el edificio": {
+    "text": "el edificio",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f8030a8a912ca6d5.mp3"
+  },
+  "noun:el empleo": {
+    "text": "el empleo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b821588fcf7005c6.mp3"
+  },
+  "noun:el encuentro": {
+    "text": "el encuentro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9fa6c32367d76afb.mp3"
+  },
+  "noun:el error": {
+    "text": "el error",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/70806baacabe3280.mp3"
+  },
+  "noun:el fenómeno": {
+    "text": "el fenómeno",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0c2722a5fb4ae4a7.mp3"
+  },
+  "noun:el folleto": {
+    "text": "el folleto",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4bc4a44417c1be3d.mp3"
+  },
+  "noun:el fondo": {
+    "text": "el fondo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/46ef392cda6a14a6.mp3"
+  },
+  "noun:el fotógrafo": {
+    "text": "el fotógrafo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/83c2176579c1e72d.mp3"
+  },
+  "noun:el futuro": {
+    "text": "el futuro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/06c72ce4d6351d2f.mp3"
+  },
+  "noun:el hermano": {
+    "text": "el hermano",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/13727c336d6e3203.mp3"
+  },
+  "noun:el hombre": {
+    "text": "el hombre",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9ef2f60344e5ad49.mp3"
+  },
+  "noun:el hombro": {
+    "text": "el hombro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/1bcca3bd18b9da66.mp3"
+  },
+  "noun:el hotel": {
+    "text": "el hotel",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/09098d0a7418b2f9.mp3"
+  },
+  "noun:el huésped": {
+    "text": "el huésped",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f408f9e5c1410448.mp3"
+  },
+  "noun:el informe": {
+    "text": "el informe",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/274269daecd6cc84.mp3"
+  },
+  "noun:el jardín": {
+    "text": "el jardín",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b5afdec803b113ab.mp3"
+  },
+  "noun:el jueves": {
+    "text": "el jueves",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/28670904ee27052d.mp3"
+  },
+  "noun:el lado": {
+    "text": "el lado",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/640761c4fbc69922.mp3"
+  },
+  "noun:el latón": {
+    "text": "el latón",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/566f394b9d593603.mp3"
+  },
+  "noun:el libro": {
+    "text": "el libro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b0e296ade4d4e901.mp3"
+  },
+  "noun:el local": {
+    "text": "el local",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ac471cb9230790fc.mp3"
+  },
+  "noun:el lugar": {
+    "text": "el lugar",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a0b53e427631724f.mp3"
+  },
+  "noun:el mapa": {
+    "text": "el mapa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7cccc8ff4523c89b.mp3"
+  },
+  "noun:el maullido": {
+    "text": "el maullido",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2ec3d41ce6bd2fb5.mp3"
+  },
+  "noun:el mensaje": {
+    "text": "el mensaje",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7dca15cd0c07a25d.mp3"
+  },
+  "noun:el mes": {
+    "text": "el mes",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/02c41741ef14a1e8.mp3"
+  },
+  "noun:el minuto": {
+    "text": "el minuto",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/94ded481a8adfee2.mp3"
+  },
+  "noun:el negocio": {
+    "text": "el negocio",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0c2d4ed8070ccc98.mp3"
+  },
+  "noun:el nivel": {
+    "text": "el nivel",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/848795c61f7fb7f7.mp3"
+  },
+  "noun:el nombre": {
+    "text": "el nombre",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/75aa872afe272d4e.mp3"
+  },
+  "noun:el número": {
+    "text": "el número",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7f054935947554b9.mp3"
+  },
+  "noun:el oro": {
+    "text": "el oro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d775422e2d86bd12.mp3"
+  },
+  "noun:el otoño": {
+    "text": "el otoño",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8583673b2e7a3d00.mp3"
+  },
+  "noun:el padre": {
+    "text": "el padre",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8597da1039fb2f5d.mp3"
+  },
+  "noun:el papel": {
+    "text": "el papel",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2b1095b24db6fd58.mp3"
+  },
+  "noun:el pasado": {
+    "text": "el pasado",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/fd47e8164f6f1ec2.mp3"
+  },
+  "noun:el paseo": {
+    "text": "el paseo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9727175b397f5cb0.mp3"
+  },
+  "noun:el pasillo": {
+    "text": "el pasillo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/11d18cc68b77400f.mp3"
+  },
+  "noun:el pie": {
+    "text": "el pie",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/5b9f6b1c06f3b6d6.mp3"
+  },
+  "noun:el plástico": {
+    "text": "el plástico",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bcdaaf705bb6650a.mp3"
+  },
+  "noun:el presupuesto": {
+    "text": "el presupuesto",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bb6d451860d7599b.mp3"
+  },
+  "noun:el problema": {
+    "text": "el problema",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/040a4ac5d6aef35c.mp3"
+  },
+  "noun:el proyecto": {
+    "text": "el proyecto",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c981cdb7d1d9537d.mp3"
+  },
+  "noun:el pueblo": {
+    "text": "el pueblo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e1ff2481534baf65.mp3"
+  },
+  "noun:el puente": {
+    "text": "el puente",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7a33630bd42f7c71.mp3"
+  },
+  "noun:el registro": {
+    "text": "el registro",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/14d544f75d3c8005.mp3"
+  },
+  "noun:el reloj": {
+    "text": "el reloj",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ca9deae596527b97.mp3"
+  },
+  "noun:el restaurante": {
+    "text": "el restaurante",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/11b6f5f584ea97e3.mp3"
+  },
+  "noun:el reverso": {
+    "text": "el reverso",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/3dcf1a1b23a4d15a.mp3"
+  },
+  "noun:el riesgo": {
+    "text": "el riesgo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b1a2aba77c25cab1.mp3"
+  },
+  "noun:el rincón": {
+    "text": "el rincón",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/321ac44c9205a24a.mp3"
+  },
+  "noun:el río": {
+    "text": "el río",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9ddc506639944e9f.mp3"
+  },
+  "noun:el ruido": {
+    "text": "el ruido",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2ecd8147135af8f3.mp3"
+  },
+  "noun:el rumbo": {
+    "text": "el rumbo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/54eca99f64b5872f.mp3"
+  },
+  "noun:el segundo": {
+    "text": "el segundo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/eb4c9f81481855ce.mp3"
+  },
+  "noun:el señor": {
+    "text": "el señor",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/800a3c881040cd0e.mp3"
+  },
+  "noun:el silencio": {
+    "text": "el silencio",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/430f5e892f6a06f7.mp3"
+  },
+  "noun:el sistema": {
+    "text": "el sistema",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4b9fdcaaa1ec3d0e.mp3"
+  },
+  "noun:el sobre": {
+    "text": "el sobre",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b24c96e8e3c10c5b.mp3"
+  },
+  "noun:el suelo": {
+    "text": "el suelo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b99058a76f07b5ac.mp3"
+  },
+  "noun:el techo": {
+    "text": "el techo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ce66d019faa844d7.mp3"
+  },
+  "noun:el técnico": {
+    "text": "el técnico",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a183064da1d92f34.mp3"
+  },
+  "noun:el teléfono": {
+    "text": "el teléfono",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0157a03189210fea.mp3"
+  },
+  "noun:el trabajo": {
+    "text": "el trabajo",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0c735a5a00e27ffb.mp3"
+  },
+  "noun:el tren": {
+    "text": "el tren",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b3ecc86d33ca1552.mp3"
+  },
+  "noun:el turno": {
+    "text": "el turno",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/84c1bddaf2069eda.mp3"
+  },
+  "noun:el vecino": {
+    "text": "el vecino",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/6cb25e9514b6509c.mp3"
+  },
+  "noun:el viaje": {
+    "text": "el viaje",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/97007ae63b5f2acc.mp3"
+  },
+  "noun:la advertencia": {
+    "text": "la advertencia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2d68e4cfc52dde99.mp3"
+  },
+  "noun:la altura": {
+    "text": "la altura",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/f607fd9f530893ca.mp3"
+  },
+  "noun:la amiga": {
+    "text": "la amiga",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/82c56cfa12b13da1.mp3"
+  },
+  "noun:la apertura": {
+    "text": "la apertura",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/34a3c0123e53bb8b.mp3"
+  },
+  "noun:la audiencia": {
+    "text": "la audiencia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/634aed45addf063d.mp3"
+  },
+  "noun:la autoridad": {
+    "text": "la autoridad",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c6fd4bde9d067444.mp3"
+  },
+  "noun:la azotea": {
+    "text": "la azotea",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7f8c4dfef0e728f1.mp3"
+  },
+  "noun:la bolsa": {
+    "text": "la bolsa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/dd5c0426671d2070.mp3"
+  },
+  "noun:la bota": {
+    "text": "la bota",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/27c86c5ab23bd771.mp3"
+  },
+  "noun:la caja": {
+    "text": "la caja",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8f3724721fe4a83f.mp3"
+  },
+  "noun:la calefacción": {
+    "text": "la calefacción",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/832c46b66dcd98b6.mp3"
+  },
+  "noun:la calle": {
+    "text": "la calle",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8b8f06cbc726bce5.mp3"
+  },
+  "noun:la carpeta": {
+    "text": "la carpeta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/db246cffc8c56988.mp3"
+  },
+  "noun:la carta": {
+    "text": "la carta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/dd1dbeb36a3da1a1.mp3"
+  },
+  "noun:la casa": {
+    "text": "la casa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/782f1e19f17a72f1.mp3"
+  },
+  "noun:la catástrofe": {
+    "text": "la catástrofe",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ddd5a6b66cdf011f.mp3"
+  },
+  "noun:la cifra": {
+    "text": "la cifra",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/549f774e1a2272c9.mp3"
+  },
+  "noun:la cinta": {
+    "text": "la cinta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e0ccb8acf3c8ddf7.mp3"
+  },
+  "noun:la ciudad": {
+    "text": "la ciudad",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/5ab7164684e50f22.mp3"
+  },
+  "noun:la cocina": {
+    "text": "la cocina",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b97d0680c5d5225b.mp3"
+  },
+  "noun:la comisión": {
+    "text": "la comisión",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e0bafd0cc3f829b1.mp3"
+  },
+  "noun:la compuerta": {
+    "text": "la compuerta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/24590a9f86b27d65.mp3"
+  },
+  "noun:la computadora": {
+    "text": "la computadora",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/83b2875bf5a5ee06.mp3"
+  },
+  "noun:la construcción": {
+    "text": "la construcción",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a8cb5f23b1d4d203.mp3"
+  },
+  "noun:la copia": {
+    "text": "la copia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/3faefd043eaac375.mp3"
+  },
+  "noun:la corriente": {
+    "text": "la corriente",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/79a0c1ea654b8be5.mp3"
+  },
+  "noun:la costa": {
+    "text": "la costa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9a6b82901988e055.mp3"
+  },
+  "noun:la crecida": {
+    "text": "la crecida",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2d70b2628c08a7be.mp3"
+  },
+  "noun:la decisión": {
+    "text": "la decisión",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7cc4a33a67a8d054.mp3"
+  },
+  "noun:la demolición": {
+    "text": "la demolición",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9e5f38d7ac388849.mp3"
+  },
+  "noun:la dirección": {
+    "text": "la dirección",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/0cbb81ac8415a69d.mp3"
+  },
+  "noun:la discusión": {
+    "text": "la discusión",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c55d0e8d86a615d4.mp3"
+  },
+  "noun:la empleada": {
+    "text": "la empleada",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/605d4d4ea0cdfb16.mp3"
+  },
+  "noun:la escalera": {
+    "text": "la escalera",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a775d5669dc9d558.mp3"
+  },
+  "noun:la estación": {
+    "text": "la estación",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/887f8160c54dc136.mp3"
+  },
+  "noun:la estantería": {
+    "text": "la estantería",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e4a8dd1fea9e24e7.mp3"
+  },
+  "noun:la facilidad": {
+    "text": "la facilidad",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ae974d0792f5f3c3.mp3"
+  },
+  "noun:la factura": {
+    "text": "la factura",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4505049e392bde90.mp3"
+  },
+  "noun:la familiaridad": {
+    "text": "la familiaridad",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/a25700c182b4ede2.mp3"
+  },
+  "noun:la fecha": {
+    "text": "la fecha",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/48069ec58f47e859.mp3"
+  },
+  "noun:la flor": {
+    "text": "la flor",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/93550c0a14e42498.mp3"
+  },
+  "noun:la fotografía": {
+    "text": "la fotografía",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/778369336688dc46.mp3"
+  },
+  "noun:la frase": {
+    "text": "la frase",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/03e8102417ac6a70.mp3"
+  },
+  "noun:la grabadora": {
+    "text": "la grabadora",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8324171c01520519.mp3"
+  },
+  "noun:la habitación": {
+    "text": "la habitación",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/99c879e21ced5d52.mp3"
+  },
+  "noun:la historia": {
+    "text": "la historia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b70f438d46900681.mp3"
+  },
+  "noun:la imagen": {
+    "text": "la imagen",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/136aec8c4b02d57d.mp3"
+  },
+  "noun:la infancia": {
+    "text": "la infancia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/82d9b5b46b041999.mp3"
+  },
+  "noun:la inicial": {
+    "text": "la inicial",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d2269d992cd6fa81.mp3"
+  },
+  "noun:la intervención": {
+    "text": "la intervención",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/13106e502213aaf8.mp3"
+  },
+  "noun:la inundación": {
+    "text": "la inundación",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c5975e630b9400fc.mp3"
+  },
+  "noun:la invitada": {
+    "text": "la invitada",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/918068f05d1c23bd.mp3"
+  },
+  "noun:la librería": {
+    "text": "la librería",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/33cef106fbaeac13.mp3"
+  },
+  "noun:la línea": {
+    "text": "la línea",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/cc30a7933f5baea5.mp3"
+  },
+  "noun:la linterna": {
+    "text": "la linterna",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/6757e995fceeb21d.mp3"
+  },
+  "noun:la llave": {
+    "text": "la llave",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/7030cc61e45fe5ee.mp3"
+  },
+  "noun:la lluvia": {
+    "text": "la lluvia",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ff520c80003f3e1f.mp3"
+  },
+  "noun:la luz": {
+    "text": "la luz",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d64f709efe4f29eb.mp3"
+  },
+  "noun:la madera": {
+    "text": "la madera",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c98d316f851f37ba.mp3"
+  },
+  "noun:la madre": {
+    "text": "la madre",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/fadaa6a62121283f.mp3"
+  },
+  "noun:la madrugada": {
+    "text": "la madrugada",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/1c0d74ba412295ac.mp3"
+  },
+  "noun:la maleta": {
+    "text": "la maleta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bf0850dbf727090d.mp3"
+  },
+  "noun:la mañana": {
+    "text": "la mañana",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/25aa72cee8c431e6.mp3"
+  },
+  "noun:la mano": {
+    "text": "la mano",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/9b2436a153120ae8.mp3"
+  },
+  "noun:la marca": {
+    "text": "la marca",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bb4cb9dadd63572e.mp3"
+  },
+  "noun:la mesa": {
+    "text": "la mesa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/dda7db9ee37e3f59.mp3"
+  },
+  "noun:la mujer": {
+    "text": "la mujer",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/637098a988ef0679.mp3"
+  },
+  "noun:la naranja": {
+    "text": "la naranja",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8790501d947ca78a.mp3"
+  },
+  "noun:la niña": {
+    "text": "la niña",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c62dee3402842c5c.mp3"
+  },
+  "noun:la noche": {
+    "text": "la noche",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/2f6186cac6dd70bb.mp3"
+  },
+  "noun:la nota": {
+    "text": "la nota",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/273f15a768fb4682.mp3"
+  },
+  "noun:la paella": {
+    "text": "la paella",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/4a7a112d2595e448.mp3"
+  },
+  "noun:la página": {
+    "text": "la página",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/5ba17efd675ab445.mp3"
+  },
+  "noun:la pantalla": {
+    "text": "la pantalla",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/bb6d016bb7bac450.mp3"
+  },
+  "noun:la pared": {
+    "text": "la pared",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/66592fc38cfa6cc1.mp3"
+  },
+  "noun:la persona": {
+    "text": "la persona",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/064e64f2a6dc1030.mp3"
+  },
+  "noun:la piedra": {
+    "text": "la piedra",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/3839b2e4ff9b38b0.mp3"
+  },
+  "noun:la pintura": {
+    "text": "la pintura",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/73f25660f2f53127.mp3"
+  },
+  "noun:la presa": {
+    "text": "la presa",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/c810552061c7429b.mp3"
+  },
+  "noun:la presentación": {
+    "text": "la presentación",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/fd5e113d640d271a.mp3"
+  },
+  "noun:la propiedad": {
+    "text": "la propiedad",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/50debd8721e9e77e.mp3"
+  },
+  "noun:la puerta": {
+    "text": "la puerta",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/e025a04b9eaca752.mp3"
+  },
+  "noun:la radio de pilas": {
+    "text": "la radio de pilas",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/8e2db6d636ad90d8.mp3"
+  },
+  "noun:la recepcionista": {
+    "text": "la recepcionista",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/d27fd09f741c38a0.mp3"
+  },
+  "noun:la reforma": {
+    "text": "la reforma",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/b4ef43b567a59e79.mp3"
+  },
+  "noun:la regla": {
+    "text": "la regla",
+    "category": "noun",
+    "voice": "monica",
+    "file": "/audio/vocabulary/ede3e9a761b72c78.mp3"
   }
 }
