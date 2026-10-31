@@ -5758,5 +5758,1631 @@
     "category": "verb",
     "voice": "george",
     "file": "/audio/vocabulary/4251e1ebbeea0a7e.mp3"
+  },
+  "verb:quedan": {
+    "text": "quedan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/871bc5d23d398aa5.mp3"
+  },
+  "verb:quedar": {
+    "text": "quedar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/61eb1a8c8d926240.mp3"
+  },
+  "verb:quedas": {
+    "text": "quedas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/eacf2043287b749c.mp3"
+  },
+  "verb:quedo": {
+    "text": "quedo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8024c0acc99bc161.mp3"
+  },
+  "verb:queremos": {
+    "text": "queremos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/64d1901d2b49336f.mp3"
+  },
+  "verb:querer": {
+    "text": "querer",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d306b620d54e62ba.mp3"
+  },
+  "verb:quiere": {
+    "text": "quiere",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f6e8849c730afe01.mp3"
+  },
+  "verb:quieren": {
+    "text": "quieren",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5f4e8a07a7f7d507.mp3"
+  },
+  "verb:quieres": {
+    "text": "quieres",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/254460d39d502989.mp3"
+  },
+  "verb:quiero": {
+    "text": "quiero",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/0aca5142b794c94d.mp3"
+  },
+  "verb:quita": {
+    "text": "quita",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/11f3ec565a937cc3.mp3"
+  },
+  "verb:quitamos": {
+    "text": "quitamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3092871be890ca55.mp3"
+  },
+  "verb:quitan": {
+    "text": "quitan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3235d2aad82a0f6c.mp3"
+  },
+  "verb:quitar": {
+    "text": "quitar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/20addeefedbfac77.mp3"
+  },
+  "verb:quitas": {
+    "text": "quitas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2412b399389ed857.mp3"
+  },
+  "verb:quito": {
+    "text": "quito",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bc6d668b2fdd50f8.mp3"
+  },
+  "verb:recibe": {
+    "text": "recibe",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/50704ed3ef33d0a8.mp3"
+  },
+  "verb:reciben": {
+    "text": "reciben",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fef542a16643723b.mp3"
+  },
+  "verb:recibes": {
+    "text": "recibes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ff78fd0030010eeb.mp3"
+  },
+  "verb:recibimos": {
+    "text": "recibimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8174fe0e2e3fb4b9.mp3"
+  },
+  "verb:recibir": {
+    "text": "recibir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a0d77b4e2a2588bf.mp3"
+  },
+  "verb:recibo": {
+    "text": "recibo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a63a856f9cdbe386.mp3"
+  },
+  "verb:reconoce": {
+    "text": "reconoce",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2df80bf539a9958d.mp3"
+  },
+  "verb:reconocemos": {
+    "text": "reconocemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7d39597b3c5bf148.mp3"
+  },
+  "verb:reconocen": {
+    "text": "reconocen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c8893dc6e771b39e.mp3"
+  },
+  "verb:reconocer": {
+    "text": "reconocer",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/4fc36b347b154a30.mp3"
+  },
+  "verb:reconoces": {
+    "text": "reconoces",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2e80b6e671da9431.mp3"
+  },
+  "verb:reconozco": {
+    "text": "reconozco",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/af54e9b356b19ad7.mp3"
+  },
+  "verb:recordamos": {
+    "text": "recordamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/79a266a172ab5aa5.mp3"
+  },
+  "verb:recordar": {
+    "text": "recordar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6863116d8e536222.mp3"
+  },
+  "verb:recuerda": {
+    "text": "recuerda",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/edc294989fb4dfa8.mp3"
+  },
+  "verb:recuerdan": {
+    "text": "recuerdan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/57c2cbf368d8da6b.mp3"
+  },
+  "verb:recuerdas": {
+    "text": "recuerdas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e2d824e9327e8d1c.mp3"
+  },
+  "verb:recuerdo": {
+    "text": "recuerdo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3ed2ac2c87e83afb.mp3"
+  },
+  "verb:registra": {
+    "text": "registra",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/db9fa572e4f55e16.mp3"
+  },
+  "verb:registramos": {
+    "text": "registramos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f1202e818ecab758.mp3"
+  },
+  "verb:registran": {
+    "text": "registran",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a3c9790066d8e665.mp3"
+  },
+  "verb:registrar": {
+    "text": "registrar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c8a12693a0b203fd.mp3"
+  },
+  "verb:registras": {
+    "text": "registras",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/09a041c95bc79bf6.mp3"
+  },
+  "verb:registro": {
+    "text": "registro",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d3c85429c7077293.mp3"
+  },
+  "verb:regresa": {
+    "text": "regresa",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2f985f2d08f23cda.mp3"
+  },
+  "verb:regresamos": {
+    "text": "regresamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/84845e5039c4ff7b.mp3"
+  },
+  "verb:regresan": {
+    "text": "regresan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/08b5a1a98cb32253.mp3"
+  },
+  "verb:regresar": {
+    "text": "regresar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d2da673ae417f2f7.mp3"
+  },
+  "verb:regresas": {
+    "text": "regresas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/32672b53b78e9d93.mp3"
+  },
+  "verb:regreso": {
+    "text": "regreso",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/23c933ddb70e41dd.mp3"
+  },
+  "verb:reímos": {
+    "text": "reímos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8e42a136b5ec87d6.mp3"
+  },
+  "verb:reír": {
+    "text": "reír",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c32f4b526386c722.mp3"
+  },
+  "verb:reírse": {
+    "text": "reírse",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8beac324919a56ad.mp3"
+  },
+  "verb:responde": {
+    "text": "responde",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/17252a3090af3d71.mp3"
+  },
+  "verb:respondemos": {
+    "text": "respondemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ac35e5526bd840ef.mp3"
+  },
+  "verb:responden": {
+    "text": "responden",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/031edf608426ca36.mp3"
+  },
+  "verb:responder": {
+    "text": "responder",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7702d4221b6fbfed.mp3"
+  },
+  "verb:respondes": {
+    "text": "respondes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f843c1b0be7573a7.mp3"
+  },
+  "verb:respondo": {
+    "text": "respondo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/da355c82bcefbf8d.mp3"
+  },
+  "verb:resulta": {
+    "text": "resulta",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c432a10c828fc906.mp3"
+  },
+  "verb:resultamos": {
+    "text": "resultamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5a56be919de038aa.mp3"
+  },
+  "verb:resultan": {
+    "text": "resultan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/324740e8f8962b78.mp3"
+  },
+  "verb:resultar": {
+    "text": "resultar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d31c9ff050f15c4a.mp3"
+  },
+  "verb:resultas": {
+    "text": "resultas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fd21ed13d024e5e8.mp3"
+  },
+  "verb:resulto": {
+    "text": "resulto",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a8832882d570a690.mp3"
+  },
+  "verb:revisa": {
+    "text": "revisa",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ecf153cb4a56132f.mp3"
+  },
+  "verb:revisamos": {
+    "text": "revisamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e3ad66f9bb975cc8.mp3"
+  },
+  "verb:revisan": {
+    "text": "revisan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7315056433edf700.mp3"
+  },
+  "verb:revisar": {
+    "text": "revisar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9dc2dfddaf1ae650.mp3"
+  },
+  "verb:revisas": {
+    "text": "revisas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7bef8b081293d510.mp3"
+  },
+  "verb:reviso": {
+    "text": "reviso",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/396181fa59a5042b.mp3"
+  },
+  "verb:ríe": {
+    "text": "ríe",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6d8aff5f7ba435f0.mp3"
+  },
+  "verb:ríen": {
+    "text": "ríen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9a4d4be167f768bc.mp3"
+  },
+  "verb:ríes": {
+    "text": "ríes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/96d23943946770eb.mp3"
+  },
+  "verb:río": {
+    "text": "río",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/75745a54aca148bb.mp3"
+  },
+  "verb:sabe": {
+    "text": "sabe",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/dbc41b685b323fc7.mp3"
+  },
+  "verb:sabemos": {
+    "text": "sabemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/de7e6449d3c28e6f.mp3"
+  },
+  "verb:saben": {
+    "text": "saben",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7353d5723f0f18c4.mp3"
+  },
+  "verb:saber": {
+    "text": "saber",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f452c66c95d91097.mp3"
+  },
+  "verb:sabes": {
+    "text": "sabes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/71e62a8f536f3b40.mp3"
+  },
+  "verb:sacrifica": {
+    "text": "sacrifica",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/cc01979e4c1e8a3d.mp3"
+  },
+  "verb:sacrificamos": {
+    "text": "sacrificamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c29e2a865bfa2a1d.mp3"
+  },
+  "verb:sacrifican": {
+    "text": "sacrifican",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/dd618ff365810577.mp3"
+  },
+  "verb:sacrificar": {
+    "text": "sacrificar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/83571e88495cd80d.mp3"
+  },
+  "verb:sacrificas": {
+    "text": "sacrificas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ad3ead2532c85834.mp3"
+  },
+  "verb:sacrifico": {
+    "text": "sacrifico",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c346b07ecf5f5d05.mp3"
+  },
+  "verb:sale": {
+    "text": "sale",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/50b863403ed43d70.mp3"
+  },
+  "verb:salen": {
+    "text": "salen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a625a094243619e5.mp3"
+  },
+  "verb:sales": {
+    "text": "sales",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9e06fb267a0c9ddb.mp3"
+  },
+  "verb:salgo": {
+    "text": "salgo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/4aac629257459896.mp3"
+  },
+  "verb:salimos": {
+    "text": "salimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/73d3f35d2075ef0d.mp3"
+  },
+  "verb:salir": {
+    "text": "salir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2c503bd96b0a6097.mp3"
+  },
+  "verb:sé": {
+    "text": "sé",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/01bcb8ba4984bb1d.mp3"
+  },
+  "verb:se apaga": {
+    "text": "se apaga",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a0f97678a1a1659d.mp3"
+  },
+  "verb:se apagan": {
+    "text": "se apagan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/97cdb3c268802c22.mp3"
+  },
+  "verb:se cruza": {
+    "text": "se cruza",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5b09447a5e54726b.mp3"
+  },
+  "verb:se cruzan": {
+    "text": "se cruzan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/926a63de66e7f0bd.mp3"
+  },
+  "verb:se despide": {
+    "text": "se despide",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b666a6be3e826f9a.mp3"
+  },
+  "verb:se despiden": {
+    "text": "se despiden",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/33e5c4254c0cc487.mp3"
+  },
+  "verb:se levanta": {
+    "text": "se levanta",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9bd287f1354869d7.mp3"
+  },
+  "verb:se levantan": {
+    "text": "se levantan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/57f3ed4a408a3a42.mp3"
+  },
+  "verb:se marcha": {
+    "text": "se marcha",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7d6c2f8295ad60e0.mp3"
+  },
+  "verb:se marchan": {
+    "text": "se marchan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5d9c8b119b8c4675.mp3"
+  },
+  "verb:se prepara": {
+    "text": "se prepara",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/cc3ebcaaa8838bec.mp3"
+  },
+  "verb:se preparan": {
+    "text": "se preparan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/1a08fe5fe1ec8214.mp3"
+  },
+  "verb:se presenta": {
+    "text": "se presenta",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3ca94903af689e9e.mp3"
+  },
+  "verb:se presentan": {
+    "text": "se presentan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bf3683b4f20ac472.mp3"
+  },
+  "verb:se produce": {
+    "text": "se produce",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f9b53ecd08e98caf.mp3"
+  },
+  "verb:se producen": {
+    "text": "se producen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/131a7bdc75816e73.mp3"
+  },
+  "verb:se ríe": {
+    "text": "se ríe",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a296c0b761df8bff.mp3"
+  },
+  "verb:se ríen": {
+    "text": "se ríen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/421f23d862c95935.mp3"
+  },
+  "verb:se seca": {
+    "text": "se seca",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bf53e5579fa185dd.mp3"
+  },
+  "verb:se secan": {
+    "text": "se secan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a0d075fccf6a11f6.mp3"
+  },
+  "verb:se trata": {
+    "text": "se trata",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6532ac4ce9050e0a.mp3"
+  },
+  "verb:se tratan": {
+    "text": "se tratan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ccc07aee89ad9206.mp3"
+  },
+  "verb:secarse": {
+    "text": "secarse",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/552f23279164e9e5.mp3"
+  },
+  "verb:seguimos": {
+    "text": "seguimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/25ee47b48cb7ccf7.mp3"
+  },
+  "verb:seguir": {
+    "text": "seguir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ea1fcf18351e2aed.mp3"
+  },
+  "verb:señala": {
+    "text": "señala",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/38db9baf29e12829.mp3"
+  },
+  "verb:señalamos": {
+    "text": "señalamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5e1874b9008c9752.mp3"
+  },
+  "verb:señalan": {
+    "text": "señalan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2bce6f44a02e736f.mp3"
+  },
+  "verb:señalar": {
+    "text": "señalar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/cbc0fbdce8483bd6.mp3"
+  },
+  "verb:señalas": {
+    "text": "señalas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6cf7ca34998bb31e.mp3"
+  },
+  "verb:señalo": {
+    "text": "señalo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ca56dc995e98a6b0.mp3"
+  },
+  "verb:sentamos": {
+    "text": "sentamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e307179c593214e1.mp3"
+  },
+  "verb:sentar": {
+    "text": "sentar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bd51735eb76242e3.mp3"
+  },
+  "verb:ser": {
+    "text": "ser",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2949c337d5a79a0b.mp3"
+  },
+  "verb:sienta": {
+    "text": "sienta",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9c2c44a0aeddefa0.mp3"
+  },
+  "verb:sientan": {
+    "text": "sientan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3417dfc82e7fd649.mp3"
+  },
+  "verb:sientas": {
+    "text": "sientas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e891abc07966e7c6.mp3"
+  },
+  "verb:siento": {
+    "text": "siento",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2f120fce6856d6bb.mp3"
+  },
+  "verb:significa": {
+    "text": "significa",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3aac7d11b170e9b2.mp3"
+  },
+  "verb:significamos": {
+    "text": "significamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8f3533aad949e592.mp3"
+  },
+  "verb:significan": {
+    "text": "significan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/697e9f4d7760e036.mp3"
+  },
+  "verb:significar": {
+    "text": "significar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8397c82f93bd6126.mp3"
+  },
+  "verb:significas": {
+    "text": "significas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/01c3e24c04a104d6.mp3"
+  },
+  "verb:significo": {
+    "text": "significo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fb083a589e887a53.mp3"
+  },
+  "verb:sigo": {
+    "text": "sigo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ee46a122f68fbdda.mp3"
+  },
+  "verb:sigue": {
+    "text": "sigue",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9869243c8ed5d9a6.mp3"
+  },
+  "verb:siguen": {
+    "text": "siguen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/cc614966ee14510d.mp3"
+  },
+  "verb:sigues": {
+    "text": "sigues",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/27f938bfe9e5f52d.mp3"
+  },
+  "verb:somos": {
+    "text": "somos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e0f15201202a4dd1.mp3"
+  },
+  "verb:son": {
+    "text": "son",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/53d32e2e04d125de.mp3"
+  },
+  "verb:sonreímos": {
+    "text": "sonreímos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ace274012e7d812c.mp3"
+  },
+  "verb:sonreír": {
+    "text": "sonreír",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e4f0ca4b804685b3.mp3"
+  },
+  "verb:sonríe": {
+    "text": "sonríe",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/215cdb61e558585a.mp3"
+  },
+  "verb:sonríen": {
+    "text": "sonríen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/153adf8bf6a7c7e3.mp3"
+  },
+  "verb:sonríes": {
+    "text": "sonríes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3a11b1a2d77bb511.mp3"
+  },
+  "verb:sonrío": {
+    "text": "sonrío",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7de975e1d04bf139.mp3"
+  },
+  "verb:sostenemos": {
+    "text": "sostenemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2a82f9a949e30ac4.mp3"
+  },
+  "verb:sostener": {
+    "text": "sostener",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e3ce233f974225c5.mp3"
+  },
+  "verb:sostengo": {
+    "text": "sostengo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d87c34e6ddb42199.mp3"
+  },
+  "verb:sostiene": {
+    "text": "sostiene",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/50f5b8e2d8ce217c.mp3"
+  },
+  "verb:sostienen": {
+    "text": "sostienen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f691b65fcd0d3ac1.mp3"
+  },
+  "verb:sostienes": {
+    "text": "sostienes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9c6a35e1653bec71.mp3"
+  },
+  "verb:soy": {
+    "text": "soy",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bbdaa8863808e3ae.mp3"
+  },
+  "verb:sube": {
+    "text": "sube",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bdb0ccb71c82dfff.mp3"
+  },
+  "verb:suben": {
+    "text": "suben",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a203030373a5bae5.mp3"
+  },
+  "verb:subes": {
+    "text": "subes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/0fd998db13a12f3c.mp3"
+  },
+  "verb:subimos": {
+    "text": "subimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6f01e4b97fe42fc3.mp3"
+  },
+  "verb:subir": {
+    "text": "subir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/75b27227ade9b030.mp3"
+  },
+  "verb:subo": {
+    "text": "subo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3b922c97bf82d23f.mp3"
+  },
+  "verb:sufre": {
+    "text": "sufre",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/157af1bf717fd515.mp3"
+  },
+  "verb:sufren": {
+    "text": "sufren",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b223683e61e585e7.mp3"
+  },
+  "verb:sufres": {
+    "text": "sufres",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/05ff8bac4fb22fe5.mp3"
+  },
+  "verb:sufrimos": {
+    "text": "sufrimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e357aef0d6c6a623.mp3"
+  },
+  "verb:sufrir": {
+    "text": "sufrir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/66caa9b820e45e47.mp3"
+  },
+  "verb:sufro": {
+    "text": "sufro",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bb204a3183b3da71.mp3"
+  },
+  "verb:susurra": {
+    "text": "susurra",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e0803f7f6908792e.mp3"
+  },
+  "verb:susurramos": {
+    "text": "susurramos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d940bd8e69293c59.mp3"
+  },
+  "verb:susurran": {
+    "text": "susurran",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/950bbeb21e415808.mp3"
+  },
+  "verb:susurrar": {
+    "text": "susurrar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d621e576e2163849.mp3"
+  },
+  "verb:susurras": {
+    "text": "susurras",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/44400c5c0fa341b0.mp3"
+  },
+  "verb:susurro": {
+    "text": "susurro",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c12b6d2853771156.mp3"
+  },
+  "verb:te apagas": {
+    "text": "te apagas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3bb310aadbed9d6b.mp3"
+  },
+  "verb:te cruzas": {
+    "text": "te cruzas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8775505fbba8b3bf.mp3"
+  },
+  "verb:te despides": {
+    "text": "te despides",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b7178ea3ee4389d3.mp3"
+  },
+  "verb:te levantas": {
+    "text": "te levantas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/71654005e51792e8.mp3"
+  },
+  "verb:te marchas": {
+    "text": "te marchas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d5f7f917f6291e7f.mp3"
+  },
+  "verb:te preparas": {
+    "text": "te preparas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fe2b9c96bd38253f.mp3"
+  },
+  "verb:te presentas": {
+    "text": "te presentas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/4736ae71af96a7e3.mp3"
+  },
+  "verb:te produces": {
+    "text": "te produces",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7bd7ab74357bc55a.mp3"
+  },
+  "verb:te ríes": {
+    "text": "te ríes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c5f30a4a5556d942.mp3"
+  },
+  "verb:te secas": {
+    "text": "te secas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b07b0c5b255e82bc.mp3"
+  },
+  "verb:te tratas": {
+    "text": "te tratas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e07e9efd22ab2a48.mp3"
+  },
+  "verb:tenemos": {
+    "text": "tenemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9da6117ad1df20ed.mp3"
+  },
+  "verb:tener": {
+    "text": "tener",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b8ceaef71d2320b4.mp3"
+  },
+  "verb:tengo": {
+    "text": "tengo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/65ad63a4b0146c51.mp3"
+  },
+  "verb:termina": {
+    "text": "termina",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e5ec2fe84657b44f.mp3"
+  },
+  "verb:terminamos": {
+    "text": "terminamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/507830665f4ba016.mp3"
+  },
+  "verb:terminan": {
+    "text": "terminan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/545699a0e9fd3cf7.mp3"
+  },
+  "verb:terminar": {
+    "text": "terminar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b59244d393255a1c.mp3"
+  },
+  "verb:terminas": {
+    "text": "terminas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/66430af0a2e1478d.mp3"
+  },
+  "verb:termino": {
+    "text": "termino",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6bf96b4ddf72809c.mp3"
+  },
+  "verb:tiene": {
+    "text": "tiene",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fd2947fb8e48c603.mp3"
+  },
+  "verb:tienen": {
+    "text": "tienen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/75a9e255c45adaf2.mp3"
+  },
+  "verb:tienes": {
+    "text": "tienes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3f9523691963480d.mp3"
+  },
+  "verb:toma": {
+    "text": "toma",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e4a7550025761918.mp3"
+  },
+  "verb:tomamos": {
+    "text": "tomamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/4f8757ae14d48614.mp3"
+  },
+  "verb:toman": {
+    "text": "toman",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/87fa22e138e06848.mp3"
+  },
+  "verb:tomar": {
+    "text": "tomar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d86db626926ab217.mp3"
+  },
+  "verb:tomas": {
+    "text": "tomas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ce986761d32597bd.mp3"
+  },
+  "verb:tomo": {
+    "text": "tomo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8b40f6cd6a87cd10.mp3"
+  },
+  "verb:trabaja": {
+    "text": "trabaja",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/904458faaeeff5b1.mp3"
+  },
+  "verb:trabajamos": {
+    "text": "trabajamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/602683907fa73cc8.mp3"
+  },
+  "verb:trabajan": {
+    "text": "trabajan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/0fcb54b98dc0c3a0.mp3"
+  },
+  "verb:trabajar": {
+    "text": "trabajar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b94aea97685b86d5.mp3"
+  },
+  "verb:trabajas": {
+    "text": "trabajas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/c46651e25073a470.mp3"
+  },
+  "verb:trabajo": {
+    "text": "trabajo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/caa913df8d56daa0.mp3"
+  },
+  "verb:trae": {
+    "text": "trae",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ce7f53abd88e1c71.mp3"
+  },
+  "verb:traemos": {
+    "text": "traemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/719943af8635af15.mp3"
+  },
+  "verb:traen": {
+    "text": "traen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b11fa57a7ac971a2.mp3"
+  },
+  "verb:traer": {
+    "text": "traer",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/14d6b69785b95f30.mp3"
+  },
+  "verb:traes": {
+    "text": "traes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/535338eca710815e.mp3"
+  },
+  "verb:traigo": {
+    "text": "traigo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3eec134d2cb2c728.mp3"
+  },
+  "verb:tratarse": {
+    "text": "tratarse",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7cd7a4cd18968d7e.mp3"
+  },
+  "verb:traza": {
+    "text": "traza",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/9caca0b933daaf54.mp3"
+  },
+  "verb:trazamos": {
+    "text": "trazamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/65e7ffc96ab0d1ff.mp3"
+  },
+  "verb:trazan": {
+    "text": "trazan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d75d048d04aff23b.mp3"
+  },
+  "verb:trazar": {
+    "text": "trazar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/85b608ff534c4f3e.mp3"
+  },
+  "verb:trazas": {
+    "text": "trazas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/149bd9860c4afad7.mp3"
+  },
+  "verb:trazo": {
+    "text": "trazo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/445955991229fd8b.mp3"
+  },
+  "verb:tropezamos": {
+    "text": "tropezamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/5abc9618fffab501.mp3"
+  },
+  "verb:tropezar": {
+    "text": "tropezar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2d260b1f0ef04772.mp3"
+  },
+  "verb:tropieza": {
+    "text": "tropieza",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8e6af1b56c001e06.mp3"
+  },
+  "verb:tropiezan": {
+    "text": "tropiezan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/6b2aad4680249977.mp3"
+  },
+  "verb:tropiezas": {
+    "text": "tropiezas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/510c0d4245129d40.mp3"
+  },
+  "verb:tropiezo": {
+    "text": "tropiezo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bf46d41ef654de50.mp3"
+  },
+  "verb:va": {
+    "text": "va",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/054337daf693f857.mp3"
+  },
+  "verb:vamos": {
+    "text": "vamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/ae59afa4e083f9c1.mp3"
+  },
+  "verb:van": {
+    "text": "van",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/54951380b58c6998.mp3"
+  },
+  "verb:vas": {
+    "text": "vas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/54c802a27594a75d.mp3"
+  },
+  "verb:ve": {
+    "text": "ve",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/1ac63e49cc96f953.mp3"
+  },
+  "verb:vemos": {
+    "text": "vemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/063fecf31f5699cf.mp3"
+  },
+  "verb:ven": {
+    "text": "ven",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fd953714d2414bb9.mp3"
+  },
+  "verb:vende": {
+    "text": "vende",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/dc08d59956dce068.mp3"
+  },
+  "verb:vendemos": {
+    "text": "vendemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/77430442955a5649.mp3"
+  },
+  "verb:venden": {
+    "text": "venden",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/18a8342bca0bf435.mp3"
+  },
+  "verb:vender": {
+    "text": "vender",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/964d2b4d5d91d73d.mp3"
+  },
+  "verb:vendes": {
+    "text": "vendes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2fb1637c3a75da28.mp3"
+  },
+  "verb:vendo": {
+    "text": "vendo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8342fa046fb43425.mp3"
+  },
+  "verb:vengo": {
+    "text": "vengo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/bab40078ec0f6615.mp3"
+  },
+  "verb:venimos": {
+    "text": "venimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/68dd2642d21d0aff.mp3"
+  },
+  "verb:venir": {
+    "text": "venir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/1539a6820ef4d470.mp3"
+  },
+  "verb:veo": {
+    "text": "veo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a45f6da1a4f8247e.mp3"
+  },
+  "verb:ver": {
+    "text": "ver",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fab932d7ab05fd3a.mp3"
+  },
+  "verb:ves": {
+    "text": "ves",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a5cb5f42412439bd.mp3"
+  },
+  "verb:viaja": {
+    "text": "viaja",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2b25145ad3b36f0c.mp3"
+  },
+  "verb:viajamos": {
+    "text": "viajamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3f6b9805522c7141.mp3"
+  },
+  "verb:viajan": {
+    "text": "viajan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/11e6d78f3b30b510.mp3"
+  },
+  "verb:viajar": {
+    "text": "viajar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/24cac237c9a9dbd8.mp3"
+  },
+  "verb:viajas": {
+    "text": "viajas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f9527a1e578891e3.mp3"
+  },
+  "verb:viajo": {
+    "text": "viajo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/fe738e72a3b8f5af.mp3"
+  },
+  "verb:viene": {
+    "text": "viene",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/f598901f29e9f6f4.mp3"
+  },
+  "verb:vienen": {
+    "text": "vienen",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/a9eff0494f687646.mp3"
+  },
+  "verb:vienes": {
+    "text": "vienes",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8631f1589e91e48e.mp3"
+  },
+  "verb:visita": {
+    "text": "visita",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7817d06aca8e009f.mp3"
+  },
+  "verb:visitamos": {
+    "text": "visitamos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b9b96eff1092f6e6.mp3"
+  },
+  "verb:visitan": {
+    "text": "visitan",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d4c7baaef5e800df.mp3"
+  },
+  "verb:visitar": {
+    "text": "visitar",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7f5fae5e7ffa4766.mp3"
+  },
+  "verb:visitas": {
+    "text": "visitas",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/42909cbd5e110f9c.mp3"
+  },
+  "verb:visito": {
+    "text": "visito",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/978a8bc4702b7270.mp3"
+  },
+  "verb:vive": {
+    "text": "vive",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/8e0c52f6df05d8f3.mp3"
+  },
+  "verb:viven": {
+    "text": "viven",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/82a32863c3542099.mp3"
+  },
+  "verb:vives": {
+    "text": "vives",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/e52f2c3f6cd21b6b.mp3"
+  },
+  "verb:vivimos": {
+    "text": "vivimos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/505e4b7c5423abce.mp3"
+  },
+  "verb:vivir": {
+    "text": "vivir",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/7cece5fcc927f822.mp3"
+  },
+  "verb:vivo": {
+    "text": "vivo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/aea0b6f42b9a629d.mp3"
+  },
+  "verb:volvemos": {
+    "text": "volvemos",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/d6136c0619951a5d.mp3"
+  },
+  "verb:volver": {
+    "text": "volver",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/78705c4f49aa51cd.mp3"
+  },
+  "verb:voy": {
+    "text": "voy",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/3dc749e38964031b.mp3"
+  },
+  "verb:vuelve": {
+    "text": "vuelve",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/0aaa4bbc55b1950f.mp3"
+  },
+  "verb:vuelven": {
+    "text": "vuelven",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/44d890edf68ac451.mp3"
+  },
+  "verb:vuelves": {
+    "text": "vuelves",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/2103fab8cb88df4d.mp3"
+  },
+  "verb:vuelvo": {
+    "text": "vuelvo",
+    "category": "verb",
+    "voice": "george",
+    "file": "/audio/vocabulary/b412bac2b8db87ec.mp3"
   }
 }
