@@ -33,6 +33,7 @@ for (const vocab of Object.values(vocabularyByStory)) {
   for (const term of vocab.prepositions) add(term.es, 'preposition');
   for (const term of vocab.expressions) add(term.es, 'expression');
 }
+async function main() {
 const manifest = Object.fromEntries([...items.entries()].sort(([a], [b]) => a.localeCompare(b)));
 const dryRun = process.argv.includes('--dry-run');
 const batchArg = process.argv.find(arg => arg.startsWith('--batch-size='));
@@ -67,3 +68,10 @@ for (const [key, item] of Object.entries(manifest)) {
 }
 if (!dryRun) await writeFile(path.join(output, 'manifest.json'), JSON.stringify(published, null, 2) + '\n');
 console.info(`${items.size} unique category/form entries; ${skipped} existing; ${generated} generated; ${dryRun ? 'dry run' : 'complete'}.`);
+
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
